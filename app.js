@@ -22,6 +22,19 @@ const formatCurrency = (amount) => {
     }).format(amount);
 };
 
+// Helper for live input formatting
+const formatWithSeparators = (val) => {
+    if (!val && val !== 0) return "";
+    let n = val.toString().replace(/\D/g, "");
+    return n === "" ? "" : new Intl.NumberFormat('es-CL').format(parseInt(n));
+};
+
+// Helper to get raw number from formatted string
+const cleanNumber = (str) => {
+    if (!str) return 0;
+    return parseInt(str.toString().replace(/\./g, "")) || 0;
+};
+
 // --- 2. DOM ELEMENTS ---
 // Navigation
 const navLinks = document.querySelectorAll('.nav-menu a');
@@ -97,7 +110,7 @@ window.enterAdminMode = function() {
             location.reload();
         }
     } else {
-        const pass = prompt('Ingresa la contraseña de administración:');
+        const pass = prompt('Ingresa la contraseña de administración (admin2026):');
         if (pass === 'admin2026') {
             sessionStorage.setItem('isAdmin', 'true');
             location.reload();
@@ -110,16 +123,16 @@ window.enterAdminMode = function() {
 // --- PERSISTENCE ---
 function loadPersistentData() {
     const savedCaja = localStorage.getItem('kpiCajaActual');
-    if (savedCaja) kpiCajaActual.value = savedCaja;
+    if (savedCaja) kpiCajaActual.value = formatWithSeparators(savedCaja);
 
     const savedIn = localStorage.getItem('projAnnualIncome');
-    if (savedIn) projAnnualIncome.value = savedIn;
+    if (savedIn) projAnnualIncome.value = formatWithSeparators(savedIn);
 
     const savedOut = localStorage.getItem('annualBudgetEgresos');
-    if (savedOut) annualBudgetEgresos.value = savedOut;
+    if (savedOut) annualBudgetEgresos.value = formatWithSeparators(savedOut);
 
     const savedDeuda = localStorage.getItem('projDeuda');
-    if (savedDeuda) projDeuda.value = savedDeuda;
+    if (savedDeuda) projDeuda.value = formatWithSeparators(savedDeuda);
 
     const savedProj = localStorage.getItem('projects');
     if (savedProj) {
@@ -144,8 +157,23 @@ document.addEventListener('DOMContentLoaded', () => {
     setupNavigation();
 
     // Event Listeners Caja
-    kpiCajaActual.addEventListener('input', () => {
-        calculateBudget();
+    // Event Listeners Financial Inputs Formatting
+    [kpiCajaActual, projAnnualIncome, annualBudgetEgresos, projDeuda, projCost].forEach(el => {
+        if (!el) return;
+        el.addEventListener('input', (e) => {
+            const cursor = e.target.selectionStart;
+            const oldLen = e.target.value.length;
+            e.target.value = formatWithSeparators(e.target.value);
+            const newLen = e.target.value.length;
+            
+            // Adjust cursor position if separators were added
+            if (e.target.type === 'text') {
+                e.target.setSelectionRange(cursor + (newLen - oldLen), cursor + (newLen - oldLen));
+            }
+            
+            if (el === projAnnualIncome) el.dataset.dirty = "true";
+            calculateBudget();
+        });
     });
 
     // Zoom Charts Listeners
@@ -852,11 +880,11 @@ let subtotalDisponible = 0;
 
 function calculateBudget() {
     // Check manual caja base
-    const baseCaja = parseInt(kpiCajaActual.value) || 0;
+    const baseCaja = cleanNumber(kpiCajaActual.value);
 
-    const pIn = parseInt(projAnnualIncome.value) || 0;
-    const pOut = parseInt(annualBudgetEgresos.value) || 0;
-    const pDeuda = parseInt(projDeuda.value) || 0;
+    const pIn = cleanNumber(projAnnualIncome.value);
+    const pOut = cleanNumber(annualBudgetEgresos.value);
+    const pDeuda = cleanNumber(projDeuda.value);
 
     subtotalDisponible = baseCaja + pIn + pDeuda - pOut;
 
@@ -874,9 +902,9 @@ function addProject(e) {
     e.preventDefault();
     const priority = parseInt(projPriority.value) || 1;
     const name = projName.value.trim();
-    const cost = parseInt(projCost.value);
+    const cost = cleanNumber(projCost.value);
 
-    if (name && !isNaN(cost) && cost > 0) {
+    if (name && cost > 0) {
         projects.push({ id: Date.now(), name, cost, priority });
         projName.value = '';
         projCost.value = '';
@@ -889,7 +917,7 @@ function updateProject(id, field, value) {
     if (!proj) return;
     
     if (field === 'priority' || field === 'cost') {
-        value = parseInt(value) || 0;
+        value = cleanNumber(value);
     }
     proj[field] = value;
     renderProjects();
@@ -931,7 +959,7 @@ function renderProjects() {
                 <input type="text" value="${p.name}" onchange="updateProject(${p.id}, 'name', this.value)" style="width: 100%; min-width: 120px; background: transparent; border: 1px dashed transparent; color: var(--text-primary); border-radius: 4px; padding: 0.2rem; outline: none;" onfocus="this.style.border='1px dashed var(--glass-border)'" onblur="this.style.border='1px dashed transparent'" ${disableAttr}>
             </td>
             <td style="padding: 0.5rem 0;">
-                <input type="number" value="${p.cost}" onchange="updateProject(${p.id}, 'cost', this.value)" style="width: 110px; background: transparent; border: 1px dashed transparent; color: var(--danger); font-weight: 600; border-radius: 4px; padding: 0.2rem; outline: none;" onfocus="this.style.border='1px dashed var(--glass-border)'" onblur="this.style.border='1px dashed transparent'" ${disableAttr}>
+                <input type="text" value="${formatWithSeparators(p.cost)}" oninput="this.value = formatWithSeparators(this.value)" onchange="updateProject(${p.id}, 'cost', this.value)" style="width: 110px; background: transparent; border: 1px dashed transparent; color: var(--danger); font-weight: 600; border-radius: 4px; padding: 0.2rem; outline: none;" onfocus="this.style.border='1px dashed var(--glass-border)'" onblur="this.style.border='1px dashed transparent'" ${disableAttr}>
             </td>
             <td class="${balanceColor}" style="padding: 0.5rem 0; font-weight: 700;">
                 ${formatCurrency(currentBalance)}

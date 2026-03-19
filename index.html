@@ -279,15 +279,15 @@
                         <h3>Configuración Base Anual</h3>
                         <div class="form-group">
                             <label>Proyección Ingresos Próx. Año o Proy. 2026 ($)</label>
-                            <input type="number" id="projAnnualIncome" placeholder="Calculando historial...">
+                            <input type="text" id="projAnnualIncome" placeholder="Calculando historial...">
                         </div>
                         <div class="form-group">
                             <label>Presupuesto Gastos Próx. Año o Proy. 2026 ($)</label>
-                            <input type="number" id="annualBudgetEgresos" placeholder="Calculando historial...">
+                            <input type="text" id="annualBudgetEgresos" placeholder="Calculando historial...">
                         </div>
                         <div class="form-group mt-3">
                             <label>Deuda Gastos Comunes Estimada a Recuperar ($)</label>
-                            <input type="number" id="projDeuda" value="40000000" style="color: var(--warning); font-weight: bold;">
+                            <input type="text" id="projDeuda" value="40.000.000" style="color: var(--warning); font-weight: bold;">
                         </div>
                         
                         <div class="summary-box mt-3">
@@ -307,7 +307,7 @@
                         <form id="projectForm" class="project-form" style="display: grid; grid-template-columns: 80px 1fr 120px auto; gap: 0.5rem;">
                             <input type="number" id="projPriority" placeholder="Prio" value="1" min="1" required>
                             <input type="text" id="projName" placeholder="Asunto / Proyecto" required>
-                            <input type="number" id="projCost" placeholder="Costo est. ($)" required>
+                            <input type="text" id="projCost" placeholder="Costo est. ($)" required>
                             <button type="submit" class="btn-primary" style="background: var(--info)">Añadir</button>
                         </form>
                         
