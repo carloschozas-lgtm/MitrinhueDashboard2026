@@ -1021,8 +1021,25 @@ function renderDebtorsChart(data) {
             maintainAspectRatio: false,
             plugins: { legend: { display: false } },
             scales: {
-                x: { ticks: { color: '#888' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-                y: { ticks: { color: '#888' }, grid: { display: false } }
+                x: { 
+                    ticks: { 
+                        color: '#8b949e',
+                        font: { size: 10 },
+                        callback: function(value) {
+                            if (value >= 1000000) return '$' + (value / 1000000).toFixed(1) + 'M';
+                            if (value >= 1000) return '$' + (value / 1000).toFixed(0) + 'K';
+                            return '$' + value;
+                        }
+                    }, 
+                    grid: { color: 'rgba(255,255,255,0.05)' } 
+                },
+                y: { 
+                    ticks: { 
+                        color: '#e6edf3',
+                        font: { size: 11 }
+                    }, 
+                    grid: { display: false } 
+                }
             }
         }
     });
