@@ -971,6 +971,9 @@ function processDeuda(data) {
         row.mesesNum = parseFloat(row["Meses deuda"]) || 0;
     });
 
+    // Sort by debt descending globally for both table and chart logic
+    debtorsDataGlobal.sort((a, b) => b.deudaNum - a.deudaNum);
+
     filteredDebtorsData = [...debtorsDataGlobal];
     renderDebtorsDashboard();
 }
@@ -1006,7 +1009,7 @@ function renderDebtorsChart(data) {
     chartInstances['debtorsChart'] = new Chart(ctx, {
         type: 'bar',
         data: {
-            labels: data.map(d => d.Unidad.length > 15 ? d.Unidad.substring(0, 15) + '...' : d.Unidad),
+            labels: data.map(d => d.Unidad + " (" + formatCurrency(d.deudaNum) + ")"),
             datasets: [{
                 label: 'Deuda Total ($)',
                 data: data.map(d => d.deudaNum),
