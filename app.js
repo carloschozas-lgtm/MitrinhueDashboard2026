@@ -164,7 +164,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Apply Admin / Read-only Locks
     if (!isAdmin) {
-        document.querySelectorAll('.data-sources').forEach(el => el.style.display = 'none');
+        document.querySelectorAll('.upload-section').forEach(el => el.style.display = 'none');
         kpiCajaActual.readOnly = true;
         kpiCajaActual.style.border = 'none';
         
