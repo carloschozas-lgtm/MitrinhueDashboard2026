@@ -10,6 +10,8 @@ let projects = [];
 // Track if data is loaded to enable UI
 let ingresosLoaded = false;
 let egresosLoaded = false;
+let debtorsDataGlobal = [];
+let filteredDebtorsData = [];
 
 // Format Function
 const formatCurrency = (amount) => {
@@ -71,6 +73,13 @@ const projPriority = document.getElementById('projPriority');
 const projectsList = document.getElementById('projectsList');
 const totalProjectsCostEl = document.getElementById('totalProjectsCost');
 const finalBalance = document.getElementById('finalBalance');
+
+// Debtors Elements
+const kpiTotalDeudaGgcc = document.getElementById('kpiTotalDeudaGgcc');
+const kpiCountDeudores = document.getElementById('kpiCountDeudores');
+const kpiPromedioDeuda = document.getElementById('kpiPromedioDeuda');
+const debtorSearch = document.getElementById('debtorSearch');
+const debtorsTableBody = document.getElementById('debtorsTableBody');
 
 // Chart Instances
 let chartInstances = {};
@@ -211,9 +220,23 @@ function setupNavigation() {
                 if (targetId === 'view-caja') {
                     renderComparativeChart();
                 }
+                // Re-render debtors if debt tab
+                if (targetId === 'view-deuda') {
+                    renderDebtorsDashboard();
+                }
             }
         });
     });
+
+    if (debtorSearch) {
+        debtorSearch.addEventListener('input', (e) => {
+            const query = e.target.value.toLowerCase();
+            filteredDebtorsData = debtorsDataGlobal.filter(d => 
+                d.Unidad.toLowerCase().includes(query)
+            );
+            renderDebtorsTable();
+        });
+    }
 }
 
 // --- 4. DATA FETCHING ---
@@ -221,8 +244,9 @@ function loadRealData() {
     // 0. Fetch Configs & Projects first
     Promise.all([
         fetch('data/config.csv').then(r => r.ok ? r.text() : ""),
-        fetch('data/proyectos.csv').then(r => r.ok ? r.text() : "")
-    ]).then(([configCsv, proyectosCsv]) => {
+        fetch('data/proyectos.csv').then(r => r.ok ? r.text() : ""),
+        fetch('data/deuda.csv').then(r => r.ok ? r.text() : "")
+    ]).then(([configCsv, proyectosCsv, deudaCsv]) => {
         // Parse config
         if (configCsv) {
             let configData = Papa.parse(configCsv, {header: true, skipEmptyLines: true}).data;
@@ -250,6 +274,17 @@ function loadRealData() {
                 projects = loadedProjects;
                 renderProjects();
             }
+        }
+
+        // Parse deuda
+        if (deudaCsv) {
+            Papa.parse(deudaCsv, {
+                header: true,
+                skipEmptyLines: true,
+                complete: function(results) {
+                    processDeuda(results.data);
+                }
+            });
         }
 
         // Trigger the main CSVs
@@ -923,4 +958,134 @@ function renderProjects() {
     }
     
     savePersistentData();
+}
+
+// --- DEBTORS DASHBOARD LOGIC ---
+function processDeuda(data) {
+    // Filter out potential total row or empty rows
+    debtorsDataGlobal = data.filter(row => row.Unidad && row.Unidad.trim() !== "" && row["Deuda Total Incluye Intereses"]);
+    
+    // Convert values
+    debtorsDataGlobal.forEach(row => {
+        row.deudaNum = parseFloat(row["Deuda Total Incluye Intereses"]) || 0;
+        row.mesesNum = parseFloat(row["Meses deuda"]) || 0;
+    });
+
+    filteredDebtorsData = [...debtorsDataGlobal];
+    renderDebtorsDashboard();
+}
+
+function renderDebtorsDashboard() {
+    if (!debtorsDataGlobal.length) return;
+
+    // 1. KPIs
+    const totalDeuda = debtorsDataGlobal.reduce((sum, row) => sum + row.deudaNum, 0);
+    const countDeudores = debtorsDataGlobal.filter(row => row.deudaNum > 0).length;
+    const promedio = countDeudores > 0 ? totalDeuda / countDeudores : 0;
+
+    if (kpiTotalDeudaGgcc) kpiTotalDeudaGgcc.innerText = formatCurrency(totalDeuda);
+    if (kpiCountDeudores) kpiCountDeudores.innerText = countDeudores;
+    if (kpiPromedioDeuda) kpiPromedioDeuda.innerText = formatCurrency(promedio);
+
+    // 2. Chart: Top 10
+    const top10 = [...debtorsDataGlobal]
+        .sort((a, b) => b.deudaNum - a.deudaNum)
+        .slice(0, 10);
+
+    renderDebtorsChart(top10);
+    renderOverdueDistributionChart();
+    renderDebtorsTable();
+}
+
+function renderDebtorsChart(data) {
+    const ctx = document.getElementById('debtorsChart');
+    if (!ctx) return;
+
+    if (chartInstances['debtorsChart']) chartInstances['debtorsChart'].destroy();
+
+    chartInstances['debtorsChart'] = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: data.map(d => d.Unidad.length > 15 ? d.Unidad.substring(0, 15) + '...' : d.Unidad),
+            datasets: [{
+                label: 'Deuda Total ($)',
+                data: data.map(d => d.deudaNum),
+                backgroundColor: 'rgba(255, 99, 132, 0.6)',
+                borderColor: 'rgba(255, 99, 132, 1)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            indexAxis: 'y',
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: { legend: { display: false } },
+            scales: {
+                x: { ticks: { color: '#888' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+                y: { ticks: { color: '#888' }, grid: { display: false } }
+            }
+        }
+    });
+}
+
+function renderOverdueDistributionChart() {
+    const ctx = document.getElementById('overdueDistributionChart');
+    if (!ctx) return;
+
+    const ranges = {
+        '1-3 Meses': 0,
+        '3-6 Meses': 0,
+        '6-12 Meses': 0,
+        '+1 Año': 0
+    };
+
+    debtorsDataGlobal.forEach(d => {
+        if (d.mesesNum > 12) ranges['+1 Año']++;
+        else if (d.mesesNum > 6) ranges['6-12 Meses']++;
+        else if (d.mesesNum > 3) ranges['3-6 Meses']++;
+        else if (d.mesesNum > 0) ranges['1-3 Meses']++;
+    });
+
+    if (chartInstances['overdueDistributionChart']) chartInstances['overdueDistributionChart'].destroy();
+
+    chartInstances['overdueDistributionChart'] = new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+            labels: Object.keys(ranges),
+            datasets: [{
+                data: Object.values(ranges),
+                backgroundColor: [
+                    'rgba(54, 162, 235, 0.6)',
+                    'rgba(255, 206, 86, 0.6)',
+                    'rgba(255, 159, 64, 0.6)',
+                    'rgba(255, 99, 132, 0.6)'
+                ],
+                borderWidth: 0
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { position: 'right', labels: { color: '#888', boxWidth: 12 } }
+            }
+        }
+    });
+}
+
+function renderDebtorsTable() {
+    if (!debtorsTableBody) return;
+    debtorsTableBody.innerHTML = "";
+
+    filteredDebtorsData.forEach(row => {
+        const tr = document.createElement('tr');
+        tr.style.borderBottom = "1px solid rgba(255,255,255,0.05)";
+        tr.innerHTML = `
+            <td style="padding: 0.8rem; font-size: 0.9rem;">${row.Unidad}</td>
+            <td style="padding: 0.8rem; font-size: 0.85rem; opacity: 0.8;">${row["Último ingreso"] === 'No registra' ? 'N/A' : row["Último ingreso"]}</td>
+            <td style="padding: 0.8rem; text-align: center; font-weight: 600; color: ${row.mesesNum > 12 ? 'var(--danger)' : 'var(--warning)'}">${row.mesesNum.toFixed(1)}</td>
+            <td style="padding: 0.8rem; text-align: right; font-weight: 600;">${formatCurrency(row.deudaNum)}</td>
+        `;
+        debtorsTableBody.appendChild(tr);
+    });
 }

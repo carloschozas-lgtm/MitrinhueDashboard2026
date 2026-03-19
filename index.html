@@ -118,6 +118,7 @@
                     <li><a href="#ingresos" data-target="view-ingresos">Ingresos Históricos</a></li>
                     <li><a href="#egresos" data-target="view-egresos">Egresos Históricos</a></li>
                     <li><a href="#presupuesto" data-target="view-presupuesto">Presupuesto y Proyectos</a></li>
+                    <li><a href="#deuda" data-target="view-deuda">Gestión de Deuda</a></li>
                 </ul>
             </nav>
             <!-- Admin Auth -->
@@ -331,6 +332,59 @@
                             <h4>Costo Total Proyectos: <span id="totalProjectsCost" class="color-danger-text">$0</span></h4>
                             <h4>Saldo Final Proyectado: <br><span id="finalBalance" class="color-warning" style="font-size: 1.5rem; margin-top: 5px; display:inline-block;">--</span></h4>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- VIEW: GESTIÓN DE DEUDA -->
+            <div id="view-deuda" class="view-section hidden debtors-dashboard glass">
+                <div class="kpi-grid">
+                    <div class="kpi-card glass kpi-featured">
+                        <h4>Deuda Total Consolidada</h4>
+                        <h2 id="kpiTotalDeudaGgcc" class="color-danger-text">$0</h2>
+                        <p style="font-size: 0.8rem; opacity: 0.7;">Incluye intereses de morosidad</p>
+                    </div>
+                    <div class="kpi-card glass">
+                        <h4>Unidades con Deuda</h4>
+                        <h2 id="kpiCountDeudores" class="color-warning">0</h2>
+                        <p style="font-size: 0.8rem; opacity: 0.7;">Lotes con saldo pendiente</p>
+                    </div>
+                    <div class="kpi-card glass">
+                        <h4>Deuda Promedio por Unidad</h4>
+                        <h2 id="kpiPromedioDeuda" class="color-info">--</h2>
+                    </div>
+                </div>
+
+                <div class="charts-section mt-3">
+                    <div class="chart-container glass">
+                        <h3>Top 10 Deudores (Mayor Monto)</h3>
+                        <canvas id="debtorsChart"></canvas>
+                    </div>
+                    <div class="chart-container glass">
+                        <h3>Distribución por Meses de Atraso</h3>
+                        <canvas id="overdueDistributionChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="table-section mt-3 glass">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                        <h3>Listado Detallado de Morosidad</h3>
+                        <input type="text" id="debtorSearch" placeholder="🔍 Buscar por nombre de Unidad..." style="padding: 0.5rem 1rem; border-radius: 20px; border: 1px solid var(--glass-border); background: rgba(0,0,0,0.2); color: var(--text-primary); width: 300px; outline: none;">
+                    </div>
+                    <div class="table-wrapper" style="max-height: 400px; overflow-y: auto;">
+                        <table style="width: 100%; border-collapse: collapse; text-align: left;">
+                            <thead style="position: sticky; top: 0; background: var(--bg-color); z-index: 1;">
+                                <tr style="border-bottom: 1px solid var(--glass-border); color: var(--text-muted); font-size: 0.9rem;">
+                                    <th style="padding: 0.8rem;">Unidad</th>
+                                    <th style="padding: 0.8rem;">Último Pago</th>
+                                    <th style="padding: 0.8rem; text-align: center;">Meses</th>
+                                    <th style="padding: 0.8rem; text-align: right;">Deuda Total ($)</th>
+                                </tr>
+                            </thead>
+                            <tbody id="debtorsTableBody">
+                                <!-- Filas por JS -->
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
