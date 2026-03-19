@@ -26,12 +26,14 @@ const formatCurrency = (amount) => {
 const formatWithSeparators = (val) => {
     if (!val && val !== 0) return "";
     let n = val.toString().replace(/\D/g, "");
-    return n === "" ? "" : new Intl.NumberFormat('es-CL').format(parseInt(n));
+    if (n === "") return "";
+    return n.replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 };
 
 // Helper to get raw number from formatted string
 const cleanNumber = (str) => {
     if (!str) return 0;
+    // Remove all dots to get the raw number
     return parseInt(str.toString().replace(/\./g, "")) || 0;
 };
 
