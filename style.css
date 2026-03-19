@@ -351,6 +351,21 @@ input[type="number"]:focus, input[type="text"]:focus {
     color: #fff;
 }
 
+/* Debtors Dashboard Specifics */
+.debtors-dashboard .kpi-featured {
+    border: 1px solid rgba(248, 81, 73, 0.3);
+    background: rgba(248, 81, 73, 0.05);
+}
+
+.debtors-dashboard table tbody tr:hover {
+    background: rgba(255, 255, 255, 0.03);
+}
+
+#debtorSearch::placeholder {
+    color: var(--text-muted);
+    opacity: 0.5;
+}
+
 /* Scrollbar */
 ::-webkit-scrollbar { width: 8px; }
 ::-webkit-scrollbar-track { background: rgba(0,0,0,0.1); }
