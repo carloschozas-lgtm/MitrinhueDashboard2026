@@ -120,6 +120,10 @@
                     <li><a href="#presupuesto" data-target="view-presupuesto">Presupuesto y Proyectos</a></li>
                 </ul>
             </nav>
+            <!-- Admin Auth -->
+            <div class="admin-login" onclick="enterAdminMode()" style="cursor: pointer; opacity: 0.3; margin-top: auto; padding-bottom: 1rem; text-align: center; font-size: 0.8rem; transition: opacity 0.2s;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.3">
+                <span id="adminLockIcon">🔒</span> Acceso Admin
+            </div>
         </aside>
 
         <!-- Main Content -->
@@ -310,8 +314,8 @@
                             <table class="cashflow-table" style="width: 100%; border-collapse: collapse; margin-top: 1rem;">
                                 <thead>
                                     <tr style="border-bottom: 1px solid var(--glass-border); color: var(--text-muted); text-align: left; font-size: 0.9rem;">
-                                        <th style="padding-bottom: 0.5rem; font-weight: 600; width: 60px;">Prio</th>
-                                        <th style="padding-bottom: 0.5rem; font-weight: 600;">Proyecto (Editable)</th>
+                                        <th style="padding-bottom: 0.5rem; font-weight: 600;">Prio</th>
+                                        <th style="padding-bottom: 0.5rem; font-weight: 600;">Proyecto</th>
                                         <th style="padding-bottom: 0.5rem; font-weight: 600;">Costo</th>
                                         <th style="padding-bottom: 0.5rem; font-weight: 600;">Acumulado</th>
                                         <th style="padding-bottom: 0.5rem;"></th>

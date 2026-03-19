@@ -78,6 +78,26 @@ let chartInstances = {};
 let historicalAvgYearlyIndex = 0;
 let historicalAvgYearlyEgress = 0;
 
+// --- ADMIN MODE ---
+let isAdmin = sessionStorage.getItem('isAdmin') === 'true';
+
+window.enterAdminMode = function() {
+    if (isAdmin) {
+        if(confirm('¿Deseas cerrar la sesión de Administrador?')) {
+            sessionStorage.removeItem('isAdmin');
+            location.reload();
+        }
+    } else {
+        const pass = prompt('Ingresa la contraseña de administración:');
+        if (pass === 'admin2026') {
+            sessionStorage.setItem('isAdmin', 'true');
+            location.reload();
+        } else if(pass !== null) {
+            alert('Contraseña incorrecta');
+        }
+    }
+};
+
 // --- PERSISTENCE ---
 function loadPersistentData() {
     const savedCaja = localStorage.getItem('kpiCajaActual');
@@ -141,6 +161,27 @@ document.addEventListener('DOMContentLoaded', () => {
     // Upload Listeners
     uploadIngresos.addEventListener('change', handleUploadIngresos);
     uploadEgresos.addEventListener('change', handleUploadEgresos);
+
+    // Apply Admin / Read-only Locks
+    if (!isAdmin) {
+        document.querySelectorAll('.data-sources').forEach(el => el.style.display = 'none');
+        kpiCajaActual.readOnly = true;
+        kpiCajaActual.style.border = 'none';
+        
+        projAnnualIncome.readOnly = true;
+        projAnnualIncome.style.border = 'none';
+        
+        annualBudgetEgresos.readOnly = true;
+        annualBudgetEgresos.style.border = 'none';
+        
+        projDeuda.readOnly = true;
+        projDeuda.style.border = 'none';
+        
+        projectForm.style.display = 'none';
+        
+        const restoreBtn = document.querySelector('button[onclick="localStorage.clear(); location.reload();"]');
+        if (restoreBtn) restoreBtn.style.display = 'none';
+    }
 
     // Load Data
     loadRealData();
@@ -845,22 +886,25 @@ function renderProjects() {
         const tr = document.createElement('tr');
         tr.style.borderBottom = '1px solid rgba(255, 255, 255, 0.05)';
         
+        const disableAttr = isAdmin ? '' : 'disabled';
+        
         tr.innerHTML = `
             <td style="padding: 0.5rem 0;">
-                <input type="number" value="${p.priority}" onchange="updateProject(${p.id}, 'priority', this.value)" style="width: 50px; background: transparent; border: 1px solid var(--glass-border); color: var(--text-primary); border-radius: 4px; padding: 0.2rem; text-align: center; outline: none;">
+                <input type="number" value="${p.priority}" onchange="updateProject(${p.id}, 'priority', this.value)" style="width: 50px; background: transparent; border: ${isAdmin ? '1px solid var(--glass-border)' : 'none'}; color: var(--text-primary); border-radius: 4px; padding: 0.2rem; text-align: center; outline: none;" ${disableAttr}>
             </td>
             <td style="padding: 0.5rem 0;">
-                <input type="text" value="${p.name}" onchange="updateProject(${p.id}, 'name', this.value)" style="width: 100%; min-width: 120px; background: transparent; border: 1px dashed transparent; color: var(--text-primary); border-radius: 4px; padding: 0.2rem; outline: none;" onfocus="this.style.border='1px dashed var(--glass-border)'" onblur="this.style.border='1px dashed transparent'">
+                <input type="text" value="${p.name}" onchange="updateProject(${p.id}, 'name', this.value)" style="width: 100%; min-width: 120px; background: transparent; border: 1px dashed transparent; color: var(--text-primary); border-radius: 4px; padding: 0.2rem; outline: none;" onfocus="this.style.border='1px dashed var(--glass-border)'" onblur="this.style.border='1px dashed transparent'" ${disableAttr}>
             </td>
             <td style="padding: 0.5rem 0;">
-                <input type="number" value="${p.cost}" onchange="updateProject(${p.id}, 'cost', this.value)" style="width: 110px; background: transparent; border: 1px dashed transparent; color: var(--danger); font-weight: 600; border-radius: 4px; padding: 0.2rem; outline: none;" onfocus="this.style.border='1px dashed var(--glass-border)'" onblur="this.style.border='1px dashed transparent'">
+                <input type="number" value="${p.cost}" onchange="updateProject(${p.id}, 'cost', this.value)" style="width: 110px; background: transparent; border: 1px dashed transparent; color: var(--danger); font-weight: 600; border-radius: 4px; padding: 0.2rem; outline: none;" onfocus="this.style.border='1px dashed var(--glass-border)'" onblur="this.style.border='1px dashed transparent'" ${disableAttr}>
             </td>
             <td class="${balanceColor}" style="padding: 0.5rem 0; font-weight: 700;">
                 ${formatCurrency(currentBalance)}
             </td>
+            ${isAdmin ? `
             <td style="text-align: right; padding: 0.5rem 0;">
                 <button title="Quitar" class="btn-primary" style="background: rgba(248, 81, 73, 0.2); color: var(--danger); outline: 1px solid var(--danger); padding: 0.3rem 0.6rem; font-size: 0.8rem; cursor: pointer;" onclick="removeProject(${p.id})">✖</button>
-            </td>
+            </td>` : ''}
         `;
         projectsList.appendChild(tr);
     });
