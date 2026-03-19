@@ -177,6 +177,49 @@ function setupNavigation() {
 
 // --- 4. DATA FETCHING ---
 function loadRealData() {
+    // 0. Fetch Configs & Projects first
+    Promise.all([
+        fetch('data/config.csv').then(r => r.ok ? r.text() : ""),
+        fetch('data/proyectos.csv').then(r => r.ok ? r.text() : "")
+    ]).then(([configCsv, proyectosCsv]) => {
+        // Parse config
+        if (configCsv) {
+            let configData = Papa.parse(configCsv, {header: true, skipEmptyLines: true}).data;
+            let conf = {};
+            configData.forEach(row => {
+                if (row.Parametro) conf[row.Parametro] = parseInt(row.Valor) || 0;
+            });
+            if (conf.caja_inicial && !localStorage.getItem('kpiCajaActual')) kpiCajaActual.value = conf.caja_inicial;
+            if (conf.deuda_gastos_comunes && !localStorage.getItem('projDeuda')) projDeuda.value = conf.deuda_gastos_comunes;
+            // Also override the input value displays immediately if available
+            if (conf.ingreso_anual_proyectado && !localStorage.getItem('projAnnualIncome')) projAnnualIncome.value = conf.ingreso_anual_proyectado;
+            if (conf.egreso_anual_presupuestado && !localStorage.getItem('annualBudgetEgresos')) annualBudgetEgresos.value = conf.egreso_anual_presupuestado;
+        }
+
+        // Parse proyectos
+        if (proyectosCsv && !localStorage.getItem('projects')) {
+            let pData = Papa.parse(proyectosCsv, {header: true, skipEmptyLines: true}).data;
+            let loadedProjects = pData.filter(p => p.name).map(p => ({
+                id: parseInt(p.id) || Date.now() + Math.random(),
+                name: p.name,
+                cost: parseInt(p.cost) || 0,
+                priority: parseInt(p.priority) || 1
+            }));
+            if (loadedProjects.length > 0) {
+                projects = loadedProjects;
+                renderProjects();
+            }
+        }
+
+        // Trigger the main CSVs
+        fetchIngresosYegresos();
+    }).catch(err => {
+        console.warn("Error fetching config, proceeding with defaults", err);
+        fetchIngresosYegresos();
+    });
+}
+
+function fetchIngresosYegresos() {
     // 1. Fetch Ingresos
     fetch('data/ingresos.csv')
         .then(response => {
