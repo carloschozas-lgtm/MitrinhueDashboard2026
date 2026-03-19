@@ -1022,6 +1022,9 @@ function renderDebtorsChart(data) {
             indexAxis: 'y',
             responsive: true,
             maintainAspectRatio: false,
+            layout: {
+                padding: { left: 20 }
+            },
             plugins: { legend: { display: false } },
             scales: {
                 x: { 
@@ -1041,7 +1044,8 @@ function renderDebtorsChart(data) {
                 y: { 
                     ticks: { 
                         color: '#e6edf3',
-                        font: { size: 11 }
+                        font: { size: 10 },
+                        autoSkip: false
                     }, 
                     grid: { display: false } 
                 }
