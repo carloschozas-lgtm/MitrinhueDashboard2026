@@ -1022,9 +1022,11 @@ function renderDebtorsChart(data) {
             plugins: { legend: { display: false } },
             scales: {
                 x: { 
+                    beginAtZero: true,
                     ticks: { 
                         color: '#8b949e',
-                        font: { size: 10 },
+                        font: { size: 11 },
+                        maxTicksLimit: 6,
                         callback: function(value) {
                             if (value >= 1000000) return '$' + (value / 1000000).toFixed(1) + 'M';
                             if (value >= 1000) return '$' + (value / 1000).toFixed(0) + 'K';
