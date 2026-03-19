@@ -1,0 +1,1415 @@
+#Ingreso,Unidad,Propietario,RUT,Monto,Fondos,Forma de pago,N° Cheque,Banco,N° Comprobante,Colaborador,Fecha Ingreso,Nulo,Descripcion,,,,
+1429,Manzana 2 Lote 1,Natalia Núñez Pulido,,500.000,Garantías,Transferencia,,,,S/I,24/02/2026,No,Abona garantía para inicio de obras.,,,,
+1428,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,65.000,Gasto Común / Fondo de Reserva / Fondo Operacional,Transferencia,,,,S/I,14/02/2026,No,,,,,
+1427,Manzana 3 Lote 3,Jorge álvarez Briones,,55.046,Fondo Intereses / Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,20/02/2026,No,,,,,
+1426,Manzana 2 Lote 9,Evelyn Aburto Saavedra,,150.000,Gasto Común / Fondo de Reserva / Fondo Operacional,Transferencia,,,,S/I,21/02/2026,No,,Asociado a Torres,Asociado a Cobro Individual,¿Pagado?,Colaborador
+1425,Manzana 4 Lote 14,Miguel Suazo Lobos,,28.299,Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,23/02/2026,No,,No,No,No,S/I
+1424,Manzana 2 Lote 4,Leonardo Espinosa Mora,,147.351,Fondo Intereses / Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,10/02/2026,No,,No,No,No,S/I
+1423,Manzana 4 Lote 16,Constanza Pardo Tapia,,116.703,Fondo Intereses / Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,11/02/2026,No,,No,No,No,S/I
+1422,Manzana 2 Lote 3,Sara Hernández,,84.297,Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,12/02/2026,No,,No,No,No,S/I
+1421,Manzana 1 Lote 2,Giovanni Figueroa De La Guarda,,92.315,Fondo Intereses / Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,16/02/2026,No,,No,No,No,S/I
+1420,Manzana 2 Lote 7,Jaime Salinas Espinoza,,151.950,Gasto Común,Transferencia,,,,S/I,16/02/2026,No,,No,No,No,S/I
+1419,Manzana 1 Lote 5,Patricio Pedreros,,95.000,Gasto Común,Transferencia,,,,S/I,19/02/2026,No,,No,No,No,S/I
+1418,Manzana 3 Lote 2,Jorge Torres Romero,,1.250.000,Gasto Común / Fondo de Reserva / Fondo Multas / Fondo Intereses,Transferencia,,,,S/I,19/02/2026,No,,No,No,No,S/I
+1417,Manzana 3 Lote 2,Jorge Torres Romero,,160.800,Gasto Común,Transferencia,,,,S/I,17/02/2026,No,,No,No,No,S/I
+1416,Manzana 3 Lote 10,Gerzon Muñoz Riquelme,,221.673,Gasto Común / Fondo de Reserva / Fondo Intereses,Pago electrónico,,,,S/I,18/02/2026,No,Pago vía Mercadopago,No,No,No,S/I
+1415,Manzana 3 Lote 2,Jorge Torres Romero,,300.000,Gasto Común,Transferencia,,,,S/I,16/02/2026,No,,No,No,No,S/I
+1414,Manzana 4 Lote 1,Consuelo Mora Candia Mora,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,13/02/2026,No,Pago vía Banco Estado,No,No,No,S/I
+1413,Manzana 3 Lote 7,Richard Contreras Gonzalez,,200.000,Gasto Común,Transferencia,,,,S/I,13/02/2026,No,,No,No,No,S/I
+1412,Manzana 3 Lote 7,Richard Contreras Gonzalez,,200.000,Gasto Común,Transferencia,,,,S/I,09/10/2025,No,,No,No,No,S/I
+1411,Manzana 1 Lote 7,Rodrigo Feijoo Castillo,,162.524,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,12/02/2026,No,Pago vía Banco Santander,No,No,No,S/I
+1410,Manzana 4 Lote 15,Juan Eduardo Monsalve Constanzo,,140.065,Gasto Común / Fondo de Reserva / Fondo Operacional / Fondo Intereses,Pago electrónico,,,,S/I,12/02/2026,No,Pago vía Banco de Chile,No,No,No,S/I
+1409,Manzana 2 Lote 5,Angela Suazo Borzone,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,11/02/2026,No,Pago vía Banco Chile,No,No,No,S/I
+1408,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,102.419,Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,10/02/2026,No,,No,No,No,S/I
+1407,Manzana 3 Lote 9,Joel Gatica Monsalve,,55.028,Fondo Intereses / Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,09/02/2026,No,,No,No,No,S/I
+1406,Manzana 3 Lote 8,Rogelio Ulloa Avalos,,102.117,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,09/02/2026,No,Pago vía Mercadopago,No,No,No,S/I
+1405,Manzana 1 Lote 16,Alfonso Sánchez,,110.275,Gasto Común / Fondo de Reserva / Fondo Intereses,Pago electrónico,,,,S/I,08/02/2026,No,Pago vía Banco de Chile,No,No,No,S/I
+1404,Manzana 3 Lote 12,Juan Ramón Molina Parada,,55.000,Gasto Común / Fondo de Reserva,Transferencia,,,,S/I,02/02/2026,No,,No,No,No,S/I
+1403,Manzana 3 Lote 12,Juan Ramón Molina Parada,,55.000,Gasto Común,Transferencia,,,,S/I,02/01/2026,No,,No,No,No,S/I
+1402,Manzana 3 Lote 12,Juan Ramón Molina Parada,,55.000,Gasto Común,Transferencia,,,,S/I,01/12/2025,No,,No,No,No,S/I
+1401,Manzana 3 Lote 12,Juan Ramón Molina Parada,,55.000,Gasto Común,Transferencia,,,,S/I,03/11/2025,No,,No,No,No,S/I
+1400,Manzana 3 Lote 12,Juan Ramón Molina Parada,,55.000,Gasto Común,Transferencia,,,,S/I,01/09/2025,No,,No,No,No,S/I
+1399,Manzana 3 Lote 12,Juan Ramón Molina Parada,,55.000,Gasto Común,Transferencia,,,,S/I,02/06/2025,No,,No,No,No,S/I
+1398,Manzana 2 Lote 13,Juan Ramón Salazar Espinoza Y María Jesús Salazar Garretón,,55.000,Gasto Común,Transferencia,,,,S/I,02/06/2025,Si,,No,No,No,S/I
+1397,Manzana 1 Lote 14,Pablo Saez Sanhueza,,55.018,Gasto Común / Fondo de Reserva / Fondo Intereses,Pago electrónico,,,,S/I,08/02/2026,No,Pago vía Mercadopago,No,No,No,S/I
+1396,Manzana 1 Lote 4,Camilo Cornejo Esquivel,,200.000,Gasto Común,Pago electrónico,,,,S/I,07/02/2026,No,Pago vía Banco de Chile,No,No,No,S/I
+1395,Manzana 2 Lote 6,Pablo Hidalgo Astorga,,55.000,Gasto Común / Fondo de Reserva,Transferencia,,,,S/I,03/01/2026,No,,No,No,No,S/I
+1394,Manzana 4 Lote 3,Pablo Zambrano Vidal,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,06/02/2026,No,Pago vía Banco Santander,No,No,No,S/I
+1393,Manzana 1 Lote 11,Miguel Soto Cerda,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,06/02/2026,No,Pago vía Banco Scotiabank,No,No,No,S/I
+1392,Manzana 1 Lote 15,Patricio Peña Saravia,,55.000,Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,05/02/2026,No,,No,No,No,S/I
+1391,Manzana 2 Lote 1,Natalia Núñez Pulido,,55.000,Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,05/02/2026,No,,No,No,No,S/I
+1390,Manzana 2 Lote 2,Romina Salazar Rivas,,169.471,Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,06/02/2026,No,,No,No,No,S/I
+1389,Manzana 4 Lote 11,Mario Segura Vega,,210.000,Gasto Común,Transferencia,,,,S/I,06/02/2026,No,,No,No,No,S/I
+1388,Manzana 2 Lote 11,Cristian Hernández Toledo,,111.481,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,06/02/2026,No,Pago vía Banco BCI,No,No,No,S/I
+1387,Manzana 3 Lote 6,Nolbert Cuevas Alarcon,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,06/02/2026,No,Pago vía Banco Santander,No,No,No,S/I
+1386,Manzana 1 Lote 17,Mario Sandoval Castillo,,132.623,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,05/02/2026,No,Pago vía Banco Falabella,No,No,No,S/I
+1385,Manzana 1 Lote 1,Evelyn Gaete Cardenas,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,05/02/2026,No,Pago vía Banco BCI,No,No,No,S/I
+1384,Manzana 4 Lote 2,Cristian Mella Vergara,,132.019,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,05/02/2026,No,Pago vía Mercadopago,No,No,No,S/I
+1383,Manzana 4 Lote 7,Cristina Hernández Estrada,,234.479,Gasto Común,Transferencia,,,,S/I,05/02/2026,No,,No,No,No,S/I
+1382,Manzana 4 Lote 15,Juan Eduardo Monsalve Constanzo,,145.433,Gasto Común / Fondo de Reserva / Fondo Multas / Fondo Operacional / Fondo Intereses,Pago electrónico,,,,S/I,05/02/2026,No,Pago vía Banco de Chile,No,No,No,S/I
+1381,Manzana 2 Lote 4,Leonardo Espinosa Mora,,300.000,Gasto Común,Transferencia,,,,S/I,03/02/2026,No,,No,No,No,S/I
+1380,Manzana 1 Lote 2,Giovanni Figueroa De La Guarda,,154.690,Fondo Intereses / Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,02/02/2026,No,,No,No,No,S/I
+1379,Manzana 2 Lote 6,Pablo Hidalgo Astorga,,55.000,Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,30/01/2026,No,,No,No,No,S/I
+1378,Manzana 4 Lote 8,Karol Tamara Villegas Figueroa,,55.138,Gasto Común / Fondo de Reserva / Fondo Intereses,Pago electrónico,,,,S/I,26/01/2026,No,Pago vía Toku,No,No,No,S/I
+1377,Manzana 3 Lote 3,Jorge álvarez Briones,,55.000,Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,20/01/2026,No,,No,No,No,S/I
+1376,Manzana 3 Lote 9,Joel Gatica Monsalve,,55.000,Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,18/01/2026,No,,No,No,No,S/I
+1375,Manzana 2 Lote 9,Evelyn Aburto Saavedra,,200.000,Gasto Común / Fondo de Reserva / Fondo Operacional,Transferencia,,,,S/I,18/01/2026,No,,No,No,No,S/I
+1374,Manzana 1 Lote 14,Pablo Saez Sanhueza,,55.018,Gasto Común / Fondo de Reserva / Fondo Intereses,Pago electrónico,,,,S/I,17/01/2026,No,Pago vía Mercadopago,No,No,No,S/I
+1373,Manzana 2 Lote 7,Jaime Salinas Espinoza,,151.950,Fondo de Reserva / Fondo Intereses / Gasto Común,Transferencia,,,,S/I,15/01/2026,No,,No,No,No,S/I
+1372,Manzana 4 Lote 1,Consuelo Mora Candia Mora,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,15/01/2026,No,Pago vía Banco Chile,No,No,No,S/I
+1371,Manzana 4 Lote 14,Miguel Suazo Lobos,,200.000,Fondo de Reserva / Fondo Operacional / Fondo Intereses / Gasto Común,Transferencia,,,,S/I,14/01/2026,No,,No,No,No,S/I
+1370,Manzana 4 Lote 14,Miguel Suazo Lobos,,300.000,Gasto Común / Fondo de Reserva,Transferencia,,,,S/I,13/01/2026,No,,No,No,No,S/I
+1369,Manzana 1 Lote 11,Miguel Soto Cerda,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,13/01/2026,No,Pago vía Banco Scotiabank,No,No,No,S/I
+1368,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,63.500,Gasto Común / Fondo de Reserva / Fondo Operacional,Transferencia,,,,S/I,09/01/2026,No,,No,No,No,S/I
+1367,Manzana 2 Lote 3,Sara Hernández,,96.077,Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,08/01/2026,No,,No,No,No,S/I
+1366,Manzana 3 Lote 5,Alejandra Bobadilla Cuevas,,100.607,Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,05/01/2026,No,,No,No,No,S/I
+1365,Manzana 2 Lote 2,Romina Salazar Rivas,,178.834,Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,05/01/2026,No,,No,No,No,S/I
+1364,Manzana 2 Lote 1,Natalia Núñez Pulido,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,08/01/2026,No,Pago vía Banco Santander,No,No,No,S/I
+1363,Manzana 1 Lote 15,Patricio Peña Saravia,,55.000,Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,05/01/2026,No,,No,No,No,S/I
+1362,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,119.635,Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,06/01/2026,No,,No,No,No,S/I
+1361,Manzana 3 Lote 8,Rogelio Ulloa Avalos,,109.970,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,07/01/2026,No,Pago vía Mercadopago,No,No,No,S/I
+1360,Manzana 1 Lote 7,Rodrigo Feijoo Castillo,,166.753,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,06/01/2026,No,Pago vía Mercadopago,No,No,No,S/I
+1359,Manzana 2 Lote 5,Angela Suazo Borzone,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,05/01/2026,No,Pago vía Banco Chile,No,No,No,S/I
+1358,Manzana 4 Lote 3,Pablo Zambrano Vidal,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,05/01/2026,No,Pago vía Banco Santander,No,No,No,S/I
+1357,Manzana 1 Lote 1,Evelyn Gaete Cardenas,,78.018,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,05/01/2026,No,Pago vía Banco BCI,No,No,No,S/I
+1356,Manzana 4 Lote 2,Cristian Mella Vergara,,139.570,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,04/01/2026,No,Pago vía Mercadopago,No,No,No,S/I
+1355,Manzana 2 Lote 11,Cristian Hernández Toledo,,110.959,Gasto Común / Fondo de Reserva / Fondo Operacional / Fondo Intereses,Pago electrónico,,,,S/I,04/01/2026,No,Pago vía Banco BCI,No,No,No,S/I
+1354,Manzana 1 Lote 17,Mario Sandoval Castillo,,154.370,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,04/01/2026,No,Pago vía Banco Falabella,No,No,No,S/I
+1353,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,67.000,Gasto Común / Fondo de Reserva / Fondo Operacional,Transferencia,,,,S/I,14/12/2025,No,,No,No,No,S/I
+1352,Manzana 3 Lote 6,Nolbert Cuevas Alarcon,,55.000,Gasto Común,Transferencia,,,,S/I,03/01/2026,No,,No,No,No,S/I
+1351,Manzana 4 Lote 16,Constanza Pardo Tapia,,50.000,Gasto Común / Fondo de Reserva,Transferencia,,,,S/I,02/01/2026,No,,No,No,No,S/I
+1350,Manzana 2 Lote 12,Yennyfer Morales,,200.000,Gasto Común,Pago electrónico,,,,S/I,30/12/2025,No,Pago vía Banco Falabella,No,No,No,S/I
+1349,Manzana 4 Lote 8,Karol Tamara Villegas Figueroa,,55.258,Gasto Común / Fondo de Reserva / Fondo Intereses,Pago electrónico,,,,S/I,30/12/2025,No,Pago vía Toku,No,No,No,S/I
+1348,Manzana 4 Lote 15,Juan Eduardo Monsalve Constanzo,,132.257,Gasto Común / Fondo de Reserva / Fondo Operacional / Fondo Intereses,Pago electrónico,,,,S/I,29/12/2025,No,Pago vía Banco de Chile,No,No,No,S/I
+1347,Manzana 2 Lote 7,Jaime Salinas Espinoza,,150.805,Gasto Común / Fondo de Reserva / Fondo Intereses,Transferencia,,,,S/I,20/12/2025,No,,No,No,No,S/I
+1346,Manzana 2 Lote 6,Pablo Hidalgo Astorga,,55.000,Gasto Común / Fondo de Reserva,Transferencia,,,,S/I,19/12/2025,No,,No,No,No,S/I
+1345,Manzana 1 Lote 5,Patricio Pedreros,,90.892,Gasto Común,Transferencia,,,,S/I,19/12/2025,No,,No,No,No,S/I
+1344,Manzana 2 Lote 11,Cristian Hernández Toledo,,95.075,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,24/12/2025,No,Pago vía Banco BCI,No,No,No,S/I
+1343,Manzana 1 Lote 14,Pablo Saez Sanhueza,,60.817,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,17/12/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1342,Manzana 1 Lote 2,Giovanni Figueroa De La Guarda,,454.461,Gasto Común / Fondo de Reserva / Fondo Operacional / Fondo Intereses,Pago electrónico,,,,S/I,16/12/2025,No,Pago vía Banco Itaú,No,No,No,S/I
+1341,Manzana 4 Lote 1,Consuelo Mora Candia Mora,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,15/12/2025,No,Pago vía Banco Chile,No,No,No,S/I
+1340,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,21.221,Fondo Operacional,Transferencia,,,,S/I,04/12/2025,No,,No,No,No,S/I
+1339,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,105.204,Gasto Común / Fondo de Reserva / Fondo Operacional,Transferencia,,,,S/I,04/12/2025,No,,No,No,No,S/I
+1338,Manzana 3 Lote 5,Alejandra Bobadilla Cuevas,,106.064,Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,05/12/2025,No,,No,No,No,S/I
+1337,Manzana 3 Lote 3,Jorge álvarez Briones,,55.018,Fondo Intereses / Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,13/12/2025,No,,No,No,No,S/I
+1336,Manzana 3 Lote 9,Joel Gatica Monsalve,,110.349,Fondo Intereses / Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,06/12/2025,No,,No,No,No,S/I
+1335,Manzana 3 Lote 5,Alejandra Bobadilla Cuevas,,106.604,Gasto Común / Fondo de Reserva / Fondo Operacional,Transferencia,,,,S/I,05/12/2025,Si,,No,No,No,S/I
+1334,Manzana 4 Lote 16,Constanza Pardo Tapia,,55.000,Gasto Común,Transferencia,,,,S/I,05/12/2025,No,,No,No,No,S/I
+1333,Manzana 2 Lote 2,Romina Salazar Rivas,,159.067,Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,04/12/2025,No,,No,No,No,S/I
+1332,Manzana 2 Lote 3,Sara Hernández,,93.783,Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,03/12/2025,No,,No,No,No,S/I
+1331,Manzana 1 Lote 16,Alfonso Sánchez,,165.947,Gasto Común / Fondo de Reserva / Fondo Intereses,Pago electrónico,,,,S/I,13/12/2025,No,Pago vía Banco de Chile,No,No,No,S/I
+1330,Manzana 1 Lote 17,Mario Sandoval Castillo,,124.809,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,10/12/2025,No,Pago vía Banco Falabella,No,No,No,S/I
+1329,Manzana 2 Lote 5,Angela Suazo Borzone,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,10/12/2025,No,Pago vía Banco Chile,No,No,No,S/I
+1328,Manzana 3 Lote 8,Rogelio Ulloa Avalos,,94.429,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,05/12/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1327,Manzana 1 Lote 11,Miguel Soto Cerda,,110.303,Gasto Común / Fondo de Reserva / Fondo Intereses,Pago electrónico,,,,S/I,04/12/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1326,Manzana 1 Lote 7,Rodrigo Feijoo Castillo,,142.261,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,04/12/2025,No,Pago vía Scotiabank,No,No,No,S/I
+1325,Manzana 4 Lote 3,Pablo Zambrano Vidal,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,03/12/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1324,Manzana 3 Lote 6,Nolbert Cuevas Alarcon,,110.339,Gasto Común / Fondo de Reserva / Fondo Intereses,Pago electrónico,,,,S/I,03/12/2025,No,Pago vía Banco Santander,No,No,No,S/I
+1323,Manzana 2 Lote 1,Natalia Núñez Pulido,,165.984,Gasto Común / Fondo de Reserva / Fondo Intereses,Pago electrónico,,,,S/I,01/12/2025,No,Pago vía Banco Santander,No,No,No,S/I
+1322,Manzana 2 Lote 9,Evelyn Aburto Saavedra,,200.000,Gasto Común / Fondo de Reserva / Fondo Operacional,Transferencia,,,,S/I,30/11/2025,No,,No,No,No,S/I
+1321,Manzana 4 Lote 2,Cristian Mella Vergara,,119.961,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,30/11/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1320,Manzana 2 Lote 6,Pablo Hidalgo Astorga,,55.000,Gasto Común / Fondo de Reserva,Transferencia,,,,S/I,01/11/2025,No,,No,No,No,S/I
+1319,Manzana 1 Lote 15,Patricio Peña Saravia,,55.000,Gasto Común,Transferencia,,,,S/I,02/11/2025,No,,No,No,No,S/I
+1318,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,105.204,Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,04/11/2025,No,,No,No,No,S/I
+1317,Manzana 3 Lote 5,Alejandra Bobadilla Cuevas,,93.922,Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,10/11/2025,No,,No,No,No,S/I
+1316,Manzana 1 Lote 5,Patricio Pedreros,,90.892,Gasto Común,Transferencia,,,,S/I,15/11/2025,No,,No,No,No,S/I
+1315,Manzana 3 Lote 3,Jorge álvarez Briones,,55.000,Gasto Común / Fondo de Reserva,Transferencia,,,,S/I,17/11/2025,No,,No,No,No,S/I
+1314,Manzana 3 Lote 13,Geraldo Reyes,,200.000,Gasto Común,Transferencia,,,,S/I,17/11/2025,No,,No,No,No,S/I
+1313,Manzana 4 Lote 16,Constanza Pardo Tapia,,110.000,Gasto Común,Transferencia,,,,S/I,21/11/2025,No,,No,No,No,S/I
+1312,Manzana 2 Lote 7,Jaime Salinas Espinoza,,150.805,Gasto Común / Fondo de Reserva / Fondo Intereses,Transferencia,,,,S/I,23/11/2025,No,,No,No,No,S/I
+1311,Manzana 1 Lote 15,Patricio Peña Saravia,,55.000,Gasto Común / Fondo de Reserva,Transferencia,,,,S/I,27/11/2025,No,,No,No,No,S/I
+1310,Manzana 4 Lote 8,Karol Tamara Villegas Figueroa,,110.395,Gasto Común / Fondo de Reserva / Fondo Intereses,Pago electrónico,,,,S/I,29/11/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1309,Manzana 2 Lote 3,Sara Hernández,,82.923,Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,07/11/2025,No,,No,No,No,S/I
+1308,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,76.200,Gasto Común / Fondo de Reserva / Fondo Operacional / Fondo Intereses,Transferencia,,,,S/I,14/11/2025,No,,No,No,No,S/I
+1307,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,69.000,Gasto Común,Transferencia,,,,S/I,13/10/2025,No,,No,No,No,S/I
+1306,Manzana 1 Lote 7,Rodrigo Feijoo Castillo,,117.896,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,12/11/2025,No,Pago vía Khipu,No,No,No,S/I
+1305,Manzana 2 Lote 5,Angela Suazo Borzone,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,09/11/2025,No,Pago vía Banco Chile Etpay,No,No,No,S/I
+1304,Manzana 1 Lote 17,Mario Sandoval Castillo,,95.615,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,07/11/2025,No,Pago vía Banco Falabella,No,No,No,S/I
+1303,Manzana 3 Lote 8,Rogelio Ulloa Avalos,,86.307,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,06/11/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1302,Manzana 4 Lote 1,Consuelo Mora Candia Mora,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,06/11/2025,No,Pago vía Banco Chile Etpay,No,No,No,S/I
+1301,Manzana 2 Lote 2,Romina Salazar Rivas,,155.972,Fondo Operacional / Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,05/11/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1300,Manzana 2 Lote 11,Cristian Hernández Toledo,,105.486,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,04/11/2025,No,Pago vía Banco BCI,No,No,No,S/I
+1299,Manzana 4 Lote 3,Pablo Zambrano Vidal,,115.640,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,04/11/2025,No,Pago vía Banco Santander,No,No,No,S/I
+1298,Manzana 1 Lote 14,Pablo Saez Sanhueza,,59.231,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,04/11/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1297,Manzana 4 Lote 2,Cristian Mella Vergara,,107.461,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,01/11/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1296,Manzana 2 Lote 7,Jaime Salinas Espinoza,,150.000,Gasto Común / Fondo de Reserva / Fondo Intereses,Transferencia,,,,S/I,15/10/2025,No,,No,No,No,S/I
+1295,Manzana 3 Lote 9,Joel Gatica Monsalve,,110.275,Gasto Común / Fondo de Reserva / Fondo Intereses,Transferencia,,,,S/I,19/10/2025,No,,No,No,No,S/I
+1294,Manzana 1 Lote 5,Patricio Pedreros,,90.892,Gasto Común,Transferencia,,,,S/I,20/10/2025,No,,No,No,No,S/I
+1293,Manzana 2 Lote 9,Evelyn Aburto Saavedra,,200.000,Gasto Común / Fondo de Reserva / Fondo Operacional,Transferencia,,,,S/I,25/10/2025,No,,No,No,No,S/I
+1292,Manzana 3 Lote 6,Nolbert Cuevas Alarcon,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,22/10/2025,No,Pago vía Etpay,No,No,No,S/I
+1291,Manzana 3 Lote 14,Eberth Saez Montero,,148.520,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,21/10/2025,No,Pago vía Scotiabank,No,No,No,S/I
+1290,Manzana 1 Lote 4,Camilo Cornejo Esquivel,,156.430,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,21/10/2025,No,Pago vía Banco de Chile,No,No,No,S/I
+1289,Manzana 1 Lote 11,Miguel Soto Cerda,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,18/10/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1288,Manzana 1 Lote 2,Giovanni Figueroa De La Guarda,,182.798,Gasto Común / Fondo de Reserva / Fondo Operacional / Fondo Intereses,Pago electrónico,,,,S/I,17/10/2025,No,Pago vía Khipu,No,No,No,S/I
+1287,Manzana 3 Lote 10,Gerzon Muñoz Riquelme,,188.808,Gasto Común / Fondo de Reserva / Fondo Multas / Fondo Intereses,Pago electrónico,,,,S/I,16/10/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1286,Manzana 4 Lote 1,Consuelo Mora Candia Mora,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,15/10/2025,No,Pago vía Banco Chile Etpay,No,No,No,S/I
+1285,Manzana 2 Lote 5,Angela Suazo Borzone,,110.275,Gasto Común / Fondo de Reserva / Fondo Intereses,Pago electrónico,,,,S/I,12/10/2025,No,Pago vía Banco de Chile,No,No,No,S/I
+1284,Manzana 1 Lote 7,Rodrigo Feijoo Castillo,,119.817,Gasto Común / Fondo de Reserva / Fondo Operacional / Fondo Intereses,Pago electrónico,,,,S/I,11/10/2025,No,Pago vía Khipu,No,No,No,S/I
+1283,Manzana 2 Lote 2,Romina Salazar Rivas,,160.901,Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,11/10/2025,No,,No,No,No,S/I
+1282,Manzana 3 Lote 5,Alejandra Bobadilla Cuevas,,86.837,Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,11/10/2025,No,,No,No,No,S/I
+1281,Manzana 3 Lote 3,Jorge álvarez Briones,,55.000,Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,10/10/2025,No,,No,No,No,S/I
+1280,Manzana 1 Lote 17,Mario Sandoval Castillo,,97.007,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,10/10/2025,No,Pago vía Banco Falabella,No,No,No,S/I
+1279,Manzana 2 Lote 3,Sara Hernández,,83.299,Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,08/10/2025,No,,No,No,No,S/I
+1278,Manzana 4 Lote 15,Juan Eduardo Monsalve Constanzo,,66.939,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,08/10/2025,No,Pago vía Banco de Chile,No,No,No,S/I
+1277,Manzana 3 Lote 8,Rogelio Ulloa Avalos,,103.639,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,06/10/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1276,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,138.571,Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,05/10/2025,No,,No,No,No,S/I
+1275,Manzana 2 Lote 11,Cristian Hernández Toledo,,116.462,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,04/10/2025,No,Pago vía Khipu,No,No,No,S/I
+1274,Manzana 1 Lote 14,Pablo Saez Sanhueza,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,04/10/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1273,Manzana 1 Lote 15,Patricio Peña Saravia,,55.000,Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,03/10/2025,No,,No,No,No,S/I
+1272,Manzana 4 Lote 2,Cristian Mella Vergara,,104.524,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,03/10/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1271,Manzana 4 Lote 3,Pablo Zambrano Vidal,,114.252,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,03/10/2025,No,Pago vía Banco Santander,No,No,No,S/I
+1270,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,75.800,Gasto Común / Fondo de Reserva / Fondo Operacional,Transferencia,,,,S/I,27/09/2025,No,,No,No,No,S/I
+1269,Manzana 1 Lote 12,Eduardo Ojeda Triviño,,400.000,Gasto Común / Fondo de Reserva / Fondo Operacional / Fondo Intereses,Transferencia,,,,S/I,01/10/2025,No,,No,No,No,S/I
+1268,Manzana 3 Lote 12,Juan Ramón Molina Parada,,55.000,Gasto Común,Transferencia,,,,S/I,01/10/2025,No,,No,No,No,S/I
+1267,Manzana 2 Lote 6,Pablo Hidalgo Astorga,,55.000,Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,24/09/2025,No,,No,No,No,S/I
+1266,Manzana 2 Lote 1,Natalia Núñez Pulido,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,02/10/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1265,Manzana 4 Lote 8,Karol Tamara Villegas Figueroa,,55.009,Gasto Común / Fondo de Reserva / Fondo Intereses,Pago electrónico,,,,S/I,28/09/2025,No,Pago vía Toku,No,No,No,S/I
+1264,Manzana 1 Lote 16,Alfonso Sánchez,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,28/09/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1263,Manzana 4 Lote 13,Jane Vallette Isla,,55.829,Gasto Común / Fondo de Reserva / Fondo Intereses,Transferencia,,,,S/I,21/09/2025,No,,No,No,No,S/I
+1262,Manzana 1 Lote 2,Giovanni Figueroa De La Guarda,,272.305,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,16/09/2025,No,Pago vía Khipu,No,No,No,S/I
+1261,Manzana 1 Lote 5,Patricio Pedreros,,181.846,Gasto Común,Transferencia,,,,S/I,16/09/2025,No,,No,No,No,S/I
+1260,Manzana 3 Lote 3,Jorge álvarez Briones,,55.000,Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,12/09/2025,No,,No,No,No,S/I
+1259,Manzana 2 Lote 7,Jaime Salinas Espinoza,,150.805,Fondo de Reserva / Fondo Intereses / Gasto Común,Transferencia,,,,S/I,15/09/2025,No,,No,No,No,S/I
+1258,Manzana 4 Lote 13,Jane Vallette Isla,,165.826,Gasto Común,Transferencia,,,,S/I,15/09/2025,No,,No,No,No,S/I
+1257,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,157.809,Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,14/09/2025,No,,No,No,No,S/I
+1256,Manzana 4 Lote 1,Consuelo Mora Candia Mora,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,14/09/2025,No,Pago vía Banco Chile Etpay,No,No,No,S/I
+1255,Manzana 3 Lote 14,Eberth Saez Montero,,147.607,Gasto Común / Fondo de Reserva / Fondo Operacional / Fondo Intereses,Pago electrónico,,,,S/I,14/09/2025,No,Pago vía Khipu Scotiabank,No,No,No,S/I
+1254,Manzana 2 Lote 3,Sara Hernández,,81.954,Fondo Multas / Fondo Operacional / Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,05/09/2025,No,,No,No,No,S/I
+1253,Manzana 3 Lote 5,Alejandra Bobadilla Cuevas,,94.835,Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,09/09/2025,No,,No,No,No,S/I
+1252,Manzana 1 Lote 15,Patricio Peña Saravia,,55.000,Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,07/09/2025,No,,No,No,No,S/I
+1251,Manzana 1 Lote 14,Pablo Saez Sanhueza,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,08/09/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1250,Manzana 2 Lote 2,Romina Salazar Rivas,,170.212,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,08/09/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1249,Manzana 1 Lote 11,Miguel Soto Cerda,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,08/09/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1248,Manzana 3 Lote 8,Rogelio Ulloa Avalos,,119.643,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,07/09/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1247,Manzana 4 Lote 2,Cristian Mella Vergara,,119.404,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,06/09/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1246,Manzana 4 Lote 15,Juan Eduardo Monsalve Constanzo,,55.477,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,06/09/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1245,Manzana 2 Lote 11,Cristian Hernández Toledo,,125.368,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,05/09/2025,No,Pago vía Khipu Banco BCI,No,No,No,S/I
+1244,Manzana 1 Lote 17,Mario Sandoval Castillo,,99.129,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,05/09/2025,No,Pago vía Khipu Banco Falabella,No,No,No,S/I
+1243,Manzana 4 Lote 3,Pablo Zambrano Vidal,,142.065,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,05/09/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1242,Manzana 3 Lote 6,Nolbert Cuevas Alarcon,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,05/09/2025,No,Pago vía Etpay,No,No,No,S/I
+1241,Manzana 2 Lote 3,Sara Hernández,,39.235,Gasto Común,Transferencia,,,,S/I,04/09/2025,No,,No,No,No,S/I
+1240,Manzana 2 Lote 6,Pablo Hidalgo Astorga,,55.000,Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,30/08/2025,No,,No,No,No,S/I
+1239,Manzana 1 Lote 4,Camilo Cornejo Esquivel,,158.898,Gasto Común / Fondo de Reserva / Fondo Operacional / Fondo Intereses,Pago electrónico,,,,S/I,19/08/2025,No,Pago vía Khipu Banco de Chile,No,No,No,S/I
+1238,Manzana 3 Lote 14,Eberth Saez Montero,,289.946,Gasto Común / Fondo de Reserva / Fondo Operacional / Fondo Intereses,Pago electrónico,,,,S/I,18/08/2025,No,Pago vía Khipu Scotiabank,No,No,No,S/I
+1237,Manzana 4 Lote 8,Karol Tamara Villegas Figueroa,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,16/08/2025,No,Pago vía Toku,No,No,No,S/I
+1236,Manzana 4 Lote 1,Consuelo Mora Candia Mora,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,15/08/2025,No,Pago vía Banco Chile Etpay,No,No,No,S/I
+1235,Manzana 3 Lote 3,Jorge álvarez Briones,,55.000,Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,15/08/2025,No,,No,No,No,S/I
+1234,Manzana 1 Lote 16,Alfonso Sánchez,,110.275,Gasto Común / Fondo de Reserva / Fondo Intereses,Pago electrónico,,,,S/I,13/08/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1233,Manzana 2 Lote 7,Jaime Salinas Espinoza,,150.805,Fondo de Reserva / Fondo Intereses / Gasto Común,Transferencia,,,,S/I,13/08/2025,No,,No,No,No,S/I
+1232,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,76.800,Gasto Común / Fondo de Reserva / Fondo Operacional / Fondo Intereses,Transferencia,,,,S/I,13/08/2025,No,,No,No,No,S/I
+1231,Manzana 1 Lote 8,Inmobiliaria e Inversiones Montahue SPA,,221.805,Fondo Intereses / Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,12/08/2025,No,,No,No,No,S/I
+1230,Manzana 3 Lote 9,Joel Gatica Monsalve,,55.000,Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,11/08/2025,No,,No,No,No,S/I
+1229,Manzana 1 Lote 6,Inmobiliaria e Inversiones Montahue SPA,,334.218,Fondo Intereses / Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,11/08/2025,No,,No,No,No,S/I
+1228,Manzana 3 Lote 10,Gerzon Muñoz Riquelme,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,10/08/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1227,Manzana 1 Lote 7,Rodrigo Feijoo Castillo,,57.248,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,09/08/2025,No,Pago vía Toku,No,No,No,S/I
+1226,Manzana 3 Lote 8,Rogelio Ulloa Avalos,,128.949,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,08/08/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1225,Manzana 2 Lote 3,Sara Hernández,,102.651,Fondo Operacional / Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,03/08/2025,No,,No,No,No,S/I
+1224,Manzana 2 Lote 2,Romina Salazar Rivas,,176.599,Fondo de Reserva / Fondo Operacional / Gasto Común,Transferencia,,,,S/I,04/08/2025,No,,No,No,No,S/I
+1223,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,206.044,Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,07/08/2025,No,,No,No,No,S/I
+1222,Manzana 2 Lote 11,Cristian Hernández Toledo,,166.934,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,07/08/2025,No,Pago vía KhipuCl,No,No,No,S/I
+1221,Manzana 4 Lote 15,Juan Eduardo Monsalve Constanzo,,55.450,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,06/08/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1220,Manzana 2 Lote 1,Natalia Núñez Pulido,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,05/08/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1219,Manzana 1 Lote 2,Giovanni Figueroa De La Guarda,,260.213,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,05/08/2025,No,Pago vía Etpay,No,No,No,S/I
+1218,Manzana 3 Lote 6,Nolbert Cuevas Alarcon,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,04/08/2025,No,Pago vía Etpay,No,No,No,S/I
+1217,Manzana 3 Lote 5,Alejandra Bobadilla Cuevas,,88.940,Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,02/08/2025,No,,No,No,No,S/I
+1216,Manzana 4 Lote 16,Constanza Pardo Tapia,,55.037,Fondo Intereses / Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,01/08/2025,No,,No,No,No,S/I
+1215,Manzana 1 Lote 15,Patricio Peña Saravia,,55.000,Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,02/08/2025,No,,No,No,No,S/I
+1214,Manzana 3 Lote 12,Juan Ramón Molina Parada,,55.000,Gasto Común,Transferencia,,,,S/I,01/08/2025,No,,No,No,No,S/I
+1213,Manzana 2 Lote 5,Angela Suazo Borzone,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,02/08/2025,No,Pago vía Banco Chile Etpay,No,No,No,S/I
+1212,Manzana 1 Lote 11,Miguel Soto Cerda,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,01/08/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1211,Manzana 1 Lote 17,Mario Sandoval Castillo,,91.412,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,01/08/2025,No,Pago vía Banco Falabella Etpay,No,No,No,S/I
+1210,Manzana 1 Lote 14,Pablo Saez Sanhueza,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,01/08/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1209,Manzana 4 Lote 2,Cristian Mella Vergara,,104.898,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,31/07/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1208,Manzana 4 Lote 3,Pablo Zambrano Vidal,,138.614,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,31/07/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1207,Manzana 2 Lote 6,Pablo Hidalgo Astorga,,55.000,Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,31/07/2025,No,,No,No,No,S/I
+1206,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,81.000,Gasto Común / Fondo de Reserva / Fondo Operacional / Fondo Intereses,Transferencia,,,,S/I,19/07/2025,No,,No,No,No,S/I
+1205,Manzana 2 Lote 9,Evelyn Aburto Saavedra,,200.000,Gasto Común / Fondo de Reserva / Fondo Operacional / Fondo Intereses,Transferencia,,,,S/I,20/07/2025,No,,No,No,No,S/I
+1204,Manzana 1 Lote 3,Carlos Bassaletti Badilla,,110.275,Gasto Común / Fondo de Reserva / Fondo Intereses,Pago electrónico,,,,S/I,17/07/2025,No,Pago vía KhipuCl,No,No,No,S/I
+1203,Manzana 2 Lote 7,Jaime Salinas Espinoza,,150.630,Gasto Común / Fondo de Reserva / Fondo Intereses,Transferencia,,,,S/I,15/07/2025,No,,No,No,No,S/I
+1202,Manzana 3 Lote 9,Joel Gatica Monsalve,,55.000,Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,14/07/2025,No,,No,No,No,S/I
+1201,Manzana 4 Lote 1,Consuelo Mora Candia Mora,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,14/07/2025,No,Pago vía Banco Chile Etpay,No,No,No,S/I
+1200,Manzana 1 Lote 15,Patricio Peña Saravia,,55.000,Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,10/07/2025,No,,No,No,No,S/I
+1199,Manzana 3 Lote 3,Jorge álvarez Briones,,55.000,Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,12/07/2025,No,,No,No,No,S/I
+1198,Manzana 1 Lote 7,Rodrigo Feijoo Castillo,,60.925,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,12/07/2025,No,Pago vía Toku,No,No,No,S/I
+1197,Manzana 1 Lote 4,Camilo Cornejo Esquivel,,100.000,Gasto Común,Pago electrónico,,,,S/I,11/07/2025,No,Pago vía KhipuCl,No,No,No,S/I
+1196,Manzana 1 Lote 2,Giovanni Figueroa De La Guarda,,252.815,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,11/07/2025,No,Pago vía KhipuCl,No,No,No,S/I
+1195,Manzana 4 Lote 15,Juan Eduardo Monsalve Constanzo,,72.320,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,10/07/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1194,Manzana 3 Lote 10,Gerzon Muñoz Riquelme,,1.527.204,Gasto Común / Fondo de Reserva / Fondo Multas / Fondo Operacional / Fondo Intereses,Pago electrónico,,,,S/I,09/07/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1193,Manzana 2 Lote 2,Romina Salazar Rivas,,165.986,Fondo de Reserva / Fondo Operacional / Gasto Común,Transferencia,,,,S/I,07/07/2025,No,,No,No,No,S/I
+1192,Manzana 3 Lote 5,Alejandra Bobadilla Cuevas,,87.134,Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,07/07/2025,No,,No,No,No,S/I
+1191,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,192.195,Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,09/07/2025,No,,No,No,No,S/I
+1190,Manzana 4 Lote 8,Karol Tamara Villegas Figueroa,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,08/07/2025,No,Pago vía Toku,No,No,No,S/I
+1189,Manzana 2 Lote 1,Natalia Núñez Pulido,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,07/07/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1188,Manzana 3 Lote 8,Rogelio Ulloa Avalos,,133.625,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,06/07/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1187,Manzana 2 Lote 5,Angela Suazo Borzone,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,06/07/2025,No,Pago vía Banco Chile Etpay,No,No,No,S/I
+1186,Manzana 3 Lote 12,Juan Ramón Molina Parada,,55.000,Gasto Común,Transferencia,,,,S/I,01/07/2025,No,,No,No,No,S/I
+1185,Manzana 4 Lote 16,Constanza Pardo Tapia,,55.000,Gasto Común / Fondo de Reserva,Transferencia,,,,S/I,02/07/2025,No,,No,No,No,S/I
+1184,Manzana 2 Lote 3,Sara Hernández,,129.523,Fondo Operacional / Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,04/07/2025,No,,No,No,No,S/I
+1183,Manzana 1 Lote 11,Miguel Soto Cerda,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,04/07/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1182,Manzana 2 Lote 11,Cristian Hernández Toledo,,199.032,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,03/07/2025,No,Pago vía Banco Estado Etpay,No,No,No,S/I
+1181,Manzana 3 Lote 6,Nolbert Cuevas Alarcon,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,02/07/2025,No,Pago vía Etpay,No,No,No,S/I
+1180,Manzana 1 Lote 17,Mario Sandoval Castillo,,88.957,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,01/07/2025,No,Pago vía Banco Falabella Etpay,No,No,No,S/I
+1179,Manzana 4 Lote 2,Cristian Mella Vergara,,111.747,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,01/07/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1178,Manzana 1 Lote 14,Pablo Saez Sanhueza,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,30/06/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1177,Manzana 4 Lote 3,Pablo Zambrano Vidal,,140.234,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,30/06/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1176,Manzana 2 Lote 4,Leonardo Espinosa Mora,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,28/06/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1175,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,79.800,Gasto Común / Fondo de Reserva / Fondo Operacional,Transferencia,,,,S/I,17/06/2025,No,,No,No,No,S/I
+1174,Manzana 2 Lote 6,Pablo Hidalgo Astorga,,55.000,Gasto Común,Transferencia,,,,S/I,25/06/2025,No,,No,No,No,S/I
+1173,Manzana 2 Lote 9,Evelyn Aburto Saavedra,,100.000,Gasto Común,Transferencia,,,,S/I,15/06/2025,No,,No,No,No,S/I
+1172,Manzana 1 Lote 5,Patricio Pedreros,,90.892,Gasto Común / Fondo de Reserva / Fondo Intereses,Transferencia,,,,S/I,19/06/2025,No,,No,No,No,S/I
+1171,Manzana 4 Lote 16,Constanza Pardo Tapia,,55.000,Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,19/06/2025,No,,No,No,No,S/I
+1170,Manzana 3 Lote 3,Jorge álvarez Briones,,55.677,Gasto Común / Fondo de Reserva / Fondo Operacional / Fondo Intereses,Pago electrónico,,,,S/I,15/06/2025,No,Pago vía Etpay,No,No,No,S/I
+1169,Manzana 1 Lote 16,Alfonso Sánchez,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,15/06/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1168,Manzana 2 Lote 3,Sara Hernández,,76.340,Fondo Operacional / Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,12/06/2025,No,,No,No,No,S/I
+1167,Manzana 1 Lote 7,Rodrigo Feijoo Castillo,,62.042,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,12/06/2025,No,Pago vía Toku,No,No,No,S/I
+1166,Manzana 2 Lote 7,Jaime Salinas Espinoza,,150.980,Gasto Común / Fondo de Reserva / Fondo Intereses,Transferencia,,,,S/I,12/06/2025,No,,No,No,No,S/I
+1165,Manzana 4 Lote 15,Juan Eduardo Monsalve Constanzo,,75.913,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,12/06/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1164,Manzana 4 Lote 1,Consuelo Mora Candia Mora,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,11/06/2025,No,Pago vía Banco Chile Etpay,No,No,No,S/I
+1163,Manzana 3 Lote 14,Eberth Saez Montero,,138.958,Gasto Común / Fondo de Reserva / Fondo Operacional / Fondo Intereses,Pago electrónico,,,,S/I,11/06/2025,No,Pago vía Banco Scotiabank Etpay,No,No,No,S/I
+1162,Manzana 2 Lote 5,Angela Suazo Borzone,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,10/06/2025,No,Pago vía Banco Chile Etpay,No,No,No,S/I
+1161,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,145.908,Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,08/06/2025,No,,No,No,No,S/I
+1160,Manzana 1 Lote 15,Patricio Peña Saravia,,55.000,Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,08/06/2025,No,,No,No,No,S/I
+1159,Manzana 3 Lote 5,Alejandra Bobadilla Cuevas,,85.943,Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,08/06/2025,No,,No,No,No,S/I
+1158,Manzana 3 Lote 8,Rogelio Ulloa Avalos,,114.325,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,07/06/2025,No,Pago vía Banco Falabella Etpay,No,No,No,S/I
+1157,Manzana 2 Lote 2,Romina Salazar Rivas,,160.846,Fondo de Reserva / Fondo Operacional / Gasto Común,Transferencia,,,,S/I,03/06/2025,No,,No,No,No,S/I
+1156,Manzana 3 Lote 9,Joel Gatica Monsalve,,55.000,Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,04/06/2025,No,,No,No,No,S/I
+1155,Manzana 1 Lote 9,Daniel Lagos Avello,,110.275,Gasto Común / Fondo de Reserva / Fondo Intereses,Pago electrónico,,,,S/I,06/06/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1154,Manzana 1 Lote 2,Giovanni Figueroa De La Guarda,,202.673,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,06/06/2025,No,Pago vía KhipuCl,No,No,No,S/I
+1153,Manzana 3 Lote 6,Nolbert Cuevas Alarcon,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,04/06/2025,No,Pago vía Floid,No,No,Si,S/I
+1152,Manzana 2 Lote 1,Natalia Núñez Pulido,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,04/06/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1151,Manzana 1 Lote 17,Mario Sandoval Castillo,,88.931,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,03/06/2025,No,Pago vía Banco Falabella Etpay,No,No,No,S/I
+1150,Manzana 1 Lote 14,Pablo Saez Sanhueza,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,01/06/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1149,Manzana 2 Lote 11,Cristian Hernández Toledo,,156.152,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,01/06/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1148,Manzana 2 Lote 6,Pablo Hidalgo Astorga,,55.000,Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,01/06/2025,No,,No,No,No,S/I
+1147,Manzana 4 Lote 3,Pablo Zambrano Vidal,,120.300,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,01/06/2025,No,Pago vía Etpay,No,No,No,S/I
+1146,Manzana 4 Lote 2,Cristian Mella Vergara,,109.844,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,31/05/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1145,Manzana 4 Lote 8,Karol Tamara Villegas Figueroa,,110.275,Gasto Común / Fondo de Reserva / Fondo Intereses,Pago electrónico,,,,S/I,31/05/2025,No,Pago vía Toku,No,No,No,S/I
+1144,Manzana 1 Lote 11,Miguel Soto Cerda,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,31/05/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1143,Manzana 3 Lote 14,Eberth Saez Montero,,135.851,Gasto Común / Fondo de Reserva / Fondo Operacional / Fondo Intereses,Pago electrónico,,,,S/I,25/05/2025,No,Pago vía Etpay,No,No,No,S/I
+1142,Manzana 3 Lote 3,Jorge álvarez Briones,,55.000,Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,19/05/2025,No,,No,No,No,S/I
+1141,Manzana 1 Lote 5,Patricio Pedreros,,90.892,Fondo Intereses / Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,19/05/2025,No,,No,No,No,S/I
+1140,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,65.530,Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,15/05/2025,No,,No,No,No,S/I
+1139,Manzana 3 Lote 5,Alejandra Bobadilla Cuevas,,95.802,Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,13/05/2025,No,,No,No,No,S/I
+1138,Manzana 1 Lote 3,Carlos Bassaletti Badilla,,110.275,Gasto Común / Fondo de Reserva / Fondo Intereses,Pago electrónico,,,,S/I,13/05/2025,No,Pago vía KhipuCl,No,No,No,S/I
+1137,Manzana 3 Lote 1,Luis Eduardo Escobar Elgueta,,77.307,Gasto Común,Transferencia,,,,S/I,12/05/2025,No,,No,No,No,S/I
+1136,Manzana 2 Lote 3,Sara Hernández,,65.049,Fondo Intereses / Fondo Operacional / Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,12/05/2025,No,,No,No,No,S/I
+1135,Manzana 2 Lote 4,Leonardo Espinosa Mora,,1.045.621,Gasto Común / Fondo de Reserva / Fondo Intereses,Pago electrónico,,,,S/I,12/05/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1134,Manzana 1 Lote 16,Alfonso Sánchez,,55.028,Gasto Común / Fondo de Reserva / Fondo Intereses,Pago electrónico,,,,S/I,12/05/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1133,Manzana 1 Lote 7,Rodrigo Feijoo Castillo,,55.526,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,12/05/2025,No,Pago vía Toku,No,No,No,S/I
+1132,Manzana 4 Lote 15,Juan Eduardo Monsalve Constanzo,,68.425,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,12/05/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1131,Manzana 4 Lote 13,Jane Vallette Isla,,109.773,Fondo Intereses / Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,10/05/2025,No,,No,No,Si,S/I
+1130,Manzana 4 Lote 16,Constanza Pardo Tapia,,55.147,Fondo Intereses / Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,10/05/2025,No,,No,No,No,S/I
+1129,Manzana 2 Lote 7,Jaime Salinas Espinoza,,150.980,Fondo de Reserva / Fondo Intereses / Gasto Común,Transferencia,,,,S/I,09/05/2025,No,,No,No,No,S/I
+1128,Manzana 3 Lote 9,Joel Gatica Monsalve,,55.000,Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,09/05/2025,No,,No,No,No,S/I
+1127,Manzana 2 Lote 1,Natalia Núñez Pulido,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,08/05/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1126,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,110.280,Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,06/05/2025,No,,No,No,No,S/I
+1125,Manzana 1 Lote 15,Patricio Peña Saravia,,55.000,Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,06/05/2025,No,,No,No,No,S/I
+1124,Manzana 1 Lote 2,Giovanni Figueroa De La Guarda,,175.836,Gasto Común / Fondo de Reserva / Fondo Operacional / Fondo Intereses,Pago electrónico,,,,S/I,07/05/2025,No,Pago vía Toku,No,No,No,S/I
+1123,Manzana 3 Lote 8,Rogelio Ulloa Avalos,,94.223,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,07/05/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1122,Manzana 4 Lote 1,Consuelo Mora Candia Mora,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,07/05/2025,No,Pago vía Banco Estado Etpay,No,No,No,S/I
+1121,Manzana 2 Lote 2,Romina Salazar Rivas,,156.084,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,06/05/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1120,Manzana 3 Lote 12,Juan Ramón Molina Parada,,55.000,Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,06/05/2025,No,,No,No,No,S/I
+1119,Manzana 4 Lote 3,Pablo Zambrano Vidal,,108.174,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,06/05/2025,No,Pago vía Etpay,No,No,No,S/I
+1118,Manzana 1 Lote 11,Miguel Soto Cerda,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,05/05/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1117,Manzana 1 Lote 17,Mario Sandoval Castillo,,117.651,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,05/05/2025,No,Pago vía Banco Falabella Etpay,No,No,No,S/I
+1116,Manzana 4 Lote 2,Cristian Mella Vergara,,102.383,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,05/05/2025,No,Pago vía Toku,No,No,No,S/I
+1115,Manzana 3 Lote 6,Nolbert Cuevas Alarcon,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,05/05/2025,No,Pago vía Floid,No,No,No,S/I
+1114,Manzana 2 Lote 11,Cristian Hernández Toledo,,162.484,Gasto Común / Fondo de Reserva / Fondo Operacional / Fondo Intereses,Pago electrónico,,,,S/I,04/05/2025,No,Pago vía Toku,No,No,No,S/I
+1113,Manzana 2 Lote 5,Angela Suazo Borzone,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,04/05/2025,No,Pago vía Banco Chile Etpay,No,No,No,S/I
+1112,Manzana 1 Lote 14,Pablo Saez Sanhueza,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,04/05/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1111,Manzana 3 Lote 4,Sandra Araneda García,,150.000,Fondo Operacional,Transferencia,,,,S/I,24/04/2025,No,,No,No,No,S/I
+1110,Manzana 2 Lote 6,Pablo Hidalgo Astorga,,55.000,Gasto Común,Transferencia,,,,S/I,01/05/2025,No,,No,No,No,S/I
+1109,Manzana 4 Lote 16,Constanza Pardo Tapia,,55.000,Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,01/05/2025,No,,No,No,No,S/I
+1108,Manzana 4 Lote 11,Mario Segura Vega,,245.310,Gasto Común / Fondo de Reserva / Fondo Operacional / Fondo Intereses,Pago electrónico,,,,S/I,30/04/2025,No,Pago vía Toku,No,No,No,S/I
+1107,Manzana 3 Lote 13,Geraldo Reyes,,55.000,Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,24/04/2025,No,,No,No,No,S/I
+1106,Manzana 2 Lote 11,Cristian Hernández Toledo,,167.947,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,25/04/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1105,Manzana 1 Lote 8,Inmobiliaria e Inversiones Montahue SPA,,110.339,Gasto Común / Fondo de Reserva / Fondo Intereses,Pago electrónico,,,,S/I,23/04/2025,No,Pago vía Banco Santander Etpay,No,No,No,S/I
+1104,Manzana 2 Lote 7,Jaime Salinas Espinoza,,150.000,Gasto Común,Transferencia,,,,S/I,22/04/2025,No,,No,No,No,S/I
+1103,Manzana 3 Lote 5,Alejandra Bobadilla Cuevas,,96.473,Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,12/04/2025,No,,No,No,No,S/I
+1102,Manzana 1 Lote 16,Alfonso Sánchez,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,18/04/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1101,Manzana 1 Lote 5,Patricio Pedreros,,90.923,Fondo Intereses / Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,17/04/2025,No,,No,No,No,S/I
+1100,Manzana 3 Lote 14,Eberth Saez Montero,,207.385,Gasto Común / Fondo de Reserva / Fondo Operacional / Fondo Intereses,Pago electrónico,,,,S/I,17/04/2025,No,Pago vía KhipuCl,No,No,No,S/I
+1099,Manzana 1 Lote 2,Giovanni Figueroa De La Guarda,,200.008,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,16/04/2025,No,Pago vía Toku,No,No,No,S/I
+1098,Manzana 2 Lote 9,Evelyn Aburto Saavedra,,114.457,Fondo Intereses / Fondo Operacional / Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,12/04/2025,No,,No,No,No,S/I
+1097,Manzana 3 Lote 7,Richard Contreras Gonzalez,,230.607,Fondo Intereses / Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,13/04/2025,No,,No,No,No,S/I
+1096,Manzana 2 Lote 6,Pablo Hidalgo Astorga,,55.000,Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,14/04/2025,No,,No,No,No,S/I
+1095,Manzana 3 Lote 3,Jorge álvarez Briones,,55.036,Fondo Intereses / Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,15/04/2025,No,,No,No,No,S/I
+1094,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,62.371,Gasto Común / Fondo de Reserva / Fondo Operacional / Fondo Intereses,Pago electrónico,,,,S/I,15/04/2025,No,Pago vía Banco Estado Etpay,No,No,No,S/I
+1093,Manzana 2 Lote 1,Natalia Núñez Pulido,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,13/04/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1092,Manzana 2 Lote 5,Angela Suazo Borzone,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,13/04/2025,No,Pago vía Banco Chile Etpay,No,No,No,S/I
+1091,Manzana 4 Lote 8,Karol Tamara Villegas Figueroa,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,12/04/2025,No,Pago vía Toku,No,No,No,S/I
+1090,Manzana 3 Lote 8,Rogelio Ulloa Avalos,,83.531,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,11/04/2025,No,Pago vía Toku,No,No,No,S/I
+1089,Manzana 1 Lote 1,Evelyn Gaete Cardenas,,440.000,Gasto Común,Transferencia,,,,S/I,11/04/2025,No,,No,No,No,S/I
+1088,Manzana 3 Lote 12,Juan Ramón Molina Parada,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,10/04/2025,No,Pago vía Banco Chile Etpay,No,No,No,S/I
+1087,Manzana 1 Lote 1,Evelyn Gaete Cardenas,,91.363,Fondo Intereses / Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,09/04/2025,No,,No,No,No,S/I
+1086,Manzana 1 Lote 14,Pablo Saez Sanhueza,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,09/04/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1085,Manzana 2 Lote 3,Sara Hernández,,55.000,Gasto Común / Fondo de Reserva,Transferencia,,,,S/I,08/04/2025,No,,No,No,No,S/I
+1084,Manzana 4 Lote 15,Juan Eduardo Monsalve Constanzo,,67.648,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,08/04/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1083,Manzana 4 Lote 1,Consuelo Mora Candia Mora,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,07/04/2025,No,Pago vía Banco Estado Etpay,No,No,No,S/I
+1082,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,98.532,Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,07/04/2025,No,,No,No,No,S/I
+1081,Manzana 3 Lote 9,Joel Gatica Monsalve,,55.000,Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,07/04/2025,No,,No,No,No,S/I
+1080,Manzana 4 Lote 3,Pablo Zambrano Vidal,,127.945,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,07/04/2025,No,Pago vía Etpay,No,No,No,S/I
+1079,Manzana 1 Lote 15,Patricio Peña Saravia,,55.000,Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,04/04/2025,No,,No,No,No,S/I
+1078,Manzana 3 Lote 6,Nolbert Cuevas Alarcon,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,04/04/2025,No,Pago vía Floid,No,No,No,S/I
+1077,Manzana 1 Lote 7,Rodrigo Feijoo Castillo,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,04/04/2025,No,Pago vía Toku,No,No,No,S/I
+1076,Manzana 1 Lote 11,Miguel Soto Cerda,,55.037,Gasto Común / Fondo de Reserva / Fondo Intereses,Pago electrónico,,,,S/I,04/04/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1075,Manzana 2 Lote 2,Romina Salazar Rivas,,144.711,Fondo de Reserva / Fondo Operacional / Gasto Común,Transferencia,,,,S/I,03/04/2025,No,,No,No,No,S/I
+1074,Manzana 1 Lote 17,Mario Sandoval Castillo,,121.533,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,03/04/2025,No,Pago vía Banco Falabella Etpay,No,No,No,S/I
+1073,Manzana 4 Lote 2,Cristian Mella Vergara,,113.827,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,03/04/2025,No,Pago vía Toku,No,No,No,S/I
+1072,Manzana 1 Lote 9,Daniel Lagos Avello,,110.293,Gasto Común / Fondo de Reserva / Fondo Intereses,Pago electrónico,,,,S/I,03/04/2025,No,Pago vía Toku,No,No,No,S/I
+1071,Manzana 2 Lote 7,Jaime Salinas Espinoza,,150.000,Gasto Común,Transferencia,,,,S/I,25/03/2025,No,,No,No,No,S/I
+1070,Manzana 2 Lote 3,Sara Hernández,,55.000,Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,20/03/2025,No,,No,No,No,S/I
+1069,Manzana 1 Lote 5,Patricio Pedreros,,90.982,Fondo Intereses / Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,19/03/2025,No,,No,No,No,S/I
+1068,Manzana 1 Lote 11,Miguel Soto Cerda,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,19/03/2025,No,Pago vía Floid,No,No,No,S/I
+1067,Manzana 3 Lote 3,Jorge álvarez Briones,,55.000,Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,17/03/2025,No,,No,No,No,S/I
+1066,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,66.618,Gasto Común / Fondo de Reserva / Fondo Operacional / Fondo Intereses,Pago electrónico,,,,S/I,17/03/2025,No,Pago vía Banco Estado Etpay,No,No,No,S/I
+1065,Manzana 1 Lote 16,Alfonso Sánchez,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,15/03/2025,No,Pago vía KhipuCl,No,No,No,S/I
+1064,Manzana 1 Lote 2,Giovanni Figueroa De La Guarda,,282.091,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,15/03/2025,No,Pago vía Etpay,No,No,No,S/I
+1063,Manzana 4 Lote 8,Karol Tamara Villegas Figueroa,,55.046,Gasto Común / Fondo de Reserva / Fondo Intereses,Pago electrónico,,,,S/I,15/03/2025,No,Pago vía Toku,No,No,No,S/I
+1062,Manzana 3 Lote 1,Luis Eduardo Escobar Elgueta,,85.729,Gasto Común,Transferencia,,,,S/I,14/03/2025,No,,No,No,No,S/I
+1061,Manzana 2 Lote 12,Yennyfer Morales,,95.000,Gasto Común,Pago electrónico,,,,S/I,12/03/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1060,Manzana 2 Lote 12,Yennyfer Morales,,95.000,Gasto Común,Efectivo,,,,S/I,12/03/2025,Si,,No,No,No,S/I
+1059,Manzana 1 Lote 14,Pablo Saez Sanhueza,,110.552,Gasto Común / Fondo de Reserva / Fondo Intereses,Pago electrónico,,,,S/I,10/03/2025,No,Pago vía Toku,No,No,No,S/I
+1058,Manzana 1 Lote 12,Eduardo Ojeda Triviño,,57.000,Gasto Común,Transferencia,,,,S/I,10/03/2025,No,,No,No,No,S/I
+1057,Manzana 1 Lote 10,Paula Reyes Mora,,166.044,Fondo Intereses / Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,10/03/2025,No,,No,No,No,S/I
+1056,Manzana 1 Lote 3,Carlos Bassaletti Badilla,,167.943,Gasto Común / Fondo de Reserva / Fondo Intereses,Pago electrónico,,,,S/I,10/03/2025,No,Pago vía Toku,No,No,No,S/I
+1055,Manzana 3 Lote 13,Geraldo Reyes,,142.546,Fondo Operacional / Fondo Intereses / Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,09/03/2025,No,,No,No,No,S/I
+1054,Manzana 1 Lote 1,Evelyn Gaete Cardenas,,244.339,Gasto Común,Transferencia,,,,S/I,09/03/2025,No,,No,No,No,S/I
+1053,Manzana 4 Lote 16,Constanza Pardo Tapia,,110.275,Fondo Intereses / Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,09/03/2025,No,,No,No,No,S/I
+1052,Manzana 3 Lote 8,Rogelio Ulloa Avalos,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,08/03/2025,No,Pago vía Toku,No,No,No,S/I
+1051,Manzana 4 Lote 6,Gustavo Aedo Urrutia,,200.000,Gasto Común,Transferencia,,,,S/I,07/03/2025,No,,No,No,No,S/I
+1050,Manzana 3 Lote 2,Jorge Torres Romero,,150.000,Gasto Común,Pago electrónico,,,,S/I,07/03/2025,No,Pago vía Banco Scotiabank Etpay,No,No,No,S/I
+1049,Manzana 4 Lote 13,Jane Vallette Isla,,55.500,Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,06/03/2025,No,,No,No,No,S/I
+1048,Manzana 3 Lote 9,Joel Gatica Monsalve,,55.000,Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,05/03/2025,No,,No,No,No,S/I
+1047,Manzana 2 Lote 5,Angela Suazo Borzone,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,05/03/2025,No,Pago vía Banco Chile Etpay,No,No,No,S/I
+1046,Manzana 4 Lote 15,Juan Eduardo Monsalve Constanzo,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,05/03/2025,No,Pago vía Etpay,No,No,No,S/I
+1045,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,126.072,Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,05/03/2025,No,,No,No,No,S/I
+1044,Manzana 4 Lote 1,Consuelo Mora Candia Mora,,16.596,Gasto Común,Pago electrónico,,,,S/I,04/03/2025,No,Pago vía Banco Estado Etpay,No,No,No,S/I
+1043,Manzana 3 Lote 6,Nolbert Cuevas Alarcon,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,04/03/2025,No,Pago vía Floid,No,No,No,S/I
+1042,Manzana 3 Lote 5,Alejandra Bobadilla Cuevas,,86.430,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,04/03/2025,No,Pago vía Etpay,No,No,No,S/I
+1041,Manzana 1 Lote 17,Mario Sandoval Castillo,,116.162,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,04/03/2025,No,Pago vía Banco Falabella Etpay,No,No,No,S/I
+1040,Manzana 3 Lote 12,Juan Ramón Molina Parada,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,04/03/2025,No,Pago vía Banco Chile Etpay,No,No,No,S/I
+1039,Manzana 2 Lote 1,Natalia Núñez Pulido,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,04/03/2025,No,Pago vía Floid,No,No,No,S/I
+1038,Manzana 1 Lote 15,Patricio Peña Saravia,,55.000,Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,03/03/2025,No,,No,No,No,S/I
+1037,Manzana 2 Lote 2,Romina Salazar Rivas,,126.968,Fondo Intereses / Fondo de Reserva / Fondo Operacional / Gasto Común,Transferencia,,,,S/I,03/03/2025,No,,No,No,No,S/I
+1036,Manzana 1 Lote 7,Rodrigo Feijoo Castillo,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,03/03/2025,No,Pago vía Toku,No,No,No,S/I
+1035,Manzana 2 Lote 11,Cristian Hernández Toledo,,204.506,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,02/03/2025,No,Pago vía Etpay,No,No,No,S/I
+1034,Manzana 2 Lote 6,Pablo Hidalgo Astorga,,55.046,Gasto Común / Fondo de Reserva / Fondo Intereses,Pago electrónico,,,,S/I,02/03/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1033,Manzana 4 Lote 3,Pablo Zambrano Vidal,,132.585,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,01/03/2025,No,Pago vía Etpay,No,No,No,S/I
+1032,Manzana 4 Lote 2,Cristian Mella Vergara,,117.011,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,01/03/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1031,Manzana 1 Lote 5,Patricio Pedreros,,60.000,Gasto Común,Transferencia,,,,S/I,27/02/2025,No,,No,No,No,S/I
+1030,Manzana 4 Lote 14,Miguel Suazo Lobos,,270.000,Fondo Multas / Fondo Intereses / Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,24/02/2025,No,,No,No,No,S/I
+1029,Manzana 2 Lote 9,Evelyn Aburto Saavedra,,135.064,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,22/02/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1028,Manzana 3 Lote 4,Sandra Araneda García,,148.697,Fondo Multas / Fondo Intereses / Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,22/02/2025,No,,No,No,No,S/I
+1027,Manzana 1 Lote 8,Inmobiliaria e Inversiones Montahue SPA,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,22/02/2025,No,Pago vía Banco Chile Etpay,No,No,No,S/I
+1026,Manzana 1 Lote 6,Inmobiliaria e Inversiones Montahue SPA,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,22/02/2025,No,Pago vía Banco Santander Etpay,No,No,No,S/I
+1025,Manzana 1 Lote 4,Camilo Cornejo Esquivel,,368.943,Gasto Común / Fondo de Reserva / Fondo Operacional / Fondo Intereses,Pago electrónico,,,,S/I,22/02/2025,No,Pago vía Toku,No,No,No,S/I
+1024,Manzana 4 Lote 17,Jose Rojas Toledo,,250.000,Gasto Común,Transferencia,,,,S/I,21/02/2025,No,,No,No,No,S/I
+1023,Manzana 2 Lote 7,Jaime Salinas Espinoza,,120.000,Gasto Común,Transferencia,,,,S/I,21/02/2025,No,,No,No,No,S/I
+1022,Manzana 4 Lote 11,Mario Segura Vega,,221.919,Gasto Común / Fondo de Reserva / Fondo Operacional / Fondo Intereses,Pago electrónico,,,,S/I,21/02/2025,No,Pago vía Toku,No,No,No,S/I
+1021,Manzana 4 Lote 11,Mario Segura Vega,,25.000,Fondo Operacional,Transferencia,,,,S/I,20/02/2025,Si,,No,No,No,S/I
+1020,Manzana 3 Lote 14,Eberth Saez Montero,,124.599,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,20/02/2025,No,Pago vía Banco Scotiabank Etpay,No,No,No,S/I
+1019,Manzana 2 Lote 6,Pablo Hidalgo Astorga,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,20/02/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1018,Manzana 4 Lote 8,Karol Tamara Villegas Figueroa,,54.973,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,20/02/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1017,Manzana 3 Lote 13,Geraldo Reyes,,93.422,Gasto Común / Fondo de Reserva / Fondo Multas,Pago electrónico,,,,S/I,20/02/2025,No,Pago vía Banco BCI Etpay,No,No,No,S/I
+1016,Manzana 2 Lote 2,Romina Salazar Rivas,,164.559,Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,20/02/2025,No,,No,No,No,S/I
+1015,Manzana 3 Lote 7,Richard Contreras Gonzalez,,117.983,Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,18/02/2025,No,,No,No,No,S/I
+1014,Manzana 1 Lote 9,Daniel Lagos Avello,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,17/02/2025,No,Pago vía Toku,No,No,No,S/I
+1013,Manzana 3 Lote 3,Jorge álvarez Briones,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,17/02/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1012,Manzana 4 Lote 1,Consuelo Mora Candia Mora,,93.413,Gasto Común / Fondo de Reserva / Fondo Multas,Pago electrónico,,,,S/I,17/02/2025,No,Pago vía Banco Estado Etpay,No,No,No,S/I
+1011,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,61.087,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,16/02/2025,No,Pago vía Mercadopago,No,No,No,S/I
+1010,Manzana 2 Lote 3,Sara Hernández,,108.721,Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,14/02/2025,No,,No,No,No,S/I
+1009,Manzana 1 Lote 14,Pablo Saez Sanhueza,,55.119,Fondo Intereses / Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,10/02/2025,No,,No,No,No,S/I
+1008,Manzana 3 Lote 5,Alejandra Bobadilla Cuevas,,112.843,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,12/02/2025,No,Pago vía Etpay,No,No,No,S/I
+1007,Manzana 4 Lote 13,Jane Vallette Isla,,110.275,Fondo Intereses / Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,11/02/2025,No,,No,No,No,S/I
+1006,Manzana 2 Lote 5,Angela Suazo Borzone,,204.460,Gasto Común / Fondo de Reserva / Fondo Multas / Fondo Intereses,Pago electrónico,,,,S/I,11/02/2025,No,Pago vía Banco Chile Etpay,No,No,No,S/I
+1005,Manzana 4 Lote 15,Juan Eduardo Monsalve Constanzo,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,10/02/2025,No,Pago vía Floid,No,No,No,S/I
+1004,Manzana 3 Lote 6,Nolbert Cuevas Alarcon,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,10/02/2025,No,Pago vía Floid,No,No,No,S/I
+1003,Manzana 1 Lote 11,Miguel Soto Cerda,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,10/02/2025,No,Pago vía Etpay,No,No,No,S/I
+1002,Manzana 3 Lote 8,Rogelio Ulloa Avalos,,134.391,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,10/02/2025,No,Pago vía Toku,No,No,No,S/I
+1001,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,91.255,Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,07/02/2025,No,,No,No,No,S/I
+1000,Manzana 3 Lote 2,Jorge Torres Romero,,150.000,Gasto Común,Pago electrónico,,,,S/I,06/02/2025,No,Pago vía Banco Scotiabank Etpay,No,No,No,S/I
+999,Manzana 3 Lote 9,Joel Gatica Monsalve,,93.422,Fondo Multas / Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,06/02/2025,No,,No,No,No,S/I
+998,Manzana 4 Lote 2,Cristian Mella Vergara,,149.210,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,05/02/2025,No,Pago vía Toku,No,No,No,S/I
+997,Manzana 2 Lote 11,Cristian Hernández Toledo,,160.589,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,05/02/2025,No,Pago vía Etpay,No,No,No,S/I
+996,Manzana 1 Lote 2,Giovanni Figueroa De La Guarda,,160.854,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,03/02/2025,No,Pago vía Toku,No,No,No,S/I
+995,Manzana 1 Lote 15,Patricio Peña Saravia,,55.000,Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,03/02/2025,No,,No,No,No,S/I
+994,Manzana 2 Lote 1,Natalia Núñez Pulido,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,02/02/2025,No,Pago vía Banco Santander Etpay,No,No,No,S/I
+993,Manzana 3 Lote 12,Juan Ramón Molina Parada,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,02/02/2025,No,Pago vía Toku,No,No,No,S/I
+992,Manzana 4 Lote 3,Pablo Zambrano Vidal,,131.480,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,01/02/2025,No,Pago vía Toku,No,No,No,S/I
+991,Manzana 1 Lote 16,Alfonso Sánchez,,55.000,Gasto Común / Fondo de Reserva,Pago electrónico,,,,S/I,01/02/2025,No,Pago vía Floid,No,No,No,S/I
+990,Manzana 1 Lote 17,Mario Sandoval Castillo,,97.606,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,01/02/2025,No,Pago vía Banco Falabella Etpay,No,No,No,S/I
+989,Manzana 1 Lote 7,Rodrigo Feijoo Castillo,,61.881,Gasto Común / Fondo de Reserva / Fondo Operacional,Pago electrónico,,,,S/I,01/02/2025,No,Pago vía Floid,No,No,No,S/I
+988,Manzana 4 Lote 7,Cristina Hernández Estrada,,35.000,Gasto Común,Transferencia,,,,S/I,01/02/2025,No,,No,No,No,S/I
+987,Manzana 1 Lote 5,Patricio Pedreros,,50.000,Gasto Común,Transferencia,,,,S/I,28/01/2025,No,,No,No,No,S/I
+986,Manzana 1 Lote 8,Inmobiliaria e Inversiones Montahue SPA,,55.000,Fondo de Reserva / Gasto Común,Pago electrónico,,,,S/I,25/01/2025,No,,No,No,No,S/I
+985,Manzana 1 Lote 6,Inmobiliaria e Inversiones Montahue SPA,,55.000,Fondo de Reserva / Gasto Común,Pago electrónico,,,,S/I,25/01/2025,No,,No,No,No,S/I
+984,Manzana 2 Lote 7,Jaime Salinas Espinoza,,150.000,Gasto Común,Transferencia,,,,S/I,23/01/2025,No,,No,No,No,S/I
+983,Manzana 3 Lote 3,Jorge álvarez Briones,,55.000,Fondo de Reserva / Gasto Común,Pago electrónico,,,,S/I,19/01/2025,No,Folio de comunidad feliz corresponde al número 980,No,No,No,S/I
+982,Manzana 2 Lote 1,Natalia Núñez Pulido,,55.000,Fondo de Reserva / Gasto Común,Pago electrónico,,,,S/I,20/01/2025,No,,No,No,No,S/I
+981,Manzana 4 Lote 16,Constanza Pardo Tapia,,56.745,Fondo Intereses / Fondo de Reserva / Gasto Común,Pago electrónico,,,,S/I,20/01/2025,No,,No,No,No,S/I
+980,Manzana 1 Lote 11,Miguel Soto Cerda,,38.422,Fondo de Reserva / Fondo Multas,Pago electrónico,,,,S/I,19/01/2025,No,Pago vía Toku,No,No,No,S/I
+979,Manzana 2 Lote 9,Evelyn Aburto Saavedra,,177.000,Fondo Intereses / Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,18/01/2025,No,,No,No,No,S/I
+977,Manzana 4 Lote 1,Consuelo Mora Candia Mora,,55.009,Fondo de Reserva / Gasto Común / Fondo Intereses,Pago electrónico,,,,S/I,15/01/2025,No,,No,No,No,S/I
+976,Manzana 3 Lote 8,Rogelio Ulloa Avalos,,101.963,Fondo de Reserva / Gasto Común / Fondo Operacional,Pago electrónico,,,,S/I,15/01/2025,No,,No,No,No,S/I
+975,Manzana 3 Lote 14,Eberth Saez Montero,,275.221,Fondo Intereses / Fondo de Reserva / Gasto Común / Fondo Operacional,Pago electrónico,,,,S/I,15/01/2025,No,,No,No,No,S/I
+974,Manzana 3 Lote 13,Geraldo Reyes,,55.000,Fondo de Reserva / Gasto Común,Pago electrónico,,,,S/I,15/01/2025,No,,No,No,No,S/I
+973,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,65.490,Fondo de Reserva / Gasto Común / Fondo Operacional,Pago electrónico,,,,S/I,15/01/2025,No,,No,No,No,S/I
+972,Manzana 3 Lote 7,Richard Contreras Gonzalez,,126.937,Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,09/01/2025,No,,No,No,No,S/I
+971,Manzana 3 Lote 5,Alejandra Bobadilla Cuevas,,101.397,Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,12/01/2025,No,,No,No,No,S/I
+970,Manzana 2 Lote 3,Sara Hernández,,82.725,Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,12/01/2025,No,,No,No,No,S/I
+969,Manzana 3 Lote 9,Joel Gatica Monsalve,,55.000,Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,08/01/2025,No,,No,No,No,S/I
+968,Manzana 1 Lote 16,Alfonso Sánchez,,55.000,Fondo de Reserva / Gasto Común,Pago electrónico,,,,S/I,13/01/2025,No,,No,No,No,S/I
+967,Manzana 1 Lote 7,Rodrigo Feijoo Castillo,,56.697,Fondo de Reserva / Gasto Común / Fondo Operacional,Pago electrónico,,,,S/I,13/01/2025,No,,No,No,No,S/I
+966,Manzana 3 Lote 12,Juan Ramón Molina Parada,,55.000,Fondo de Reserva / Gasto Común,Pago electrónico,,,,S/I,13/01/2025,No,,No,No,No,S/I
+965,Manzana 1 Lote 2,Giovanni Figueroa De La Guarda,,212.863,Fondo de Reserva / Gasto Común / Fondo Operacional,Pago electrónico,,,,S/I,12/01/2025,No,,No,No,No,S/I
+964,Manzana 3 Lote 6,Nolbert Cuevas Alarcon,,55.000,Fondo de Reserva / Gasto Común,Pago electrónico,,,,S/I,12/01/2025,No,,No,No,No,S/I
+963,Manzana 4 Lote 2,Cristian Mella Vergara,,111.865,Fondo de Reserva / Gasto Común / Fondo Operacional,Pago electrónico,,,,S/I,10/01/2025,No,,No,No,No,S/I
+962,Manzana 4 Lote 8,Karol Tamara Villegas Figueroa,,55.027,Fondo de Reserva / Gasto Común / Fondo Intereses,Pago electrónico,,,,S/I,08/01/2025,No,,No,No,No,S/I
+961,Manzana 4 Lote 3,Pablo Zambrano Vidal,,127.142,Fondo de Reserva / Gasto Común / Fondo Operacional,Pago electrónico,,,,S/I,08/01/2025,No,,No,No,No,S/I
+960,Manzana 2 Lote 2,Romina Salazar Rivas,,171.559,Fondo de Reserva / Gasto Común / Fondo Operacional,Pago electrónico,,,,S/I,07/01/2025,No,,No,No,No,S/I
+959,Manzana 4 Lote 15,Juan Eduardo Monsalve Constanzo,,55.000,Fondo de Reserva / Gasto Común,Pago electrónico,,,,S/I,07/01/2025,No,,No,No,No,S/I
+958,Manzana 1 Lote 17,Mario Sandoval Castillo,,112.996,Fondo de Reserva / Gasto Común / Fondo Operacional,Pago electrónico,,,,S/I,06/01/2025,No,,No,No,No,S/I
+957,Manzana 1 Lote 15,Patricio Peña Saravia,,55.000,Fondo de Reserva / Gasto Común,Transferencia,,,,S/I,04/01/2025,No,,No,No,No,S/I
+956,Manzana 2 Lote 11,Cristian Hernández Toledo,,184.289,Fondo de Reserva / Gasto Común / Fondo Operacional,Pago electrónico,,,,S/I,05/01/2025,No,,No,No,No,S/I
+955,Manzana 1 Lote 9,Daniel Lagos Avello,,55.000,Fondo de Reserva / Gasto Común,Pago electrónico,,,,S/I,05/01/2025,No,,No,No,No,S/I
+978,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,98.002,Fondo de Reserva / Gasto Común / Fondo Operacional,Transferencia,,,,S/I,16/01/2025,No,,No,No,No,S/I
+954,Manzana 1 Lote 11,Miguel Soto Cerda,,55.000,Gasto Común,Pago electrónico,,,,S/I,04/01/2025,No,,No,No,No,S/I
+953,Manzana 2 Lote 6,Pablo Hidalgo Astorga,,55.000,Gasto Común,Transferencia,,,,S/I,29/12/2024,No,,No,No,No,S/I
+952,Manzana 2 Lote 13,Juan Ramón Salazar Espinoza Y María Jesús Salazar Garretón,,250.000,Gasto Común,Transferencia,,,,S/I,19/12/2024,No,,No,No,No,S/I
+951,Manzana 1 Lote 12,Eduardo Ojeda Triviño,,112.000,Gasto Común,Transferencia,,,,S/I,29/12/2024,No,,No,No,No,S/I
+950,Manzana 4 Lote 11,Mario Segura Vega,,119.078,Gasto Común,Pago electrónico,,,,S/I,30/12/2024,No,,No,No,No,S/I
+949,Manzana 1 Lote 14,Pablo Saez Sanhueza,,55.000,Gasto Común,Pago electrónico,,,,S/I,27/12/2024,No,,No,No,No,S/I
+948,Manzana 4 Lote 8,Karol Tamara Villegas Figueroa,,55.000,Gasto Común,Pago electrónico,,,,S/I,17/12/2024,No,Pago por Comunidad feliz,No,No,No,S/I
+946,Manzana 4 Lote 16,Constanza Pardo Tapia,,730.318,Gasto Común,Pago electrónico,,,,S/I,16/12/2024,No,Pago por Comunidad feliz,No,No,No,S/I
+945,Manzana 4 Lote 1,Consuelo Mora Candia Mora,,55.000,Gasto Común,Pago electrónico,,,,S/I,15/12/2024,No,Pago por Comunidad feliz,No,No,No,S/I
+944,Manzana 3 Lote 4,Sandra Araneda García,,335.517,Gasto Común,Transferencia,,,,S/I,14/12/2024,No,Pago por transferencia,No,No,No,S/I
+942,Manzana 3 Lote 13,Geraldo Reyes,,55.000,Gasto Común,Pago electrónico,,,,S/I,13/12/2024,No,Pago por transferencia,No,No,No,S/I
+941,Manzana 3 Lote 7,Richard Contreras Gonzalez,,78.391,Gasto Común,Transferencia,,,,S/I,12/12/2024,No,Pago por transferencia,No,No,No,S/I
+940,Manzana 1 Lote 8,Inmobiliaria e Inversiones Montahue SPA,,55.000,Gasto Común,Pago electrónico,,,,S/I,12/12/2024,No,Pago por Comunidad feliz,No,No,No,S/I
+939,Manzana 1 Lote 6,Inmobiliaria e Inversiones Montahue SPA,,55.000,Gasto Común,Pago electrónico,,,,S/I,12/12/2024,No,Pago por Comunidad feliz,No,No,No,S/I
+943,Manzana 1 Lote 3,Carlos Bassaletti Badilla,,1.100.351,Gasto Común,Pago electrónico,,,,S/I,13/12/2024,No,Pago efectuado por Comunidad feliz,No,No,No,S/I
+947,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,65.728,Gasto Común,Pago electrónico,,,,S/I,16/12/2024,No,Pago efectuado por Comunidad feliz,No,No,No,S/I
+1,Manzana 4 Lote 7,Cristina Hernández Estrada,,420.000,Gasto Común,Transferencia,,,,S/I,13/01/2023,No,,No,No,No,S/I
+3,Manzana 1 Lote 2,Giovanni Figueroa De La Guarda,,420.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+5,Manzana 1 Lote 3,Carlos Bassaletti Badilla,,160.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+6,Manzana 1 Lote 4,Camilo Cornejo Esquivel,,100.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+9,Manzana 1 Lote 6,Inmobiliaria e Inversiones Montahue SPA,,260.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+10,Manzana 1 Lote 7,Rodrigo Feijoo Castillo,,260.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+11,Manzana 1 Lote 8,Inmobiliaria e Inversiones Montahue SPA,,260.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+12,Manzana 1 Lote 9,Daniel Lagos Avello,,280.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+13,Manzana 1 Lote 12,Eduardo Ojeda Triviño,,260.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+14,Manzana 1 Lote 11,Miguel Soto Cerda,,260.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+15,Manzana 1 Lote 13,Carolina Bravo,,180.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+16,Manzana 1 Lote 14,Pablo Saez Sanhueza,,120.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+17,Manzana 1 Lote 15,Patricio Peña Saravia,,280.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+18,Manzana 1 Lote 16,Alfonso Sánchez,,240.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+19,Manzana 1 Lote 17,Mario Sandoval Castillo,,420.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+20,Manzana 2 Lote 1,Natalia Núñez Pulido,,240.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+21,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,390.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+22,Manzana 2 Lote 11,Cristian Hernández Toledo,,420.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+23,Manzana 2 Lote 12,Yennyfer Morales,,260.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+24,Manzana 2 Lote 13,Juan Ramón Salazar Espinoza Y María Jesús Salazar Garretón,,200.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+25,Manzana 2 Lote 2,Romina Salazar Rivas,,420.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+26,Manzana 2 Lote 3,Sara Hernández,,260.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+27,Manzana 2 Lote 4,Leonardo Espinosa Mora,,240.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+28,Manzana 2 Lote 5,Angela Suazo Borzone,,280.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+29,Manzana 2 Lote 6,Pablo Hidalgo Astorga,,260.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+30,Manzana 2 Lote 7,Jaime Salinas Espinoza,,20.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+31,Manzana 2 Lote 8,Gustavo Perez Jerez,,100.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+32,Manzana 2 Lote 9,Evelyn Aburto Saavedra,,310.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+33,Manzana 3 Lote 10,Gerzon Muñoz Riquelme,,200.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+34,Manzana 3 Lote 11,Pedro Aguilera Rebolledo,,180.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+35,Manzana 3 Lote 12,Juan Ramón Molina Parada,,280.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+36,Manzana 3 Lote 14,Eberth Saez Montero,,420.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+37,Manzana 3 Lote 2,Jorge Torres Romero,,100.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+38,Manzana 3 Lote 3,Jorge álvarez Briones,,280.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+39,Manzana 3 Lote 4,Sandra Araneda García,,260.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+40,Manzana 3 Lote 5,Alejandra Bobadilla Cuevas,,420.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+41,Manzana 3 Lote 6,Nolbert Cuevas Alarcon,,280.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+42,Manzana 3 Lote 7,Richard Contreras Gonzalez,,360.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+43,Manzana 3 Lote 8,Rogelio Ulloa Avalos,,390.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+44,Manzana 3 Lote 9,Joel Gatica Monsalve,,280.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+45,Manzana 4 Lote 1,Consuelo Mora Candia Mora,,260.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+46,Manzana 4 Lote 10,Lorena Martinez Parra,,100.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+47,Manzana 4 Lote 11,Mario Segura Vega,,390.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+48,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,420.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+49,Manzana 4 Lote 13,Jane Vallette Isla,,240.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+50,Manzana 4 Lote 14,Miguel Suazo Lobos,,390.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+51,Manzana 4 Lote 15,Juan Eduardo Monsalve Constanzo,,280.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+52,Manzana 4 Lote 16,Constanza Pardo Tapia,,160.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+53,Manzana 4 Lote 17,Jose Rojas Toledo,,120.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+54,Manzana 4 Lote 18,Richard Ignacio Constanzo Mena,,260.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+55,Manzana 4 Lote 2,Cristian Mella Vergara,,380.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+56,Manzana 4 Lote 3,Pablo Zambrano Vidal,,420.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+57,Manzana 4 Lote 4,Marcia Alvial Proboste,,220.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+58,Manzana 4 Lote 5,Cristian Canales Gutierrez,,140.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+59,Manzana 4 Lote 6,Gustavo Aedo Urrutia,,260.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+60,Manzana 4 Lote 8,Karol Tamara Villegas Figueroa,,280.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,,No,No,No,S/I
+64,Manzana 2 Lote 9,Evelyn Aburto Saavedra,,120.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,Pago registrado,No,No,No,S/I
+65,Manzana 1 Lote 7,Rodrigo Feijoo Castillo,,40.000,Gasto Común,Pago electrónico,,,,S/I,16/01/2023,No,Pago de gastos comunes,No,No,No,S/I
+66,Manzana 4 Lote 7,Cristina Hernández Estrada,,30.000,Gasto Común,Pago electrónico,,,,S/I,16/01/2023,No,Pago de gastos comunes,No,No,No,S/I
+67,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,30.000,Gasto Común,Transferencia,,,,S/I,16/01/2023,No,Pago registrado,No,No,No,S/I
+68,Manzana 2 Lote 3,Sara Hernández,,40.000,Gasto Común,Pago electrónico,,,,S/I,18/01/2023,No,Pago de gastos comunes,No,No,No,S/I
+69,Manzana 1 Lote 10,Paula Reyes Mora,,80.000,Gasto Común,Transferencia,,,,S/I,18/01/2023,No,Pago registrado,No,No,No,S/I
+70,Manzana 4 Lote 14,Miguel Suazo Lobos,,30.000,Gasto Común,Transferencia,,,,S/I,18/01/2023,No,Pago registrado,No,No,No,S/I
+71,Manzana 4 Lote 1,Consuelo Mora Candia Mora,,40.000,Gasto Común,Pago electrónico,,,,S/I,19/01/2023,No,Pago de gastos comunes,No,No,No,S/I
+72,Manzana 2 Lote 1,Natalia Núñez Pulido,,20.000,Gasto Común,Transferencia,,,,S/I,19/01/2023,No,Pago registrado,No,No,No,S/I
+75,Areas Comunes,S/I,,3.150.000,Gasto Común,Efectivo,,,,S/I,09/01/2023,No,"Recaudación por cuota voluntaria para mejoras, detalle según excel.",No,No,No,S/I
+76,Manzana 4 Lote 18,Richard Ignacio Constanzo Mena,,20.000,Gasto Común,Transferencia,,,,S/I,24/01/2023,No,Pago registrado,No,No,No,S/I
+77,Manzana 4 Lote 17,Jose Rojas Toledo,,310.000,Gasto Común,Transferencia,,,,S/I,25/01/2023,No,Pago registrado,No,No,No,S/I
+78,Manzana 2 Lote 1,Natalia Núñez Pulido,,20.000,Gasto Común,Transferencia,,,,S/I,25/01/2023,No,Pago registrado,No,No,No,S/I
+79,Manzana 3 Lote 12,Juan Ramón Molina Parada,,20.280,Gasto Común,Pago electrónico,,,,S/I,26/01/2023,No,Pago de gastos comunes,No,No,No,S/I
+80,Manzana 4 Lote 7,Cristina Hernández Estrada,,1.000,Gasto Común,Transferencia,,,,S/I,13/01/2023,No,Pago registrado,No,No,No,S/I
+81,Manzana 4 Lote 13,Jane Vallette Isla,,20.000,Gasto Común,Transferencia,,,,S/I,17/01/2023,No,Pago registrado,No,No,No,S/I
+82,Manzana 4 Lote 3,Pablo Zambrano Vidal,,30.000,Gasto Común,Pago electrónico,,,,S/I,31/01/2023,No,Pago de gastos comunes,No,No,No,S/I
+83,Manzana 2 Lote 11,Cristian Hernández Toledo,,30.420,Gasto Común,Pago electrónico,,,,S/I,02/02/2023,No,Pago de gastos comunes,,,,
+84,Manzana 1 Lote 11,Miguel Soto Cerda,,240.000,Gasto Común,Transferencia,,,,S/I,02/02/2023,No,Pago registrado,,,,
+85,Manzana 2 Lote 5,Angela Suazo Borzone,,20.280,Gasto Común,Pago electrónico,,,,S/I,03/02/2023,No,Pago de gastos comunes,,,,
+86,Manzana 1 Lote 16,Alfonso Sánchez,,40.000,Gasto Común,Transferencia,,,,S/I,03/02/2023,No,Pago registrado,,,,
+87,Manzana 4 Lote 2,Cristian Mella Vergara,,30.380,Gasto Común,Pago electrónico,,,,S/I,03/02/2023,No,Pago de gastos comunes,,,,
+88,Manzana 1 Lote 15,Patricio Peña Saravia,,20.280,Gasto Común,Transferencia,,,,S/I,04/02/2023,No,Pago registrado,,,,
+89,Manzana 3 Lote 3,Jorge álvarez Briones,,20.280,Gasto Común,Pago electrónico,,,,S/I,04/02/2023,No,Pago de gastos comunes,,,,
+90,Manzana 3 Lote 9,Joel Gatica Monsalve,,20.000,Gasto Común,Transferencia,,,,S/I,05/02/2023,No,Pago registrado,,,,
+91,Manzana 4 Lote 13,Jane Vallette Isla,,40.453,Gasto Común,Transferencia,,,,S/I,05/02/2023,No,Pago registrado,,,,
+92,Manzana 4 Lote 15,Juan Eduardo Monsalve Constanzo,,20.280,Gasto Común,Pago electrónico,,,,S/I,06/02/2023,No,Pago de gastos comunes,,,,
+93,Manzana 2 Lote 3,Sara Hernández,,287,Gasto Común,Pago electrónico,,,,S/I,06/02/2023,No,Pago de gastos comunes,,,,
+94,Manzana 3 Lote 7,Richard Contreras Gonzalez,,90.000,Gasto Común,Transferencia,,,,S/I,06/02/2023,No,Pago registrado,,,,
+95,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,30.000,Gasto Común,Transferencia,,,,S/I,07/02/2023,No,Pago registrado,,,,
+96,Manzana 1 Lote 17,Mario Sandoval Castillo,,30.000,Gasto Común,Transferencia,,,,S/I,08/02/2023,No,Pago registrado,,,,
+97,Manzana 2 Lote 1,Natalia Núñez Pulido,,20.000,Gasto Común,Transferencia,,,,S/I,08/02/2023,No,Pago registrado,,,,
+98,Manzana 2 Lote 2,Romina Salazar Rivas,,30.000,Gasto Común,Transferencia,,,,S/I,08/02/2023,No,Pago registrado,,,,
+99,Manzana 1 Lote 2,Giovanni Figueroa De La Guarda,,30.000,Gasto Común,Transferencia,,,,S/I,09/02/2023,No,Pago registrado,,,,
+100,Manzana 3 Lote 8,Rogelio Ulloa Avalos,,60.550,Gasto Común,Pago electrónico,,,,S/I,12/02/2023,No,Pago de gastos comunes,,,,
+101,Manzana 3 Lote 5,Alejandra Bobadilla Cuevas,,30.420,Gasto Común,Pago electrónico,,,,S/I,12/02/2023,No,Pago de gastos comunes,,,,
+102,Manzana 4 Lote 18,Richard Ignacio Constanzo Mena,,20.000,Gasto Común,Transferencia,,,,S/I,13/02/2023,No,Pago registrado,,,,
+103,Manzana 3 Lote 14,Eberth Saez Montero,,30.000,Gasto Común,Transferencia,,,,S/I,13/02/2023,No,Pago registrado,,,,
+104,Manzana 4 Lote 14,Miguel Suazo Lobos,,30.000,Gasto Común,Transferencia,,,,S/I,14/02/2023,No,Pago registrado,,,,
+105,Manzana 4 Lote 11,Mario Segura Vega,,60.000,Gasto Común,Transferencia,,,,S/I,16/02/2023,No,Pago registrado,,,,
+106,Manzana 1 Lote 6,Inmobiliaria e Inversiones Montahue SPA,,40.367,Gasto Común,Pago electrónico,,,,S/I,17/02/2023,No,Pago de gastos comunes,,,,
+107,Manzana 1 Lote 8,Inmobiliaria e Inversiones Montahue SPA,,40.367,Gasto Común,Pago electrónico,,,,S/I,17/02/2023,No,Pago de gastos comunes,,,,
+108,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,60.000,Gasto Común,Transferencia,,,,S/I,22/02/2023,No,Pago registrado,,,,
+109,Manzana 4 Lote 16,Constanza Pardo Tapia,,160.000,Gasto Común,Transferencia,,,,S/I,23/02/2023,No,Pago registrado,,,,
+110,Manzana 4 Lote 6,Gustavo Aedo Urrutia,,60.000,Gasto Común,Transferencia,,,,S/I,22/02/2023,No,Pago registrado,,,,
+111,Manzana 2 Lote 6,Pablo Hidalgo Astorga,,40.000,Gasto Común,Transferencia,,,,S/I,27/02/2023,No,Pago registrado,,,,
+112,Manzana 2 Lote 12,Yennyfer Morales,,40.000,Gasto Común,Transferencia,,,,S/I,27/02/2023,No,Pago registrado,,,,
+113,Manzana 1 Lote 6,Inmobiliaria e Inversiones Montahue SPA,,40.000,Gasto Común,Transferencia,,,,S/I,01/03/2023,No,"Pago registrado, devolución por excedente pagado en Lt12 Mz2",,,,
+114,Manzana 1 Lote 8,Inmobiliaria e Inversiones Montahue SPA,,40.000,Gasto Común,Transferencia,,,,S/I,01/03/2023,No,"Pago registrado, devolución por excedente pagado en Lt12 Mz2",,,,
+115,Manzana 2 Lote 12,Yennyfer Morales,,20.000,Gasto Común,Transferencia,,,,S/I,01/03/2023,No,Pago registrado,,,,
+116,Manzana 4 Lote 7,Cristina Hernández Estrada,,29.000,Gasto Común,Transferencia,,,,S/I,01/03/2023,No,Pago registrado,,,,
+118,Manzana 3 Lote 10,Gerzon Muñoz Riquelme,,100.627,Gasto Común,Pago electrónico,,,,S/I,03/03/2023,No,Pago de gastos comunes,,,,
+119,Manzana 3 Lote 5,Alejandra Bobadilla Cuevas,,4.036,Gasto Común,Transferencia,,,,S/I,04/03/2023,No,Pago en exceso por consumo eléctrico mes anterior,,,,
+120,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,6,Gasto Común,Transferencia,,,,S/I,04/03/2023,No,Pago en exceso por consumo eléctrico mes anterior,,,,
+152,Areas Comunes,S/I,,1.300.000,Gasto Común,Efectivo,,,,S/I,09/01/2023,No,"Recaudación por cuota voluntaria para mejoras, detalle según excel.",,,,
+121,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,30.000,Gasto Común,Transferencia,,,,S/I,02/03/2023,No,Pago registrado,,,,
+122,Manzana 1 Lote 17,Mario Sandoval Castillo,,30.000,Gasto Común,Transferencia,,,,S/I,03/03/2023,No,Pago registrado,,,,
+123,Manzana 4 Lote 7,Cristina Hernández Estrada,,59.281,Gasto Común,Transferencia,,,,S/I,04/03/2023,No,Pago registrado,,,,
+124,Manzana 2 Lote 9,Evelyn Aburto Saavedra,,94.752,Gasto Común,Transferencia,,,,S/I,04/03/2023,No,Pago registrado,,,,
+125,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,7.241,Gasto Común,Pago electrónico,,,,S/I,04/03/2023,No,Pago de gastos comunes,,,,
+126,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,49.952,Gasto Común,Pago electrónico,,,,S/I,04/03/2023,No,Pago de gastos comunes,,,,
+127,Manzana 1 Lote 15,Patricio Peña Saravia,,19.720,Gasto Común,Transferencia,,,,S/I,04/03/2023,No,Pago registrado,,,,
+128,Manzana 3 Lote 3,Jorge álvarez Briones,,20.000,Gasto Común,Transferencia,,,,S/I,02/03/2023,No,Pago registrado,,,,
+129,Manzana 2 Lote 11,Cristian Hernández Toledo,,104.022,Gasto Común,Pago electrónico,,,,S/I,05/03/2023,No,Pago de gastos comunes,,,,
+130,Manzana 4 Lote 3,Pablo Zambrano Vidal,,95.112,Gasto Común,Pago electrónico,,,,S/I,05/03/2023,No,Pago de gastos comunes,,,,
+131,Manzana 2 Lote 5,Angela Suazo Borzone,,20.000,Gasto Común,Pago electrónico,,,,S/I,05/03/2023,No,Pago de gastos comunes,,,,
+132,Manzana 4 Lote 2,Cristian Mella Vergara,,49.640,Gasto Común,Pago electrónico,,,,S/I,05/03/2023,No,Pago de gastos comunes,,,,
+133,Manzana 4 Lote 8,Karol Tamara Villegas Figueroa,,40.070,Gasto Común,Pago electrónico,,,,S/I,05/03/2023,No,Pago de gastos comunes,,,,
+134,Manzana 3 Lote 12,Juan Ramón Molina Parada,,20.000,Gasto Común,Pago electrónico,,,,S/I,06/03/2023,No,Pago de gastos comunes,,,,
+135,Manzana 1 Lote 9,Daniel Lagos Avello,,40.070,Gasto Común,Pago electrónico,,,,S/I,06/03/2023,No,Pago de gastos comunes,,,,
+136,Manzana 4 Lote 15,Juan Eduardo Monsalve Constanzo,,20.000,Gasto Común,Pago electrónico,,,,S/I,06/03/2023,No,Pago de gastos comunes,,,,
+137,Manzana 2 Lote 2,Romina Salazar Rivas,,98.611,Gasto Común,Transferencia,,,,S/I,06/03/2023,No,Pago registrado,,,,
+138,Manzana 1 Lote 7,Rodrigo Feijoo Castillo,,20.000,Gasto Común,Pago electrónico,,,,S/I,06/03/2023,No,Pago de gastos comunes,,,,
+139,Manzana 1 Lote 10,Paula Reyes Mora,,40.000,Gasto Común,Transferencia,,,,S/I,06/03/2023,No,Pago registrado,,,,
+141,Manzana 3 Lote 9,Joel Gatica Monsalve,,20.000,Gasto Común,Transferencia,,,,S/I,08/03/2023,No,Pago registrado,,,,
+142,Manzana 3 Lote 4,Sandra Araneda García,,120.000,Gasto Común,Transferencia,,,,S/I,09/03/2023,No,Pago registrado,,,,
+143,Manzana 3 Lote 14,Eberth Saez Montero,,64.413,Gasto Común,Pago electrónico,,,,S/I,09/03/2023,No,Pago de gastos comunes,,,,
+144,Manzana 1 Lote 2,Giovanni Figueroa De La Guarda,,111.633,Gasto Común,Transferencia,,,,S/I,12/03/2023,No,Pago registrado,,,,
+145,Manzana 2 Lote 3,Sara Hernández,,20.000,Gasto Común,Pago electrónico,,,,S/I,14/03/2023,No,Pago de gastos comunes,,,,
+146,Manzana 3 Lote 7,Richard Contreras Gonzalez,,68.873,Gasto Común,Transferencia,,,,S/I,14/03/2023,No,Pago registrado,,,,
+147,Manzana 4 Lote 1,Consuelo Mora Candia Mora,,20.000,Gasto Común,Pago electrónico,,,,S/I,14/03/2023,No,Pago de gastos comunes,,,,
+148,Manzana 4 Lote 11,Mario Segura Vega,,131.509,Gasto Común,Pago electrónico,,,,S/I,16/03/2023,No,Pago de gastos comunes,,,,
+149,Manzana 3 Lote 5,Alejandra Bobadilla Cuevas,,51.788,Gasto Común,Pago electrónico,,,,S/I,16/03/2023,No,Pago de gastos comunes,,,,
+150,Manzana 3 Lote 8,Rogelio Ulloa Avalos,,124.893,Gasto Común,Pago electrónico,,,,S/I,16/03/2023,No,Pago de gastos comunes,,,,
+151,Manzana 1 Lote 17,Mario Sandoval Castillo,,27.600,Gasto Común,Transferencia,,,,S/I,16/03/2023,No,Pago registrado,,,,
+153,Manzana 4 Lote 18,Richard Ignacio Constanzo Mena,,20.007,Gasto Común,Transferencia,,,,S/I,17/03/2023,No,Pago registrado,,,,
+154,Manzana 4 Lote 13,Jane Vallette Isla,,19.247,Gasto Común,Transferencia,,,,S/I,17/03/2023,No,Pago registrado,,,,
+155,Manzana 2 Lote 4,Leonardo Espinosa Mora,,60.000,Gasto Común,Transferencia,,,,S/I,23/03/2023,No,Pago registrado,,,,
+156,Manzana 4 Lote 8,Karol Tamara Villegas Figueroa,,20.003,Gasto Común,Pago electrónico,,,,S/I,01/04/2023,No,Pago de gastos comunes,,,,
+157,Manzana 2 Lote 11,Cristian Hernández Toledo,,92.370,Gasto Común,Pago electrónico,,,,S/I,01/04/2023,No,Pago de gastos comunes,,,,
+158,Manzana 4 Lote 7,Cristina Hernández Estrada,,75.360,Gasto Común,Transferencia,,,,S/I,02/04/2023,No,Pago registrado,,,,
+159,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,57.878,Gasto Común,Pago electrónico,,,,S/I,02/04/2023,No,Pago de gastos comunes,,,,
+160,Manzana 3 Lote 6,Nolbert Cuevas Alarcon,,60.210,Gasto Común,Pago electrónico,,,,S/I,02/04/2023,No,Pago de gastos comunes,,,,
+161,Manzana 1 Lote 7,Rodrigo Feijoo Castillo,,20.000,Gasto Común,Pago electrónico,,,,S/I,02/04/2023,No,Pago de gastos comunes,,,,
+162,Manzana 2 Lote 13,Juan Ramón Salazar Espinoza Y María Jesús Salazar Garretón,,141.477,Gasto Común,Pago electrónico,,,,S/I,02/04/2023,No,Pago de gastos comunes,,,,
+163,Manzana 4 Lote 4,Marcia Alvial Proboste,,121.230,Gasto Común,Transferencia,,,,S/I,02/04/2023,No,Pago registrado,,,,
+164,Manzana 2 Lote 6,Pablo Hidalgo Astorga,,40.000,Gasto Común,Transferencia,,,,S/I,02/04/2023,No,Pago registrado,,,,
+165,Manzana 1 Lote 2,Giovanni Figueroa De La Guarda,,107.490,Gasto Común,Transferencia,,,,S/I,02/04/2023,No,Pago registrado,,,,
+166,Manzana 4 Lote 3,Pablo Zambrano Vidal,,83.629,Gasto Común,Pago electrónico,,,,S/I,03/04/2023,No,Pago de gastos comunes,,,,
+167,Manzana 1 Lote 17,Mario Sandoval Castillo,,56.933,Gasto Común,Pago electrónico,,,,S/I,04/04/2023,No,Pago de gastos comunes,,,,
+168,Manzana 3 Lote 3,Jorge álvarez Briones,,24.253,Gasto Común,Pago electrónico,,,,S/I,04/04/2023,No,Pago de gastos comunes,,,,
+169,Manzana 2 Lote 5,Angela Suazo Borzone,,20.000,Gasto Común,Pago electrónico,,,,S/I,04/04/2023,No,Pago de gastos comunes,,,,
+170,Manzana 2 Lote 2,Romina Salazar Rivas,,106.545,Gasto Común,Transferencia,,,,S/I,04/04/2023,No,Pago registrado,,,,
+171,Manzana 4 Lote 6,Gustavo Aedo Urrutia,,20.074,Gasto Común,Transferencia,,,,S/I,02/04/2023,No,Pago registrado,,,,
+172,Manzana 3 Lote 12,Juan Ramón Molina Parada,,20.000,Gasto Común,Pago electrónico,,,,S/I,05/04/2023,No,Pago de gastos comunes,,,,
+173,Manzana 1 Lote 16,Alfonso Sánchez,,60.210,Gasto Común,Pago electrónico,,,,S/I,05/04/2023,No,Pago de gastos comunes,,,,
+174,Manzana 4 Lote 2,Cristian Mella Vergara,,66.619,Gasto Común,Pago electrónico,,,,S/I,05/04/2023,No,Pago de gastos comunes,,,,
+175,Manzana 3 Lote 5,Alejandra Bobadilla Cuevas,,56.224,Gasto Común,Pago electrónico,,,,S/I,05/04/2023,No,Pago de gastos comunes,,,,
+176,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,35.198,Gasto Común,Pago electrónico,,,,S/I,06/04/2023,No,Pago de gastos comunes,,,,
+177,Manzana 4 Lote 15,Juan Eduardo Monsalve Constanzo,,20.000,Gasto Común,Pago electrónico,,,,S/I,10/04/2023,No,Pago de gastos comunes,,,,
+178,Manzana 3 Lote 1,Luis Eduardo Escobar Elgueta,,100.000,Gasto Común,Transferencia,,,,S/I,10/04/2023,No,Pago registrado,,,,
+179,Manzana 1 Lote 12,Eduardo Ojeda Triviño,,80.507,Gasto Común,Transferencia,,,,S/I,09/04/2023,No,Pago registrado,,,,
+180,Manzana 1 Lote 15,Patricio Peña Saravia,,20.000,Gasto Común,Transferencia,,,,S/I,09/04/2023,No,Pago registrado,,,,
+181,Manzana 3 Lote 9,Joel Gatica Monsalve,,20.000,Gasto Común,Transferencia,,,,S/I,10/04/2023,No,Pago registrado,,,,
+182,Manzana 4 Lote 13,Jane Vallette Isla,,20.304,Gasto Común,Transferencia,,,,S/I,10/04/2023,No,Pago registrado,,,,
+183,Manzana 3 Lote 7,Richard Contreras Gonzalez,,76.069,Gasto Común,Transferencia,,,,S/I,10/04/2023,No,Pago registrado,,,,
+184,Manzana 3 Lote 14,Eberth Saez Montero,,64.729,Gasto Común,Pago electrónico,,,,S/I,13/04/2023,No,Pago de gastos comunes,,,,
+185,Manzana 2 Lote 3,Sara Hernández,,20.000,Gasto Común,Pago electrónico,,,,S/I,13/04/2023,No,Pago de gastos comunes,,,,
+186,Manzana 4 Lote 1,Consuelo Mora Candia Mora,,20.000,Gasto Común,Pago electrónico,,,,S/I,28/04/2023,No,Pago de gastos comunes,,,,
+187,Manzana 2 Lote 6,Pablo Hidalgo Astorga,,40.000,Gasto Común,Transferencia,,,,S/I,22/04/2023,No,Pago registrado,,,,
+188,Manzana 4 Lote 17,Jose Rojas Toledo,,100.794,Gasto Común,Transferencia,,,,S/I,21/04/2023,No,Pago registrado,,,,
+189,Manzana 4 Lote 15,Juan Eduardo Monsalve Constanzo,,20.000,Gasto Común,Pago electrónico,,,,S/I,02/05/2023,No,Pago de gastos comunes,,,,
+190,Manzana 4 Lote 7,Cristina Hernández Estrada,,107.267,Gasto Común,Transferencia,,,,S/I,02/05/2023,No,Pago registrado,,,,
+191,Manzana 1 Lote 14,Pablo Saez Sanhueza,,244.646,Gasto Común,Pago electrónico,,,,S/I,02/05/2023,No,Pago de gastos comunes,,,,
+192,Manzana 4 Lote 3,Pablo Zambrano Vidal,,68.634,Gasto Común,Pago electrónico,,,,S/I,02/05/2023,No,Pago de gastos comunes,,,,
+193,Manzana 3 Lote 8,Rogelio Ulloa Avalos,,239.335,Gasto Común,Pago electrónico,,,,S/I,02/05/2023,No,Pago de gastos comunes,,,,
+194,Manzana 2 Lote 11,Cristian Hernández Toledo,,93.303,Gasto Común,Pago electrónico,,,,S/I,02/05/2023,No,Pago de gastos comunes,,,,
+195,Manzana 3 Lote 12,Juan Ramón Molina Parada,,20.000,Gasto Común,Pago electrónico,,,,S/I,03/05/2023,No,Pago de gastos comunes,,,,
+196,Manzana 1 Lote 9,Daniel Lagos Avello,,20.157,Gasto Común,Pago electrónico,,,,S/I,03/05/2023,No,Pago de gastos comunes,,,,
+197,Manzana 1 Lote 7,Rodrigo Feijoo Castillo,,20.000,Gasto Común,Pago electrónico,,,,S/I,03/05/2023,No,Pago de gastos comunes,,,,
+198,Manzana 1 Lote 17,Mario Sandoval Castillo,,60.023,Gasto Común,Pago electrónico,,,,S/I,03/05/2023,No,Pago de gastos comunes,,,,
+199,Manzana 2 Lote 5,Angela Suazo Borzone,,20.000,Gasto Común,Pago electrónico,,,,S/I,04/05/2023,No,Pago de gastos comunes,,,,
+200,Manzana 4 Lote 8,Karol Tamara Villegas Figueroa,,20.000,Gasto Común,Pago electrónico,,,,S/I,05/05/2023,No,Pago de gastos comunes,,,,
+201,Manzana 3 Lote 3,Jorge álvarez Briones,,20.931,Gasto Común,Pago electrónico,,,,S/I,05/05/2023,No,Pago de gastos comunes,,,,
+202,Manzana 4 Lote 2,Cristian Mella Vergara,,87.485,Gasto Común,Pago electrónico,,,,S/I,06/05/2023,No,Pago de gastos comunes,,,,
+203,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,38.844,Gasto Común,Pago electrónico,,,,S/I,08/05/2023,No,Pago de gastos comunes,,,,
+204,Manzana 1 Lote 6,Inmobiliaria e Inversiones Montahue SPA,,20.040,Gasto Común,Pago electrónico,,,,S/I,08/05/2023,No,Pago de gastos comunes,,,,
+205,Manzana 1 Lote 8,Inmobiliaria e Inversiones Montahue SPA,,20.040,Gasto Común,Pago electrónico,,,,S/I,08/05/2023,No,Pago de gastos comunes,,,,
+206,Manzana 3 Lote 14,Eberth Saez Montero,,50.713,Gasto Común,Pago electrónico,,,,S/I,09/05/2023,No,Pago de gastos comunes,,,,
+207,Manzana 2 Lote 2,Romina Salazar Rivas,,109.129,Gasto Común,Transferencia,,,,S/I,05/05/2023,No,Pago registrado,,,,
+208,Manzana 3 Lote 5,Alejandra Bobadilla Cuevas,,60.023,Gasto Común,Pago electrónico,,,,S/I,11/05/2023,No,Pago de gastos comunes,,,,
+209,Manzana 1 Lote 16,Alfonso Sánchez,,20.034,Gasto Común,Pago electrónico,,,,S/I,13/05/2023,No,Pago de gastos comunes,,,,
+210,Manzana 2 Lote 3,Sara Hernández,,20.000,Gasto Común,Pago electrónico,,,,S/I,14/05/2023,No,Pago de gastos comunes,,,,
+211,Manzana 3 Lote 9,Joel Gatica Monsalve,,20.000,Gasto Común,Transferencia,,,,S/I,15/05/2023,No,Pago registrado,,,,
+212,Manzana 1 Lote 2,Giovanni Figueroa De La Guarda,,114.948,Gasto Común,Transferencia,,,,S/I,10/05/2023,No,Pago registrado,,,,
+213,Manzana 4 Lote 13,Jane Vallette Isla,,20.001,Gasto Común,Transferencia,,,,S/I,07/05/2023,No,Pago registrado,,,,
+214,Manzana 1 Lote 15,Patricio Peña Saravia,,20.000,Gasto Común,Transferencia,,,,S/I,05/05/2023,No,Pago registrado,,,,
+215,Manzana 4 Lote 11,Mario Segura Vega,,284.563,Gasto Común,Transferencia,,,,S/I,04/05/2023,No,Pago registrado,,,,
+216,Manzana 4 Lote 1,Consuelo Mora Candia Mora,,20.040,Gasto Común,Pago electrónico,,,,S/I,16/05/2023,No,Pago de gastos comunes,,,,
+217,Manzana 2 Lote 9,Evelyn Aburto Saavedra,,70.000,Gasto Común,Transferencia,,,,S/I,16/05/2023,No,Pago registrado,,,,
+218,Manzana 3 Lote 1,Luis Eduardo Escobar Elgueta,,40.000,Gasto Común,Transferencia,,,,S/I,12/05/2023,No,Pago registrado,,,,
+219,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,62.583,Gasto Común,Pago electrónico,,,,S/I,18/05/2023,No,Pago de gastos comunes,,,,
+220,Manzana 4 Lote 18,Richard Ignacio Constanzo Mena,,40.153,Gasto Común,Transferencia,,,,S/I,19/05/2023,No,Pago registrado,,,,
+221,Manzana 2 Lote 4,Leonardo Espinosa Mora,,40.000,Gasto Común,Transferencia,,,,S/I,19/05/2023,No,Pago registrado,,,,
+222,Manzana 3 Lote 7,Richard Contreras Gonzalez,,73.288,Gasto Común,Transferencia,,,,S/I,18/05/2023,No,Pago registrado,,,,
+223,Manzana 1 Lote 9,Daniel Lagos Avello,,19.907,Gasto Común,Pago electrónico,,,,S/I,25/05/2023,No,Pago de gastos comunes,,,,
+224,Manzana 4 Lote 6,Gustavo Aedo Urrutia,,40.000,Gasto Común,Transferencia,,,,S/I,31/05/2023,No,Pago registrado,,,,
+225,Manzana 3 Lote 12,Juan Ramón Molina Parada,,20.000,Gasto Común,Pago electrónico,,,,S/I,01/06/2023,No,Pago de gastos comunes,,,,
+226,Manzana 3 Lote 8,Rogelio Ulloa Avalos,,114.477,Gasto Común,Pago electrónico,,,,S/I,01/06/2023,No,Pago de gastos comunes,,,,
+227,Manzana 1 Lote 7,Rodrigo Feijoo Castillo,,20.000,Gasto Común,Pago electrónico,,,,S/I,01/06/2023,No,Pago de gastos comunes,,,,
+228,Manzana 4 Lote 3,Pablo Zambrano Vidal,,73.315,Gasto Común,Pago electrónico,,,,S/I,01/06/2023,No,Pago de gastos comunes,,,,
+229,Manzana 1 Lote 2,Giovanni Figueroa De La Guarda,,105.038,Gasto Común,Transferencia,,,,S/I,01/06/2023,No,Pago registrado,,,,
+230,Manzana 2 Lote 5,Angela Suazo Borzone,,20.000,Gasto Común,Pago electrónico,,,,S/I,01/06/2023,No,Pago de gastos comunes,,,,
+231,Manzana 1 Lote 17,Mario Sandoval Castillo,,55.216,Gasto Común,Pago electrónico,,,,S/I,02/06/2023,No,Pago de gastos comunes,,,,
+232,Manzana 4 Lote 8,Karol Tamara Villegas Figueroa,,20.000,Gasto Común,Pago electrónico,,,,S/I,02/06/2023,No,Pago de gastos comunes,,,,
+233,Manzana 1 Lote 15,Patricio Peña Saravia,,20.000,Gasto Común,Transferencia,,,,S/I,02/06/2023,No,Pago registrado,,,,
+234,Manzana 4 Lote 2,Cristian Mella Vergara,,73.111,Gasto Común,Pago electrónico,,,,S/I,04/06/2023,No,Pago de gastos comunes,,,,
+235,Manzana 3 Lote 3,Jorge álvarez Briones,,20.000,Gasto Común,Pago electrónico,,,,S/I,04/06/2023,No,Pago de gastos comunes,,,,
+236,Manzana 1 Lote 14,Pablo Saez Sanhueza,,18.936,Gasto Común,Pago electrónico,,,,S/I,04/06/2023,No,Pago de gastos comunes,,,,
+237,Manzana 2 Lote 12,Yennyfer Morales,,20.000,Gasto Común,Pago electrónico,,,,S/I,05/06/2023,No,Pago de gastos comunes,,,,
+238,Manzana 2 Lote 11,Cristian Hernández Toledo,,82.059,Gasto Común,Pago electrónico,,,,S/I,05/06/2023,No,Pago de gastos comunes,,,,
+239,Manzana 4 Lote 15,Juan Eduardo Monsalve Constanzo,,20.000,Gasto Común,Pago electrónico,,,,S/I,05/06/2023,No,Pago de gastos comunes,,,,
+240,Manzana 1 Lote 6,Inmobiliaria e Inversiones Montahue SPA,,20.000,Gasto Común,Pago electrónico,,,,S/I,08/06/2023,No,Pago de gastos comunes,,,,
+241,Manzana 1 Lote 8,Inmobiliaria e Inversiones Montahue SPA,,20.000,Gasto Común,Pago electrónico,,,,S/I,08/06/2023,No,Pago de gastos comunes,,,,
+242,Manzana 3 Lote 5,Alejandra Bobadilla Cuevas,,53.793,Gasto Común,Pago electrónico,,,,S/I,11/06/2023,No,Pago de gastos comunes,,,,
+243,Manzana 2 Lote 3,Sara Hernández,,20.000,Gasto Común,Pago electrónico,,,,S/I,12/06/2023,No,Pago de gastos comunes,,,,
+244,Manzana 2 Lote 2,Romina Salazar Rivas,,110.732,Gasto Común,Transferencia,,,,S/I,05/06/2023,No,Pago registrado,,,,
+245,Manzana 2 Lote 4,Leonardo Espinosa Mora,,41.264,Gasto Común,Transferencia,,,,S/I,06/06/2023,No,Pago registrado,,,,
+246,Manzana 3 Lote 9,Joel Gatica Monsalve,,20.000,Gasto Común,Transferencia,,,,S/I,08/06/2023,No,Pago registrado,,,,
+247,Manzana 1 Lote 16,Alfonso Sánchez,,20.000,Gasto Común,Pago electrónico,,,,S/I,13/06/2023,No,Pago de gastos comunes,,,,
+248,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,44.438,Gasto Común,Pago electrónico,,,,S/I,13/06/2023,No,Pago de gastos comunes,,,,
+249,Manzana 4 Lote 1,Consuelo Mora Candia Mora,,20.000,Gasto Común,Pago electrónico,,,,S/I,15/06/2023,No,Pago de gastos comunes,,,,
+250,Manzana 4 Lote 11,Mario Segura Vega,,211.200,Gasto Común,Transferencia,,,,S/I,21/06/2023,No,Pago registrado,,,,
+251,Manzana 4 Lote 17,Jose Rojas Toledo,,311.843,Gasto Común,Transferencia,,,,S/I,19/06/2023,No,Pago registrado,,,,
+252,Manzana 4 Lote 18,Richard Ignacio Constanzo Mena,,20.000,Gasto Común,Transferencia,,,,S/I,17/06/2023,No,Pago registrado,,,,
+253,Manzana 4 Lote 13,Jane Vallette Isla,,20.000,Gasto Común,Transferencia,,,,S/I,13/06/2023,No,Pago registrado,,,,
+254,Manzana 2 Lote 1,Natalia Núñez Pulido,,80.753,Gasto Común,Pago electrónico,,,,S/I,28/06/2023,No,Pago de gastos comunes,,,,
+255,Manzana 3 Lote 14,Eberth Saez Montero,,112.359,Gasto Común,Pago electrónico,,,,S/I,29/06/2023,No,Pago de gastos comunes,,,,
+256,Manzana 1 Lote 9,Daniel Lagos Avello,,20.030,Gasto Común,Pago electrónico,,,,S/I,01/07/2023,No,Pago de gastos comunes,,,,
+257,Manzana 4 Lote 7,Cristina Hernández Estrada,,88.973,Gasto Común,Transferencia,,,,S/I,10/06/2023,No,Pago registrado,,,,
+258,Manzana 3 Lote 12,Juan Ramón Molina Parada,,20.000,Gasto Común,Pago electrónico,,,,S/I,03/07/2023,No,Pago de gastos comunes,,,,
+259,Manzana 2 Lote 12,Yennyfer Morales,,60.680,Gasto Común,Pago electrónico,,,,S/I,03/07/2023,No,Pago de gastos comunes,,,,
+260,Manzana 2 Lote 11,Cristian Hernández Toledo,,94.364,Gasto Común,Pago electrónico,,,,S/I,03/07/2023,No,Pago de gastos comunes,,,,
+261,Manzana 1 Lote 14,Pablo Saez Sanhueza,,20.000,Gasto Común,Pago electrónico,,,,S/I,03/07/2023,No,Pago de gastos comunes,,,,
+263,Manzana 2 Lote 6,Pablo Hidalgo Astorga,,20.000,Gasto Común,Transferencia,,,,S/I,03/07/2023,No,Pago registrado,,,,
+264,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,62.740,Gasto Común,Transferencia,,,,S/I,01/06/2023,No,Pago registrado,,,,
+265,Manzana 1 Lote 17,Mario Sandoval Castillo,,60.596,Gasto Común,Pago electrónico,,,,S/I,04/07/2023,No,Pago de gastos comunes,,,,
+266,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,63.492,Gasto Común,Transferencia,,,,S/I,03/07/2023,No,Pago registrado,,,,
+267,Manzana 3 Lote 3,Jorge álvarez Briones,,20.560,Gasto Común,Pago electrónico,,,,S/I,04/07/2023,No,Pago de gastos comunes,,,,
+268,Manzana 3 Lote 14,Eberth Saez Montero,,97.965,Gasto Común,Pago electrónico,,,,S/I,04/07/2023,No,Pago de gastos comunes,,,,
+269,Manzana 4 Lote 3,Pablo Zambrano Vidal,,77.386,Gasto Común,Pago electrónico,,,,S/I,04/07/2023,No,Pago de gastos comunes,,,,
+270,Manzana 4 Lote 14,Miguel Suazo Lobos,,3.926,Gasto Común,Pago electrónico,,,,S/I,04/07/2023,No,Pago de gastos comunes,,,,
+271,Manzana 4 Lote 8,Karol Tamara Villegas Figueroa,,20.000,Gasto Común,Pago electrónico,,,,S/I,04/07/2023,No,Pago de gastos comunes,,,,
+272,Manzana 4 Lote 1,Consuelo Mora Candia Mora,,20.000,Gasto Común,Pago electrónico,,,,S/I,04/07/2023,No,Pago de gastos comunes,,,,
+273,Manzana 2 Lote 5,Angela Suazo Borzone,,20.000,Gasto Común,Pago electrónico,,,,S/I,04/07/2023,No,Pago de gastos comunes,,,,
+274,Manzana 4 Lote 18,Richard Ignacio Constanzo Mena,,20.000,Gasto Común,Transferencia,,,,S/I,04/07/2023,No,Pago registrado,,,,
+275,Manzana 2 Lote 2,Romina Salazar Rivas,,151.824,Gasto Común,Transferencia,,,,S/I,04/07/2023,No,Pago registrado,,,,
+276,Manzana 4 Lote 2,Cristian Mella Vergara,,78.506,Gasto Común,Pago electrónico,,,,S/I,05/07/2023,No,Pago de gastos comunes,,,,
+277,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,51.455,Gasto Común,Pago electrónico,,,,S/I,06/07/2023,No,Pago de gastos comunes,,,,
+278,Manzana 4 Lote 15,Juan Eduardo Monsalve Constanzo,,20.000,Gasto Común,Pago electrónico,,,,S/I,06/07/2023,No,Pago de gastos comunes,,,,
+279,Manzana 1 Lote 6,Inmobiliaria e Inversiones Montahue SPA,,20.000,Gasto Común,Pago electrónico,,,,S/I,06/07/2023,No,Pago de gastos comunes,,,,
+280,Manzana 1 Lote 8,Inmobiliaria e Inversiones Montahue SPA,,20.000,Gasto Común,Pago electrónico,,,,S/I,06/07/2023,No,Pago de gastos comunes,,,,
+281,Manzana 3 Lote 5,Alejandra Bobadilla Cuevas,,51.268,Gasto Común,Pago electrónico,,,,S/I,08/07/2023,No,Pago de gastos comunes,,,,
+282,Manzana 3 Lote 9,Joel Gatica Monsalve,,20.000,Gasto Común,Transferencia,,,,S/I,08/07/2023,No,Pago registrado,,,,
+283,Manzana 3 Lote 8,Rogelio Ulloa Avalos,,108.542,Gasto Común,Pago electrónico,,,,S/I,09/07/2023,No,Pago de gastos comunes,,,,
+284,Manzana 1 Lote 2,Giovanni Figueroa De La Guarda,,159.287,Gasto Común,Transferencia,,,,S/I,06/07/2023,No,Pago registrado,,,,
+285,Manzana 3 Lote 7,Richard Contreras Gonzalez,,68.662,Gasto Común,Transferencia,,,,S/I,29/06/2023,No,Pago registrado,,,,
+286,Manzana 2 Lote 3,Sara Hernández,,20.000,Gasto Común,Pago electrónico,,,,S/I,12/07/2023,No,Pago de gastos comunes,,,,
+287,Manzana 1 Lote 7,Rodrigo Feijoo Castillo,,20.746,Gasto Común,Pago electrónico,,,,S/I,13/07/2023,No,Pago de gastos comunes,,,,
+288,Manzana 4 Lote 13,Jane Vallette Isla,,20.000,Gasto Común,Transferencia,,,,S/I,11/07/2023,No,Pago registrado,,,,
+289,Manzana 4 Lote 6,Gustavo Aedo Urrutia,,20.000,Gasto Común,Transferencia,,,,S/I,13/07/2023,No,Pago registrado,,,,
+290,Manzana 4 Lote 11,Mario Segura Vega,,250.000,Gasto Común,Transferencia,,,,S/I,13/07/2023,No,Pago registrado,,,,
+291,Manzana 4 Lote 7,Cristina Hernández Estrada,,250.000,Gasto Común,Transferencia,,,,S/I,13/07/2023,No,Pago registrado,,,,
+293,Manzana 3 Lote 6,Nolbert Cuevas Alarcon,,60.417,Gasto Común,Pago electrónico,,,,S/I,18/07/2023,No,Pago de gastos comunes,,,,
+294,Manzana 1 Lote 15,Patricio Peña Saravia,,20.000,Gasto Común,Transferencia,,,,S/I,18/07/2023,No,Pago registrado,,,,
+295,Manzana 2 Lote 9,Evelyn Aburto Saavedra,,150.000,Gasto Común,Transferencia,,,,S/I,19/07/2023,No,Pago registrado,,,,
+296,Manzana 4 Lote 16,Constanza Pardo Tapia,,85.000,Gasto Común,Transferencia,,,,S/I,24/07/2023,No,Pago registrado,,,,
+297,Manzana 2 Lote 4,Leonardo Espinosa Mora,,40.000,Gasto Común,Transferencia,,,,S/I,27/07/2023,No,Pago registrado,,,,
+298,Manzana 1 Lote 7,Rodrigo Feijoo Castillo,,31.899,Gasto Común,Pago electrónico,,,,S/I,30/07/2023,No,Pago de gastos comunes,,,,
+299,Manzana 2 Lote 5,Angela Suazo Borzone,,20.000,Gasto Común,Pago electrónico,,,,S/I,31/07/2023,No,Pago de gastos comunes,,,,
+300,Manzana 1 Lote 12,Eduardo Ojeda Triviño,,81.087,Gasto Común,Transferencia,,,,S/I,31/07/2023,No,Pago registrado,,,,
+301,Manzana 3 Lote 12,Juan Ramón Molina Parada,,20.000,Gasto Común,Pago electrónico,,,,S/I,01/08/2023,No,Pago de gastos comunes,,,,
+302,Manzana 1 Lote 17,Mario Sandoval Castillo,,60.005,Gasto Común,Pago electrónico,,,,S/I,01/08/2023,No,Pago de gastos comunes,,,,
+303,Manzana 3 Lote 9,Joel Gatica Monsalve,,20.000,Gasto Común,Transferencia,,,,S/I,01/08/2023,No,Pago registrado,,,,
+304,Manzana 2 Lote 2,Romina Salazar Rivas,,173.949,Gasto Común,Transferencia,,,,S/I,01/08/2023,No,Pago registrado,,,,
+305,Manzana 1 Lote 15,Patricio Peña Saravia,,20.007,Gasto Común,Transferencia,,,,S/I,01/08/2023,No,Pago registrado,,,,
+306,Manzana 4 Lote 2,Cristian Mella Vergara,,75.768,Gasto Común,Pago electrónico,,,,S/I,02/08/2023,No,Pago de gastos comunes,,,,
+307,Manzana 3 Lote 8,Rogelio Ulloa Avalos,,128.372,Gasto Común,Pago electrónico,,,,S/I,02/08/2023,No,Pago de gastos comunes,,,,
+308,Manzana 2 Lote 12,Yennyfer Morales,,19.813,Gasto Común,Pago electrónico,,,,S/I,02/08/2023,No,Pago de gastos comunes,,,,
+309,Manzana 2 Lote 11,Cristian Hernández Toledo,,109.191,Gasto Común,Pago electrónico,,,,S/I,02/08/2023,No,Pago de gastos comunes,,,,
+310,Manzana 1 Lote 2,Giovanni Figueroa De La Guarda,,155.718,Gasto Común,Transferencia,,,,S/I,02/08/2023,No,Pago registrado,,,,
+311,Manzana 2 Lote 6,Pablo Hidalgo Astorga,,20.000,Gasto Común,Transferencia,,,,S/I,03/08/2023,No,Pago registrado,,,,
+312,Manzana 4 Lote 15,Juan Eduardo Monsalve Constanzo,,20.000,Gasto Común,Pago electrónico,,,,S/I,04/08/2023,No,Pago de gastos comunes,,,,
+313,Manzana 4 Lote 8,Karol Tamara Villegas Figueroa,,20.000,Gasto Común,Pago electrónico,,,,S/I,04/08/2023,No,Pago de gastos comunes,,,,
+314,Manzana 1 Lote 14,Pablo Saez Sanhueza,,20.000,Gasto Común,Pago electrónico,,,,S/I,05/08/2023,No,Pago de gastos comunes,,,,
+315,Manzana 3 Lote 3,Jorge álvarez Briones,,20.000,Gasto Común,Pago electrónico,,,,S/I,05/08/2023,No,Pago de gastos comunes,,,,
+316,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,70.640,Gasto Común,Pago electrónico,,,,S/I,06/08/2023,No,Pago de gastos comunes,,,,
+317,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,72.280,Gasto Común,Transferencia,,,,S/I,06/08/2023,No,Pago registrado,,,,
+318,Manzana 3 Lote 5,Alejandra Bobadilla Cuevas,,53.624,Gasto Común,Transferencia,,,,S/I,09/08/2023,No,Pago registrado,,,,
+319,Manzana 2 Lote 3,Sara Hernández,,20.000,Gasto Común,Pago electrónico,,,,S/I,11/08/2023,No,Pago de gastos comunes,,,,
+320,Manzana 1 Lote 16,Alfonso Sánchez,,40.153,Gasto Común,Pago electrónico,,,,S/I,13/08/2023,No,Pago de gastos comunes,,,,
+321,Manzana 4 Lote 3,Pablo Zambrano Vidal,,83.174,Gasto Común,Pago electrónico,,,,S/I,13/08/2023,No,Pago de gastos comunes,,,,
+322,Manzana 4 Lote 18,Richard Ignacio Constanzo Mena,,19.973,Gasto Común,Transferencia,,,,S/I,13/08/2023,No,Pago registrado,,,,
+323,Manzana 3 Lote 14,Eberth Saez Montero,,111.280,Gasto Común,Pago electrónico,,,,S/I,16/08/2023,No,Pago de gastos comunes,,,,
+324,Manzana 1 Lote 6,Inmobiliaria e Inversiones Montahue SPA,,20.000,Gasto Común,Pago electrónico,,,,S/I,16/08/2023,No,Pago de gastos comunes,,,,
+325,Manzana 1 Lote 8,Inmobiliaria e Inversiones Montahue SPA,,20.000,Gasto Común,Pago electrónico,,,,S/I,16/08/2023,No,Pago de gastos comunes,,,,
+326,Manzana 4 Lote 17,Jose Rojas Toledo,,312.051,Gasto Común,Transferencia,,,,S/I,17/08/2023,No,Pago registrado,,,,
+327,Manzana 4 Lote 13,Jane Vallette Isla,,20.000,Gasto Común,Transferencia,,,,S/I,17/08/2023,No,Pago registrado,,,,
+328,Manzana 4 Lote 1,Consuelo Mora Candia Mora,,20.000,Gasto Común,Pago electrónico,,,,S/I,18/08/2023,No,Pago de gastos comunes,,,,
+329,Manzana 4 Lote 11,Mario Segura Vega,,188.058,Gasto Común,Pago electrónico,,,,S/I,21/08/2023,No,Pago de gastos comunes,,,,
+330,Manzana 4 Lote 6,Gustavo Aedo Urrutia,,20.050,Gasto Común,Transferencia,,,,S/I,29/08/2023,No,Pago registrado,,,,
+331,Manzana 4 Lote 7,Cristina Hernández Estrada,,53.126,Gasto Común,Transferencia,,,,S/I,01/09/2023,No,Pago registrado,,,,
+332,Manzana 3 Lote 6,Nolbert Cuevas Alarcon,,40.070,Gasto Común,Pago electrónico,,,,S/I,01/09/2023,No,Pago de gastos comunes,,,,
+333,Manzana 4 Lote 2,Cristian Mella Vergara,,66.135,Gasto Común,Pago electrónico,,,,S/I,01/09/2023,No,Pago de gastos comunes,,,,
+334,Manzana 1 Lote 12,Eduardo Ojeda Triviño,,20.000,Gasto Común,Transferencia,,,,S/I,01/09/2023,No,Pago registrado,,,,
+335,Manzana 3 Lote 12,Juan Ramón Molina Parada,,20.000,Gasto Común,Pago electrónico,,,,S/I,01/09/2023,No,Pago de gastos comunes,,,,
+336,Manzana 1 Lote 17,Mario Sandoval Castillo,,61.595,Gasto Común,Pago electrónico,,,,S/I,01/09/2023,No,Pago de gastos comunes,,,,
+337,Manzana 1 Lote 7,Rodrigo Feijoo Castillo,,33.450,Gasto Común,Pago electrónico,,,,S/I,01/09/2023,No,Pago de gastos comunes,,,,
+338,Manzana 2 Lote 5,Angela Suazo Borzone,,20.000,Gasto Común,Pago electrónico,,,,S/I,01/09/2023,No,Pago de gastos comunes,,,,
+339,Manzana 3 Lote 8,Rogelio Ulloa Avalos,,116.433,Gasto Común,Pago electrónico,,,,S/I,01/09/2023,No,Pago de gastos comunes,,,,
+340,Manzana 2 Lote 2,Romina Salazar Rivas,,158.378,Gasto Común,Transferencia,,,,S/I,01/09/2023,No,Pago registrado,,,,
+341,Manzana 2 Lote 6,Pablo Hidalgo Astorga,,20.000,Gasto Común,Transferencia,,,,S/I,01/09/2023,No,Pago registrado,,,,
+342,Manzana 4 Lote 18,Richard Ignacio Constanzo Mena,,20.000,Gasto Común,Transferencia,,,,S/I,01/09/2023,No,Pago registrado,,,,
+343,Manzana 4 Lote 3,Pablo Zambrano Vidal,,82.659,Gasto Común,Pago electrónico,,,,S/I,01/09/2023,No,Pago de gastos comunes,,,,
+344,Manzana 2 Lote 11,Cristian Hernández Toledo,,101.725,Gasto Común,Pago electrónico,,,,S/I,02/09/2023,No,Pago de gastos comunes,,,,
+345,Manzana 3 Lote 9,Joel Gatica Monsalve,,20.000,Gasto Común,Transferencia,,,,S/I,03/09/2023,No,Pago registrado,,,,
+346,Manzana 4 Lote 8,Karol Tamara Villegas Figueroa,,20.000,Gasto Común,Pago electrónico,,,,S/I,03/09/2023,No,Pago de gastos comunes,,,,
+347,Manzana 3 Lote 5,Alejandra Bobadilla Cuevas,,51.284,Gasto Común,Transferencia,,,,S/I,04/09/2023,No,Pago registrado,,,,
+348,Manzana 4 Lote 15,Juan Eduardo Monsalve Constanzo,,20.000,Gasto Común,Pago electrónico,,,,S/I,04/09/2023,No,Pago de gastos comunes,,,,
+349,Manzana 1 Lote 2,Giovanni Figueroa De La Guarda,,98.456,Gasto Común,Transferencia,,,,S/I,05/09/2023,No,Pago registrado,,,,
+350,Manzana 3 Lote 3,Jorge álvarez Briones,,20.000,Gasto Común,Pago electrónico,,,,S/I,05/09/2023,No,Pago de gastos comunes,,,,
+351,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,77.393,Gasto Común,Pago electrónico,,,,S/I,06/09/2023,No,Pago de gastos comunes,,,,
+352,Manzana 4 Lote 14,Miguel Suazo Lobos,,31.798,Gasto Común,Transferencia,,,,S/I,06/09/2023,No,Pago registrado,,,,
+353,Manzana 3 Lote 13,Geraldo Reyes,,250.000,Gasto Común,Transferencia,,,,S/I,06/09/2023,No,Pago registrado,,,,
+354,Manzana 1 Lote 6,Inmobiliaria e Inversiones Montahue SPA,,20.000,Gasto Común,Pago electrónico,,,,S/I,07/09/2023,No,Pago de gastos comunes,,,,
+355,Manzana 1 Lote 8,Inmobiliaria e Inversiones Montahue SPA,,20.000,Gasto Común,Pago electrónico,,,,S/I,07/09/2023,No,Pago de gastos comunes,,,,
+356,Manzana 3 Lote 14,Eberth Saez Montero,,121.154,Gasto Común,Pago electrónico,,,,S/I,08/09/2023,No,Pago de gastos comunes,,,,
+357,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,56.511,Gasto Común,Transferencia,,,,S/I,08/09/2023,No,Pago registrado,,,,
+358,Manzana 2 Lote 3,Sara Hernández,,20.000,Gasto Común,Pago electrónico,,,,S/I,10/09/2023,No,Pago de gastos comunes,,,,
+359,Manzana 2 Lote 1,Natalia Núñez Pulido,,60.422,Gasto Común,Pago electrónico,,,,S/I,12/09/2023,No,Pago de gastos comunes,,,,
+360,Manzana 1 Lote 16,Alfonso Sánchez,,19.940,Gasto Común,Pago electrónico,,,,S/I,13/09/2023,No,Pago de gastos comunes,,,,
+361,Manzana 3 Lote 13,Geraldo Reyes,,203.920,Gasto Común,Transferencia,,,,S/I,13/09/2023,No,Pago registrado,,,,
+362,Manzana 4 Lote 6,Gustavo Aedo Urrutia,,20.043,Gasto Común,Transferencia,,,,S/I,14/09/2023,No,Pago registrado,,,,
+363,Manzana 3 Lote 7,Richard Contreras Gonzalez,,100.000,Gasto Común,Pago electrónico,,,,S/I,14/09/2023,No,Pago de gastos comunes,,,,
+364,Manzana 2 Lote 9,Evelyn Aburto Saavedra,,200.000,Gasto Común,Transferencia,,,,S/I,15/09/2023,No,Pago registrado,,,,
+365,Manzana 1 Lote 14,Pablo Saez Sanhueza,,20.000,Gasto Común,Pago electrónico,,,,S/I,16/09/2023,No,Pago de gastos comunes,,,,
+366,Manzana 4 Lote 13,Jane Vallette Isla,,20.003,Gasto Común,Transferencia,,,,S/I,19/09/2023,No,Pago registrado,,,,
+367,Manzana 1 Lote 9,Daniel Lagos Avello,,60.453,Gasto Común,Pago electrónico,,,,S/I,20/09/2023,No,Pago de gastos comunes,,,,
+368,Manzana 4 Lote 1,Consuelo Mora Candia Mora,,20.007,Gasto Común,Pago electrónico,,,,S/I,20/09/2023,No,Pago de gastos comunes,,,,
+369,Manzana 1 Lote 15,Patricio Peña Saravia,,20.000,Gasto Común,Transferencia,,,,S/I,21/09/2023,No,Pago registrado,,,,
+370,Manzana 4 Lote 11,Mario Segura Vega,,124.034,Gasto Común,Pago electrónico,,,,S/I,22/09/2023,No,Pago de gastos comunes,,,,
+371,Manzana 4 Lote 17,Jose Rojas Toledo,,192.510,Gasto Común,Transferencia,,,,S/I,22/09/2023,No,Pago registrado,,,,
+372,Manzana 2 Lote 13,Juan Ramón Salazar Espinoza Y María Jesús Salazar Garretón,,60.000,Gasto Común,Pago electrónico,,,,S/I,23/09/2023,No,Pago de gastos comunes,,,,
+373,Manzana 3 Lote 4,Sandra Araneda García,,60.954,Gasto Común,Transferencia,,,,S/I,23/09/2023,No,Pago registrado,,,,
+374,Manzana 2 Lote 12,Yennyfer Morales,,20.000,Gasto Común,Pago electrónico,,,,S/I,24/09/2023,No,Pago de gastos comunes,,,,
+375,Manzana 2 Lote 4,Leonardo Espinosa Mora,,20.000,Gasto Común,Transferencia,,,,S/I,24/09/2023,No,Pago registrado,,,,
+376,Manzana 1 Lote 12,Eduardo Ojeda Triviño,,20.000,Gasto Común,Transferencia,,,,S/I,01/10/2023,No,Pago registrado,,,,
+377,Manzana 4 Lote 7,Cristina Hernández Estrada,,76.389,Gasto Común,Transferencia,,,,S/I,02/10/2023,No,Pago registrado,,,,
+378,Manzana 2 Lote 2,Romina Salazar Rivas,,168.168,Gasto Común,Transferencia,,,,S/I,02/10/2023,No,Pago registrado,,,,
+379,Manzana 2 Lote 5,Angela Suazo Borzone,,20.000,Gasto Común,Pago electrónico,,,,S/I,02/10/2023,No,Pago de gastos comunes,,,,
+380,Manzana 4 Lote 2,Cristian Mella Vergara,,70.990,Gasto Común,Pago electrónico,,,,S/I,03/10/2023,No,Pago de gastos comunes,,,,
+381,Manzana 4 Lote 3,Pablo Zambrano Vidal,,83.387,Gasto Común,Pago electrónico,,,,S/I,03/10/2023,No,Pago de gastos comunes,,,,
+382,Manzana 3 Lote 8,Rogelio Ulloa Avalos,,129.377,Gasto Común,Pago electrónico,,,,S/I,03/10/2023,No,Pago de gastos comunes,,,,
+383,Manzana 2 Lote 11,Cristian Hernández Toledo,,107.782,Gasto Común,Pago electrónico,,,,S/I,03/10/2023,No,Pago de gastos comunes,,,,
+384,Manzana 4 Lote 8,Karol Tamara Villegas Figueroa,,20.000,Gasto Común,Pago electrónico,,,,S/I,04/10/2023,No,Pago de gastos comunes,,,,
+385,Manzana 4 Lote 1,Consuelo Mora Candia Mora,,20.013,Gasto Común,Pago electrónico,,,,S/I,04/10/2023,No,Pago de gastos comunes,,,,
+386,Manzana 2 Lote 6,Pablo Hidalgo Astorga,,20.000,Gasto Común,Transferencia,,,,S/I,02/10/2023,No,Pago registrado,,,,
+387,Manzana 1 Lote 15,Patricio Peña Saravia,,20.017,Gasto Común,Transferencia,,,,S/I,03/10/2023,No,Pago registrado,,,,
+388,Manzana 3 Lote 9,Joel Gatica Monsalve,,20.000,Gasto Común,Transferencia,,,,S/I,04/10/2023,No,Pago registrado,,,,
+389,Manzana 1 Lote 7,Rodrigo Feijoo Castillo,,33.599,Gasto Común,Pago electrónico,,,,S/I,05/10/2023,No,Pago de gastos comunes,,,,
+390,Manzana 1 Lote 6,Inmobiliaria e Inversiones Montahue SPA,,20.000,Gasto Común,Pago electrónico,,,,S/I,05/10/2023,No,Pago de gastos comunes,,,,
+391,Manzana 1 Lote 8,Inmobiliaria e Inversiones Montahue SPA,,20.000,Gasto Común,Pago electrónico,,,,S/I,05/10/2023,No,Pago de gastos comunes,,,,
+392,Manzana 3 Lote 3,Jorge álvarez Briones,,20.000,Gasto Común,Pago electrónico,,,,S/I,05/10/2023,No,Pago de gastos comunes,,,,
+393,Manzana 4 Lote 6,Gustavo Aedo Urrutia,,20.000,Gasto Común,Transferencia,,,,S/I,05/10/2023,No,Pago registrado,,,,
+394,Manzana 4 Lote 15,Juan Eduardo Monsalve Constanzo,,20.000,Gasto Común,Pago electrónico,,,,S/I,06/10/2023,No,Pago de gastos comunes,,,,
+395,Manzana 1 Lote 17,Mario Sandoval Castillo,,65.592,Gasto Común,Pago electrónico,,,,S/I,06/10/2023,No,Pago de gastos comunes,,,,
+396,Manzana 1 Lote 10,Paula Reyes Mora,,142.433,Gasto Común,Transferencia,,,,S/I,07/10/2023,No,Pago registrado,,,,
+397,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,62.392,Gasto Común,Transferencia,,,,S/I,07/10/2023,No,Pago registrado,,,,
+398,Manzana 3 Lote 12,Juan Ramón Molina Parada,,20.000,Gasto Común,Pago electrónico,,,,S/I,08/10/2023,No,Pago de gastos comunes,,,,
+399,Manzana 3 Lote 5,Alejandra Bobadilla Cuevas,,53.794,Gasto Común,Transferencia,,,,S/I,09/10/2023,No,Pago registrado,,,,
+400,Manzana 1 Lote 2,Giovanni Figueroa De La Guarda,,121.179,Gasto Común,Transferencia,,,,S/I,10/10/2023,No,Pago registrado,,,,
+401,Manzana 2 Lote 3,Sara Hernández,,20.000,Gasto Común,Pago electrónico,,,,S/I,10/10/2023,No,Pago de gastos comunes,,,,
+402,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,91.786,Gasto Común,Pago electrónico,,,,S/I,12/10/2023,No,Pago de gastos comunes,,,,
+403,Manzana 1 Lote 16,Alfonso Sánchez,,20.000,Gasto Común,Pago electrónico,,,,S/I,13/10/2023,No,Pago de gastos comunes,,,,
+404,Manzana 2 Lote 9,Evelyn Aburto Saavedra,,100.000,Gasto Común,Transferencia,,,,S/I,14/10/2023,No,Pago registrado,,,,
+405,Manzana 1 Lote 10,Paula Reyes Mora,,142.433,Gasto Común,Pago electrónico,,,,S/I,14/10/2023,No,Pago de gastos comunes,,,,
+406,Manzana 3 Lote 14,Eberth Saez Montero,,136.175,Gasto Común,Pago electrónico,,,,S/I,14/10/2023,No,Pago de gastos comunes,,,,
+407,Manzana 3 Lote 6,Nolbert Cuevas Alarcon,,19.903,Gasto Común,Pago electrónico,,,,S/I,16/10/2023,No,Pago de gastos comunes,,,,
+408,Manzana 3 Lote 13,Geraldo Reyes,,18.523,Gasto Común,Transferencia,,,,S/I,16/10/2023,No,Pago registrado,,,,
+409,Manzana 4 Lote 11,Mario Segura Vega,,97.508,Gasto Común,Pago electrónico,,,,S/I,16/10/2023,No,Pago de gastos comunes,,,,
+410,Manzana 2 Lote 6,Pablo Hidalgo Astorga,,20.000,Gasto Común,Transferencia,,,,S/I,30/10/2023,No,,,,,
+411,Manzana 3 Lote 8,Rogelio Ulloa Avalos,,132.776,Gasto Común,Pago electrónico,,,,S/I,03/11/2023,No,Pago de gastos comunes,,,,
+412,Manzana 3 Lote 12,Juan Ramón Molina Parada,,20.000,Gasto Común,Pago electrónico,,,,S/I,03/11/2023,No,Pago de gastos comunes,,,,
+413,Manzana 1 Lote 17,Mario Sandoval Castillo,,54.581,Gasto Común,Pago electrónico,,,,S/I,03/11/2023,No,Pago de gastos comunes,,,,
+414,Manzana 1 Lote 7,Rodrigo Feijoo Castillo,,32.543,Gasto Común,Pago electrónico,,,,S/I,03/11/2023,No,Pago de gastos comunes,,,,
+415,Manzana 3 Lote 6,Nolbert Cuevas Alarcon,,20.000,Gasto Común,Pago electrónico,,,,S/I,04/11/2023,No,Pago de gastos comunes,,,,
+416,Manzana 2 Lote 11,Cristian Hernández Toledo,,112.009,Gasto Común,Pago electrónico,,,,S/I,04/11/2023,No,Pago de gastos comunes,,,,
+417,Manzana 4 Lote 8,Karol Tamara Villegas Figueroa,,20.000,Gasto Común,Pago electrónico,,,,S/I,04/11/2023,No,Pago de gastos comunes,,,,
+418,Manzana 4 Lote 3,Pablo Zambrano Vidal,,52.250,Gasto Común,Pago electrónico,,,,S/I,06/11/2023,No,Pago de gastos comunes,,,,
+419,Manzana 2 Lote 5,Angela Suazo Borzone,,20.000,Gasto Común,Pago electrónico,,,,S/I,06/11/2023,No,Pago de gastos comunes,,,,
+420,Manzana 4 Lote 7,Cristina Hernández Estrada,,99.294,Gasto Común,Transferencia,,,,S/I,06/11/2023,No,Pago registrado,,,,
+421,Manzana 1 Lote 1,Evelyn Gaete Cardenas,,350.000,Gasto Común,Transferencia,,,,S/I,06/11/2023,No,Pago registrado,,,,
+422,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,60.515,Gasto Común,Transferencia,,,,S/I,04/11/2023,No,Pago registrado,,,,
+423,Manzana 3 Lote 5,Alejandra Bobadilla Cuevas,,53.522,Gasto Común,Transferencia,,,,S/I,05/11/2023,No,Pago registrado,,,,
+424,Manzana 2 Lote 2,Romina Salazar Rivas,,148.881,Gasto Común,Transferencia,,,,S/I,06/11/2023,No,Pago registrado,,,,
+425,Manzana 4 Lote 13,Jane Vallette Isla,,20.000,Gasto Común,Transferencia,,,,S/I,06/11/2023,No,Pago registrado,,,,
+426,Manzana 3 Lote 5,Alejandra Bobadilla Cuevas,,1.000,Gasto Común,Transferencia,,,,S/I,06/11/2023,No,Pago registrado,,,,
+427,Manzana 1 Lote 14,Pablo Saez Sanhueza,,40.150,Gasto Común,Pago electrónico,,,,S/I,06/11/2023,No,Pago de gastos comunes,,,,
+428,Manzana 4 Lote 2,Cristian Mella Vergara,,76.408,Gasto Común,Pago electrónico,,,,S/I,07/11/2023,No,Pago de gastos comunes,,,,
+429,Manzana 3 Lote 13,Geraldo Reyes,,20.000,Gasto Común,Transferencia,,,,S/I,08/11/2023,No,Pago registrado,,,,
+430,Manzana 1 Lote 1,Evelyn Gaete Cardenas,,150.138,Gasto Común,Transferencia,,,,S/I,08/11/2023,No,Pago registrado,,,,
+431,Manzana 1 Lote 6,Inmobiliaria e Inversiones Montahue SPA,,20.000,Gasto Común,Pago electrónico,,,,S/I,09/11/2023,No,Pago de gastos comunes,,,,
+432,Manzana 1 Lote 8,Inmobiliaria e Inversiones Montahue SPA,,20.000,Gasto Común,Pago electrónico,,,,S/I,09/11/2023,No,Pago de gastos comunes,,,,
+433,Manzana 4 Lote 6,Gustavo Aedo Urrutia,,20.000,Gasto Común,Transferencia,,,,S/I,10/11/2023,No,Pago registrado,,,,
+434,Manzana 4 Lote 1,Consuelo Mora Candia Mora,,20.000,Gasto Común,Pago electrónico,,,,S/I,11/11/2023,No,Pago de gastos comunes,,,,
+435,Manzana 3 Lote 9,Joel Gatica Monsalve,,20.000,Gasto Común,Transferencia,,,,S/I,11/11/2023,No,Pago registrado,,,,
+436,Manzana 3 Lote 11,Pedro Aguilera Rebolledo,,100.000,Gasto Común,Transferencia,,,,S/I,11/11/2023,No,Pago registrado,,,,
+437,Manzana 3 Lote 8,Rogelio Ulloa Avalos,,2.000,Gasto Común,Efectivo,,,,S/I,11/11/2023,No,Pago registrado,,,,
+438,Manzana 4 Lote 15,Juan Eduardo Monsalve Constanzo,,20.000,Gasto Común,Pago electrónico,,,,S/I,12/11/2023,No,Pago de gastos comunes,,,,
+439,Manzana 3 Lote 3,Jorge álvarez Briones,,20.000,Gasto Común,Pago electrónico,,,,S/I,12/11/2023,No,Pago de gastos comunes,,,,
+440,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,81.282,Gasto Común,Pago electrónico,,,,S/I,13/11/2023,No,Pago de gastos comunes,,,,
+441,Manzana 1 Lote 16,Alfonso Sánchez,,20.000,Gasto Común,Pago electrónico,,,,S/I,13/11/2023,No,Pago de gastos comunes,,,,
+442,Manzana 2 Lote 3,Sara Hernández,,20.000,Gasto Común,Pago electrónico,,,,S/I,14/11/2023,No,Pago de gastos comunes,,,,
+443,Manzana 3 Lote 14,Eberth Saez Montero,,108.194,Gasto Común,Pago electrónico,,,,S/I,16/11/2023,No,Pago de gastos comunes,,,,
+444,Manzana 1 Lote 2,Giovanni Figueroa De La Guarda,,117.730,Gasto Común,Transferencia,,,,S/I,15/11/2023,No,Pago registrado,,,,
+445,Manzana 4 Lote 18,Richard Ignacio Constanzo Mena,,40.000,Gasto Común,Transferencia,,,,S/I,15/11/2023,No,Pago registrado,,,,
+446,Manzana 2 Lote 9,Evelyn Aburto Saavedra,,120.000,Gasto Común,Transferencia,,,,S/I,18/11/2023,No,Pago registrado,,,,
+447,Manzana 1 Lote 9,Daniel Lagos Avello,,40.097,Gasto Común,Pago electrónico,,,,S/I,20/11/2023,No,Pago de gastos comunes,,,,
+448,Manzana 3 Lote 7,Richard Contreras Gonzalez,,229.929,Gasto Común,Transferencia,,,,S/I,21/11/2023,No,Pago registrado,,,,
+449,Manzana 4 Lote 11,Mario Segura Vega,,120.431,Gasto Común,Pago electrónico,,,,S/I,25/11/2023,No,Pago de gastos comunes,,,,
+450,Manzana 2 Lote 4,Leonardo Espinosa Mora,,40.206,Gasto Común,Transferencia,,,,S/I,28/11/2023,No,Pago registrado,,,,
+451,Manzana 1 Lote 13,Carolina Bravo,,100.000,Gasto Común,Transferencia,,,,S/I,29/11/2023,No,Pago registrado,,,,
+452,Manzana 4 Lote 7,Cristina Hernández Estrada,,30.000,Gasto Común,Transferencia,,,,S/I,30/11/2023,No,Pago registrado,,,,
+453,Manzana 1 Lote 7,Rodrigo Feijoo Castillo,,30.000,Gasto Común,Pago electrónico,,,,S/I,30/11/2023,No,Pago de gastos comunes,,,,
+454,Manzana 1 Lote 2,Giovanni Figueroa De La Guarda,,30.000,Gasto Común,Transferencia,,,,S/I,01/12/2023,No,Pago registrado,,,,
+455,Manzana 3 Lote 12,Juan Ramón Molina Parada,,20.000,Gasto Común,Pago electrónico,,,,S/I,01/12/2023,No,Pago de gastos comunes,,,,
+456,Manzana 3 Lote 5,Alejandra Bobadilla Cuevas,,30.000,Gasto Común,Transferencia,,,,S/I,01/12/2023,No,Pago registrado,,,,
+457,Manzana 2 Lote 11,Cristian Hernández Toledo,,30.000,Gasto Común,Pago electrónico,,,,S/I,01/12/2023,No,Pago de gastos comunes,,,,
+458,Manzana 2 Lote 1,Natalia Núñez Pulido,,60.076,Gasto Común,Pago electrónico,,,,S/I,02/12/2023,No,Pago de gastos comunes,,,,
+459,Manzana 4 Lote 2,Cristian Mella Vergara,,30.000,Gasto Común,Pago electrónico,,,,S/I,03/12/2023,No,Pago de gastos comunes,,,,
+460,Manzana 1 Lote 15,Patricio Peña Saravia,,40.047,Gasto Común,Transferencia,,,,S/I,02/12/2023,No,Pago registrado,,,,
+461,Manzana 2 Lote 6,Pablo Hidalgo Astorga,,20.000,Gasto Común,Transferencia,,,,S/I,02/12/2023,No,Pago registrado,,,,
+462,Manzana 3 Lote 4,Sandra Araneda García,,60.173,Gasto Común,Transferencia,,,,S/I,03/12/2023,No,Pago registrado,,,,
+463,Manzana 1 Lote 12,Eduardo Ojeda Triviño,,40.000,Gasto Común,Transferencia,,,,S/I,03/12/2023,No,Pago registrado,,,,
+464,Manzana 4 Lote 15,Juan Eduardo Monsalve Constanzo,,20.000,Gasto Común,Pago electrónico,,,,S/I,03/12/2023,No,Pago de gastos comunes,,,,
+465,Manzana 4 Lote 3,Pablo Zambrano Vidal,,30.000,Gasto Común,Pago electrónico,,,,S/I,04/12/2023,No,Pago de gastos comunes,,,,
+466,Manzana 3 Lote 8,Rogelio Ulloa Avalos,,55.000,Gasto Común,Pago electrónico,,,,S/I,05/12/2023,No,Pago de gastos comunes,,,,
+467,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,30.000,Gasto Común,Transferencia,,,,S/I,04/12/2023,No,Pago registrado,,,,
+468,Manzana 3 Lote 11,Pedro Aguilera Rebolledo,,100.000,Gasto Común,Transferencia,,,,S/I,06/12/2023,No,Pago registrado,,,,
+469,Manzana 4 Lote 7,Cristina Hernández Estrada,,25.000,Gasto Común,Transferencia,,,,S/I,06/12/2023,No,Pago registrado,,,,
+470,Manzana 1 Lote 17,Mario Sandoval Castillo,,55.000,Gasto Común,Pago electrónico,,,,S/I,06/12/2023,No,Pago de gastos comunes,,,,
+471,Manzana 3 Lote 3,Jorge álvarez Briones,,45.000,Gasto Común,Pago electrónico,,,,S/I,07/12/2023,No,Pago de gastos comunes,,,,
+472,Manzana 4 Lote 3,Pablo Zambrano Vidal,,25.000,Gasto Común,Pago electrónico,,,,S/I,08/12/2023,No,Pago de gastos comunes,,,,
+473,Manzana 1 Lote 14,Pablo Saez Sanhueza,,44.920,Gasto Común,Pago electrónico,,,,S/I,08/12/2023,No,Pago de gastos comunes,,,,
+474,Manzana 2 Lote 3,Sara Hernández,,20.000,Gasto Común,Pago electrónico,,,,S/I,08/12/2023,No,Pago de gastos comunes,,,,
+475,Manzana 2 Lote 11,Cristian Hernández Toledo,,25.000,Gasto Común,Pago electrónico,,,,S/I,09/12/2023,No,Pago de gastos comunes,,,,
+476,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,55.000,Gasto Común,Pago electrónico,,,,S/I,10/12/2023,No,Pago de gastos comunes,,,,
+477,Manzana 4 Lote 1,Consuelo Mora Candia Mora,,45.000,Gasto Común,Pago electrónico,,,,S/I,11/12/2023,No,Pago de gastos comunes,,,,
+478,Manzana 2 Lote 5,Angela Suazo Borzone,,45.000,Gasto Común,Pago electrónico,,,,S/I,11/12/2023,No,Pago de gastos comunes,,,,
+479,Manzana 4 Lote 6,Gustavo Aedo Urrutia,,20.000,Gasto Común,Transferencia,,,,S/I,11/12/2023,No,Pago registrado,,,,
+480,Manzana 3 Lote 14,Eberth Saez Montero,,55.000,Gasto Común,Pago electrónico,,,,S/I,12/12/2023,No,Pago de gastos comunes,,,,
+481,Manzana 3 Lote 9,Joel Gatica Monsalve,,20.000,Gasto Común,Transferencia,,,,S/I,12/12/2023,No,Pago registrado,,,,
+482,Manzana 1 Lote 6,Inmobiliaria e Inversiones Montahue SPA,,20.000,Gasto Común,Pago electrónico,,,,S/I,12/12/2023,No,Pago de gastos comunes,,,,
+483,Manzana 1 Lote 8,Inmobiliaria e Inversiones Montahue SPA,,20.000,Gasto Común,Pago electrónico,,,,S/I,12/12/2023,No,Pago de gastos comunes,,,,
+484,Manzana 1 Lote 9,Daniel Lagos Avello,,44.980,Gasto Común,Pago electrónico,,,,S/I,13/12/2023,No,Pago de gastos comunes,,,,
+485,Manzana 4 Lote 2,Cristian Mella Vergara,,25.000,Gasto Común,Pago electrónico,,,,S/I,13/12/2023,No,Pago de gastos comunes,,,,
+486,Manzana 1 Lote 7,Rodrigo Feijoo Castillo,,25.000,Gasto Común,Pago electrónico,,,,S/I,13/12/2023,No,Pago de gastos comunes,,,,
+487,Manzana 1 Lote 16,Alfonso Sánchez,,45.000,Gasto Común,Pago electrónico,,,,S/I,13/12/2023,No,Pago de gastos comunes,,,,
+488,Manzana 3 Lote 6,Nolbert Cuevas Alarcon,,45.000,Gasto Común,Pago electrónico,,,,S/I,13/12/2023,No,Pago de gastos comunes,,,,
+489,Manzana 2 Lote 2,Romina Salazar Rivas,,30.000,Gasto Común,Transferencia,,,,S/I,14/12/2023,No,Pago registrado,,,,
+490,Manzana 4 Lote 8,Karol Tamara Villegas Figueroa,,45.000,Gasto Común,Pago electrónico,,,,S/I,15/12/2023,No,Pago de gastos comunes,,,,
+491,Manzana 4 Lote 18,Richard Ignacio Constanzo Mena,,45.100,Gasto Común,Transferencia,,,,S/I,15/12/2023,No,Pago registrado,,,,
+492,Manzana 2 Lote 9,Evelyn Aburto Saavedra,,99.000,Gasto Común,Transferencia,,,,S/I,15/12/2023,No,Pago registrado,,,,
+493,Manzana 4 Lote 15,Juan Eduardo Monsalve Constanzo,,25.000,Gasto Común,Pago electrónico,,,,S/I,18/12/2023,No,Pago de gastos comunes,,,,
+494,Manzana 3 Lote 7,Richard Contreras Gonzalez,,54.803,Gasto Común,Transferencia,,,,S/I,23/12/2023,No,Pago registrado,,,,
+495,Manzana 2 Lote 6,Pablo Hidalgo Astorga,,20.000,Gasto Común,Transferencia,,,,S/I,26/12/2023,No,Pago registrado,,,,
+496,Manzana 2 Lote 1,Natalia Núñez Pulido,,25.000,Gasto Común,Pago electrónico,,,,S/I,29/12/2023,No,Pago de gastos comunes,,,,
+497,Manzana 1 Lote 15,Patricio Peña Saravia,,40.047,Gasto Común,Transferencia,,,,S/I,29/12/2023,No,Pago registrado,,,,
+498,Manzana 2 Lote 1,Natalia Núñez Pulido,,50.000,Gasto Común,Transferencia,,,,S/I,29/12/2023,No,Pago registrado,,,,
+499,Manzana 3 Lote 12,Juan Ramón Molina Parada,,25.000,Gasto Común,Pago electrónico,,,,S/I,30/12/2023,No,Pago de gastos comunes,,,,
+500,Manzana 2 Lote 3,Sara Hernández,,25.000,Gasto Común,Pago electrónico,,,,S/I,30/12/2023,No,Pago de gastos comunes,,,,
+501,Manzana 4 Lote 2,Cristian Mella Vergara,,168.220,Gasto Común,Pago electrónico,,,,S/I,31/12/2023,No,Pago de gastos comunes,,,,
+502,Manzana 4 Lote 3,Pablo Zambrano Vidal,,169.980,Gasto Común,Pago electrónico,,,,S/I,31/12/2023,No,Pago de gastos comunes,,,,
+503,Manzana 1 Lote 14,Pablo Saez Sanhueza,,80.000,Gasto Común,Pago electrónico,,,,S/I,31/12/2023,No,Pago de gastos comunes,,,,
+504,Manzana 1 Lote 7,Rodrigo Feijoo Castillo,,85.280,Gasto Común,Pago electrónico,,,,S/I,31/12/2023,No,Pago de gastos comunes,,,,
+505,Manzana 3 Lote 5,Alejandra Bobadilla Cuevas,,157.140,Gasto Común,Transferencia,,,,S/I,31/12/2023,No,Pago registrado,,,,
+506,Manzana 1 Lote 12,Eduardo Ojeda Triviño,,104.900,Gasto Común,Transferencia,,,,S/I,01/01/2024,No,Pago registrado,,,,
+507,Manzana 2 Lote 11,Cristian Hernández Toledo,,192.420,Gasto Común,Pago electrónico,,,,S/I,02/01/2024,No,Pago de gastos comunes,,,,
+508,Manzana 2 Lote 2,Romina Salazar Rivas,,319.347,Gasto Común,Transferencia,,,,S/I,02/01/2024,No,Pago registrado,,,,
+509,Manzana 4 Lote 14,Miguel Suazo Lobos,,272.475,Gasto Común,Transferencia,,,,S/I,02/01/2024,No,Pago registrado,,,,
+510,Manzana 3 Lote 4,Sandra Araneda García,,105.020,Gasto Común,Transferencia,,,,S/I,02/01/2024,No,Pago registrado,,,,
+511,Manzana 3 Lote 8,Rogelio Ulloa Avalos,,267.660,Gasto Común,Pago electrónico,,,,S/I,03/01/2024,No,Pago de gastos comunes,,,,
+512,Manzana 2 Lote 3,Sara Hernández,,80.050,Gasto Común,Pago electrónico,,,,S/I,03/01/2024,No,Pago de gastos comunes,,,,
+513,Manzana 3 Lote 14,Eberth Saez Montero,,182.300,Gasto Común,Pago electrónico,,,,S/I,04/01/2024,No,Pago de gastos comunes,,,,
+514,Manzana 4 Lote 15,Juan Eduardo Monsalve Constanzo,,80.000,Gasto Común,Pago electrónico,,,,S/I,04/01/2024,No,Pago de gastos comunes,,,,
+515,Manzana 3 Lote 6,Nolbert Cuevas Alarcon,,80.000,Gasto Común,Pago electrónico,,,,S/I,05/01/2024,No,Pago de gastos comunes,,,,
+516,Manzana 3 Lote 3,Jorge álvarez Briones,,80.000,Gasto Común,Pago electrónico,,,,S/I,06/01/2024,No,Pago de gastos comunes,,,,
+517,Manzana 2 Lote 8,Gustavo Perez Jerez,,439.884,Gasto Común,Transferencia,,,,S/I,07/01/2024,No,Pago registrado,,,,
+518,Manzana 1 Lote 17,Mario Sandoval Castillo,,145.560,Gasto Común,Pago electrónico,,,,S/I,08/01/2024,No,Pago de gastos comunes,,,,
+519,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,171.067,Gasto Común,Transferencia,,,,S/I,10/01/2024,No,Pago registrado,,,,
+520,Manzana 4 Lote 16,Constanza Pardo Tapia,,100.000,Gasto Común,Transferencia,,,,S/I,10/01/2024,No,Pago registrado,,,,
+521,Manzana 1 Lote 6,Inmobiliaria e Inversiones Montahue SPA,,105.053,Gasto Común,Pago electrónico,,,,S/I,12/01/2024,No,Pago de gastos comunes,,,,
+522,Manzana 1 Lote 8,Inmobiliaria e Inversiones Montahue SPA,,105.053,Gasto Común,Pago electrónico,,,,S/I,12/01/2024,No,Pago de gastos comunes,,,,
+523,Manzana 1 Lote 10,Paula Reyes Mora,,2.087,Gasto Común,Transferencia,,,,S/I,12/01/2024,No,Pago registrado,,,,
+524,Manzana 4 Lote 8,Karol Tamara Villegas Figueroa,,80.000,Gasto Común,Pago electrónico,,,,S/I,14/01/2024,No,Pago de gastos comunes,,,,
+525,Manzana 1 Lote 2,Giovanni Figueroa De La Guarda,,235.680,Gasto Común,Transferencia,,,,S/I,15/01/2024,No,Pago registrado,,,,
+526,Manzana 3 Lote 13,Geraldo Reyes,,125.053,Gasto Común,Transferencia,,,,S/I,15/01/2024,No,Pago registrado,,,,
+527,Manzana 4 Lote 7,Cristina Hernández Estrada,,204.740,Gasto Común,Transferencia,,,,S/I,15/01/2024,No,Pago registrado,,,,
+528,Manzana 2 Lote 5,Angela Suazo Borzone,,80.000,Gasto Común,Pago electrónico,,,,S/I,16/01/2024,No,Pago de gastos comunes,,,,
+529,Manzana 4 Lote 1,Consuelo Mora Candia Mora,,80.000,Gasto Común,Pago electrónico,,,,S/I,18/01/2024,No,Pago de gastos comunes,,,,
+530,Manzana 2 Lote 12,Yennyfer Morales,,100.000,Gasto Común,Pago electrónico,,,,S/I,18/01/2024,No,Pago de gastos comunes,,,,
+531,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,100.000,Gasto Común,Transferencia,,,,S/I,16/01/2024,No,Pago registrado,,,,
+532,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,57.880,Gasto Común,Transferencia,,,,S/I,18/01/2024,No,Pago registrado,,,,
+533,Manzana 2 Lote 9,Evelyn Aburto Saavedra,,100.000,Gasto Común,Transferencia,,,,S/I,19/01/2024,No,Pago registrado,,,,
+534,Manzana 2 Lote 6,Pablo Hidalgo Astorga,,85.163,Gasto Común,Transferencia,,,,S/I,19/01/2024,No,Pago registrado,,,,
+535,Manzana 3 Lote 9,Joel Gatica Monsalve,,105.053,Gasto Común,Transferencia,,,,S/I,20/01/2024,No,Pago registrado,,,,
+536,Manzana 1 Lote 4,Camilo Cornejo Esquivel,,521.897,Gasto Común,Pago electrónico,,,,S/I,20/01/2024,No,Pago de gastos comunes,,,,
+537,Manzana 4 Lote 18,Richard Ignacio Constanzo Mena,,80.000,Gasto Común,Transferencia,,,,S/I,21/01/2024,No,Pago registrado,,,,
+538,Manzana 1 Lote 9,Daniel Lagos Avello,,80.000,Gasto Común,Pago electrónico,,,,S/I,22/01/2024,No,Pago de gastos comunes,,,,
+539,Manzana 1 Lote 11,Miguel Soto Cerda,,105.000,Gasto Común,Transferencia,,,,S/I,22/01/2024,No,Pago registrado,,,,
+540,Manzana 3 Lote 12,Juan Ramón Molina Parada,,80.000,Gasto Común,Transferencia,,,,S/I,24/01/2024,No,Pago registrado,,,,
+541,Manzana 4 Lote 13,Jane Vallette Isla,,145.283,Gasto Común,Transferencia,,,,S/I,26/01/2024,No,Pago registrado,,,,
+542,Manzana 1 Lote 1,Evelyn Gaete Cardenas,,200.000,Gasto Común,Transferencia,,,,S/I,26/01/2024,No,Pago registrado,,,,
+543,Manzana 3 Lote 7,Richard Contreras Gonzalez,,150.000,Gasto Común,Transferencia,,,,S/I,29/01/2024,No,Pago registrado,,,,
+544,Manzana 1 Lote 11,Miguel Soto Cerda,,50.000,Gasto Común,Transferencia,,,,S/I,30/01/2024,No,Pago registrado,,,,
+545,Manzana 1 Lote 15,Patricio Peña Saravia,,50.000,Gasto Común,Transferencia,,,,S/I,30/01/2024,No,Pago registrado,,,,
+546,Manzana 1 Lote 14,Pablo Saez Sanhueza,,50.000,Gasto Común,Transferencia,,,,S/I,30/01/2024,No,Pago registrado,,,,
+547,Manzana 1 Lote 13,Carolina Bravo,,50.000,Gasto Común,Transferencia,,,,S/I,30/01/2024,No,Pago registrado,,,,
+548,Manzana 4 Lote 2,Cristian Mella Vergara,,100.000,Gasto Común,Transferencia,,,,S/I,16/01/2024,No,Pago registrado,,,,
+549,Manzana 4 Lote 3,Pablo Zambrano Vidal,,100.000,Gasto Común,Transferencia,,,,S/I,16/01/2024,No,Pago registrado,,,,
+550,Manzana 4 Lote 7,Cristina Hernández Estrada,,100.000,Gasto Común,Transferencia,,,,S/I,16/01/2024,No,Pago registrado,,,,
+551,Manzana 4 Lote 11,Mario Segura Vega,,198.621,Gasto Común,Pago electrónico,,,,S/I,30/01/2024,No,Pago de gastos comunes,,,,
+552,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,100.000,Gasto Común,Transferencia,,,,S/I,16/01/2024,No,Pago registrado,,,,
+553,Manzana 3 Lote 14,Eberth Saez Montero,,100.000,Gasto Común,Transferencia,,,,S/I,16/01/2024,No,Pago registrado,,,,
+554,Manzana 3 Lote 4,Sandra Araneda García,,100.000,Gasto Común,Transferencia,,,,S/I,17/01/2024,No,Pago registrado,,,,
+555,Manzana 4 Lote 11,Mario Segura Vega,,100.000,Gasto Común,Transferencia,,,,S/I,17/01/2024,No,Pago registrado,,,,
+557,Manzana 1 Lote 14,Pablo Saez Sanhueza,,91.727,Gasto Común,Pago electrónico,,,,S/I,01/02/2024,No,Pago de gastos comunes,,,,
+558,Manzana 4 Lote 3,Pablo Zambrano Vidal,,155.114,Gasto Común,Pago electrónico,,,,S/I,01/02/2024,No,Pago de gastos comunes,,,,
+559,Manzana 4 Lote 1,Consuelo Mora Candia Mora,,55.040,Gasto Común,Pago electrónico,,,,S/I,02/02/2024,No,Pago de gastos comunes,,,,
+560,Manzana 3 Lote 9,Joel Gatica Monsalve,,55.000,Gasto Común,Transferencia,,,,S/I,03/02/2024,No,Pago registrado,,,,
+561,Manzana 2 Lote 5,Angela Suazo Borzone,,55.013,Gasto Común,Pago electrónico,,,,S/I,03/02/2024,No,Pago de gastos comunes,,,,
+562,Manzana 2 Lote 11,Cristian Hernández Toledo,,140.999,Gasto Común,Pago electrónico,,,,S/I,04/02/2024,No,Pago de gastos comunes,,,,
+563,Manzana 3 Lote 8,Rogelio Ulloa Avalos,,285.320,Gasto Común,Pago electrónico,,,,S/I,05/02/2024,No,Pago de gastos comunes,,,,
+564,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,83.858,Gasto Común,Transferencia,,,,S/I,05/02/2024,No,Pago registrado,,,,
+565,Manzana 2 Lote 2,Romina Salazar Rivas,,190.853,Gasto Común,Transferencia,,,,S/I,05/02/2024,No,Pago registrado,,,,
+566,Manzana 2 Lote 6,Pablo Hidalgo Astorga,,91.781,Gasto Común,Transferencia,,,,S/I,05/02/2024,No,Pago registrado,,,,
+567,Manzana 1 Lote 17,Mario Sandoval Castillo,,91.656,Gasto Común,Pago electrónico,,,,S/I,06/02/2024,No,Pago de gastos comunes,,,,
+568,Manzana 3 Lote 3,Jorge álvarez Briones,,55.000,Gasto Común,Pago electrónico,,,,S/I,06/02/2024,No,Pago de gastos comunes,,,,
+569,Manzana 4 Lote 15,Juan Eduardo Monsalve Constanzo,,55.000,Gasto Común,Pago electrónico,,,,S/I,07/02/2024,No,Pago de gastos comunes,,,,
+570,Manzana 1 Lote 15,Patricio Peña Saravia,,156.851,Gasto Común,Transferencia,,,,S/I,08/02/2024,No,Pago registrado,,,,
+571,Manzana 4 Lote 2,Cristian Mella Vergara,,117.792,Gasto Común,Pago electrónico,,,,S/I,09/02/2024,No,Pago de gastos comunes,,,,
+572,Manzana 1 Lote 9,Daniel Lagos Avello,,55.093,Gasto Común,Pago electrónico,,,,S/I,09/02/2024,No,Pago de gastos comunes,,,,
+573,Manzana 2 Lote 3,Sara Hernández,,55.000,Gasto Común,Pago electrónico,,,,S/I,09/02/2024,No,Pago de gastos comunes,,,,
+574,Manzana 1 Lote 7,Rodrigo Feijoo Castillo,,67.064,Gasto Común,Pago electrónico,,,,S/I,13/02/2024,No,Pago de gastos comunes,,,,
+575,Manzana 3 Lote 5,Alejandra Bobadilla Cuevas,,92.126,Gasto Común,Transferencia,,,,S/I,14/02/2024,No,Pago registrado,,,,
+576,Manzana 4 Lote 7,Cristina Hernández Estrada,,144.174,Gasto Común,Transferencia,,,,S/I,14/02/2024,No,Pago registrado,,,,
+577,Manzana 3 Lote 12,Juan Ramón Molina Parada,,55.120,Gasto Común,Pago electrónico,,,,S/I,15/02/2024,No,Pago de gastos comunes,,,,
+578,Manzana 1 Lote 4,Camilo Cornejo Esquivel,,56.404,Gasto Común,Pago electrónico,,,,S/I,16/02/2024,No,Pago de gastos comunes,,,,
+579,Manzana 4 Lote 8,Karol Tamara Villegas Figueroa,,55.000,Gasto Común,Pago electrónico,,,,S/I,18/02/2024,No,Pago de gastos comunes,,,,
+580,Manzana 3 Lote 14,Eberth Saez Montero,,101.861,Gasto Común,Pago electrónico,,,,S/I,19/02/2024,No,Pago de gastos comunes,,,,
+581,Manzana 1 Lote 16,Alfonso Sánchez,,135.213,Gasto Común,Transferencia,,,,S/I,15/02/2024,No,Pago registrado,,,,
+582,Manzana 2 Lote 9,Evelyn Aburto Saavedra,,120.000,Gasto Común,Transferencia,,,,S/I,17/02/2024,No,Pago registrado,,,,
+583,Manzana 1 Lote 10,Paula Reyes Mora,,55.000,Gasto Común,Transferencia,,,,S/I,18/02/2024,No,Pago registrado,,,,
+584,Manzana 4 Lote 18,Richard Ignacio Constanzo Mena,,55.080,Gasto Común,Transferencia,,,,S/I,19/02/2024,No,Pago registrado,,,,
+585,Manzana 3 Lote 13,Geraldo Reyes,,91.777,Gasto Común,Transferencia,,,,S/I,20/02/2024,No,Pago registrado,,,,
+586,Manzana 1 Lote 6,Inmobiliaria e Inversiones Montahue SPA,,55.040,Gasto Común,Pago electrónico,,,,S/I,23/02/2024,No,Pago de gastos comunes,,,,
+587,Manzana 1 Lote 8,Inmobiliaria e Inversiones Montahue SPA,,55.040,Gasto Común,Pago electrónico,,,,S/I,23/02/2024,No,Pago de gastos comunes,,,,
+588,Manzana 3 Lote 7,Richard Contreras Gonzalez,,140.000,Gasto Común,Transferencia,,,,S/I,23/02/2024,No,Pago registrado,,,,
+589,Manzana 1 Lote 2,Giovanni Figueroa De La Guarda,,175.698,Gasto Común,Transferencia,,,,S/I,27/02/2024,No,Pago registrado,,,,
+590,Manzana 4 Lote 11,Mario Segura Vega,,107.199,Gasto Común,Pago electrónico,,,,S/I,02/03/2024,No,Pago de gastos comunes,,,,
+591,Manzana 2 Lote 1,Natalia Núñez Pulido,,85.094,Gasto Común,Pago electrónico,,,,S/I,04/03/2024,No,Pago de gastos comunes,,,,
+592,Manzana 1 Lote 12,Eduardo Ojeda Triviño,,110.000,Gasto Común,Transferencia,,,,S/I,01/03/2024,No,Pago registrado,,,,
+593,Manzana 4 Lote 14,Miguel Suazo Lobos,,163.361,Gasto Común,Transferencia,,,,S/I,01/03/2024,No,Pago registrado,,,,
+594,Manzana 2 Lote 11,Cristian Hernández Toledo,,134.666,Gasto Común,Pago electrónico,,,,S/I,07/03/2024,No,Pago de gastos comunes,,,,
+595,Manzana 4 Lote 2,Cristian Mella Vergara,,117.774,Gasto Común,Pago electrónico,,,,S/I,07/03/2024,No,Pago de gastos comunes,,,,
+596,Manzana 4 Lote 15,Juan Eduardo Monsalve Constanzo,,55.000,Gasto Común,Pago electrónico,,,,S/I,07/03/2024,No,Pago de gastos comunes,,,,
+597,Manzana 1 Lote 9,Daniel Lagos Avello,,55.000,Gasto Común,Pago electrónico,,,,S/I,07/03/2024,No,Pago de gastos comunes,,,,
+598,Manzana 1 Lote 15,Patricio Peña Saravia,,55.020,Gasto Común,Transferencia,,,,S/I,07/03/2024,No,Pago registrado,,,,
+599,Manzana 3 Lote 8,Rogelio Ulloa Avalos,,168.868,Gasto Común,Pago electrónico,,,,S/I,08/03/2024,No,Pago de gastos comunes,,,,
+600,Manzana 4 Lote 3,Pablo Zambrano Vidal,,125.907,Gasto Común,Pago electrónico,,,,S/I,08/03/2024,No,Pago de gastos comunes,,,,
+601,Manzana 3 Lote 14,Eberth Saez Montero,,104.911,Gasto Común,Pago electrónico,,,,S/I,08/03/2024,No,Pago de gastos comunes,,,,
+602,Manzana 2 Lote 3,Sara Hernández,,55.000,Gasto Común,Pago electrónico,,,,S/I,09/03/2024,No,Pago de gastos comunes,,,,
+603,Manzana 1 Lote 14,Pablo Saez Sanhueza,,55.000,Gasto Común,Pago electrónico,,,,S/I,09/03/2024,No,Pago de gastos comunes,,,,
+604,Manzana 3 Lote 6,Nolbert Cuevas Alarcon,,110.129,Gasto Común,Pago electrónico,,,,S/I,10/03/2024,No,Pago de gastos comunes,,,,
+605,Manzana 2 Lote 5,Angela Suazo Borzone,,171.910,Gasto Común,Pago electrónico,,,,S/I,10/03/2024,No,Pago de gastos comunes,,,,
+606,Manzana 3 Lote 3,Jorge álvarez Briones,,55.000,Gasto Común,Pago electrónico,,,,S/I,11/03/2024,No,Pago de gastos comunes,,,,
+607,Manzana 1 Lote 17,Mario Sandoval Castillo,,82.529,Gasto Común,Pago electrónico,,,,S/I,11/03/2024,No,Pago de gastos comunes,,,,
+608,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,94.414,Gasto Común,Transferencia,,,,S/I,17/02/2024,No,Pago registrado,,,,
+609,Manzana 4 Lote 1,Consuelo Mora Candia Mora,,55.000,Gasto Común,Pago electrónico,,,,S/I,12/03/2024,No,Pago de gastos comunes,,,,
+610,Manzana 1 Lote 6,Inmobiliaria e Inversiones Montahue SPA,,55.074,Gasto Común,Pago electrónico,,,,S/I,12/03/2024,No,Pago de gastos comunes,,,,
+611,Manzana 1 Lote 8,Inmobiliaria e Inversiones Montahue SPA,,55.074,Gasto Común,Pago electrónico,,,,S/I,12/03/2024,No,Pago de gastos comunes,,,,
+612,Manzana 3 Lote 9,Joel Gatica Monsalve,,55.000,Gasto Común,Transferencia,,,,S/I,12/03/2024,No,Pago registrado,,,,
+613,Manzana 4 Lote 14,Miguel Suazo Lobos,,56.043,Gasto Común,Transferencia,,,,S/I,12/03/2024,No,Pago registrado,,,,
+614,Manzana 1 Lote 7,Rodrigo Feijoo Castillo,,65.845,Gasto Común,Pago electrónico,,,,S/I,13/03/2024,No,Pago de gastos comunes,,,,
+615,Manzana 1 Lote 16,Alfonso Sánchez,,55.200,Gasto Común,Pago electrónico,,,,S/I,13/03/2024,No,Pago de gastos comunes,,,,
+616,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,63.374,Gasto Común,Pago electrónico,,,,S/I,14/03/2024,No,Pago de gastos comunes,,,,
+617,Manzana 2 Lote 2,Romina Salazar Rivas,,173.874,Gasto Común,Transferencia,,,,S/I,14/03/2024,No,Pago registrado,,,,
+618,Manzana 3 Lote 12,Juan Ramón Molina Parada,,55.000,Gasto Común,Pago electrónico,,,,S/I,16/03/2024,No,Pago de gastos comunes,,,,
+619,Manzana 4 Lote 8,Karol Tamara Villegas Figueroa,,55.028,Gasto Común,Pago electrónico,,,,S/I,18/03/2024,No,Pago de gastos comunes,,,,
+620,Manzana 1 Lote 10,Paula Reyes Mora,,55.028,Gasto Común,Transferencia,,,,S/I,16/03/2024,No,Pago registrado,,,,
+621,Manzana 3 Lote 13,Geraldo Reyes,,55.077,Gasto Común,Transferencia,,,,S/I,18/03/2024,No,Pago registrado,,,,
+622,Manzana 2 Lote 6,Pablo Hidalgo Astorga,,55.000,Gasto Común,Transferencia,,,,S/I,18/03/2024,No,Pago registrado,,,,
+623,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,73.978,Gasto Común,Transferencia,,,,S/I,18/03/2024,No,Pago registrado,,,,
+624,Manzana 1 Lote 2,Giovanni Figueroa De La Guarda,,124.381,Gasto Común,Transferencia,,,,S/I,19/03/2024,No,Pago registrado,,,,
+625,Manzana 1 Lote 11,Miguel Soto Cerda,,147.034,Gasto Común,Transferencia,,,,S/I,21/03/2024,No,Pago registrado,,,,
+626,Manzana 4 Lote 18,Richard Ignacio Constanzo Mena,,55.036,Gasto Común,Transferencia,,,,S/I,21/03/2024,No,Pago registrado,,,,
+627,Manzana 2 Lote 9,Evelyn Aburto Saavedra,,120.000,Gasto Común,Transferencia,,,,S/I,22/03/2024,No,Pago registrado,,,,
+628,Manzana 3 Lote 4,Sandra Araneda García,,146.941,Gasto Común,Transferencia,,,,S/I,25/03/2024,No,Pago registrado,,,,
+629,Manzana 2 Lote 1,Natalia Núñez Pulido,,55.000,Gasto Común,Pago electrónico,,,,S/I,25/03/2024,No,Pago de gastos comunes,,,,
+630,Manzana 3 Lote 5,Alejandra Bobadilla Cuevas,,78.358,Gasto Común,Transferencia,,,,S/I,15/03/2024,No,Pago registrado,,,,
+631,Manzana 4 Lote 2,Cristian Mella Vergara,,105.906,Gasto Común,Pago electrónico,,,,S/I,05/04/2024,No,Pago de gastos comunes,,,,
+632,Manzana 3 Lote 3,Jorge álvarez Briones,,55.000,Gasto Común,Pago electrónico,,,,S/I,05/04/2024,No,Pago de gastos comunes,,,,
+633,Manzana 4 Lote 3,Pablo Zambrano Vidal,,104.872,Gasto Común,Pago electrónico,,,,S/I,05/04/2024,No,Pago de gastos comunes,,,,
+634,Manzana 1 Lote 14,Pablo Saez Sanhueza,,55.000,Gasto Común,Pago electrónico,,,,S/I,05/04/2024,No,Pago de gastos comunes,,,,
+635,Manzana 4 Lote 17,Jose Rojas Toledo,,600.000,Gasto Común,Transferencia,,,,S/I,09/03/2024,No,Pago registrado,,,,
+636,Manzana 3 Lote 5,Alejandra Bobadilla Cuevas,,91.435,Gasto Común,Transferencia,,,,S/I,06/04/2024,No,Pago registrado,,,,
+637,Manzana 2 Lote 5,Angela Suazo Borzone,,55.000,Gasto Común,Pago electrónico,,,,S/I,08/04/2024,No,Pago de gastos comunes,,,,
+638,Manzana 3 Lote 8,Rogelio Ulloa Avalos,,147.767,Gasto Común,Pago electrónico,,,,S/I,08/04/2024,No,Pago de gastos comunes,,,,
+639,Manzana 1 Lote 17,Mario Sandoval Castillo,,91.952,Gasto Común,Pago electrónico,,,,S/I,08/04/2024,No,Pago de gastos comunes,,,,
+640,Manzana 2 Lote 6,Pablo Hidalgo Astorga,,55.000,Gasto Común,Transferencia,,,,S/I,07/04/2024,No,Pago registrado,,,,
+641,Manzana 4 Lote 15,Juan Eduardo Monsalve Constanzo,,55.000,Gasto Común,Pago electrónico,,,,S/I,08/04/2024,No,Pago de gastos comunes,,,,
+642,Manzana 2 Lote 3,Sara Hernández,,55.000,Gasto Común,Pago electrónico,,,,S/I,09/04/2024,No,Pago de gastos comunes,,,,
+643,Manzana 2 Lote 11,Cristian Hernández Toledo,,141.307,Gasto Común,Pago electrónico,,,,S/I,09/04/2024,No,Pago de gastos comunes,,,,
+644,Manzana 3 Lote 9,Joel Gatica Monsalve,,55.000,Gasto Común,Transferencia,,,,S/I,09/04/2024,No,Pago registrado,,,,
+645,Manzana 1 Lote 4,Camilo Cornejo Esquivel,,112.542,Gasto Común,Pago electrónico,,,,S/I,11/04/2024,No,Pago de gastos comunes,,,,
+646,Manzana 3 Lote 14,Eberth Saez Montero,,119.084,Gasto Común,Pago electrónico,,,,S/I,12/04/2024,No,Pago de gastos comunes,,,,
+647,Manzana 1 Lote 8,Inmobiliaria e Inversiones Montahue SPA,,55.000,Gasto Común,Pago electrónico,,,,S/I,12/04/2024,No,Pago de gastos comunes,,,,
+648,Manzana 1 Lote 6,Inmobiliaria e Inversiones Montahue SPA,,55.000,Gasto Común,Pago electrónico,,,,S/I,12/04/2024,No,Pago de gastos comunes,,,,
+649,Manzana 4 Lote 8,Karol Tamara Villegas Figueroa,,55.028,Gasto Común,Pago electrónico,,,,S/I,15/04/2024,No,Pago de gastos comunes,,,,
+650,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,79.844,Gasto Común,Transferencia,,,,S/I,15/04/2024,No,Pago registrado,,,,
+651,Manzana 2 Lote 2,Romina Salazar Rivas,,176.709,Gasto Común,Transferencia,,,,S/I,14/04/2024,No,Pago registrado,,,,
+652,Manzana 3 Lote 13,Geraldo Reyes,,55.028,Gasto Común,Transferencia,,,,S/I,15/04/2024,No,Pago registrado,,,,
+653,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,65.595,Gasto Común,Pago electrónico,,,,S/I,15/04/2024,No,Pago de gastos comunes,,,,
+654,Manzana 3 Lote 12,Juan Ramón Molina Parada,,55.009,Gasto Común,Pago electrónico,,,,S/I,16/04/2024,No,Pago de gastos comunes,,,,
+655,Manzana 4 Lote 1,Consuelo Mora Candia Mora,,55.000,Gasto Común,Pago electrónico,,,,S/I,17/04/2024,No,Pago de gastos comunes,,,,
+656,Manzana 1 Lote 10,Paula Reyes Mora,,55.009,Gasto Común,Transferencia,,,,S/I,18/04/2024,No,Pago registrado,,,,
+657,Manzana 1 Lote 11,Miguel Soto Cerda,,55.376,Gasto Común,Pago electrónico,,,,S/I,21/04/2024,No,Pago de gastos comunes,,,,
+658,Manzana 1 Lote 9,Daniel Lagos Avello,,55.000,Gasto Común,Pago electrónico,,,,S/I,24/04/2024,No,Pago de gastos comunes,,,,
+659,Manzana 3 Lote 1,Luis Eduardo Escobar Elgueta,,100.000,Gasto Común,Transferencia,,,,S/I,23/04/2024,No,Pago registrado,,,,
+660,Manzana 2 Lote 9,Evelyn Aburto Saavedra,,100.000,Gasto Común,Transferencia,,,,S/I,28/04/2024,No,Pago registrado,,,,
+661,Manzana 3 Lote 6,Nolbert Cuevas Alarcon,,110.091,Gasto Común,Pago electrónico,,,,S/I,30/04/2024,No,Pago de gastos comunes,,,,
+662,Manzana 4 Lote 2,Cristian Mella Vergara,,94.280,Gasto Común,Pago electrónico,,,,S/I,30/04/2024,No,Pago de gastos comunes,,,,
+663,Manzana 1 Lote 11,Miguel Soto Cerda,,55.000,Gasto Común,Pago electrónico,,,,S/I,30/04/2024,No,Pago de gastos comunes,,,,
+664,Manzana 1 Lote 14,Pablo Saez Sanhueza,,55.000,Gasto Común,Pago electrónico,,,,S/I,30/04/2024,No,Pago de gastos comunes,,,,
+665,Manzana 2 Lote 11,Cristian Hernández Toledo,,153.531,Gasto Común,Pago electrónico,,,,S/I,02/05/2024,No,Pago de gastos comunes,,,,
+666,Manzana 1 Lote 15,Patricio Peña Saravia,,110.000,Gasto Común,Transferencia,,,,S/I,01/05/2024,No,Pago registrado,,,,
+667,Manzana 2 Lote 1,Natalia Núñez Pulido,,110.147,Gasto Común,Pago electrónico,,,,S/I,02/05/2024,No,Pago de gastos comunes,,,,
+668,Manzana 1 Lote 17,Mario Sandoval Castillo,,83.599,Gasto Común,Pago electrónico,,,,S/I,03/05/2024,No,Pago de gastos comunes,,,,
+669,Manzana 2 Lote 6,Pablo Hidalgo Astorga,,55.028,Gasto Común,Transferencia,,,,S/I,02/05/2024,No,Pago registrado,,,,
+670,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,86.907,Gasto Común,Transferencia,,,,S/I,03/05/2024,No,Pago registrado,,,,
+671,Manzana 1 Lote 2,Giovanni Figueroa De La Guarda,,232.130,Gasto Común,Transferencia,,,,S/I,03/05/2024,No,Pago registrado,,,,
+672,Manzana 1 Lote 16,Alfonso Sánchez,,110.000,Gasto Común,Transferencia,,,,S/I,03/05/2024,No,Pago registrado,,,,
+673,Manzana 4 Lote 11,Mario Segura Vega,,388.376,Gasto Común,Pago electrónico,,,,S/I,03/05/2024,No,Pago de gastos comunes,,,,
+674,Manzana 4 Lote 3,Pablo Zambrano Vidal,,88.471,Gasto Común,Pago electrónico,,,,S/I,04/05/2024,No,Pago de gastos comunes,,,,
+675,Manzana 3 Lote 5,Alejandra Bobadilla Cuevas,,79.577,Gasto Común,Transferencia,,,,S/I,04/05/2024,No,Pago registrado,,,,
+676,Manzana 3 Lote 8,Rogelio Ulloa Avalos,,111.930,Gasto Común,Pago electrónico,,,,S/I,05/05/2024,No,Pago de gastos comunes,,,,
+677,Manzana 2 Lote 5,Angela Suazo Borzone,,55.000,Gasto Común,Pago electrónico,,,,S/I,07/05/2024,No,Pago de gastos comunes,,,,
+678,Manzana 3 Lote 9,Joel Gatica Monsalve,,55.000,Gasto Común,Transferencia,,,,S/I,08/05/2024,No,Pago registrado,,,,
+679,Manzana 4 Lote 15,Juan Eduardo Monsalve Constanzo,,55.000,Gasto Común,Pago electrónico,,,,S/I,08/05/2024,No,Pago de gastos comunes,,,,
+680,Manzana 3 Lote 7,Richard Contreras Gonzalez,,100.000,Gasto Común,Transferencia,,,,S/I,11/05/2024,No,Pago registrado,,,,
+681,Manzana 3 Lote 7,Richard Contreras Gonzalez,,100.000,Gasto Común,Transferencia,,,,S/I,11/05/2024,No,Pago registrado,,,,
+682,Manzana 1 Lote 7,Rodrigo Feijoo Castillo,,123.206,Gasto Común,Pago electrónico,,,,S/I,12/05/2024,No,Pago de gastos comunes,,,,
+683,Manzana 1 Lote 9,Daniel Lagos Avello,,55.000,Gasto Común,Pago electrónico,,,,S/I,14/05/2024,No,Pago de gastos comunes,,,,
+684,Manzana 2 Lote 3,Sara Hernández,,55.000,Gasto Común,Pago electrónico,,,,S/I,14/05/2024,No,Pago de gastos comunes,,,,
+685,Manzana 3 Lote 13,Geraldo Reyes,,55.000,Gasto Común,Transferencia,,,,S/I,14/05/2024,No,Pago registrado,,,,
+686,Manzana 4 Lote 1,Consuelo Mora Candia Mora,,55.000,Gasto Común,Pago electrónico,,,,S/I,15/05/2024,No,Pago de gastos comunes,,,,
+687,Manzana 1 Lote 8,Inmobiliaria e Inversiones Montahue SPA,,55.000,Gasto Común,Pago electrónico,,,,S/I,15/05/2024,No,Pago de gastos comunes,,,,
+688,Manzana 1 Lote 6,Inmobiliaria e Inversiones Montahue SPA,,55.000,Gasto Común,Pago electrónico,,,,S/I,15/05/2024,No,Pago de gastos comunes,,,,
+689,Manzana 3 Lote 14,Eberth Saez Montero,,131.368,Gasto Común,Pago electrónico,,,,S/I,15/05/2024,No,Pago de gastos comunes,,,,
+690,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,62.373,Gasto Común,Pago electrónico,,,,S/I,15/05/2024,No,Pago de gastos comunes,,,,
+691,Manzana 3 Lote 3,Jorge álvarez Briones,,56.787,Gasto Común,Transferencia,,,,S/I,17/05/2024,No,Pago registrado,,,,
+692,Manzana 2 Lote 2,Romina Salazar Rivas,,144.594,Gasto Común,Transferencia,,,,S/I,17/05/2024,No,Pago registrado,,,,
+693,Manzana 1 Lote 10,Paula Reyes Mora,,55.000,Gasto Común,Transferencia,,,,S/I,18/05/2024,No,Pago registrado,,,,
+694,Manzana 2 Lote 9,Evelyn Aburto Saavedra,,114.191,Gasto Común,Transferencia,,,,S/I,20/05/2024,No,Pago registrado,,,,
+695,Manzana 3 Lote 12,Juan Ramón Molina Parada,,55.000,Gasto Común,Pago electrónico,,,,S/I,22/05/2024,No,Pago de gastos comunes,,,,
+696,Manzana 3 Lote 4,Sandra Araneda García,,55.473,Gasto Común,Transferencia,,,,S/I,22/05/2024,No,Pago registrado,,,,
+697,Manzana 4 Lote 8,Karol Tamara Villegas Figueroa,,55.000,Gasto Común,Pago electrónico,,,,S/I,31/05/2024,No,Pago de gastos comunes,,,,
+698,Manzana 2 Lote 5,Angela Suazo Borzone,,55.000,Gasto Común,Pago electrónico,,,,S/I,02/06/2024,No,Pago de gastos comunes,,,,
+699,Manzana 4 Lote 3,Pablo Zambrano Vidal,,106.380,Gasto Común,Pago electrónico,,,,S/I,03/06/2024,No,Pago de gastos comunes,,,,
+700,Manzana 2 Lote 1,Natalia Núñez Pulido,,55.000,Gasto Común,Pago electrónico,,,,S/I,03/06/2024,No,Pago de gastos comunes,,,,
+701,Manzana 1 Lote 14,Pablo Saez Sanhueza,,55.000,Gasto Común,Pago electrónico,,,,S/I,04/06/2024,No,Pago de gastos comunes,,,,
+702,Manzana 4 Lote 2,Cristian Mella Vergara,,110.130,Gasto Común,Pago electrónico,,,,S/I,04/06/2024,No,Pago de gastos comunes,,,,
+703,Manzana 1 Lote 11,Miguel Soto Cerda,,55.000,Gasto Común,Pago electrónico,,,,S/I,04/06/2024,No,Pago de gastos comunes,,,,
+704,Manzana 2 Lote 11,Cristian Hernández Toledo,,185.700,Gasto Común,Pago electrónico,,,,S/I,04/06/2024,No,Pago de gastos comunes,,,,
+705,Manzana 3 Lote 6,Nolbert Cuevas Alarcon,,55.000,Gasto Común,Pago electrónico,,,,S/I,05/06/2024,No,Pago de gastos comunes,,,,
+706,Manzana 1 Lote 17,Mario Sandoval Castillo,,97.754,Gasto Común,Pago electrónico,,,,S/I,05/06/2024,No,Pago de gastos comunes,,,,
+707,Manzana 3 Lote 8,Rogelio Ulloa Avalos,,121.382,Gasto Común,Pago electrónico,,,,S/I,05/06/2024,No,Pago de gastos comunes,,,,
+708,Manzana 2 Lote 6,Pablo Hidalgo Astorga,,55.000,Gasto Común,Transferencia,,,,S/I,02/06/2024,No,Pago registrado,,,,
+709,Manzana 1 Lote 2,Giovanni Figueroa De La Guarda,,94.754,Gasto Común,Transferencia,,,,S/I,04/06/2024,No,Pago registrado,,,,
+710,Manzana 3 Lote 5,Alejandra Bobadilla Cuevas,,84.815,Gasto Común,Transferencia,,,,S/I,02/06/2024,No,Pago registrado,,,,
+711,Manzana 2 Lote 2,Romina Salazar Rivas,,198.688,Gasto Común,Transferencia,,,,S/I,04/06/2024,No,Pago registrado,,,,
+712,Manzana 3 Lote 9,Joel Gatica Monsalve,,55.000,Gasto Común,Transferencia,,,,S/I,04/06/2024,No,Pago registrado,,,,
+713,Manzana 4 Lote 15,Juan Eduardo Monsalve Constanzo,,55.000,Gasto Común,Pago electrónico,,,,S/I,08/06/2024,No,Pago de gastos comunes,,,,
+714,Manzana 3 Lote 12,Juan Ramón Molina Parada,,55.064,Gasto Común,Pago electrónico,,,,S/I,10/06/2024,No,Pago de gastos comunes,,,,
+715,Manzana 3 Lote 3,Jorge álvarez Briones,,55.019,Gasto Común,Pago electrónico,,,,S/I,10/06/2024,No,Pago de gastos comunes,,,,
+716,Manzana 2 Lote 3,Sara Hernández,,55.000,Gasto Común,Pago electrónico,,,,S/I,11/06/2024,No,Pago de gastos comunes,,,,
+717,Manzana 4 Lote 14,Miguel Suazo Lobos,,168.044,Gasto Común,Transferencia,,,,S/I,11/06/2024,No,Pago registrado,,,,
+718,Manzana 1 Lote 9,Daniel Lagos Avello,,55.000,Gasto Común,Pago electrónico,,,,S/I,12/06/2024,No,Pago de gastos comunes,,,,
+719,Manzana 1 Lote 7,Rodrigo Feijoo Castillo,,60.251,Gasto Común,Pago electrónico,,,,S/I,12/06/2024,No,Pago de gastos comunes,,,,
+720,Manzana 1 Lote 15,Patricio Peña Saravia,,55.000,Gasto Común,Transferencia,,,,S/I,12/06/2024,No,Pago registrado,,,,
+721,Manzana 3 Lote 14,Eberth Saez Montero,,156.823,Gasto Común,Pago electrónico,,,,S/I,12/06/2024,No,Pago de gastos comunes,,,,
+722,Manzana 1 Lote 16,Alfonso Sánchez,,55.000,Gasto Común,Pago electrónico,,,,S/I,13/06/2024,No,Pago de gastos comunes,,,,
+723,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,71.314,Gasto Común,Pago electrónico,,,,S/I,14/06/2024,No,Pago de gastos comunes,,,,
+724,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,88.941,Gasto Común,Transferencia,,,,S/I,14/06/2024,No,Pago registrado,,,,
+725,Manzana 1 Lote 8,Inmobiliaria e Inversiones Montahue SPA,,55.000,Gasto Común,Pago electrónico,,,,S/I,15/06/2024,No,Pago de gastos comunes,,,,
+726,Manzana 1 Lote 6,Inmobiliaria e Inversiones Montahue SPA,,55.000,Gasto Común,Pago electrónico,,,,S/I,15/06/2024,No,Pago de gastos comunes,,,,
+727,Manzana 4 Lote 8,Karol Tamara Villegas Figueroa,,55.146,Gasto Común,Pago electrónico,,,,S/I,16/06/2024,No,Pago de gastos comunes,,,,
+728,Manzana 3 Lote 13,Geraldo Reyes,,55.000,Gasto Común,Transferencia,,,,S/I,19/06/2024,No,Pago registrado,,,,
+729,Manzana 4 Lote 1,Consuelo Mora Candia Mora,,55.000,Gasto Común,Pago electrónico,,,,S/I,24/06/2024,No,Pago de gastos comunes,,,,
+730,Manzana 1 Lote 12,Eduardo Ojeda Triviño,,165.147,Gasto Común,Transferencia,,,,S/I,28/06/2024,No,Pago registrado,,,,
+731,Manzana 2 Lote 9,Evelyn Aburto Saavedra,,130.000,Gasto Común,Transferencia,,,,S/I,30/06/2024,No,Pago registrado,,,,
+732,Manzana 1 Lote 7,Rodrigo Feijoo Castillo,,58.655,Gasto Común,Pago electrónico,,,,S/I,02/07/2024,No,Pago de gastos comunes,,,,
+733,Manzana 1 Lote 14,Pablo Saez Sanhueza,,55.000,Gasto Común,Pago electrónico,,,,S/I,02/07/2024,No,Pago de gastos comunes,,,,
+734,Manzana 2 Lote 5,Angela Suazo Borzone,,55.000,Gasto Común,Pago electrónico,,,,S/I,03/07/2024,No,Pago de gastos comunes,,,,
+735,Manzana 4 Lote 3,Pablo Zambrano Vidal,,149.790,Gasto Común,Pago electrónico,,,,S/I,03/07/2024,No,Pago de gastos comunes,,,,
+736,Manzana 4 Lote 1,Consuelo Mora Candia Mora,,55.082,Gasto Común,Pago electrónico,,,,S/I,03/07/2024,No,Pago de gastos comunes,,,,
+737,Manzana 1 Lote 17,Mario Sandoval Castillo,,100.811,Gasto Común,Pago electrónico,,,,S/I,03/07/2024,No,Pago de gastos comunes,,,,
+738,Manzana 4 Lote 2,Cristian Mella Vergara,,103.248,Gasto Común,Pago electrónico,,,,S/I,03/07/2024,No,Pago de gastos comunes,,,,
+739,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,109.340,Gasto Común,Transferencia,,,,S/I,02/07/2024,No,Pago registrado,,,,
+740,Manzana 1 Lote 15,Patricio Peña Saravia,,55.000,Gasto Común,Transferencia,,,,S/I,02/07/2024,No,Pago registrado,,,,
+741,Manzana 2 Lote 6,Pablo Hidalgo Astorga,,55.000,Gasto Común,Transferencia,,,,S/I,04/07/2024,No,Pago registrado,,,,
+742,Manzana 2 Lote 1,Natalia Núñez Pulido,,55.000,Gasto Común,Pago electrónico,,,,S/I,05/07/2024,No,Pago de gastos comunes,,,,
+743,Manzana 1 Lote 11,Miguel Soto Cerda,,55.000,Gasto Común,Pago electrónico,,,,S/I,05/07/2024,No,Pago de gastos comunes,,,,
+744,Manzana 3 Lote 8,Rogelio Ulloa Avalos,,127.372,Gasto Común,Pago electrónico,,,,S/I,05/07/2024,No,Pago de gastos comunes,,,,
+745,Manzana 4 Lote 15,Juan Eduardo Monsalve Constanzo,,55.000,Gasto Común,Pago electrónico,,,,S/I,05/07/2024,No,Pago de gastos comunes,,,,
+746,Manzana 2 Lote 11,Cristian Hernández Toledo,,223.137,Gasto Común,Pago electrónico,,,,S/I,06/07/2024,No,Pago de gastos comunes,,,,
+747,Manzana 2 Lote 2,Romina Salazar Rivas,,164.898,Gasto Común,Transferencia,,,,S/I,06/07/2024,No,Pago registrado,,,,
+748,Manzana 1 Lote 2,Giovanni Figueroa De La Guarda,,86.434,Gasto Común,Transferencia,,,,S/I,07/07/2024,No,Pago registrado,,,,
+749,Manzana 3 Lote 9,Joel Gatica Monsalve,,50.000,Gasto Común,Transferencia,,,,S/I,09/07/2024,No,Pago registrado,,,,
+750,Manzana 3 Lote 12,Juan Ramón Molina Parada,,55.000,Gasto Común,Pago electrónico,,,,S/I,09/07/2024,No,Pago de gastos comunes,,,,
+751,Manzana 3 Lote 6,Nolbert Cuevas Alarcon,,55.000,Gasto Común,Pago electrónico,,,,S/I,09/07/2024,No,Pago de gastos comunes,,,,
+752,Manzana 2 Lote 3,Sara Hernández,,55.000,Gasto Común,Pago electrónico,,,,S/I,10/07/2024,No,Pago de gastos comunes,,,,
+753,Manzana 1 Lote 4,Camilo Cornejo Esquivel,,182.714,Gasto Común,Pago electrónico,,,,S/I,10/07/2024,No,Pago de gastos comunes,,,,
+754,Manzana 1 Lote 6,Inmobiliaria e Inversiones Montahue SPA,,55.000,Gasto Común,Pago electrónico,,,,S/I,12/07/2024,No,Pago de gastos comunes,,,,
+755,Manzana 1 Lote 8,Inmobiliaria e Inversiones Montahue SPA,,55.000,Gasto Común,Pago electrónico,,,,S/I,12/07/2024,No,Pago de gastos comunes,,,,
+756,Manzana 1 Lote 16,Alfonso Sánchez,,55.000,Gasto Común,Pago electrónico,,,,S/I,13/07/2024,No,Pago de gastos comunes,,,,
+757,Manzana 3 Lote 14,Eberth Saez Montero,,152.471,Gasto Común,Pago electrónico,,,,S/I,14/07/2024,No,Pago de gastos comunes,,,,
+758,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,73.763,Gasto Común,Pago electrónico,,,,S/I,15/07/2024,No,Pago de gastos comunes,,,,
+759,Manzana 4 Lote 8,Karol Tamara Villegas Figueroa,,55.009,Gasto Común,Pago electrónico,,,,S/I,15/07/2024,No,Pago de gastos comunes,,,,
+760,Manzana 3 Lote 5,Alejandra Bobadilla Cuevas,,92.526,Gasto Común,Transferencia,,,,S/I,10/07/2024,No,Pago registrado,,,,
+761,Manzana 4 Lote 14,Miguel Suazo Lobos,,59.590,Gasto Común,Transferencia,,,,S/I,11/07/2024,No,Pago registrado,,,,
+762,Manzana 3 Lote 13,Geraldo Reyes,,55.036,Gasto Común,Transferencia,,,,S/I,17/07/2024,No,Pago registrado,,,,
+763,Manzana 1 Lote 9,Daniel Lagos Avello,,55.000,Gasto Común,Pago electrónico,,,,S/I,23/07/2024,No,Pago de gastos comunes,,,,
+764,Manzana 2 Lote 9,Evelyn Aburto Saavedra,,146.000,Gasto Común,Transferencia,,,,S/I,29/07/2024,No,Pago registrado,,,,
+765,Manzana 3 Lote 7,Richard Contreras Gonzalez,,355.825,Gasto Común,Transferencia,,,,S/I,26/07/2024,No,Pago registrado,,,,
+766,Manzana 2 Lote 6,Pablo Hidalgo Astorga,,55.000,Gasto Común,Transferencia,,,,S/I,06/08/2024,No,Pago registrado,,,,
+767,Manzana 3 Lote 6,Nolbert Cuevas Alarcon,,55.000,Gasto Común,Pago electrónico,,,,S/I,07/08/2024,No,Pago de gastos comunes,,,,
+768,Manzana 4 Lote 2,Cristian Mella Vergara,,107.805,Gasto Común,Pago electrónico,,,,S/I,08/08/2024,No,Pago de gastos comunes,,,,
+769,Manzana 1 Lote 14,Pablo Saez Sanhueza,,55.000,Gasto Común,Pago electrónico,,,,S/I,08/08/2024,No,Pago de gastos comunes,,,,
+770,Manzana 2 Lote 11,Cristian Hernández Toledo,,168.894,Gasto Común,Pago electrónico,,,,S/I,08/08/2024,No,Pago de gastos comunes,,,,
+771,Manzana 2 Lote 5,Angela Suazo Borzone,,55.000,Gasto Común,Pago electrónico,,,,S/I,08/08/2024,No,Pago de gastos comunes,,,,
+772,Manzana 1 Lote 7,Rodrigo Feijoo Castillo,,70.531,Gasto Común,Pago electrónico,,,,S/I,08/08/2024,No,Pago de gastos comunes,,,,
+773,Manzana 1 Lote 17,Mario Sandoval Castillo,,100.765,Gasto Común,Pago electrónico,,,,S/I,09/08/2024,No,Pago de gastos comunes,,,,
+774,Manzana 4 Lote 3,Pablo Zambrano Vidal,,142.595,Gasto Común,Pago electrónico,,,,S/I,09/08/2024,No,Pago de gastos comunes,,,,
+775,Manzana 3 Lote 12,Juan Ramón Molina Parada,,55.000,Gasto Común,Pago electrónico,,,,S/I,09/08/2024,No,Pago de gastos comunes,,,,
+776,Manzana 1 Lote 11,Miguel Soto Cerda,,55.000,Gasto Común,Pago electrónico,,,,S/I,12/08/2024,No,Pago de gastos comunes,,,,
+777,Manzana 4 Lote 8,Karol Tamara Villegas Figueroa,,55.000,Gasto Común,Pago electrónico,,,,S/I,12/08/2024,No,Pago de gastos comunes,,,,
+778,Manzana 4 Lote 15,Juan Eduardo Monsalve Constanzo,,55.000,Gasto Común,Pago electrónico,,,,S/I,12/08/2024,No,Pago de gastos comunes,,,,
+779,Manzana 1 Lote 8,Inmobiliaria e Inversiones Montahue SPA,,55.000,Gasto Común,Pago electrónico,,,,S/I,12/08/2024,No,Pago de gastos comunes,,,,
+780,Manzana 1 Lote 6,Inmobiliaria e Inversiones Montahue SPA,,55.000,Gasto Común,Pago electrónico,,,,S/I,12/08/2024,No,Pago de gastos comunes,,,,
+781,Manzana 1 Lote 16,Alfonso Sánchez,,55.000,Gasto Común,Pago electrónico,,,,S/I,13/08/2024,No,Pago de gastos comunes,,,,
+782,Manzana 3 Lote 14,Eberth Saez Montero,,175.313,Gasto Común,Pago electrónico,,,,S/I,15/08/2024,No,Pago de gastos comunes,,,,
+783,Manzana 3 Lote 8,Rogelio Ulloa Avalos,,142.388,Gasto Común,Pago electrónico,,,,S/I,15/08/2024,No,Pago de gastos comunes,,,,
+784,Manzana 4 Lote 11,Mario Segura Vega,,296.753,Gasto Común,Transferencia,,,,S/I,06/07/2024,No,Pago registrado,,,,
+785,Manzana 2 Lote 3,Sara Hernández,,55.000,Gasto Común,Transferencia,,,,S/I,08/08/2024,No,Pago registrado,,,,
+786,Manzana 4 Lote 11,Mario Segura Vega,,139.446,Gasto Común,Pago electrónico,,,,S/I,16/08/2024,No,Pago de gastos comunes,,,,
+787,Manzana 3 Lote 5,Alejandra Bobadilla Cuevas,,87.719,Gasto Común,Transferencia,,,,S/I,09/08/2024,No,Pago registrado,,,,
+788,Manzana 4 Lote 14,Miguel Suazo Lobos,,55.621,Gasto Común,Transferencia,,,,S/I,10/08/2024,No,Pago registrado,,,,
+789,Manzana 3 Lote 9,Joel Gatica Monsalve,,60.148,Gasto Común,Transferencia,,,,S/I,12/08/2024,No,Pago registrado,,,,
+790,Manzana 1 Lote 15,Patricio Peña Saravia,,55.000,Gasto Común,Transferencia,,,,S/I,12/08/2024,No,Pago registrado,,,,
+791,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,50.000,Gasto Común,Transferencia,,,,S/I,14/08/2024,No,Pago registrado,,,,
+792,Manzana 1 Lote 9,Daniel Lagos Avello,,55.074,Gasto Común,Pago electrónico,,,,S/I,19/08/2024,No,Pago de gastos comunes,,,,
+793,Manzana 4 Lote 1,Consuelo Mora Candia Mora,,55.000,Gasto Común,Pago electrónico,,,,S/I,19/08/2024,No,Pago de gastos comunes,,,,
+794,Manzana 2 Lote 2,Romina Salazar Rivas,,180.904,Gasto Común,Transferencia,,,,S/I,21/08/2024,No,Pago registrado,,,,
+795,Manzana 3 Lote 13,Geraldo Reyes,,55.019,Gasto Común,Pago electrónico,,,,S/I,21/08/2024,No,Pago de gastos comunes,,,,
+796,Manzana 4 Lote 7,Cristina Hernández Estrada,,670.000,Gasto Común,Pago electrónico,,,,S/I,25/08/2024,No,Pago de gastos comunes,,,,
+797,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,27.000,Gasto Común,Transferencia,,,,S/I,29/08/2024,No,Pago registrado,,,,
+798,Manzana 3 Lote 3,Jorge álvarez Briones,,110.146,Gasto Común,Pago electrónico,,,,S/I,29/08/2024,No,Pago de gastos comunes,,,,
+799,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,100.765,Gasto Común,Transferencia,,,,S/I,08/08/2024,No,Pago registrado,,,,
+800,Manzana 1 Lote 12,Eduardo Ojeda Triviño,,111.000,Gasto Común,Transferencia,,,,S/I,31/08/2024,No,Pago registrado,,,,
+801,Manzana 2 Lote 6,Pablo Hidalgo Astorga,,55.000,Gasto Común,Transferencia,,,,S/I,01/09/2024,No,Pago registrado,,,,
+802,Manzana 2 Lote 9,Evelyn Aburto Saavedra,,150.000,Gasto Común,Transferencia,,,,S/I,31/08/2024,No,Pago registrado,,,,
+803,Manzana 4 Lote 3,Pablo Zambrano Vidal,,218.377,Gasto Común,Pago electrónico,,,,S/I,02/09/2024,No,Pago de gastos comunes,,,,
+804,Manzana 4 Lote 7,Cristina Hernández Estrada,,447.346,Gasto Común,Transferencia,,,,S/I,02/09/2024,No,Pago registrado,,,,
+805,Manzana 2 Lote 1,Natalia Núñez Pulido,,110.146,Gasto Común,Pago electrónico,,,,S/I,02/09/2024,No,Pago de gastos comunes,,,,
+806,Manzana 4 Lote 1,Consuelo Mora Candia Mora,,55.036,Gasto Común,Pago electrónico,,,,S/I,03/09/2024,No,Pago de gastos comunes,,,,
+807,Manzana 1 Lote 15,Patricio Peña Saravia,,55.000,Gasto Común,Transferencia,,,,S/I,03/09/2024,No,Pago registrado,,,,
+808,Manzana 3 Lote 5,Alejandra Bobadilla Cuevas,,83.720,Gasto Común,Transferencia,,,,S/I,03/09/2024,No,Pago registrado,,,,
+809,Manzana 3 Lote 6,Nolbert Cuevas Alarcon,,55.000,Gasto Común,Pago electrónico,,,,S/I,03/09/2024,No,Pago de gastos comunes,,,,
+810,Manzana 2 Lote 5,Angela Suazo Borzone,,55.000,Gasto Común,Pago electrónico,,,,S/I,03/09/2024,No,Pago de gastos comunes,,,,
+811,Manzana 1 Lote 11,Miguel Soto Cerda,,55.000,Gasto Común,Pago electrónico,,,,S/I,03/09/2024,No,Pago de gastos comunes,,,,
+812,Manzana 2 Lote 3,Sara Hernández,,55.000,Gasto Común,Pago electrónico,,,,S/I,03/09/2024,No,Pago de gastos comunes,,,,
+813,Manzana 4 Lote 2,Cristian Mella Vergara,,198.272,Gasto Común,Pago electrónico,,,,S/I,03/09/2024,No,Pago de gastos comunes,,,,
+814,Manzana 4 Lote 15,Juan Eduardo Monsalve Constanzo,,55.000,Gasto Común,Pago electrónico,,,,S/I,05/09/2024,No,Pago de gastos comunes,,,,
+815,Manzana 3 Lote 9,Joel Gatica Monsalve,,55.010,Gasto Común,Transferencia,,,,S/I,04/09/2024,No,Pago registrado,,,,
+816,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,190.039,Gasto Común,Transferencia,,,,S/I,06/09/2024,No,Pago registrado,,,,
+817,Manzana 1 Lote 17,Mario Sandoval Castillo,,94.634,Gasto Común,Pago electrónico,,,,S/I,06/09/2024,No,Pago de gastos comunes,,,,
+818,Manzana 1 Lote 2,Giovanni Figueroa De La Guarda,,68.778,Gasto Común,Transferencia,,,,S/I,07/09/2024,No,Pago registrado,,,,
+819,Manzana 2 Lote 11,Cristian Hernández Toledo,,132.928,Gasto Común,Pago electrónico,,,,S/I,10/09/2024,No,Pago de gastos comunes,,,,
+820,Manzana 1 Lote 14,Pablo Saez Sanhueza,,55.000,Gasto Común,Pago electrónico,,,,S/I,12/09/2024,No,Pago de gastos comunes,,,,
+821,Manzana 3 Lote 12,Juan Ramón Molina Parada,,55.000,Gasto Común,Pago electrónico,,,,S/I,12/09/2024,No,Pago de gastos comunes,,,,
+822,Manzana 4 Lote 8,Karol Tamara Villegas Figueroa,,55.000,Gasto Común,Pago electrónico,,,,S/I,12/09/2024,No,Pago de gastos comunes,,,,
+823,Manzana 1 Lote 7,Rodrigo Feijoo Castillo,,65.914,Gasto Común,Pago electrónico,,,,S/I,12/09/2024,No,Pago de gastos comunes,,,,
+824,Manzana 1 Lote 16,Alfonso Sánchez,,55.000,Gasto Común,Pago electrónico,,,,S/I,13/09/2024,No,Pago de gastos comunes,,,,
+825,Manzana 3 Lote 13,Geraldo Reyes,,55.055,Gasto Común,Pago electrónico,,,,S/I,13/09/2024,No,Pago de gastos comunes,,,,
+826,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,66.070,Gasto Común,Pago electrónico,,,,S/I,14/09/2024,No,Pago de gastos comunes,,,,
+827,Manzana 3 Lote 8,Rogelio Ulloa Avalos,,212.505,Gasto Común,Pago electrónico,,,,S/I,14/09/2024,No,Pago de gastos comunes,,,,
+828,Manzana 1 Lote 9,Daniel Lagos Avello,,55.036,Gasto Común,Pago electrónico,,,,S/I,14/09/2024,No,Pago de gastos comunes,,,,
+829,Manzana 3 Lote 14,Eberth Saez Montero,,246.523,Gasto Común,Pago electrónico,,,,S/I,16/09/2024,No,Pago de gastos comunes,,,,
+830,Manzana 3 Lote 3,Jorge álvarez Briones,,55.395,Gasto Común,Pago electrónico,,,,S/I,16/09/2024,No,Pago de gastos comunes,,,,
+831,Manzana 4 Lote 14,Miguel Suazo Lobos,,55.957,Gasto Común,Transferencia,,,,S/I,12/09/2024,No,Pago registrado,,,,
+832,Manzana 2 Lote 2,Romina Salazar Rivas,,178.105,Gasto Común,Transferencia,,,,S/I,16/09/2024,No,Pago registrado,,,,
+833,Manzana 2 Lote 6,Pablo Hidalgo Astorga,,55.000,Gasto Común,Transferencia,,,,S/I,29/09/2024,No,Pago registrado,,,,
+834,Manzana 2 Lote 9,Evelyn Aburto Saavedra,,95.000,Gasto Común,Transferencia,,,,S/I,01/10/2024,No,Pago registrado,,,,
+835,Manzana 4 Lote 7,Cristina Hernández Estrada,,156.000,Gasto Común,Transferencia,,,,S/I,01/10/2024,No,Pago registrado,,,,
+836,Manzana 4 Lote 15,Juan Eduardo Monsalve Constanzo,,55.000,Gasto Común,Pago electrónico,,,,S/I,02/10/2024,No,Pago de gastos comunes,,,,
+837,Manzana 1 Lote 9,Daniel Lagos Avello,,55.000,Gasto Común,Pago electrónico,,,,S/I,02/10/2024,No,Pago de gastos comunes,,,,
+838,Manzana 3 Lote 5,Alejandra Bobadilla Cuevas,,92.831,Gasto Común,Transferencia,,,,S/I,02/10/2024,No,Pago registrado,,,,
+839,Manzana 2 Lote 11,Cristian Hernández Toledo,,125.537,Gasto Común,Pago electrónico,,,,S/I,03/10/2024,No,Pago de gastos comunes,,,,
+840,Manzana 4 Lote 2,Cristian Mella Vergara,,101.618,Gasto Común,Pago electrónico,,,,S/I,03/10/2024,No,Pago de gastos comunes,,,,
+841,Manzana 2 Lote 3,Sara Hernández,,56.709,Gasto Común,Transferencia,,,,S/I,03/10/2024,No,Pago registrado,,,,
+842,Manzana 1 Lote 11,Miguel Soto Cerda,,55.000,Gasto Común,Pago electrónico,,,,S/I,03/10/2024,No,Pago de gastos comunes,,,,
+843,Manzana 4 Lote 1,Consuelo Mora Candia Mora,,55.000,Gasto Común,Pago electrónico,,,,S/I,03/10/2024,No,Pago de gastos comunes,,,,
+844,Manzana 1 Lote 17,Mario Sandoval Castillo,,100.398,Gasto Común,Pago electrónico,,,,S/I,03/10/2024,No,Pago de gastos comunes,,,,
+845,Manzana 1 Lote 15,Patricio Peña Saravia,,55.000,Gasto Común,Transferencia,,,,S/I,03/10/2024,No,Pago registrado,,,,
+846,Manzana 3 Lote 6,Nolbert Cuevas Alarcon,,55.000,Gasto Común,Pago electrónico,,,,S/I,04/10/2024,No,Pago de gastos comunes,,,,
+847,Manzana 4 Lote 3,Pablo Zambrano Vidal,,118.459,Gasto Común,Pago electrónico,,,,S/I,05/10/2024,No,Pago de gastos comunes,,,,
+848,Manzana 2 Lote 1,Natalia Núñez Pulido,,55.019,Gasto Común,Pago electrónico,,,,S/I,07/10/2024,No,Pago de gastos comunes,,,,
+849,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,94.052,Gasto Común,Transferencia,,,,S/I,07/10/2024,No,Pago registrado,,,,
+850,Manzana 3 Lote 12,Juan Ramón Molina Parada,,55.000,Gasto Común,Pago electrónico,,,,S/I,08/10/2024,No,Pago de gastos comunes,,,,
+851,Manzana 1 Lote 14,Pablo Saez Sanhueza,,55.000,Gasto Común,Pago electrónico,,,,S/I,09/10/2024,No,Pago de gastos comunes,,,,
+852,Manzana 3 Lote 4,Sandra Araneda García,,118.684,Gasto Común,Transferencia,,,,S/I,10/10/2024,No,Pago registrado,,,,
+853,Manzana 3 Lote 9,Joel Gatica Monsalve,,55.000,Gasto Común,Transferencia,,,,S/I,11/10/2024,No,Pago registrado,,,,
+854,Manzana 1 Lote 6,Inmobiliaria e Inversiones Montahue SPA,,110.137,Gasto Común,Pago electrónico,,,,S/I,12/10/2024,No,Pago de gastos comunes,,,,
+855,Manzana 1 Lote 8,Inmobiliaria e Inversiones Montahue SPA,,110.137,Gasto Común,Pago electrónico,,,,S/I,12/10/2024,No,Pago de gastos comunes,,,,
+856,Manzana 1 Lote 7,Rodrigo Feijoo Castillo,,67.692,Gasto Común,Pago electrónico,,,,S/I,13/10/2024,No,Pago de gastos comunes,,,,
+857,Manzana 1 Lote 16,Alfonso Sánchez,,55.000,Gasto Común,Pago electrónico,,,,S/I,13/10/2024,No,Pago de gastos comunes,,,,
+858,Manzana 3 Lote 8,Rogelio Ulloa Avalos,,137.009,Gasto Común,Pago electrónico,,,,S/I,14/10/2024,No,Pago de gastos comunes,,,,
+859,Manzana 3 Lote 13,Geraldo Reyes,,55.000,Gasto Común,Pago electrónico,,,,S/I,14/10/2024,No,Pago de gastos comunes,,,,
+860,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,72.085,Gasto Común,Pago electrónico,,,,S/I,15/10/2024,No,Pago de gastos comunes,,,,
+861,Manzana 2 Lote 2,Romina Salazar Rivas,,199.766,Gasto Común,Transferencia,,,,S/I,16/10/2024,No,Pago registrado,,,,
+862,Manzana 4 Lote 8,Karol Tamara Villegas Figueroa,,55.000,Gasto Común,Pago electrónico,,,,S/I,16/10/2024,No,Pago de gastos comunes,,,,
+863,Manzana 3 Lote 14,Eberth Saez Montero,,178.299,Gasto Común,Pago electrónico,,,,S/I,17/10/2024,No,Pago de gastos comunes,,,,
+864,Manzana 1 Lote 2,Giovanni Figueroa De La Guarda,,120.656,Gasto Común,Transferencia,,,,S/I,18/10/2024,No,Pago registrado,,,,
+865,Manzana 3 Lote 1,Luis Eduardo Escobar Elgueta,,400.000,Gasto Común,Transferencia,,,,S/I,19/10/2024,No,Pago registrado,,,,
+866,Manzana 4 Lote 11,Mario Segura Vega,,319.191,Gasto Común,Pago electrónico,,,,S/I,20/10/2024,No,Pago de gastos comunes,,,,
+867,Manzana 3 Lote 3,Jorge álvarez Briones,,55.009,Gasto Común,Pago electrónico,,,,S/I,28/10/2024,No,Pago de gastos comunes,,,,
+868,Manzana 2 Lote 9,Evelyn Aburto Saavedra,,104.000,Gasto Común,Transferencia,,,,S/I,23/10/2024,No,Pago registrado,,,,
+869,Manzana 1 Lote 1,Evelyn Gaete Cardenas,,631.847,Gasto Común,Transferencia,,,,S/I,29/10/2024,No,Pago registrado,,,,
+870,Manzana 4 Lote 7,Cristina Hernández Estrada,,158.465,Gasto Común,Transferencia,,,,S/I,01/11/2024,No,Pago registrado,,,,
+871,Manzana 4 Lote 2,Cristian Mella Vergara,,114.992,Gasto Común,Pago electrónico,,,,S/I,01/11/2024,No,Pago de gastos comunes,,,,
+872,Manzana 3 Lote 1,Luis Eduardo Escobar Elgueta,,100.000,Gasto Común,Transferencia,,,,S/I,27/10/2024,No,Pago registrado,,,,
+873,Manzana 3 Lote 8,Rogelio Ulloa Avalos,,72.099,Gasto Común,Pago electrónico,,,,S/I,02/11/2024,No,Pago de gastos comunes,,,,
+874,Manzana 4 Lote 3,Pablo Zambrano Vidal,,101.370,Gasto Común,Pago electrónico,,,,S/I,02/11/2024,No,Pago de gastos comunes,,,,
+875,Manzana 2 Lote 11,Cristian Hernández Toledo,,161.652,Gasto Común,Pago electrónico,,,,S/I,02/11/2024,No,Pago de gastos comunes,,,,
+876,Manzana 4 Lote 1,Consuelo Mora Candia Mora,,55.000,Gasto Común,Pago electrónico,,,,S/I,04/11/2024,No,Pago de gastos comunes,,,,
+877,Manzana 4 Lote 15,Juan Eduardo Monsalve Constanzo,,55.000,Gasto Común,Pago electrónico,,,,S/I,04/11/2024,No,Pago de gastos comunes,,,,
+878,Manzana 3 Lote 5,Alejandra Bobadilla Cuevas,,103.979,Gasto Común,Transferencia,,,,S/I,03/11/2024,No,Pago registrado,,,,
+879,Manzana 1 Lote 17,Mario Sandoval Castillo,,110.355,Gasto Común,Pago electrónico,,,,S/I,05/11/2024,No,Pago de gastos comunes,,,,
+880,Manzana 3 Lote 6,Nolbert Cuevas Alarcon,,55.000,Gasto Común,Pago electrónico,,,,S/I,05/11/2024,No,Pago de gastos comunes,,,,
+881,Manzana 1 Lote 14,Pablo Saez Sanhueza,,55.000,Gasto Común,Pago electrónico,,,,S/I,06/11/2024,No,Pago de gastos comunes,,,,
+882,Manzana 1 Lote 4,Camilo Cornejo Esquivel,,442.084,Gasto Común,Pago electrónico,,,,S/I,07/11/2024,No,Pago de gastos comunes,,,,
+883,Manzana 1 Lote 15,Patricio Peña Saravia,,55.000,Gasto Común,Transferencia,,,,S/I,04/11/2024,No,Pago registrado,,,,
+884,Manzana 2 Lote 3,Sara Hernández,,56.159,Gasto Común,Transferencia,,,,S/I,06/11/2024,No,Pago registrado,,,,
+885,Manzana 2 Lote 6,Pablo Hidalgo Astorga,,55.000,Gasto Común,Transferencia,,,,S/I,09/11/2024,No,Pago registrado,,,,
+886,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,98.182,Gasto Común,Transferencia,,,,S/I,09/11/2024,No,Pago registrado,,,,
+887,Manzana 1 Lote 6,Inmobiliaria e Inversiones Montahue SPA,,55.110,Gasto Común,Pago electrónico,,,,S/I,09/11/2024,No,Pago de gastos comunes,,,,
+888,Manzana 1 Lote 8,Inmobiliaria e Inversiones Montahue SPA,,55.110,Gasto Común,Pago electrónico,,,,S/I,09/11/2024,No,Pago de gastos comunes,,,,
+889,Manzana 4 Lote 14,Miguel Suazo Lobos,,58.173,Gasto Común,Transferencia,,,,S/I,11/11/2024,No,Pago registrado,,,,
+890,Manzana 1 Lote 9,Daniel Lagos Avello,,55.000,Gasto Común,Pago electrónico,,,,S/I,12/11/2024,No,Pago de gastos comunes,,,,
+891,Manzana 1 Lote 11,Miguel Soto Cerda,,55.000,Gasto Común,Pago electrónico,,,,S/I,12/11/2024,No,Pago de gastos comunes,,,,
+892,Manzana 3 Lote 9,Joel Gatica Monsalve,,55.000,Gasto Común,Transferencia,,,,S/I,12/11/2024,No,Pago registrado,,,,
+893,Manzana 2 Lote 2,Romina Salazar Rivas,,161.395,Gasto Común,Transferencia,,,,S/I,12/11/2024,No,Pago registrado,,,,
+894,Manzana 4 Lote 11,Mario Segura Vega,,111.132,Gasto Común,Pago electrónico,,,,S/I,12/11/2024,No,Pago de gastos comunes,,,,
+895,Manzana 1 Lote 7,Rodrigo Feijoo Castillo,,60.217,Gasto Común,Pago electrónico,,,,S/I,13/11/2024,No,Pago de gastos comunes,,,,
+897,Manzana 1 Lote 16,Alfonso Sánchez,,55.000,Gasto Común,Pago electrónico,,,,S/I,13/11/2024,No,Pago de gastos comunes,,,,
+898,Manzana 4 Lote 8,Karol Tamara Villegas Figueroa,,55.009,Gasto Común,Pago electrónico,,,,S/I,13/11/2024,No,Pago de gastos comunes,,,,
+899,Manzana 3 Lote 12,Juan Ramón Molina Parada,,55.000,Gasto Común,Pago electrónico,,,,S/I,14/11/2024,No,Pago de gastos comunes,,,,
+900,Manzana 3 Lote 13,Geraldo Reyes,,55.000,Gasto Común,Pago electrónico,,,,S/I,15/11/2024,No,Pago de gastos comunes,,,,
+901,Manzana 2 Lote 1,Natalia Núñez Pulido,,55.000,Gasto Común,Pago electrónico,,,,S/I,15/11/2024,No,Pago de gastos comunes,,,,
+902,Manzana 4 Lote 12,Dina Santa Maria Olate Santamaria Olate,,70.070,Gasto Común,Pago electrónico,,,,S/I,15/11/2024,No,Pago de gastos comunes,,,,
+903,Manzana 3 Lote 3,Jorge álvarez Briones,,55.119,Gasto Común,Pago electrónico,,,,S/I,17/11/2024,No,Pago de gastos comunes,,,,
+904,Manzana 1 Lote 2,Giovanni Figueroa De La Guarda,,108.386,Gasto Común,Transferencia,,,,S/I,18/11/2024,No,Pago registrado,,,,
+905,Manzana 3 Lote 1,Luis Eduardo Escobar Elgueta,,70.000,Gasto Común,Transferencia,,,,S/I,19/11/2024,No,Pago registrado,,,,
+906,Manzana 2 Lote 9,Evelyn Aburto Saavedra,,101.000,Gasto Común,Transferencia,,,,S/I,24/11/2024,No,Pago registrado,,,,
+907,Manzana 3 Lote 14,Eberth Saez Montero,,170.406,Gasto Común,Pago electrónico,,,,S/I,24/11/2024,No,Pago de gastos comunes,,,,
+908,Manzana 2 Lote 5,Angela Suazo Borzone,,110.146,Gasto Común,Pago electrónico,,,,S/I,25/11/2024,No,Pago de gastos comunes,,,,
+909,Manzana 2 Lote 8,Gustavo Perez Jerez,,647.541,Gasto Común,Transferencia,,,,S/I,26/11/2024,No,Pago registrado,,,,
+910,Manzana 3 Lote 7,Richard Contreras Gonzalez,,250.000,Gasto Común,Transferencia,,,,S/I,27/11/2024,No,Pago registrado,,,,
+911,Manzana 1 Lote 12,Eduardo Ojeda Triviño,,174.000,Gasto Común,Transferencia,,,,S/I,29/11/2024,No,Pago registrado,,,,
+912,Manzana 4 Lote 13,Jane Vallette Isla,,619.035,Gasto Común,Transferencia,,,,S/I,29/11/2024,No,Pago registrado,,,,
+913,Manzana 2 Lote 10,Maria Jose Parada Mansilla,,88.344,Gasto Común,Transferencia,,,,S/I,30/11/2024,No,Pago registrado,,,,
+914,Manzana 1 Lote 11,Miguel Soto Cerda,,55.000,Gasto Común,Pago electrónico,,,,S/I,30/11/2024,No,Pago de gastos comunes,,,,
+915,Manzana 4 Lote 3,Pablo Zambrano Vidal,,95.302,Gasto Común,Pago electrónico,,,,S/I,30/11/2024,No,Pago de gastos comunes,,,,
+916,Manzana 4 Lote 2,Cristian Mella Vergara,,94.143,Gasto Común,Pago electrónico,,,,S/I,30/11/2024,No,Pago de gastos comunes,,,,
+917,Manzana 3 Lote 6,Nolbert Cuevas Alarcon,,55.000,Gasto Común,Pago electrónico,,,,S/I,01/12/2024,No,Pago de gastos comunes,,,,
+918,Manzana 1 Lote 2,Giovanni Figueroa De La Guarda,,84.918,Gasto Común,Transferencia,,,,S/I,30/11/2024,No,Pago registrado,,,,
+919,Manzana 4 Lote 15,Juan Eduardo Monsalve Constanzo,,55.000,Gasto Común,Pago electrónico,,,,S/I,02/12/2024,No,Pago de gastos comunes,,,,
+920,Manzana 1 Lote 17,Mario Sandoval Castillo,,89.793,Gasto Común,Pago electrónico,,,,S/I,02/12/2024,No,Pago de gastos comunes,,,,
+921,Manzana 1 Lote 15,Patricio Peña Saravia,,55.000,Gasto Común,Transferencia,,,,S/I,01/12/2024,No,Pago registrado,,,,
+922,Manzana 3 Lote 9,Joel Gatica Monsalve,,55.000,Gasto Común,Transferencia,,,,S/I,02/12/2024,No,Pago registrado,,,,
+923,Manzana 2 Lote 3,Sara Hernández,,60.219,Gasto Común,Transferencia,,,,S/I,02/12/2024,No,Pago registrado,,,,
+924,Manzana 4 Lote 10,Lorena Martinez Parra,,200.000,Gasto Común,Transferencia,,,,S/I,02/12/2024,No,Pago registrado,,,,
+925,Manzana 2 Lote 2,Romina Salazar Rivas,,128.646,Gasto Común,Transferencia,,,,S/I,03/12/2024,No,Pago registrado,,,,
+926,Manzana 2 Lote 6,Pablo Hidalgo Astorga,,55.000,Gasto Común,Transferencia,,,,S/I,03/12/2024,No,Pago registrado,,,,
+927,Manzana 2 Lote 1,Natalia Núñez Pulido,,55.000,Gasto Común,Pago electrónico,,,,S/I,03/12/2024,No,Pago de gastos comunes,,,,
+928,Manzana 3 Lote 8,Rogelio Ulloa Avalos,,89.504,Gasto Común,Pago electrónico,,,,S/I,04/12/2024,No,Pago de gastos comunes,,,,
+929,Manzana 3 Lote 12,Juan Ramón Molina Parada,,55.000,Gasto Común,Pago electrónico,,,,S/I,05/12/2024,No,Pago de gastos comunes,,,,
+930,Manzana 1 Lote 10,Paula Reyes Mora,,390.065,Gasto Común,Transferencia,,,,S/I,04/12/2024,No,Pago registrado,,,,
+931,Manzana 3 Lote 5,Alejandra Bobadilla Cuevas,,89.793,Gasto Común,Transferencia,,,,S/I,05/12/2024,No,Pago registrado,,,,
+932,Manzana 3 Lote 3,Jorge álvarez Briones,,55.019,Gasto Común,Pago electrónico,,,,S/I,06/12/2024,No,Pago de gastos comunes,,,,
+933,Manzana 1 Lote 9,Daniel Lagos Avello,,55.000,Gasto Común,Pago electrónico,,,,S/I,06/12/2024,No,Pago de gastos comunes,,,,
+934,Manzana 2 Lote 11,Cristian Hernández Toledo,,140.824,Gasto Común,Pago electrónico,,,,S/I,07/12/2024,No,Pago de gastos comunes,,,,
+935,Manzana 3 Lote 7,Richard Contreras Gonzalez,,250.000,Gasto Común,Transferencia,,,,S/I,02/12/2024,No,Pago registrado,,,,
+936,Manzana 4 Lote 7,Cristina Hernández Estrada,,140.824,Gasto Común,Transferencia,,,,S/I,11/12/2024,No,Pago registrado,,,,
+937,Manzana 1 Lote 16,Alfonso Sánchez,,55.000,Gasto Común,Pago electrónico,,,,S/I,12/12/2024,No,Pago de gastos comunes,,,,
+938,Manzana 1 Lote 7,Rodrigo Feijoo Castillo,,55.000,Gasto Común,Pago electrónico,,,,S/I,12/12/2024,No,Pago de gastos comunes,,,,

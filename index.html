@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard General - La Reserva de Mitrinhue</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- PapaParse -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .caja-input-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 1rem;
+            position: relative;
+        }
+        .caja-input-container::before {
+            content: '$';
+            font-size: 5.5rem;
+            font-weight: 700;
+            color: var(--success);
+            margin-right: 5px;
+        }
+        .caja-input {
+            font-size: 5.5rem;
+            font-weight: 700;
+            color: var(--success);
+            background: transparent;
+            border: none;
+            border-bottom: 2px dashed rgba(63, 185, 80, 0.4);
+            max-width: 380px;
+            font-family: 'Inter', sans-serif;
+            outline: none;
+        }
+        .caja-input:focus {
+            border-bottom-color: var(--success);
+        }
+        /* Chrome, Safari, Edge, Opera */
+        .caja-input::-webkit-outer-spin-button,
+        .caja-input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+        /* Firefox */
+        .caja-input[type=number] {
+            -moz-appearance: textfield;
+        }
+
+        .filter-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+            background: rgba(0,0,0,0.15);
+            padding: 1rem 1.5rem;
+            border-radius: var(--card-radius);
+            border: 1px solid var(--glass-border);
+        }
+        .filter-select {
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid var(--accent);
+            color: var(--text-primary);
+            font-size: 0.95rem;
+            outline: none;
+            cursor: pointer;
+            min-width: 250px;
+        }
+        .filter-select option {
+            background: var(--bg-color);
+            color: var(--text-primary);
+        }
+        .file-upload-btn {
+            display: block;
+            cursor: pointer;
+            font-size: 0.8rem;
+            padding: 0.6rem 0.8rem;
+            margin-bottom: 0.5rem;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar glass">
+            <div class="logo-area">
+                <h2>Reserva Mitrinhue</h2>
+                <span class="badge">Administración</span>
+            </div>
+            
+            <div class="upload-section">
+                <h3>Fuentes de Datos</h3>
+                <label for="uploadIngresos" class="custom-file-upload btn-primary file-upload-btn" style="background: var(--info);">
+                    Actualizar CSV Ingresos
+                </label>
+                <input type="file" id="uploadIngresos" accept=".csv" />
+
+                <label for="uploadEgresos" class="custom-file-upload btn-primary file-upload-btn" style="background: var(--danger);">
+                    Actualizar CSV Egresos
+                </label>
+                <input type="file" id="uploadEgresos" accept=".csv" />
+
+                <div id="dataStatus" class="status-msg" style="color: var(--warning); margin-top: 0.5rem;">Cargando locales...</div>
+            </div>
+
+            <nav class="nav-menu">
+                <ul id="mainNav">
+                    <li class="active"><a href="#caja" data-target="view-caja">Caja y Resumen</a></li>
+                    <li><a href="#ingresos" data-target="view-ingresos">Ingresos Históricos</a></li>
+                    <li><a href="#egresos" data-target="view-egresos">Egresos Históricos</a></li>
+                    <li><a href="#presupuesto" data-target="view-presupuesto">Presupuesto y Proyectos</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="top-header glass">
+                <h1 id="pageTitle">Operaciones Financieras</h1>
+                <div class="date-display" id="currentDate"></div>
+            </header>
+
+            <!-- VIEW: CAJA -->
+            <div id="view-caja" class="view-section active">
+                <section class="kpi-grid">
+                    <div class="kpi-card glass kpi-featured" style="grid-column: 1 / -1; align-items: center; padding: 2.5rem;">
+                        <h4 style="font-size: 1.1rem; color: var(--text-primary);">Saldo Actual en Caja (Editable)</h4>
+                        <div class="caja-input-container">
+                            <input type="number" id="kpiCajaActual" class="caja-input" value="8200000">
+                        </div>
+                    </div>
+                </section>
+                <section class="kpi-grid mt-3">
+                    <div class="kpi-card glass">
+                        <h4>Total Ingresos Filt. Históricos</h4>
+                        <h2 id="kpiTotalIngresosGeneral" class="color-info">--</h2>
+                    </div>
+                    <div class="kpi-card glass">
+                        <h4>Total Egresos Filt. Históricos</h4>
+                        <h2 id="kpiTotalEgresosGeneral" class="color-danger-text">--</h2>
+                    </div>
+                    <div class="kpi-card glass">
+                        <h4>Balance Neto Histórico</h4>
+                        <h2 id="kpiBalanceNeto" class="color-warning">--</h2>
+                    </div>
+                </section>
+                
+                <section class="charts-section mt-3">
+                    <div class="chart-container glass" style="height: 400px;">
+                        <h3>Fluctuaciones (Ingresos vs Egresos por Mes)</h3>
+                        <canvas id="balanceChart"></canvas>
+                    </div>
+                </section>
+            </div>
+
+            <!-- VIEW: INGRESOS -->
+            <div id="view-ingresos" class="view-section hidden">
+                <div class="filter-header" style="justify-content: flex-start; gap: 1rem; flex-wrap: wrap;">
+                    <div style="flex: 1; min-width: 250px;">
+                        <h3 style="font-size: 0.9rem; margin-bottom: 0.5rem;">Filtros de Fondo</h3>
+                        <select id="filterFondoIngresos" class="filter-select" style="width: 100%;">
+                            <option value="ALL">Mostrar Todos (Sin Filtro)</option>
+                        </select>
+                    </div>
+                    <div style="flex: 1; min-width: 250px;">
+                        <h3 style="font-size: 0.9rem; margin-bottom: 0.5rem;">Filtro Visual por Lote</h3>
+                        <select id="filterLoteIngresos" class="filter-select" style="width: 100%;">
+                            <option value="ALL">Mostrar Todos (Sin Filtro)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <section class="kpi-grid">
+                    <div class="kpi-card glass">
+                        <h4>Total General Histórico</h4>
+                        <h2 id="kpiTotalIngresos">--</h2>
+                    </div>
+                    <div class="kpi-card glass">
+                        <h4>Ingreso Promedio Mensual</h4>
+                        <h2 id="kpiAvgMonthlyIngresos">--</h2>
+                    </div>
+                    <div class="kpi-card glass">
+                        <h4>Ingreso Promedio Anual</h4>
+                        <h2 id="kpiAvgYearlyIngresos">--</h2>
+                    </div>
+                    <div class="kpi-card glass">
+                        <h4>Aporte Promedio por Lote</h4>
+                        <h2 id="kpiAvgPerLotIngresos">--</h2>
+                    </div>
+                    <div class="kpi-card glass">
+                        <h4>Lotes Pagados / Mes</h4>
+                        <h2 id="kpiLotsPerMonth">--</h2>
+                    </div>
+                </section>
+
+                <section class="charts-section mt-3">
+                    <div class="chart-container glass">
+                        <h3>Ingresos Históricos por Mes</h3>
+                        <canvas id="monthlyChartIngresos"></canvas>
+                    </div>
+                </section>
+                
+                <section class="charts-section split-charts mt-3">
+                    <div class="chart-container glass">
+                        <h3>Ingresos por Año</h3>
+                        <canvas id="yearlyChartIngresos"></canvas>
+                    </div>
+                    <div class="chart-container glass">
+                        <h3>Top 10 Lotes (Aportes Acumulados)</h3>
+                        <canvas id="topLotesChart"></canvas>
+                    </div>
+                </section>
+            </div>
+
+            <!-- VIEW: EGRESOS -->
+            <div id="view-egresos" class="view-section hidden">
+                <div class="filter-header">
+                     <h3>Filtrar por SubFondo (Categoría)</h3>
+                     <select id="filterSubFondoEgresos" class="filter-select">
+                         <option value="ALL">Mostrar Todos (Sin Filtro)</option>
+                     </select>
+                </div>
+
+                <section class="kpi-grid">
+                    <div class="kpi-card glass">
+                        <h4>Gasto Total Histórico</h4>
+                        <h2 id="kpiTotalEgresos" class="color-danger-text">--</h2>
+                    </div>
+                    <div class="kpi-card glass">
+                        <h4>Gasto Promedio Mensual</h4>
+                        <h2 id="kpiAvgMonthlyEgresos" class="color-danger-text">--</h2>
+                    </div>
+                    <div class="kpi-card glass">
+                        <h4>Total Gastado (2026)</h4>
+                        <h2 id="kpiTotalCurrentYearEgresos" class="color-danger-text">--</h2>
+                    </div>
+                    <div class="kpi-card glass">
+                        <h4>N° Transacciones (Total)</h4>
+                        <h2 id="kpiTotalTransactions">--</h2>
+                    </div>
+                </section>
+
+                <section class="charts-section split-charts mt-3">
+                    <div class="chart-container glass">
+                        <h3>Gastos Históricos por Mes</h3>
+                        <canvas id="monthlyChartEgresos"></canvas>
+                    </div>
+                    <div class="chart-container glass">
+                        <h3>Distribución por SubFondo</h3>
+                        <canvas id="fondoChart"></canvas>
+                    </div>
+                </section>
+            </div>
+
+            <!-- VIEW: PRESUPUESTO & PROYECTOS -->
+            <div id="view-presupuesto" class="view-section hidden budget-planner glass">
+                <div class="budget-header">
+                    <h2>Presupuesto y Gestión 2026+</h2>
+                    <p>Calculadora basada en indicadores históricos (<strong>Los campos de Proyección se autocompletan en base al historial real de las vistas anteriores</strong>).</p>
+                </div>
+                
+                <div class="budget-grid">
+                    <!-- Configuración Budget -->
+                    <div class="budget-panel">
+                        <h3>Configuración Base Anual</h3>
+                        <div class="form-group">
+                            <label>Proyección Ingresos Próx. Año o Proy. 2026 ($)</label>
+                            <input type="number" id="projAnnualIncome" placeholder="Calculando historial...">
+                        </div>
+                        <div class="form-group">
+                            <label>Presupuesto Gastos Próx. Año o Proy. 2026 ($)</label>
+                            <input type="number" id="annualBudgetEgresos" placeholder="Calculando historial...">
+                        </div>
+                        <div class="form-group mt-3">
+                            <label>Deuda Gastos Comunes Estimada a Recuperar ($)</label>
+                            <input type="number" id="projDeuda" value="40000000" style="color: var(--warning); font-weight: bold;">
+                        </div>
+                        
+                        <div class="summary-box mt-3">
+                            <p>Ingreso Proyectado: <strong id="lblAnnualProjIncome" class="color-success">$0</strong></p>
+                            <p>Presupuesto Egresos: <strong id="lblAnnualBudget" class="color-danger-text">$0</strong></p>
+                            <p>Deuda a Recuperar: <strong id="lblDeuda" class="color-warning">$40.000.000</strong></p>
+                            <hr style="border-color: var(--glass-border); margin: 0.5rem 0;">
+                            <p>Caja Ingresada (Base): <strong id="lblCajaPresupuesto" class="color-info">$8.200.000</strong></p>
+                            <p>Subtotal Disponible (Caja + Ingresos + Deuda - Egresos): <br><strong id="lblAvailablePre" class="color-success" style="font-size: 1.2rem; display:inline-block; margin-top:5px;">$0</strong></p>
+                        </div>
+                    </div>
+
+                    <!-- Proyectos Pendientes -->
+                    <div class="budget-panel projects-panel">
+                        <h3>Proyectos por Ejecutar</h3>
+                        <form id="projectForm" class="project-form" style="display: grid; grid-template-columns: 80px 1fr 120px auto; gap: 0.5rem;">
+                            <input type="number" id="projPriority" placeholder="Prio" value="1" min="1" required>
+                            <input type="text" id="projName" placeholder="Asunto / Proyecto" required>
+                            <input type="number" id="projCost" placeholder="Costo est. ($)" required>
+                            <button type="submit" class="btn-primary" style="background: var(--info)">Añadir</button>
+                        </form>
+                        
+                        <div class="projects-list-container">
+                            <table class="cashflow-table" style="width: 100%; border-collapse: collapse; margin-top: 1rem;">
+                                <thead>
+                                    <tr style="border-bottom: 1px solid var(--glass-border); color: var(--text-muted); text-align: left; font-size: 0.9rem;">
+                                        <th style="padding-bottom: 0.5rem; font-weight: 600; width: 60px;">Prio</th>
+                                        <th style="padding-bottom: 0.5rem; font-weight: 600;">Proyecto (Editable)</th>
+                                        <th style="padding-bottom: 0.5rem; font-weight: 600;">Costo</th>
+                                        <th style="padding-bottom: 0.5rem; font-weight: 600;">Acumulado</th>
+                                        <th style="padding-bottom: 0.5rem;"></th>
+                                    </tr>
+                                </thead>
+                                <tbody id="projectsList">
+                                    <!-- Proyectos agregados por JS -->
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                        <div class="summary-box total-projects-box mt-3">
+                            <h4>Costo Total Proyectos: <span id="totalProjectsCost" class="color-danger-text">$0</span></h4>
+                            <h4>Saldo Final Proyectado: <br><span id="finalBalance" class="color-warning" style="font-size: 1.5rem; margin-top: 5px; display:inline-block;">--</span></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+    <!-- Local JS -->
+    <script src="app.js"></script>
+</body>
+</html>
