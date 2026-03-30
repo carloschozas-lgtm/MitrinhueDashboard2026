@@ -30,13 +30,22 @@
         .caja-input {
             font-size: 5.5rem;
             font-weight: 700;
-            color: var(--success);
+            color: var(--success) !important;
             background: transparent;
             border: none;
             border-bottom: 2px dashed rgba(63, 185, 80, 0.4);
-            max-width: 380px;
+            max-width: 480px;
+            width: 100%;
+            text-align: center;
             font-family: 'Inter', sans-serif;
             outline: none;
+            opacity: 1 !important;
+            -webkit-text-fill-color: var(--success) !important;
+        }
+        .caja-input[readonly] {
+            cursor: default;
+            border-bottom: none;
+            user-select: all;
         }
         .caja-input:focus {
             border-bottom-color: var(--success);
@@ -119,11 +128,15 @@
                     <li><a href="#egresos" data-target="view-egresos">Egresos Históricos</a></li>
                     <li><a href="#presupuesto" data-target="view-presupuesto">Presupuesto y Proyectos</a></li>
                     <li><a href="#deuda" data-target="view-deuda">Gestión de Deuda</a></li>
+                    <li><a href="#" data-target="view-comentarios">📝 Comentarios</a></li>
                 </ul>
             </nav>
             <!-- Admin Auth -->
-            <div class="admin-login" onclick="enterAdminMode()" style="cursor: pointer; opacity: 0.3; margin-top: auto; padding-bottom: 1rem; text-align: center; font-size: 0.8rem; transition: opacity 0.2s;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.3">
+            <div class="admin-login" onclick="enterAdminMode()" style="cursor: pointer; opacity: 0.3; margin-top: auto; padding-bottom: 0.5rem; text-align: center; font-size: 0.8rem; transition: opacity 0.2s;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.3">
                 <span id="adminLockIcon">🔒</span> Acceso Admin
+            </div>
+            <div id="adminExportContainer" style="display: none; padding: 0 1rem 1rem 1rem;">
+                <button onclick="exportStateToCsv()" class="btn-primary" style="width: 100%; font-size: 0.75rem; background: var(--success); opacity: 0.8;">📤 Exportar Estado a CSV</button>
             </div>
         </aside>
 
@@ -138,9 +151,9 @@
             <div id="view-caja" class="view-section active">
                 <section class="kpi-grid">
                     <div class="kpi-card glass kpi-featured" style="grid-column: 1 / -1; align-items: center; padding: 2.5rem;">
-                        <h4 style="font-size: 1.1rem; color: var(--text-primary);">Saldo Actual en Caja (Editable)</h4>
+                        <h4 style="font-size: 1.1rem; color: var(--text-primary);">Saldo Actual en Caja</h4>
                         <div class="caja-input-container">
-                            <input type="number" id="kpiCajaActual" class="caja-input" value="8200000">
+                            <input type="text" id="kpiCajaActual" class="caja-input" value="8.200.000">
                         </div>
                     </div>
                 </section>
@@ -389,9 +402,71 @@
                 </div>
             </div>
 
+            <!-- VIEW: COMENTARIOS -->
+            <section id="view-comentarios" class="view-section hidden">
+                <div class="view-header">
+                    <h2>Comentarios de Propietarios</h2>
+                    <p>Registro y seguimiento de sugerencias o reclamos</p>
+                </div>
+
+                <div class="card form-card">
+                    <h3>Nuevo Comentario</h3>
+                    <form id="form-comentario" class="data-form">
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label>Nombre del Propietario</label>
+                                <input type="text" id="comentario-nombre" required placeholder="Ej: Juan Pérez">
+                            </div>
+                            <div class="form-group">
+                                <label>Lote / Unidad</label>
+                                <input type="text" id="comentario-lote" required placeholder="Ej: Lote 45">
+                            </div>
+                            <div class="form-group">
+                                <label>Tipo de Mensaje</label>
+                                <select id="comentario-tipo" required>
+                                    <option value="Sugerencia">Sugerencia</option>
+                                    <option value="Reclamo">Reclamo</option>
+                                    <option value="Comentario genérico">Comentario genérico</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Mensaje</label>
+                            <textarea id="comentario-mensaje" rows="4" required placeholder="Escriba el detalle aquí..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Guardar Comentario</button>
+                    </form>
+                </div>
+
+                <div class="card table-card mt-3">
+                    <h3>Historial de Comentarios</h3>
+                    <div class="table-responsive">
+                        <table class="data-table" style="width: 100%; border-collapse: collapse;">
+                            <thead>
+                                <tr>
+                                    <th>Fecha</th>
+                                    <th>Nombre</th>
+                                    <th>Lote</th>
+                                    <th>Tipo</th>
+                                    <th>Mensaje</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tabla-comentarios-body">
+                                <!-- Filas generadas por JS -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
         </main>
     </div>
     <!-- Local JS -->
     <script src="app.js"></script>
+    <div id="loadingOverlay">
+        <div class="spinner"></div>
+        <div class="loader-text">PROCESANDO DATOS...</div>
+    </div>
+    <div id="toastContainer" class="toast-container"></div>
 </body>
 </html>

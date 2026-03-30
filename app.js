@@ -6,6 +6,7 @@ let filteredIngresosData = [];
 let filteredEgresosData = [];
 
 let projects = [];
+let comentariosGlobal = [];
 
 // Track if data is loaded to enable UI
 let ingresosLoaded = false;
@@ -31,10 +32,85 @@ const formatWithSeparators = (val) => {
 };
 
 // Helper to get raw number from formatted string
-const cleanNumber = (str) => {
-    if (!str) return 0;
-    // Remove all dots to get the raw number
-    return parseInt(str.toString().replace(/\./g, "")) || 0;
+const cleanNumber = (val) => {
+    if (val === null || val === undefined || val === "") return 0;
+    // Remove currency symbols, spaces, dots, commas (except potential decimal)
+    // For CLP we assume dots and spaces are separators.
+    let str = val.toString().replace(/[^0-9,-]/g, "");
+    // If it's empty after cleaning, return 0
+    if (str === "") return 0;
+    // Handle potential decimal with comma
+    if (str.includes(',')) {
+        str = str.split(',')[0];
+    }
+    return parseInt(str, 10) || 0;
+};
+
+// Helper for robust date parsing (Antigravity Patch)
+const parseFlexibleDate = (dateString) => {
+    if (!dateString) return null;
+    const cleanDate = dateString.toString().trim().replace(/-/g, '/');
+    const parts = cleanDate.split('/');
+    if (parts.length !== 3) return null;
+
+    let day, month, year;
+    // Detect if format is YYYY/MM/DD
+    if (parts[0].length === 4) {
+        year = parts[0]; month = parts[1]; day = parts[2];
+    } else {
+        // Default to DD/MM/YYYY
+        day = parts[0]; month = parts[1]; year = parts[2];
+    }
+
+    day = day.padStart(2, '0');
+    month = month.padStart(2, '0');
+    if (year.length === 2) year = '20' + year;
+
+    const dateObj = new Date(`${year}-${month}-${day}T00:00:00`);
+    if (isNaN(dateObj.getTime())) return null;
+
+    return {
+        dateObj,
+        monthKey: `${year}-${month}`,
+        yearKey: year
+    };
+};
+
+// --- TOAST NOTIFICATIONS ---
+const showToast = (message, type = 'info') => {
+    const container = document.getElementById('toastContainer');
+    if (!container) return;
+
+    const toast = document.createElement('div');
+    toast.className = `toast ${type}`;
+
+    const icons = {
+        success: '✅',
+        error: '❌',
+        warning: '⚠️',
+        info: 'ℹ️'
+    };
+
+    toast.innerHTML = `
+        <span class="toast-icon">${icons[type] || icons.info}</span>
+        <span class="toast-message">${message}</span>
+    `;
+
+    container.appendChild(toast);
+
+    // Auto-remove
+    setTimeout(() => {
+        toast.style.opacity = '0';
+        toast.style.transform = 'translateX(100px)';
+        setTimeout(() => toast.remove(), 500);
+    }, 4000);
+
+    toast.onclick = () => toast.remove();
+};
+
+const toggleLoader = (show) => {
+    const loader = document.getElementById('loadingOverlay');
+    if (loader) loader.classList.toggle('active', show);
 };
 
 // --- 2. DOM ELEMENTS ---
@@ -105,18 +181,18 @@ let historicalAvgYearlyEgress = 0;
 // --- ADMIN MODE ---
 let isAdmin = sessionStorage.getItem('isAdmin') === 'true';
 
-window.enterAdminMode = function() {
+window.enterAdminMode = function () {
     if (isAdmin) {
-        if(confirm('¿Deseas cerrar la sesión de Administrador?')) {
+        if (confirm('¿Deseas cerrar la sesión de Administrador?')) {
             sessionStorage.removeItem('isAdmin');
             location.reload();
         }
     } else {
-        const pass = prompt('Ingresa la contraseña de administración (admin2026):');
+        const pass = prompt('Ingresa la contraseña de administración:');
         if (pass === 'admin2026') {
             sessionStorage.setItem('isAdmin', 'true');
             location.reload();
-        } else if(pass !== null) {
+        } else if (pass !== null) {
             alert('Contraseña incorrecta');
         }
     }
@@ -138,8 +214,10 @@ function loadPersistentData() {
 
     const savedProj = localStorage.getItem('projects');
     if (savedProj) {
-        try { projects = JSON.parse(savedProj); } catch(e) {}
+        try { projects = JSON.parse(savedProj); } catch (e) { }
     }
+    const savedComentarios = localStorage.getItem('mitrinhue_comentarios');
+    if (savedComentarios) comentariosGlobal = JSON.parse(savedComentarios);
 }
 
 function savePersistentData() {
@@ -148,13 +226,66 @@ function savePersistentData() {
     localStorage.setItem('annualBudgetEgresos', annualBudgetEgresos.value);
     localStorage.setItem('projDeuda', projDeuda.value);
     localStorage.setItem('projects', JSON.stringify(projects));
+    localStorage.setItem('mitrinhue_comentarios', JSON.stringify(comentariosGlobal));
 }
+
+window.exportStateToCsv = function () {
+    // 1. Export Projects (Antigravity Patch: CSV Quote Escaping)
+    let projCsv = "id,priority,name,cost\n";
+    projects.forEach(p => {
+        const safeName = (p.name || "").toString().replace(/"/g, '""');
+        projCsv += `${p.id},${p.priority},"${safeName}",${p.cost}\n`;
+    });
+
+    // 2. Export Config
+    let configCsv = "Parametro,Valor,Descripcion\n";
+    configCsv += `caja_inicial,${cleanNumber(kpiCajaActual.value)},Saldo base en caja\n`;
+    configCsv += `ingreso_anual_proyectado,${cleanNumber(projAnnualIncome.value)},Ingreso proyectado 2026\n`;
+    configCsv += `egreso_anual_presupuestado,${cleanNumber(annualBudgetEgresos.value)},Presupuesto egresos 2026\n`;
+    configCsv += `deuda_gastos_comunes,${cleanNumber(projDeuda.value)},Deuda estimada a recuperar\n`;
+
+    const blobProj = new Blob([projCsv], { type: 'text/csv' });
+    const blobConf = new Blob([configCsv], { type: 'text/csv' });
+
+    const urlProj = URL.createObjectURL(blobProj);
+    const urlConf = URL.createObjectURL(blobConf);
+
+    const aProj = document.createElement('a');
+    aProj.href = urlProj;
+    aProj.download = 'proyectos.csv';
+    aProj.click();
+
+    const aConf = document.createElement('a');
+    aConf.href = urlConf;
+    aConf.download = 'config.csv';
+    aConf.click();
+
+    // BLOQUE EXPORTACIÓN COMENTARIOS
+    let strComentarios = "\uFEFFFecha,Nombre,Lote,Tipo,Mensaje\n";
+    comentariosGlobal.forEach(c => {
+        const sNombre = c.nombre ? `"${String(c.nombre).replace(/"/g, '""')}"` : '""';
+        const sLote = c.lote ? `"${String(c.lote).replace(/"/g, '""')}"` : '""';
+        const sTipo = c.tipo ? `"${String(c.tipo).replace(/"/g, '""')}"` : '""';
+        const sMensaje = c.mensaje ? `"${String(c.mensaje).replace(/"/g, '""')}"` : '""';
+        strComentarios += `${c.fecha || ""},${sNombre},${sLote},${sTipo},${sMensaje}\n`;
+    });
+    const blobCom = new Blob([strComentarios], { type: 'text/csv;charset=utf-8;' });
+    const linkCom = document.createElement("a");
+    const urlCom = URL.createObjectURL(blobCom);
+    linkCom.setAttribute("href", urlCom);
+    linkCom.setAttribute("download", "comentarios.csv");
+    document.body.appendChild(linkCom);
+    linkCom.click();
+    document.body.removeChild(linkCom);
+
+    showToast('Estado descargado. Por favor, suba los archivos a /data para hacer los cambios permanentes.', 'success');
+};
 
 // --- 3. INIT & NAVIGATION LÓGICA ---
 document.addEventListener('DOMContentLoaded', () => {
     loadPersistentData();
     document.getElementById('currentDate').innerText = new Date().toLocaleDateString('es-CL', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
-    
+
     // Setup Navigation
     setupNavigation();
 
@@ -167,12 +298,12 @@ document.addEventListener('DOMContentLoaded', () => {
             const oldLen = e.target.value.length;
             e.target.value = formatWithSeparators(e.target.value);
             const newLen = e.target.value.length;
-            
+
             // Adjust cursor position if separators were added
             if (e.target.type === 'text') {
                 e.target.setSelectionRange(cursor + (newLen - oldLen), cursor + (newLen - oldLen));
             }
-            
+
             if (el === projAnnualIncome) el.dataset.dirty = "true";
             calculateBudget();
         });
@@ -180,7 +311,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Zoom Charts Listeners
     document.querySelectorAll('.chart-container').forEach(c => {
-        c.addEventListener('dblclick', function() {
+        c.addEventListener('dblclick', function () {
             this.classList.toggle('chart-zoomed');
             window.dispatchEvent(new Event('resize'));
         });
@@ -196,7 +327,7 @@ document.addEventListener('DOMContentLoaded', () => {
     annualBudgetEgresos.addEventListener('input', calculateBudget);
     projDeuda.addEventListener('input', calculateBudget);
     projectForm.addEventListener('submit', addProject);
-    
+
     // Upload Listeners
     uploadIngresos.addEventListener('change', handleUploadIngresos);
     uploadEgresos.addEventListener('change', handleUploadEgresos);
@@ -205,21 +336,27 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!isAdmin) {
         document.querySelectorAll('.upload-section').forEach(el => el.style.display = 'none');
         kpiCajaActual.readOnly = true;
-        kpiCajaActual.style.border = 'none';
-        
+        // Subtle styling for readonly to ensure visibility
+        kpiCajaActual.style.borderBottom = '1px solid rgba(63, 185, 80, 0.2)';
+        kpiCajaActual.style.cursor = 'default';
+
         projAnnualIncome.readOnly = true;
         projAnnualIncome.style.border = 'none';
-        
+
         annualBudgetEgresos.readOnly = true;
         annualBudgetEgresos.style.border = 'none';
-        
+
         projDeuda.readOnly = true;
         projDeuda.style.border = 'none';
-        
+
         projectForm.style.display = 'none';
-        
+
         const restoreBtn = document.querySelector('button[onclick="localStorage.clear(); location.reload();"]');
         if (restoreBtn) restoreBtn.style.display = 'none';
+    } else {
+        // Show Export button for admins
+        const exportContainer = document.getElementById('adminExportContainer');
+        if (exportContainer) exportContainer.style.display = 'block';
     }
 
     // Load Data
@@ -261,7 +398,7 @@ function setupNavigation() {
     if (debtorSearch) {
         debtorSearch.addEventListener('input', (e) => {
             const query = e.target.value.toLowerCase();
-            filteredDebtorsData = debtorsDataGlobal.filter(d => 
+            filteredDebtorsData = debtorsDataGlobal.filter(d =>
                 d.Unidad.toLowerCase().includes(query)
             );
             renderDebtorsTable();
@@ -271,6 +408,7 @@ function setupNavigation() {
 
 // --- 4. DATA FETCHING ---
 function loadRealData() {
+    toggleLoader(true);
     // 0. Fetch Configs & Projects first
     Promise.all([
         fetch('data/config.csv').then(r => r.ok ? r.text() : ""),
@@ -279,30 +417,57 @@ function loadRealData() {
     ]).then(([configCsv, proyectosCsv, deudaCsv]) => {
         // Parse config
         if (configCsv) {
-            let configData = Papa.parse(configCsv, {header: true, skipEmptyLines: true}).data;
+            let configData = Papa.parse(configCsv, { header: true, skipEmptyLines: true }).data;
             let conf = {};
             configData.forEach(row => {
-                if (row.Parametro) conf[row.Parametro] = parseInt(row.Valor) || 0;
+                if (row.Parametro) conf[row.Parametro] = row.Valor;
             });
-            if (conf.caja_inicial && !localStorage.getItem('kpiCajaActual')) kpiCajaActual.value = conf.caja_inicial;
-            if (conf.deuda_gastos_comunes && !localStorage.getItem('projDeuda')) projDeuda.value = conf.deuda_gastos_comunes;
-            // Also override the input value displays immediately if available
-            if (conf.ingreso_anual_proyectado && !localStorage.getItem('projAnnualIncome')) projAnnualIncome.value = conf.ingreso_anual_proyectado;
-            if (conf.egreso_anual_presupuestado && !localStorage.getItem('annualBudgetEgresos')) annualBudgetEgresos.value = conf.egreso_anual_presupuestado;
+
+            // Priority: Local Storage (if user is currently editing) > Server CSV
+            if (conf.caja_inicial && !localStorage.getItem('kpiCajaActual')) {
+                kpiCajaActual.value = formatWithSeparators(conf.caja_inicial);
+            }
+            if (conf.deuda_gastos_comunes && !localStorage.getItem('projDeuda')) {
+                projDeuda.value = formatWithSeparators(conf.deuda_gastos_comunes);
+            }
+            if (conf.ingreso_anual_proyectado && !localStorage.getItem('projAnnualIncome')) {
+                projAnnualIncome.value = formatWithSeparators(conf.ingreso_anual_proyectado);
+            }
+            if (conf.egreso_anual_presupuestado && !localStorage.getItem('annualBudgetEgresos')) {
+                annualBudgetEgresos.value = formatWithSeparators(conf.egreso_anual_presupuestado);
+            }
         }
 
-        // Parse proyectos
-        if (proyectosCsv && !localStorage.getItem('projects')) {
-            let pData = Papa.parse(proyectosCsv, {header: true, skipEmptyLines: true}).data;
-            let loadedProjects = pData.filter(p => p.name).map(p => ({
-                id: parseInt(p.id) || Date.now() + Math.random(),
-                name: p.name,
-                cost: parseInt(p.cost) || 0,
-                priority: parseInt(p.priority) || 1
+        // Parse proyectos (Antigravity Patch: Race Condition & Sync Fix)
+        if (proyectosCsv) {
+            let pData = Papa.parse(proyectosCsv, { header: true, skipEmptyLines: true }).data;
+            let serverProjects = pData.filter(p => p.name).map(p => ({
+                id: cleanNumber(p.id) || Date.now() + Math.random(),
+                name: p.name.toString().trim(),
+                cost: cleanNumber(p.cost),
+                priority: cleanNumber(p.priority) || 1
             }));
-            if (loadedProjects.length > 0) {
-                projects = loadedProjects;
+
+            const localProjStr = localStorage.getItem('projects');
+            const serverProjStr = JSON.stringify(serverProjects);
+
+            if (!localProjStr) {
+                projects = serverProjects;
                 renderProjects();
+            } else {
+                if (localProjStr !== serverProjStr) {
+                    if (isAdmin) {
+                        projects = JSON.parse(localProjStr);
+                        renderProjects();
+                        showToast('⚠️ Tienes cambios en proyectos sin exportar al servidor. Revisa el estado de sincronización.', 'warning');
+                    } else {
+                        projects = serverProjects;
+                        renderProjects();
+                    }
+                } else {
+                    projects = serverProjects;
+                    renderProjects();
+                }
             }
         }
 
@@ -311,8 +476,11 @@ function loadRealData() {
             Papa.parse(deudaCsv, {
                 header: true,
                 skipEmptyLines: true,
-                complete: function(results) {
+                complete: function (results) {
                     processDeuda(results.data);
+                },
+                error: function (err) {
+                    console.error("Error parsing deuda.csv:", err);
                 }
             });
         }
@@ -322,6 +490,8 @@ function loadRealData() {
     }).catch(err => {
         console.warn("Error fetching config, proceeding with defaults", err);
         fetchIngresosYegresos();
+    }).finally(() => {
+        // We don't hide loader here yet, because fetchIngresosYegresos is async
     });
 }
 
@@ -336,11 +506,16 @@ function fetchIngresosYegresos() {
             Papa.parse(csvString, {
                 header: true,
                 skipEmptyLines: true,
-                complete: function(results) {
+                complete: function (results) {
                     processIngresos(results.data);
                     populateIngresosFilters();
                     ingresosLoaded = true;
                     checkAllDataLoaded();
+                },
+                error: function (err) {
+                    console.error("Error parsing ingresos.csv:", err);
+                    showToast("Error al procesar ingresos.csv del servidor", "error");
+                    toggleLoader(false);
                 }
             });
         })
@@ -359,11 +534,16 @@ function fetchIngresosYegresos() {
                 header: true,
                 skipEmptyLines: true,
                 delimiter: ";",
-                complete: function(results) {
+                complete: function (results) {
                     processEgresos(results.data);
                     populateEgresosFilters();
                     egresosLoaded = true;
                     checkAllDataLoaded();
+                },
+                error: function (err) {
+                    console.error("Error parsing egresos.csv:", err);
+                    showToast("Error al procesar egresos.csv del servidor", "error");
+                    toggleLoader(false);
                 }
             });
         })
@@ -375,15 +555,21 @@ function handleUploadIngresos(event) {
     if (!file) return;
     dataStatus.innerText = "Procesando Ingresos locales...";
     dataStatus.style.color = "var(--warning)";
-    
+
     Papa.parse(file, {
         header: true,
         skipEmptyLines: true,
-        complete: function(results) {
+        complete: function (results) {
             processIngresos(results.data);
             populateIngresosFilters();
             ingresosLoaded = true;
             checkAllDataLoaded(true);
+        },
+        error: function (err) {
+            console.error("Error parsing uploaded ingresos:", err);
+            showToast("Error al procesar el archivo de Ingresos subido", "error");
+            dataStatus.innerText = "Error al procesar el archivo de Ingresos";
+            dataStatus.style.color = "var(--danger)";
         }
     });
 }
@@ -396,20 +582,26 @@ function handleUploadEgresos(event) {
 
     // Read file via FileReader to strip metadatas
     const reader = new FileReader();
-    reader.onload = function(e) {
+    reader.onload = function (e) {
         const text = e.target.result;
         const lines = text.split('\n');
         const cleanedCsv = lines.length > 4 ? lines.slice(4).join('\n') : text;
-        
+
         Papa.parse(cleanedCsv, {
             header: true,
             skipEmptyLines: true,
             delimiter: ";",
-            complete: function(results) {
+            complete: function (results) {
                 processEgresos(results.data);
                 populateEgresosFilters();
                 egresosLoaded = true;
                 checkAllDataLoaded(true);
+            },
+            error: function (err) {
+                console.error("Error parsing uploaded egresos:", err);
+                showToast("Error al procesar el archivo de Egresos subido", "error");
+                dataStatus.innerText = "Error al procesar el archivo de Egresos";
+                dataStatus.style.color = "var(--danger)";
             }
         });
     };
@@ -418,10 +610,13 @@ function handleUploadEgresos(event) {
 
 
 function checkAllDataLoaded(loadedManually = false) {
-    if (ingresosLoaded || egresosLoaded) {
+    if (ingresosLoaded && egresosLoaded) {
+        toggleLoader(false);
         dataStatus.innerText = loadedManually ? "CSVs Locales Cargados" : "Conectado a Datos Reales";
         dataStatus.style.color = "var(--success)";
-        
+
+        if (loadedManually) showToast("Datos cargados correctamente", "success");
+
         applyFiltersIngresos(false);
         applyFiltersEgresos(false);
     }
@@ -429,92 +624,103 @@ function checkAllDataLoaded(loadedManually = false) {
 
 // --- 5. DATA PROCESSING ---
 function processIngresos(data) {
+    if (!data || !Array.isArray(data)) {
+        console.error("No valid data for Ingresos");
+        return;
+    }
     ingresosDataGlobal = data.filter(row => {
-        return row['Nulo'] !== 'Si' && row['Monto'] && row['Fecha Ingreso'];
+        try {
+            return row && row['Nulo'] !== 'Si' && row['Monto'] && row['Fecha Ingreso'];
+        } catch (e) { return false; }
     }).map(row => {
-        const amountStr = row['Monto'].replace(/\./g, '');
-        const amount = parseInt(amountStr, 10);
-        
-        const dateParts = row['Fecha Ingreso'].split('/');
-        let dateObj = null;
-        let monthKey = '';
-        let yearKey = '';
-        
-        if (dateParts.length === 3) {
-            const day = dateParts[0].padStart(2, '0');
-            const month = dateParts[1].padStart(2, '0');
-            const year = dateParts[2];
-            dateObj = new Date(`${year}-${month}-${day}T00:00:00`);
-            monthKey = `${year}-${month}`;
-            yearKey = year;
+        try {
+            const amount = cleanNumber(row['Monto']);
+
+            // Antigravity Patch: Flexible Date Parsing
+            const parsedDate = parseFlexibleDate(row['Fecha Ingreso']);
+            let dateObj = null, monthKey = '', yearKey = '';
+
+            if (parsedDate) {
+                dateObj = parsedDate.dateObj;
+                monthKey = parsedDate.monthKey;
+                yearKey = parsedDate.yearKey;
+            }
+
+            // Identify the exact header containing "Fondo" string for Ingresos (usually "Fondos")
+            const fondoHeader = Object.keys(row).find(k => k && k.toLowerCase().includes('fondo')) || 'Fondos';
+
+            return {
+                amount: isNaN(amount) ? 0 : amount,
+                date: dateObj,
+                monthKey,
+                yearKey,
+                fondoCol: (row[fondoHeader] || 'Otros').toString().trim(),
+                lote: (row['Unidad'] || 'Desconocido').toString().trim(),
+                raw: row
+            };
+        } catch (e) {
+            console.warn("Error processing row in Ingresos:", e, row);
+            return null;
         }
+    }).filter(item => item && item.amount > 0 && item.monthKey);
 
-        // Identify the exact header containing "Fondo" string for Ingresos (usually "Fondos")
-        const fondoHeader = Object.keys(row).find(k => k.toLowerCase().includes('fondo')) || 'Fondos';
-
-        return {
-            amount: isNaN(amount) ? 0 : amount,
-            date: dateObj,
-            monthKey,
-            yearKey,
-            fondoCol: (row[fondoHeader] || 'Otros').trim(),
-            lote: row['Unidad'] || 'Desconocido',
-            raw: row
-        };
-    }).filter(item => item.amount > 0 && item.monthKey);
-    
     // Initially un-filtered
     filteredIngresosData = [...ingresosDataGlobal];
 }
 
 function processEgresos(data) {
+    if (!data || !Array.isArray(data)) {
+        console.error("No valid data for Egresos");
+        return;
+    }
     egresosDataGlobal = data.map(row => {
-        const montoKey = Object.keys(row).find(k => k && k.includes('Monto'));
-        const dateKey = Object.keys(row).find(k => k && k.includes('Fecha'));
-        // Search specific Sub Fondos column based on user request "SubFondo"
-        const subFondoKey = Object.keys(row).find(k => k && k.toLowerCase().includes('sub')) || Object.keys(row).find(k => k && k.includes('Fondo'));
-        
-        const nuloKey = Object.keys(row).find(k => k && k.includes('Nulo'));
-        return { row, montoKey, dateKey, subFondoKey, nuloKey };
+        try {
+            const montoKey = Object.keys(row).find(k => k && k.includes('Monto'));
+            const dateKey = Object.keys(row).find(k => k && k.includes('Fecha'));
+            // Search specific Sub Fondos column based on user request "SubFondo"
+            const subFondoKey = Object.keys(row).find(k => k && k.toLowerCase().includes('sub')) || Object.keys(row).find(k => k && k.includes('Fondo'));
+
+            const nuloKey = Object.keys(row).find(k => k && k.includes('Nulo'));
+            return { row, montoKey, dateKey, subFondoKey, nuloKey };
+        } catch (e) { return null; }
     }).filter(mapped => {
-        let nulo = mapped.nuloKey ? (mapped.row[mapped.nuloKey] || '').trim() : '';
+        if (!mapped) return false;
+        let nulo = mapped.nuloKey ? (mapped.row[mapped.nuloKey] || '').toString().trim() : '';
         return nulo !== 'Si' && mapped.montoKey && mapped.row[mapped.montoKey];
     }).map(mapped => {
-        const { row, montoKey, dateKey, subFondoKey } = mapped;
-        const amountStr = row[montoKey] ? row[montoKey].replace(/\./g, '') : '0';
-        const amount = parseInt(amountStr, 10);
-        
-        let dateParts = [];
-        if (row[dateKey]) dateParts = row[dateKey].trim().split('/');
-        
-        let dateObj = null;
-        let monthKey = '';
-        let yearKey = '';
-        
-        if (dateParts.length === 3) {
-            const day = dateParts[0].padStart(2, '0');
-            const month = dateParts[1].padStart(2, '0');
-            const year = dateParts[2];
-            dateObj = new Date(`${year}-${month}-${day}T00:00:00`);
-            monthKey = `${year}-${month}`;
-            yearKey = year;
-        }
+        try {
+            const { row, montoKey, dateKey, subFondoKey } = mapped;
+            const amount = cleanNumber(row[montoKey]);
 
-        // SubFondos grouped mapping
-        let assignedSubFondo = 'Sin Definir';
-        if (subFondoKey && row[subFondoKey]) {
-            assignedSubFondo = row[subFondoKey].replace(/íú/g, '').replace(/\uFFFD/g, 'ó').trim();
-        }
+            // Antigravity Patch: Flexible Date Parsing
+            const parsedDate = parseFlexibleDate(row[dateKey]);
+            let dateObj = null, monthKey = '', yearKey = '';
 
-        return {
-            amount: isNaN(amount) ? 0 : amount,
-            date: dateObj,
-            monthKey,
-            yearKey,
-            subFondo: assignedSubFondo,
-            raw: row
-        };
-    }).filter(item => item.amount > 0 && item.monthKey);
+            if (parsedDate) {
+                dateObj = parsedDate.dateObj;
+                monthKey = parsedDate.monthKey;
+                yearKey = parsedDate.yearKey;
+            }
+
+            // SubFondos grouped mapping
+            let assignedSubFondo = 'Sin Definir';
+            if (subFondoKey && row[subFondoKey]) {
+                assignedSubFondo = row[subFondoKey].toString().replace(/íú/g, '').replace(/\uFFFD/g, 'ó').trim();
+            }
+
+            return {
+                amount: isNaN(amount) ? 0 : amount,
+                date: dateObj,
+                monthKey,
+                yearKey,
+                subFondo: assignedSubFondo,
+                raw: row
+            };
+        } catch (e) {
+            console.warn("Error processing row in Egresos:", e);
+            return null;
+        }
+    }).filter(item => item && item.amount > 0 && item.monthKey);
 
     filteredEgresosData = [...egresosDataGlobal];
 }
@@ -522,12 +728,12 @@ function processEgresos(data) {
 // --- 5.1 FILTERS LOGIC ---
 function populateIngresosFilters() {
     const uniqueFondos = [...new Set(ingresosDataGlobal.map(i => i.fondoCol))].sort();
-    const uniqueLotes = [...new Set(ingresosDataGlobal.map(i => i.lote))].sort((a,b) => a.localeCompare(b, 'es', {numeric: true}));
-    
+    const uniqueLotes = [...new Set(ingresosDataGlobal.map(i => i.lote))].sort((a, b) => a.localeCompare(b, 'es', { numeric: true }));
+
     // Clear keeping 'ALL'
     filterFondoIngresos.innerHTML = '<option value="ALL">Mostrar Todos (Sin Filtro)</option>';
     filterLoteIngresos.innerHTML = '<option value="ALL">Mostrar Todos (Sin Filtro)</option>';
-    
+
     uniqueFondos.forEach(fondo => {
         if (!fondo) return;
         const opt = document.createElement('option');
@@ -547,9 +753,9 @@ function populateIngresosFilters() {
 
 function populateEgresosFilters() {
     const uniqueSubFondos = [...new Set(egresosDataGlobal.map(e => e.subFondo))].sort();
-    
+
     filterSubFondoEgresos.innerHTML = '<option value="ALL">Mostrar Todos (Sin Filtro)</option>';
-    
+
     uniqueSubFondos.forEach(sf => {
         if (!sf) return;
         const opt = document.createElement('option');
@@ -601,10 +807,10 @@ function updateIngresosDashboard() {
         totalIngresosHist += item.amount;
         if (!montlyIngresosAggr[item.monthKey]) montlyIngresosAggr[item.monthKey] = 0;
         montlyIngresosAggr[item.monthKey] += item.amount;
-        
+
         if (!yearlyData[item.yearKey]) yearlyData[item.yearKey] = 0;
         yearlyData[item.yearKey] += item.amount;
-        
+
         if (!item.lote.toLowerCase().includes('areas comunes')) {
             if (!loteData[item.lote]) loteData[item.lote] = 0;
             loteData[item.lote] += item.amount;
@@ -621,14 +827,14 @@ function updateIngresosDashboard() {
     const numLotes = Object.keys(loteData).length;
 
     historicalAvgYearlyIndex = numYears ? Math.round(totalIngresosHist / numYears) : 0;
-    
+
     kpiTotalIngresos.innerText = formatCurrency(totalIngresosHist);
     kpiAvgMonthlyIngresos.innerText = formatCurrency(numMonths ? totalIngresosHist / numMonths : 0);
     kpiAvgYearlyIngresos.innerText = formatCurrency(historicalAvgYearlyIndex);
-    
+
     const totalLotesAmount = Object.values(loteData).reduce((a, b) => a + b, 0);
     kpiAvgPerLotIngresos.innerText = formatCurrency(numLotes ? totalLotesAmount / numLotes : 0);
-    
+
     const avgLots = numMonths ? Object.values(monthlyUniqueLots).reduce((a, set) => a + set.size, 0) / numMonths : 0;
     kpiLotsPerMonth.innerText = Math.round(avgLots);
 
@@ -653,16 +859,16 @@ function updateEgresosDashboard() {
 
     filteredEgresosData.forEach(item => {
         totalEgresosHist += item.amount;
-        
+
         if (!montlyEgresosAggr[item.monthKey]) montlyEgresosAggr[item.monthKey] = 0;
         montlyEgresosAggr[item.monthKey] += item.amount;
 
         if (!yearlyDataEgr[item.yearKey]) yearlyDataEgr[item.yearKey] = 0;
         yearlyDataEgr[item.yearKey] += item.amount;
-        
+
         if (!subFondoData[item.subFondo]) subFondoData[item.subFondo] = 0;
         subFondoData[item.subFondo] += item.amount;
-        
+
         if (item.yearKey === '2026') {
             totalRealSpend2026 += item.amount;
         }
@@ -696,7 +902,7 @@ annualBudgetEgresos.addEventListener('input', () => annualBudgetEgresos.dataset.
 
 function updateGeneralDashboard() {
     const balance = totalIngresosHist - totalEgresosHist;
-    
+
     kpiTotalIngresosGeneral.innerText = formatCurrency(totalIngresosHist);
     kpiTotalEgresosGeneral.innerText = formatCurrency(totalEgresosHist);
     kpiBalanceNeto.innerText = formatCurrency(balance);
@@ -714,9 +920,9 @@ function renderLineChart(canvasId, data, label, color) {
     const ctx = document.getElementById(canvasId).getContext('2d');
     const sortedKeys = Object.keys(data).sort();
     const values = sortedKeys.map(k => data[k]);
-    
+
     if (chartInstances[canvasId]) chartInstances[canvasId].destroy();
-    
+
     chartInstances[canvasId] = new Chart(ctx, {
         type: 'line',
         data: {
@@ -836,7 +1042,7 @@ function renderFondoChart(data) {
 
 function renderComparativeChart() {
     const ctx = document.getElementById('balanceChart').getContext('2d');
-    
+
     // Merge keys
     const allKeys = new Set([...Object.keys(montlyIngresosAggr), ...Object.keys(montlyEgresosAggr)]);
     const sortedKeys = Array.from(allKeys).sort();
@@ -895,7 +1101,7 @@ function calculateBudget() {
     lblAnnualBudget.innerText = formatCurrency(pOut);
     lblDeuda.innerText = formatCurrency(pDeuda);
     lblAvailablePre.innerText = formatCurrency(subtotalDisponible);
-    
+
     savePersistentData();
     renderProjects();
 }
@@ -910,6 +1116,7 @@ function addProject(e) {
         projects.push({ id: Date.now(), name, cost, priority });
         projName.value = '';
         projCost.value = '';
+        savePersistentData(); // CRITICAL FIX: Ensure projects are saved
         renderProjects();
     }
 }
@@ -917,17 +1124,20 @@ function addProject(e) {
 function updateProject(id, field, value) {
     const proj = projects.find(p => p.id === id);
     if (!proj) return;
-    
+
     if (field === 'priority' || field === 'cost') {
         value = cleanNumber(value);
     }
     proj[field] = value;
+    savePersistentData(); // CRITICAL FIX: Ensure projects are saved
     renderProjects();
 }
 window.updateProject = updateProject;
 
 function removeProject(id) {
+    if (!confirm('¿Eliminar este proyecto?')) return;
     projects = projects.filter(p => p.id !== id);
+    savePersistentData(); // CRITICAL FIX: Ensure projects are saved
     renderProjects();
 }
 window.removeProject = removeProject; // Expose global
@@ -935,24 +1145,24 @@ window.removeProject = removeProject; // Expose global
 function renderProjects() {
     projectsList.innerHTML = '';
     let totalCost = 0;
-    
+
     // Sort projects to be sequential (Primary: Priority ASC, Secondary: ID ASC)
-    projects.sort((a,b) => a.priority - b.priority || a.id - b.id);
+    projects.sort((a, b) => a.priority - b.priority || a.id - b.id);
 
     let currentBalance = subtotalDisponible;
 
     projects.forEach((p, index) => {
         totalCost += p.cost;
         currentBalance -= p.cost;
-        
+
         const isNegative = currentBalance < 0;
         const balanceColor = isNegative ? 'color-danger-text' : 'color-success';
 
         const tr = document.createElement('tr');
         tr.style.borderBottom = '1px solid rgba(255, 255, 255, 0.05)';
-        
+
         const disableAttr = isAdmin ? '' : 'disabled';
-        
+
         tr.innerHTML = `
             <td style="padding: 0.5rem 0;">
                 <input type="number" value="${p.priority}" onchange="updateProject(${p.id}, 'priority', this.value)" style="width: 50px; background: transparent; border: ${isAdmin ? '1px solid var(--glass-border)' : 'none'}; color: var(--text-primary); border-radius: 4px; padding: 0.2rem; text-align: center; outline: none;" ${disableAttr}>
@@ -975,10 +1185,10 @@ function renderProjects() {
     });
 
     totalProjectsCostEl.innerText = formatCurrency(totalCost);
-    
+
     const balance = subtotalDisponible - totalCost;
     finalBalance.innerText = formatCurrency(balance);
-    
+
     if (balance < 0) {
         finalBalance.className = 'color-danger-text';
     } else if (balance > 0) {
@@ -986,20 +1196,32 @@ function renderProjects() {
     } else {
         finalBalance.className = 'color-warning';
     }
-    
+
     savePersistentData();
 }
 
 // --- DEBTORS DASHBOARD LOGIC ---
 function processDeuda(data) {
+    if (!data || !Array.isArray(data)) {
+        console.error("No valid data for Deuda");
+        return;
+    }
     // Filter out potential total row or empty rows
-    debtorsDataGlobal = data.filter(row => row.Unidad && row.Unidad.trim() !== "" && row["Deuda Total Incluye Intereses"]);
-    
-    // Convert values
-    debtorsDataGlobal.forEach(row => {
-        row.deudaNum = parseFloat(row["Deuda Total Incluye Intereses"]) || 0;
-        row.mesesNum = parseFloat(row["Meses deuda"]) || 0;
-    });
+    debtorsDataGlobal = data.filter(row => {
+        try {
+            return row && row.Unidad && row.Unidad.toString().trim() !== "" && row["Deuda Total Incluye Intereses"];
+        } catch (e) { return false; }
+    }).map(row => {
+        try {
+            const rowCopy = { ...row };
+            rowCopy.deudaNum = cleanNumber(row["Deuda Total Incluye Intereses"]);
+            rowCopy.mesesNum = parseFloat(row["Meses deuda"]) || 0;
+            return rowCopy;
+        } catch (e) {
+            console.warn("Error processing row in Deuda:", e);
+            return null;
+        }
+    }).filter(row => row !== null);
 
     // Sort by debt descending globally for both table and chart logic
     debtorsDataGlobal.sort((a, b) => b.deudaNum - a.deudaNum);
@@ -1057,27 +1279,27 @@ function renderDebtorsChart(data) {
             },
             plugins: { legend: { display: false } },
             scales: {
-                x: { 
+                x: {
                     beginAtZero: true,
-                    ticks: { 
+                    ticks: {
                         color: '#8b949e',
                         font: { size: 11 },
                         maxTicksLimit: 6,
-                        callback: function(value) {
+                        callback: function (value) {
                             if (value >= 1000000) return '$' + (value / 1000000).toFixed(1) + 'M';
                             if (value >= 1000) return '$' + (value / 1000).toFixed(0) + 'K';
                             return '$' + value;
                         }
-                    }, 
-                    grid: { color: 'rgba(255,255,255,0.05)' } 
+                    },
+                    grid: { color: 'rgba(255,255,255,0.05)' }
                 },
-                y: { 
-                    ticks: { 
+                y: {
+                    ticks: {
                         color: '#e6edf3',
                         font: { size: 10 },
                         autoSkip: false
-                    }, 
-                    grid: { display: false } 
+                    },
+                    grid: { display: false }
                 }
             }
         }
@@ -1143,5 +1365,87 @@ function renderDebtorsTable() {
             <td style="padding: 0.8rem; text-align: right; font-weight: 600;">${formatCurrency(row.deudaNum)}</td>
         `;
         debtorsTableBody.appendChild(tr);
+    });
+}
+
+// --- MÓDULO AISLADO: COMENTARIOS DE PROPIETARIOS ---
+
+// Captura de Formulario
+document.addEventListener("DOMContentLoaded", () => {
+    const formComentario = document.getElementById("form-comentario");
+    if (formComentario) {
+        formComentario.addEventListener("submit", addComentario);
+    }
+    
+    // Renderizar comentarios (y re-renderizar cuando cambie la vista)
+    renderComentarios();
+});
+
+function addComentario(e) {
+    e.preventDefault();
+    
+    // Capturar valores
+    const nombre = document.getElementById('comentario-nombre').value.trim();
+    const lote = document.getElementById('comentario-lote').value.trim();
+    const tipo = document.getElementById('comentario-tipo').value;
+    const mensaje = document.getElementById('comentario-mensaje').value.trim();
+    
+    // Generar fecha actual
+    const fecha = new Date().toISOString().split('T')[0];
+
+    // Crear objeto
+    const nuevoComentario = {
+        id: Date.now().toString(),
+        fecha,
+        nombre,
+        lote,
+        tipo,
+        mensaje
+    };
+
+    // Actualizar Estado
+    comentariosGlobal.push(nuevoComentario);
+    
+    // Persistir y Renderizar
+    if (typeof savePersistentData === "function") savePersistentData();
+    renderComentarios();
+    
+    // Limpiar Formulario
+    document.getElementById("form-comentario").reset();
+    
+    // Notificación
+    if (typeof showToast === "function") showToast("Comentario guardado correctamente", "success");
+}
+
+function renderComentarios() {
+    const tbody = document.getElementById('tabla-comentarios-body');
+    if (!tbody) return;
+    
+    tbody.innerHTML = '';
+    
+    if (comentariosGlobal.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="5" style="text-align: center; padding: 1.5rem; opacity: 0.7;">No hay comentarios registrados</td></tr>`;
+        return;
+    }
+
+    // Renderizar ordenando por los más recientes primero
+    const comentariosOrdenados = [...comentariosGlobal].sort((a, b) => b.id - a.id);
+
+    comentariosOrdenados.forEach(c => {
+        const tr = document.createElement('tr');
+        tr.style.borderBottom = "1px solid rgba(255,255,255,0.05)";
+        
+        let badgeColor = "var(--secondary)";
+        if (c.tipo === "Reclamo") badgeColor = "var(--danger)";
+        if (c.tipo === "Sugerencia") badgeColor = "var(--info)";
+        
+        tr.innerHTML = `
+            <td style="padding: 0.8rem; font-size: 0.85rem; opacity: 0.8;">${c.fecha}</td>
+            <td style="padding: 0.8rem; font-size: 0.9rem;">${c.nombre}</td>
+            <td style="padding: 0.8rem; font-size: 0.9rem;"><strong>${c.lote}</strong></td>
+            <td style="padding: 0.8rem; font-size: 0.9rem;"><span style="background: ${badgeColor}; color: white; padding: 0.2rem 0.6rem; border-radius: 12px; font-size: 0.75rem;">${c.tipo}</span></td>
+            <td style="max-width: 300px; white-space: normal; padding: 0.8rem; font-size: 0.85rem; line-height: 1.4;">${c.mensaje}</td>
+        `;
+        tbody.appendChild(tr);
     });
 }
