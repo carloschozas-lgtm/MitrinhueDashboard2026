@@ -1,565 +1,561 @@
-﻿Egresos;Unnamed: 1;Unnamed: 2;Unnamed: 3;Unnamed: 4;Unnamed: 5;Unnamed: 6;Unnamed: 7;Unnamed: 8;Unnamed: 9;Unnamed: 10;Unnamed: 11;Unnamed: 12;Unnamed: 13;Unnamed: 14;Unnamed: 15;Unnamed: 16;Unnamed: 17
-;;;;;;;;;;;;;;;;;
-Condominio La Reserva De Mitrinhue;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;
-#Egreso;Monto;Fondo;Sub Fondos;Total;Items;Cheque;Fecha;Cuotas;Nulo;Descripción;Proveedor;Numero Comprobante;Nominativo;Asociado a Torres;Asociado a Cobro Individual;¿Pagado?;Colaborador
-573;123270;Gasto Común;Gastos de mantenimiento;marzo - 2026;Pintura;;13/03/2026;1;No;;Codelpa;;;No;No;No;S/I
-572;850000;Gasto Común;Mantenimiento;;S/I;Scotiabank;02/03/2026;1;No;Pago de servicios de mantenimiento ECOGARDEN;Ecogarden;;;No;No;No;S/I
-571;20350;Gasto Común;Uso y consumo;;S/I;Scotiabank;02/03/2026;1;No;Internet y telefonia;Movistar;;;No;No;No;S/I
-570;24990;Gasto Común;Uso y consumo;;S/I;Scotiabank;02/03/2026;1;No;Compra de botines de seguridad;Sodimac;;;No;No;No;S/I
-569;360000;Gasto Común;Mantenimiento;;S/I;Scotiabank;27/02/2026;1;No;Pago a Hector Castro por retiro de 2 camiones con maleza;Hector Castro;;;No;No;No;S/I
-568;111312;Gasto Común;Administrativos;;S/I;Scotiabank;23/02/2026;1;No;Pago a Michel Chopa por difusión en radio y diario oficial;Gestión Riego;;;No;No;No;S/I
-567;200000;Gasto Común;Mantenimiento;;S/I;Scotiabank;20/02/2026;1;No;Pago por arriendo de carro de arrastre;Otros;;;No;No;No;S/I
-566;270000;Gasto Común;Administrativos;;S/I;Scotiabank;20/02/2026;1;No;Pago a Michel Chopa por gestión de derechos en DGA;Gestión Riego;;;No;No;No;S/I
-565;1833700;Fondo Operacional;Electricidad;;S/I;Scotiabank;18/02/2026;1;No;Pago de consumo electrico general;CGE;;;No;No;No;S/I
-564;18050;Gasto Común;Administrativos;;S/I;Scotiabank;18/02/2026;1;No;Internet y telefonia;Movistar;;;No;No;No;S/I
-563;34439;Gasto Común;Administrativos;;S/I;Scotiabank;18/02/2026;1;No;Internet y telefonia;Claro;;;No;No;No;S/I
-562;25286;Gasto Común;Administrativos;;S/I;Scotiabank;18/02/2026;1;No;Internet y telefonia;Claro;;;No;No;No;S/I
-561;1018960;Gasto Común;Herramientas;;S/I;Scotiabank;18/02/2026;1;No;Compra de 3 basureros de 1100 Lts;Sodimac;;;No;No;No;S/I
-560;12470;Gasto Común;Administrativos;;S/I;Scotiabank;04/02/2026;1;No;Internet y telefonia;WOM;;;No;No;No;S/I
-559;425000;Gasto Común;Mantenimiento;;S/I;Scotiabank;04/02/2026;1;No;Pago de servicios de mantenimiento ECOGARDEN;Ecogarden;;;No;No;No;S/I
-558;3177;Gasto Común;Administrativos;;S/I;Santander;25/02/2026;1;No;Comisión Plan Santander;Santander;;;No;No;No;S/I
-557;15000;Gasto Común;Administrativos;;S/I;Santander;10/02/2026;1;No;Combustible por trámites;Copec;;;No;No;No;S/I
-556;10000;Gasto Común;Administrativos;;S/I;Santander;02/02/2026;1;No;Combustible por trámites;Copec;;;No;No;No;S/I
-555;3465;Gasto Común;Administrativos;;S/I;Santander;30/01/2026;1;No;Estacionamiento;Otros;;;No;No;No;S/I
-554;12100;Gasto Común;Administrativos;;S/I;Santander;30/01/2026;1;No;Colación;Otros;;;No;No;No;S/I
-553;3178;Gasto Común;Administrativos;;S/I;Santander;28/01/2026;1;No;Comisión Plan Santander;Santander;;;No;No;No;S/I
-552;15000;Gasto Común;Administrativos;;S/I;Santander;28/01/2026;1;No;Combustible por trámites;Copec;;;No;No;No;S/I
-551;8890;Gasto Común;Uso y consumo;;S/I;Santander;28/01/2026;1;No;Aceite para generador;Copec;;;No;No;No;S/I
-550;450;Gasto Común;Administrativos;;S/I;Santander;28/01/2026;1;No;Estacionamiento;Otros;;;No;No;No;S/I
-549;140214;Gasto Común;Infraestructura;;S/I;Scotiabank;27/01/2026;1;No;Pago a Daniel Carrillo por conexión generador conserjeria;Otros;;;No;No;No;S/I
-548;40001;Gasto Común;Herramientas;;S/I;Scotiabank;26/01/2026;1;No;Compra de repuestos para desbrozadora;Coprofor;;;No;No;No;S/I
-547;18650;Gasto Común;Uso y consumo;;S/I;Scotiabank;26/01/2026;1;No;Internet y telefonia;Movistar;;;No;No;No;S/I
-546;31469;Gasto Común;Uso y consumo;;S/I;Scotiabank;26/01/2026;1;No;Internet y telefonia;Claro;;;No;No;No;S/I
-545;26576;Gasto Común;Uso y consumo;;S/I;Scotiabank;26/01/2026;1;No;Internet y telefonia;Claro;;;No;No;No;S/I
-544;20350;Gasto Común;Uso y consumo;;S/I;Scotiabank;26/01/2026;1;No;Internet y telefonia;Movistar;;;No;No;No;S/I
-543;100000;Gasto Común;Infraestructura;;S/I;Scotiabank;26/01/2026;1;No;Pago a Daniel Carrillo por conexión generador conserjeria;Otros;;;No;No;No;S/I
-542;425000;Gasto Común;Mantenimiento;;S/I;Scotiabank;21/01/2026;1;No;Pago de servicios de mantenimiento ECOGARDEN;Otros;;;No;No;No;S/I
-541;400517;Gasto Común;Herramientas;;S/I;Scotiabank;20/01/2026;1;No;Eberall compra de generador;Eberall;;;No;No;No;S/I
-540;500000;Gasto Común;Herramientas;;S/I;Scotiabank;19/01/2026;1;No;Eberall compra de generador;Eberall;;;No;No;No;S/I
-539;20000;Gasto Común;Administrativos;;S/I;Santander;15/01/2026;1;No;Combustible por trámites;Copec;;;No;No;No;S/I
-538;40000;Gasto Común;Mantenimiento;;S/I;Santander;12/01/2026;1;No;Pago a Héctor Castro limpieza de lote 13 Mz 4;Otros;;;No;No;No;S/I
-537;15000;Gasto Común;Administrativos;;S/I;Santander;07/01/2026;1;No;Combustible por trámites;Copec;;;No;No;No;S/I
-536;100000;Gasto Común;Mantenimiento;;S/I;Scotiabank;12/01/2026;1;No;Pago a Héctor Castro limpieza de lote 7 Mz 2;Otros;;;No;No;No;S/I
-535;12470;Gasto Común;Uso y consumo;;S/I;Scotiabank;07/01/2026;1;No;Internet y telefonia;wom;;;No;No;No;S/I
-534;386550;Gasto Común;Infraestructura;;S/I;Scotiabank;07/01/2026;1;No;Compra de estanque 10000 litros pago 2;Bioplastic;;;No;No;No;S/I
-533;500000;Gasto Común;Infraestructura;;S/I;Scotiabank;06/01/2026;1;No;Compra de estanque 10000 litros pago 1;Bioplastic;;;No;No;No;S/I
-532;425000;Gasto Común;Mantenimiento;;S/I;Scotiabank;06/01/2026;1;No;Pago de servicios de mantenimiento ECOGARDEN;Ecogarden;;;No;No;No;S/I
-531;1691400;Fondo Operacional;Electricidad;;S/I;Scotiabank;02/01/2026;1;No;Pago de consumo electrico general;CGE;;;No;No;No;S/I
-530;18050;Gasto Común;Uso y consumo;;S/I;Scotiabank;02/01/2026;1;No;Internet y telefonia;Movistar;;;No;No;No;S/I
-529;29489;Gasto Común;Uso y consumo;;S/I;Scotiabank;02/01/2026;1;No;Internet y telefonia;Claro;;;No;No;No;S/I
-528;25286;Gasto Común;Uso y consumo;;S/I;Scotiabank;02/01/2026;1;No;Internet y telefonia;Claro;;;No;No;No;S/I
-527;20350;Gasto Común;Uso y consumo;;S/I;Scotiabank;02/01/2026;1;No;Internet y telefonia;Movistar;;;No;No;No;S/I
-526;386750;Gasto Común;Reparaciones;;S/I;Scotiabank;02/01/2026;1;No;Pago por servicio de destape de alcantarillado;Gasalca;;;No;No;No;S/I
-525;3171;Gasto Común;Administrativos;;S/I;Santander;26/12/2025;1;No;Comisión Plan Santander;Santander;;;No;No;No;S/I
-524;425000;Gasto Común;Mantenimiento;;S/I;Scotiabank;23/12/2025;1;No;Pago de servicios de mantenimiento ECOGARDEN;Ecogarden;;;No;No;No;S/I
-523;25000;Gasto Común;Administrativos;;S/I;Santander;19/12/2025;1;No;Combustible por trámites;Copec;;;No;No;No;S/I
-522;1800;Gasto Común;Administrativos;;S/I;Santander;18/12/2025;1;No;estacionamiento;Otros;;;No;No;No;S/I
-521;5400;Gasto Común;Administrativos;;S/I;Santander;18/12/2025;1;No;Colación;Otros;;;No;No;No;S/I
-520;43955;Gasto Común;Administrativos;;S/I;Scotiabank;15/12/2025;1;No;Pago de IVA plan Anual Edipro;Edipro;;;No;No;No;S/I
-519;231343;Gasto Común;Administrativos;;S/I;Scotiabank;15/12/2025;1;No;Renovación de plan Anual Edipro;Edipro;;;No;No;No;S/I
-518;150000;Gasto Común;Otros gastos;;S/I;Santander;11/12/2025;1;No;Tranferencia a Patricio Abogado;Abogados;;;No;No;No;S/I
-517;12470;Gasto Común;Uso y consumo;;S/I;Scotiabank;09/12/2025;1;No;Internet y telefonia;Wom;;;No;No;No;S/I
-516;18050;Gasto Común;Uso y consumo;;S/I;Scotiabank;09/12/2025;1;No;Internet y telefonia;Movistar;;;No;No;No;S/I
-515;1712900;Fondo Operacional;Electricidad;;S/I;Scotiabank;28/11/2025;1;No;Pago de consumo electrico general;CGE;;;No;No;No;S/I
-514;29336;Gasto Común;Uso y consumo;;S/I;Scotiabank;28/11/2025;1;No;Internet y telefonia;Claro;;;No;No;No;S/I
-513;20350;Gasto Común;Uso y consumo;;S/I;Scotiabank;28/11/2025;1;No;Internet y telefonia;Movistar;;;No;No;No;S/I
-512;3167;Gasto Común;Administrativos;;S/I;Santander;26/11/2025;1;No;Comisión Plan Santander;Santander;;;No;No;No;S/I
-511;30000;Gasto Común;Administrativos;;S/I;Santander;20/11/2025;1;No;Combustible por trámites;Copec;;;No;No;No;S/I
-510;2800;Gasto Común;Administrativos;;S/I;Santander;18/11/2025;1;No;estacionamiento;Otros;;;No;No;No;S/I
-509;8800;Gasto Común;Administrativos;;S/I;Santander;18/11/2025;1;No;Colación;Otros;;;No;No;No;S/I
-508;3700;Gasto Común;Administrativos;;S/I;Santander;17/11/2025;1;No;Transferencia pago derechos SEREMI;Otros;;;No;No;No;S/I
-507;15000;Gasto Común;Administrativos;;S/I;Santander;14/11/2025;1;No;Combustible por trámites;copec;;;No;No;No;S/I
-506;250000;Gasto Común;Administrativos;;S/I;Santander;14/11/2025;1;No;Transferencia pago derechos SEREMI;Otros;;;No;No;No;S/I
-505;300000;Gasto Común;Otros gastos;;S/I;Scotiabank;12/11/2025;1;No;Tranferencia a Patricio Abogado;Abogados;;;No;No;No;S/I
-504;4920;Gasto Común;Uso y consumo;;S/I;Santander;11/11/2025;1;No;;Otros;;;No;No;No;S/I
-503;12470;Gasto Común;Uso y consumo;;S/I;Scotiabank;10/11/2025;1;No;Internet y telefonia;Wom;;;No;No;No;S/I
-502;1861500;Fondo Operacional;Electricidad;;S/I;Scotiabank;10/11/2025;1;No;Pago de consumo electrico general;CGE;;;No;No;No;S/I
-501;25154;Gasto Común;Uso y consumo;;S/I;Scotiabank;10/11/2025;1;No;Internet y telefonia;Claro;;;No;No;No;S/I
-500;100000;Gasto Común;Reparaciones;;S/I;Scotiabank;10/11/2025;1;No;Pago Cristian Peña;Otros;;;No;No;No;S/I
-499;30000;Gasto Común;Administrativos;;S/I;Santander;10/11/2025;1;No;Combustible por trámites;Copec;;;No;No;No;S/I
-498;1680;Gasto Común;Administrativos;;S/I;Santander;07/11/2025;1;No;estacionamiento;Otros;;;No;No;No;S/I
-497;3900;Gasto Común;Administrativos;;S/I;Santander;07/11/2025;1;No;Colación;Otros;;;No;No;No;S/I
-496;100000;Gasto Común;Reparaciones;;S/I;Scotiabank;28/10/2025;1;No;Pago Cristian Peña;Otros;;;No;No;No;S/I
-495;3159;Gasto Común;Administrativos;;S/I;Santander;28/10/2025;1;No;Comisión Plan Santander;Santander;;;No;No;No;S/I
-494;17819;Gasto Común;Uso y consumo;;S/I;Scotiabank;27/10/2025;1;No;Internet y telefonia;Movistar;;;No;No;No;S/I
-493;19990;Gasto Común;Uso y consumo;;S/I;Scotiabank;27/10/2025;1;No;Internet y telefonia;Movistar;;;No;No;No;S/I
-492;28500;Gasto Común;Herramientas;;S/I;Scotiabank;27/10/2025;1;No;Compra de hilo y cuchillo orilladora;Otros;;;No;No;No;S/I
-491;35000;Gasto Común;Administrativos;;S/I;Santander;27/10/2025;1;No;Combustible por trámites;Copec;;;No;No;No;S/I
-490;40198;Gasto Común;Uso y consumo;;S/I;Santander;24/10/2025;1;No;Pago por compra de combustible para orilladora;Copec;;;No;No;No;S/I
-489;231614;Gasto Común;Uso y consumo;;S/I;Santander;24/10/2025;1;No;Mantenimiento y reparación orilladora;Coprofor;;;No;No;No;S/I
-488;40000;Gasto Común;Reparaciones;;S/I;Scotiabank;21/10/2025;1;No;Pago Esteban Placencia por reparación de filtración;Otros;;;No;No;No;S/I
-487;100000;Gasto Común;Reparaciones;;S/I;Scotiabank;21/10/2025;1;No;Pago Cristian Peña;Otros;;;No;No;No;S/I
-486;25331;Gasto Común;Uso y consumo;;S/I;Scotiabank;16/10/2025;1;No;Internet y telefonia;Claro;;;No;No;No;S/I
-485;25154;Gasto Común;Uso y consumo;;S/I;Scotiabank;16/10/2025;1;No;Internet y telefonia;Claro;;;No;No;No;S/I
-484;100000;Gasto Común;Reparaciones;;S/I;Scotiabank;16/10/2025;1;No;Pago Cristian Peña;Otros;;;No;No;No;S/I
-483;6940;Gasto Común;Uso y consumo;;S/I;Santander;12/10/2025;1;No;Articulos de Aseo;Lider;;;No;No;No;S/I
-482;50000;Gasto Común;Reparaciones;;S/I;Scotiabank;06/10/2025;1;No;Pago Cristian Peña;Otros;;;No;No;No;S/I
-481;203990;Gasto Común;Administrativos;;S/I;Scotiabank;06/10/2025;1;No;Contratación de Plan Legal Anual;Edipro;;;No;No;No;S/I
-480;7990;Gasto Común;Uso y consumo;;S/I;Scotiabank;03/10/2025;1;No;Internet y telefonia;Wom;;;No;No;No;S/I
-479;1768700;Fondo Operacional;Electricidad;;S/I;Scotiabank;03/10/2025;1;No;Pago de consumo electrico general;CGE;;;No;No;No;S/I
-478;14370;Gasto Común;Uso y consumo;;S/I;Scotiabank;03/10/2025;1;No;Internet y telefonia;Movistar;;;No;No;No;S/I
-477;25331;Gasto Común;Uso y consumo;;S/I;Scotiabank;03/10/2025;1;No;Internet y telefonia;Claro;;;No;No;No;S/I
-476;19990;Gasto Común;Uso y consumo;;S/I;Scotiabank;03/10/2025;1;No;Internet y telefonia;Movistar;;;No;No;No;S/I
-475;30000;Gasto Común;Administrativos;;S/I;Santander;03/10/2025;1;No;Combustible por trámites;Copec;;;No;No;No;S/I
-474;1760;Gasto Común;Administrativos;;S/I;Santander;02/10/2025;1;No;Estacionamiento;Otros;;;No;No;No;S/I
-473;2000;Gasto Común;Administrativos;;S/I;Santander;02/10/2025;1;No;Certificados Notaría;Notaría;;;No;No;No;S/I
-472;2976;Gasto Común;Administrativos;;S/I;Santander;02/10/2025;1;No;Estacionamiento;Otros;;;No;No;No;S/I
-471;10000;Gasto Común;Administrativos;;S/I;Santander;02/10/2025;1;No;Certificados CBR Coronel;Conservador;;;No;No;No;S/I
-470;10000;Gasto Común;Administrativos;;S/I;Santander;02/10/2025;1;No;Certificados CBR Coronel;Conservador;;;No;No;No;S/I
-469;30000;Gasto Común;Administrativos;;S/I;Santander;02/10/2025;1;No;Certificados CBR Coronel;Conservador;;;No;No;No;S/I
-468;30000;Gasto Común;Administrativos;;S/I;Santander;01/10/2025;1;No;Combustible por trámites;Copec;;;No;No;No;S/I
-467;3149;Gasto Común;Administrativos;;S/I;Santander;26/09/2025;1;No;Comisión Plan Santander;Santander;;;No;No;No;S/I
-466;6270;Gasto Común;Uso y consumo;;S/I;Scotiabank;22/09/2025;1;No;Pago por compra de combustible para orilladora;Copec;;;No;No;No;S/I
-465;15000;Gasto Común;Administrativos;;S/I;Santander;16/09/2025;1;No;Combustible por trámites;Copec;;;No;No;No;S/I
-464;11990;Gasto Común;Uso y consumo;;S/I;Scotiabank;15/09/2025;1;No;Pago por compra de aceite para orilladora;Otros;;;No;No;No;S/I
-463;25154;Gasto Común;Uso y consumo;;S/I;Scotiabank;11/09/2025;1;No;Internet y telefonia;Claro;;;No;No;No;S/I
-462;12000;Gasto Común;Administrativos;;S/I;Santander;09/09/2025;1;No;Combustible por trámites;Copec;;;No;No;No;S/I
-461;250000;Gasto Común;Reparaciones;;S/I;Scotiabank;08/09/2025;1;No;Pago a Valle Mitrinhue por reparación de acceso;Otros;;;No;No;No;S/I
-460;100000;Gasto Común;Reparaciones;;S/I;Scotiabank;08/09/2025;1;No;Pago Cristian Peña;Otros;;;No;No;No;S/I
-459;28550;Gasto Común;Administrativos;;S/I;Santander;08/09/2025;1;No;Combustible por trámites;Copec;;;No;No;No;S/I
-458;2051400;Fondo Operacional;Electricidad;;S/I;Scotiabank;04/09/2025;1;No;Pago de consumo electrico general;CGE;;;No;No;No;S/I
-457;16358;Gasto Común;Uso y consumo;;S/I;Scotiabank;04/09/2025;1;No;Internet y telefonia;Movistar;;;No;No;No;S/I
-456;26455;Gasto Común;Uso y consumo;;S/I;Scotiabank;04/09/2025;1;No;Internet y telefonia;Claro;;;No;No;No;S/I
-455;19990;Gasto Común;Uso y consumo;;S/I;Scotiabank;04/09/2025;1;No;Internet y telefonia;Movistar;;;No;No;No;S/I
-454;7990;Gasto Común;Uso y consumo;;S/I;Scotiabank;04/09/2025;1;No;Internet y telefonia;Wom;;;No;No;No;S/I
-453;4400;Gasto Común;Otros gastos;;S/I;Santander;02/09/2025;1;No;Colación;Otros;;;No;No;No;S/I
-452;3134;Gasto Común;Administrativos;;S/I;Santander;27/08/2025;1;No;Comisión Plan Santander;Santander;;;No;No;No;S/I
-451;300000;Gasto Común;Otros gastos;;S/I;Scotiabank;25/08/2025;1;No;Tranferencia a Patricio Abogado;Abogados;;;No;No;No;S/I
-450;180000;Gasto Común;Reparaciones;;S/I;Scotiabank;12/08/2025;1;No;Instalación de Motor nuevo en portón de acceso;Fenix8;;;No;No;No;S/I
-449;31227;Gasto Común;Reparaciones;;S/I;Scotiabank;08/08/2025;1;No;Compra de topes para montaja de rieles;Automatec;;;No;No;No;S/I
-448;825384;Gasto Común;Reparaciones;;S/I;Scotiabank;08/08/2025;1;No;Compra de motor para porton;Automatec;;;No;No;No;S/I
-447;7990;Gasto Común;Uso y consumo;;S/I;Scotiabank;08/08/2025;1;No;Internet y telefonia;Wom;;;No;No;No;S/I
-446;2225200;Fondo Operacional;S/I;;S/I;Scotiabank;08/08/2025;1;No;Pago de consumo electrico general;CGE;;;No;No;No;S/I
-445;16344;Gasto Común;Uso y consumo;;S/I;Scotiabank;08/08/2025;1;No;Internet y telefonia;Movistar;;;No;No;No;S/I
-444;28529;Gasto Común;Uso y consumo;;S/I;Scotiabank;08/08/2025;1;No;Internet y telefonia;Claro;;;No;No;No;S/I
-443;22172;Gasto Común;Uso y consumo;;S/I;Scotiabank;08/08/2025;1;No;Internet y telefonia;Movistar;;;No;No;No;S/I
-442;3141;Gasto Común;Administrativos;;S/I;Santander;29/07/2025;1;No;Comisión Plan Santander;Santander;;;No;No;No;S/I
-441;4540;Gasto Común;Otros gastos;;S/I;Santander;25/07/2025;1;No;Envio correos;Correos de Chile;;;No;No;No;S/I
-440;20000;Gasto Común;Otros gastos;;S/I;Santander;25/07/2025;1;No;Combustible por trámites;Copec;;;No;No;No;S/I
-439;4600;Gasto Común;Otros gastos;;S/I;Santander;23/07/2025;1;No;Colación;Otros;;;No;No;No;S/I
-438;6000;Gasto Común;Otros gastos;;S/I;Santander;23/07/2025;1;No;Notaría;Notaría;;;No;No;No;S/I
-437;6800;Gasto Común;Otros gastos;;S/I;Santander;23/07/2025;1;No;impresiones;Otros;;;No;No;No;S/I
-436;10000;Gasto Común;Otros gastos;;S/I;Santander;22/07/2025;1;No;Resmas de hojas;Otros;;;No;No;No;S/I
-435;37000;Gasto Común;Otros gastos;;S/I;Santander;22/07/2025;1;No;Combustible por trámites;Copec;;;No;No;No;S/I
-434;125000;Gasto Común;Administrativos;;S/I;Santander;22/07/2025;1;No;Certificacion electronica notarial;Notaría;;;No;No;No;S/I
-433;140000;Gasto Común;Administrativos;;S/I;Santander;22/07/2025;1;No;Escritura Publica Asamblea;Notaría;;;No;No;No;S/I
-432;140000;Gasto Común;Administrativos;;S/I;Santander;22/07/2025;1;No;Escritura Publica Asamblea;Notaría;;;No;No;No;S/I
-431;49980;Gasto Común;Uso y consumo;;S/I;Scotiabank;21/07/2025;1;No;Internet y telefonia;Claro;;;No;No;No;S/I
-430;22140;Gasto Común;Uso y consumo;;S/I;Scotiabank;18/07/2025;1;No;Internet y telefonia;Movistar;;;No;No;No;S/I
-429;1890;Gasto Común;Otros gastos;;S/I;Santander;11/07/2025;1;No;estacionamiento;Otros;;;No;No;No;S/I
-428;9980;Gasto Común;Otros gastos;;S/I;Santander;11/07/2025;1;No;Colación;Otros;;;No;No;No;S/I
-427;12000;Gasto Común;Otros gastos;;S/I;Santander;11/07/2025;1;No;Combustible por trámites;Copec;;;No;No;No;S/I
-426;2005500;Fondo Operacional;S/I;;S/I;Scotiabank;09/07/2025;1;No;Pago de consumo electrico general;CGE;;;No;No;No;S/I
-425;7990;Gasto Común;Uso y consumo;;S/I;Scotiabank;09/07/2025;1;No;Internet y telefonia;Wom;;;No;No;No;S/I
-424;14255;Gasto Común;Uso y consumo;;S/I;Scotiabank;09/07/2025;1;No;Internet y telefonia;Movistar;;;No;No;No;S/I
-423;1000;Gasto Común;Otros gastos;;S/I;Santander;02/07/2025;1;No;Colación;Otros;;;No;No;No;S/I
-422;200000;Gasto Común;Otros gastos;;S/I;Santander;27/06/2025;1;No;Pago de pasajes y estadía abogados;Abogados;;;No;No;No;S/I
-421;3135;Gasto Común;Administrativos;;S/I;Santander;26/06/2025;1;No;Comisión Plan Santander;Santander;;;No;No;No;S/I
-420;24000;Gasto Común;Otros gastos;;S/I;Santander;18/06/2025;1;No;Combustible por trámites;Copec;;;No;No;No;S/I
-419;7990;Gasto Común;Otros gastos;;S/I;Scotiabank;08/06/2025;1;No;Internet y telefonia;Wom;;;No;No;No;S/I
-418;1920600;Fondo Operacional;S/I;;S/I;Scotiabank;08/06/2025;1;No;Pago de consumo electrico general;CGE;;;No;No;No;S/I
-417;3112;Gasto Común;Administrativos;;S/I;;04/06/2025;1;No;Comisión mantención Plan;Santander;;;No;No;No;S/I
-416;3126;Gasto Común;Administrativos;;S/I;;04/06/2025;1;No;Comisión mantención Plan;Santander;;;No;No;No;S/I
-415;19990;Gasto Común;Otros gastos;;S/I;Scotiabank;27/05/2025;1;No;Internet y telefonia;Movistar;;;No;No;No;S/I
-414;20000;Gasto Común;Otros gastos;;S/I;Scotiabank;27/05/2025;1;No;Combustible traslados y trámites;Copec;;;No;No;No;S/I
-413;64192;Gasto Común;Otros gastos;;S/I;Scotiabank;26/05/2025;1;No;PAGO POR WEB DE SERVICIOS de telefonía;Otros;;;No;No;No;S/I
-412;1000;Gasto Común;Administrativos;;S/I;;13/05/2025;1;No;Pago TGR;TGR;;;No;No;No;S/I
-411;50000;Gasto Común;Otros gastos;;S/I;Scotiabank;12/05/2025;1;No;Pago de materiales eléctricos, instalaciones y revisión de cámara acceso.;Otros;;;No;No;No;S/I
-410;1658400;Fondo Operacional;S/I;;S/I;Scotiabank;12/05/2025;1;No;Pago de consumo electrico general;CGE;;;No;No;No;S/I
-409;70000;Gasto Común;Otros gastos;;S/I;Scotiabank;08/05/2025;1;No;Pago por instalación de cámara en acceso;Alan Fuentes;;;No;No;No;S/I
-408;394897;Gasto Común;Otros gastos;;S/I;Scotiabank;06/05/2025;1;No;Compra de camaras, memorias, ups y controles;Otros;;;No;No;No;S/I
-407;49921;Gasto Común;Otros gastos;;S/I;Scotiabank;05/05/2025;1;No;PAGO POR WEB DE SERVICIOS de telefonía;Otros;;;No;No;No;S/I
-406;25491;Gasto Común;Otros gastos;;S/I;Scotiabank;23/04/2025;1;No;Compra de medidor Wifi;Mercadolibre;;;No;No;No;S/I
-405;397080;Gasto Común;Otros gastos;;S/I;Scotiabank;23/04/2025;1;No;Pago 2 de mano de obra instalacion de estanque;DeLourdes;;;No;No;No;S/I
-404;500000;Gasto Común;Otros gastos;;S/I;Scotiabank;22/04/2025;1;No;Pago 1 de mano de obra instalacion de estanque;DeLourdes;;;No;No;No;S/I
-403;5990;Gasto Común;Administrativos;;S/I;;21/04/2025;1;No;Librería;Otros;;;No;No;No;S/I
-402;16269;Gasto Común;Otros gastos;;S/I;;21/04/2025;1;No;Internet y telefonia;Movistar;;;No;No;No;S/I
-401;149990;Gasto Común;Otros gastos;;S/I;;17/04/2025;1;No;Compra de impresora multifuncional;Lider;;;No;No;No;S/I
-400;1558900;Fondo Operacional;S/I;;S/I;Scotiabank;17/04/2025;1;No;Pago de consumo electrico general;CGE;;;No;No;No;S/I
-399;15000;Gasto Común;Otros gastos;;S/I;;11/04/2025;1;No;Compra de materiales Hidrocentro Rogelio;Hidrocentro;;;No;No;No;S/I
-398;53105;Gasto Común;Otros gastos;;S/I;;11/04/2025;1;No;Compra de materiales Hidrocentro Rogelio;Hidrocentro;;;No;No;No;S/I
-397;58146;Gasto Común;Otros gastos;;S/I;;11/04/2025;1;No;Compra de materiales Hidrocentro Rogelio;Hidrocentro;;;No;No;No;S/I
-396;1250;Gasto Común;Otros gastos;;S/I;Scotiabank;11/04/2025;1;No;Estacionamiento CBR Coronel;Otros;;;No;No;No;S/I
-395;2400;Gasto Común;Otros gastos;;S/I;Scotiabank;11/04/2025;1;No;Estacionamiento DOM;Otros;;;No;No;No;S/I
-394;6803;Gasto Común;Administrativos;;S/I;Scotiabank;11/04/2025;1;No;Pago de certificado de número DOM;DOM;;;No;No;No;S/I
-393;25000;Gasto Común;Otros gastos;;S/I;Scotiabank;11/04/2025;1;No;Combustible traslados y trámites;Copec;;;No;No;No;S/I
-392;34819;Gasto Común;Otros gastos;;S/I;Scotiabank;11/04/2025;1;No;Compra de relé control de nivel estanque;Mercadolibre;;;No;No;No;S/I
-391;41772;Gasto Común;Otros gastos;;S/I;Scotiabank;11/04/2025;1;No;Compras en Sodimac;Sodimac;;;No;No;No;S/I
-390;50000;Gasto Común;Otros gastos;;S/I;Scotiabank;11/04/2025;1;No;Pago 2 por topografía avenidas condominio;Otros;;;No;No;No;S/I
-389;33991;Gasto Común;Otros gastos;;S/I;Scotiabank;09/04/2025;1;No;Compras en Sodimac;Sodimac;;;No;No;No;S/I
-388;500000;Gasto Común;Otros gastos;;S/I;Scotiabank;09/04/2025;1;No;Pago 1 por topografía avenidas condominio;Otros;;;No;No;No;S/I
-387;69939;Gasto Común;Otros gastos;;S/I;;08/04/2025;1;No;Compra de materiales Hidrocentro Rogelio;Hidrocentro;;;No;No;No;S/I
-386;450000;Gasto Común;Otros gastos;;S/I;Scotiabank;07/04/2025;1;No;Pago 1 por gestión de inscripción derechos de agua;Gestión Riego;;;No;No;No;S/I
-385;7990;Gasto Común;Otros gastos;;S/I;;07/04/2025;1;No;Internet y telefonia;Wom;;;No;No;No;S/I
-384;11366;Gasto Común;Otros gastos;;S/I;;07/04/2025;1;No;Compra supermencado;Otros;;;No;No;No;S/I
-383;25000;Gasto Común;Otros gastos;;S/I;;07/04/2025;1;No;Combustible traslados y tramites;Copec;;;No;No;No;S/I
-382;30686;Gasto Común;Otros gastos;;S/I;;07/04/2025;1;No;Internet y telefonia;Claro;;;No;No;No;S/I
-381;571200;Gasto Común;Otros gastos;;S/I;;07/04/2025;1;No;Compra de bomba y controlador Sur Bombas;Sur Bombas;;;No;No;No;S/I
-380;166274;Gasto Común;Otros gastos;;S/I;;04/04/2025;1;No;Pago 2 Biodiversa por analisis de agua en laboratorio;Biodiversa;;;No;No;No;S/I
-379;170000;Gasto Común;Otros gastos;;S/I;;04/04/2025;1;No;Instalación de empalme para bombas;Alan fuentes;;;No;No;No;S/I
-378;119990;Gasto Común;Otros gastos;;S/I;;03/04/2025;1;No;Compra de router wifi para conserjería;Casa Royal;;;No;No;No;S/I
-377;250000;Gasto Común;Otros gastos;;S/I;;03/04/2025;1;No;Pago 1 Biodiversa por analisis de agua en laboratorio;Biodiversa;;;No;No;No;S/I
-376;484031;Gasto Común;Otros gastos;;S/I;;03/04/2025;1;No;Compra de estanque hidroneumatico Rogelio;Otros;;;No;No;No;S/I
-375;30000;Gasto Común;Administrativos;;S/I;;02/04/2025;1;No;Combustible traslados y trámites;Copec;;;No;No;No;S/I
-374;50421;Gasto Común;Otros gastos;;S/I;;02/04/2025;1;No;Compra de materiales Hidrocentro;Hidrocentro;;;No;No;No;S/I
-373;150000;Gasto Común;Otros gastos;;S/I;;02/04/2025;1;No;Arriendo de excavadora apoyo solucion agua potable;Otros;;;No;No;No;S/I
-372;1213800;Gasto Común;Otros gastos;;S/I;;02/04/2025;1;No;Compra de estanque 10000 Lts Rogelio;Hidrocentro;;;No;No;No;S/I
-371;23034;Gasto Común;Otros gastos;;S/I;;01/04/2025;1;No;Compra de materiales Fitting;Sodimac;;;No;No;No;S/I
-370;66542;Gasto Común;Otros gastos;;S/I;;01/04/2025;1;No;Compra de materiales Hidrocentro Rogelio;Hidrocentro;;;No;No;No;S/I
-369;86454;Gasto Común;Otros gastos;;S/I;;01/04/2025;1;No;Compra de materiales Hidrocentro;Hidrocentro;;;No;No;No;S/I
-368;214200;Gasto Común;Otros gastos;;S/I;;01/04/2025;1;No;Pago por compra de bombas Sur Bombas;Sur Bombas;;;No;No;No;S/I
-367;250000;Gasto Común;Otros gastos;;S/I;;01/04/2025;1;No;Arriendo de excavadora apoyo solucion agua potable;Otros;;;No;No;No;S/I
-366;268082;Gasto Común;Otros gastos;;S/I;;01/04/2025;1;No;Compra de materiales Hidrocentro Rogelio;Hidrocentro;;;No;No;No;S/I
-365;40000;Gasto Común;Otros gastos;;S/I;;31/03/2025;1;No;Pago 4 por perforación de pozo profundo;Makal Solar SPA;;;No;No;No;S/I
-364;841093;Gasto Común;Otros gastos;;S/I;;31/03/2025;1;No;Pago por habilitación de pozo y materiales;Manuel Vallejos;;;No;No;No;S/I
-363;5000000;Gasto Común;Otros gastos;;S/I;;28/03/2025;1;No;Pago 3 por perforación de pozo profundo;Makal Solar SPA;;;No;No;No;S/I
-362;3092;Gasto Común;Administrativos;;S/I;;27/03/2025;1;No;Comisión mantención Plan;Santander;;;No;No;No;S/I
-361;3599000;Gasto Común;Otros gastos;;S/I;;27/03/2025;1;No;Pago 2 por perforación de pozo profundo;Makal Solar SPA;;;No;No;No;S/I
-360;1000;Gasto Común;Otros gastos;;S/I;;26/03/2025;1;No;Pago 1 por perforación de pozo profundo;Makal Solar SPA;;;No;No;No;S/I
-359;22578;Gasto Común;Otros gastos;;S/I;;21/03/2025;1;No;Internet y telefonia;Movistar;;;No;No;No;S/I
-358;1050000;Gasto Común;Otros gastos;;S/I;;19/03/2025;1;No;Pago 2 por proyecto de agua en SEREMI;Otros;;;No;No;No;S/I
-357;250000;Gasto Común;Otros gastos;;S/I;;18/03/2025;1;No;Pago 1 por proyecto de agua en SEREMI;Otros;;;No;No;No;S/I
-356;2190;Gasto Común;Administrativos;;S/I;;12/03/2025;1;No;Compra librería;Otros;;;No;No;No;S/I
-355;15200;Gasto Común;Otros gastos;;S/I;;12/03/2025;1;No;Colación testigos día de testificación en JPL;Otros;;;No;No;No;S/I
-354;20000;Gasto Común;Administrativos;;S/I;;12/03/2025;1;No;Combustible traslados y trámites;Copec;;;No;No;No;S/I
-353;60000;Gasto Común;Otros gastos;;S/I;;12/03/2025;1;No;Arriendo de casilla postal para condominio;Otros;;;No;No;No;S/I
-352;11600;Gasto Común;Otros gastos;;S/I;;10/03/2025;1;No;Cafeteria día de testificación en JPL;Otros;;;No;No;No;S/I
-351;17600;Gasto Común;Otros gastos;;S/I;;10/03/2025;1;No;Cafeteria día de testificación en JPL;Otros;;;No;No;No;S/I
-350;100000;Gasto Común;Otros gastos;;S/I;;10/03/2025;1;No;Pasajes abogados;Abogados;;;No;No;No;S/I
-349;7990;Gasto Común;Otros gastos;;S/I;;06/03/2025;1;No;Internet y telefonia;Wom;;;No;No;No;S/I
-348;26412;Gasto Común;Otros gastos;;S/I;;06/03/2025;1;No;Internet y telefonia;Claro;;;No;No;No;S/I
-347;31866;Gasto Común;Otros gastos;;S/I;;06/03/2025;1;No;Internet y telefonia;Movistar;;;No;No;No;S/I
-346;1642300;Fondo Operacional;S/I;;S/I;;06/03/2025;1;No;Pago de consumo electrico general;CGE;;;No;No;No;S/I
-345;3071;Gasto Común;Administrativos;;S/I;;26/02/2025;1;No;Comisión mantención Plan;Santander;;;No;No;No;S/I
-344;50000;Gasto Común;Otros gastos;;S/I;;25/02/2025;1;No;Visita para cotización de pozo profundo;Perforaciones Chile SPA;;;No;No;No;S/I
-343;80000;Gasto Común;Gastos de mantenimiento;;S/I;;21/02/2025;1;No;Limpieza lote 5 manzana 2;Hector Castro;;;No;No;No;S/I
-342;150000;Gasto Común;Gastos de mantenimiento;;S/I;;21/02/2025;1;No;Limpieza y retiro de basura areas verdes;Hector Castro;;;No;No;No;S/I
-341;629000;Gasto Común;Gastos de mantenimiento;;S/I;;14/02/2025;1;No;Instalaciones Electricas;Alan Fuentes;;;No;No;No;S/I
-340;80000;Gasto Común;Otros gastos;;S/I;;12/02/2025;1;No;Limpieza lote 10 manzana 3;Hector Castro;;;No;No;No;S/I
-339;120000;Gasto Común;Otros gastos;;S/I;;12/02/2025;1;No;Limpieza lote 11 manzana 3;Hector Castro;;;No;No;No;S/I
-338;26412;Gasto Común;Otros gastos;;S/I;;11/02/2025;1;No;Telefonia e Internet;Claro;;;No;No;No;S/I
-337;1667200;Fondo Operacional;S/I;;S/I;;10/02/2025;1;No;Pago de consumo electrico general;CGE;;;No;No;No;S/I
-336;75000;Gasto Común;Gastos de mantenimiento;;S/I;;10/02/2025;1;No;Instalaciones Electricas;Alan Fuentes;;;No;No;No;S/I
-335;47115;Gasto Común;Otros gastos;;S/I;;10/02/2025;1;No;Telefonia e Internet;Movistar;;;No;No;No;S/I
-334;7990;Gasto Común;Otros gastos;;S/I;;10/02/2025;1;No;Telefonia e Internet;Wom;;;No;No;No;S/I
-333;10000;Gasto Común;Administrativos;;S/I;;07/02/2025;1;No;Certificado Notaria;Notaría;;;No;No;No;S/I
-332;54150;Gasto Común;Otros gastos;;S/I;;06/02/2025;1;No;Reembolso pasajes abogados;Hector Castro;;;No;No;No;S/I
-331;167500;Gasto Común;Otros gastos;;S/I;;03/02/2025;1;No;Limpieza lote 13 manzana 2;Hector Castro;;;No;No;No;S/I
-330;97500;Gasto Común;Otros gastos;;S/I;;03/02/2025;1;No;Limpieza lote 5 manzana 4;Hector Castro;;;No;No;No;S/I
-329;87500;Gasto Común;Otros gastos;;S/I;;03/02/2025;1;No;Limpieza lote 13 manzana 3;Hector Castro;;;No;No;No;S/I
-328;37500;Gasto Común;Otros gastos;;S/I;;03/02/2025;1;No;Retiro de basura lote 6 manzana 4;Hector Castro;;;No;No;No;S/I
-327;15000;Gasto Común;Otros gastos;;S/I;;03/02/2025;1;No;Combustible;Copec;;;No;No;No;S/I
-326;10930;Gasto Común;Otros gastos;;S/I;;29/01/2025;1;No;Colación citación a JPL;Copec;;;No;No;No;S/I
-325;5000;Gasto Común;Otros gastos;;S/I;;29/01/2025;1;No;Combustible;Copec;;;No;No;No;S/I
-324;3073;Gasto Común;Administrativos;;S/I;;29/01/2025;1;No;Comisión mantención Plan;Santander;;;No;No;No;S/I
-323;34135;Gasto Común;Otros gastos;;S/I;;04/12/2024;1;No;Telefonia e Internet;Movistar;;;No;No;No;S/I
-322;16878;Gasto Común;Otros gastos;;S/I;;04/12/2024;1;No;Telefonia e Internet;Claro;;;No;No;No;S/I
-321;200000;Gasto Común;Gastos de mantenimiento;;S/I;;04/11/2024;1;No;Instalación de respaldo de energia conserjeria;Otros;;;No;No;No;S/I
-320;132990;Gasto Común;Otros gastos;;S/I;;31/01/2025;1;No;Foco LED solar;Otros;;;No;No;No;S/I
-319;124073;Gasto Común;Otros gastos;;S/I;;31/01/2025;1;No;Compra de focos LED;Otros;;;No;No;No;S/I
-318;15000;Gasto Común;Otros gastos;;S/I;;31/01/2025;1;No;Combustible;Otros;;;No;No;No;S/I
-317;20000;Gasto Común;Administrativos;;S/I;;31/01/2025;1;No;Combustible;Otros;;;No;No;No;S/I
-316;10000;Gasto Común;Administrativos;;S/I;;31/01/2025;1;No;Combustible;Otros;;;No;No;No;S/I
-315;20000;Gasto Común;Administrativos;;S/I;;29/01/2025;1;No;Combustible;Otros;;;No;No;No;S/I
-314;2800;Gasto Común;Administrativos;;S/I;;29/01/2025;1;No;Estacionamiento;Otros;;;No;No;No;S/I
-313;40000;Gasto Común;Administrativos;;S/I;;29/01/2025;1;No;Abogados;Otros;;;No;No;No;S/I
-312;300000;Gasto Común;Administrativos;;S/I;;29/01/2025;1;No;Abogados;Otros;;;No;No;No;S/I
-311;562000;Gasto Común;Administrativos;;S/I;;27/01/2025;1;No;Abogados;Otros;;;No;No;No;S/I
-310;15793;Gasto Común;Uso y consumo;;S/I;;02/01/2025;1;No;Internet;Claro;;;No;No;No;S/I
-309;37145;Gasto Común;Uso y consumo;;S/I;;02/01/2025;1;No;Internet;Movistar;;;No;No;No;S/I
-308;8990;Gasto Común;Uso y consumo;;S/I;;02/01/2025;1;No;Internet;Wom;;;No;No;No;S/I
-307;1510;Gasto Común;Administrativos;;S/I;;13/01/2025;1;No;Estacionamiento;Otrs;;;No;No;No;S/I
-306;10100;Gasto Común;Otros gastos;;S/I;;13/01/2025;1;No;Café Reunion;Otros;;;No;No;No;S/I
-305;3059;Gasto Común;Administrativos;;S/I;;26/12/2024;1;No;Comisión Cta Cte;Santander;;;No;No;No;S/I
-304;25298;Gasto Común;Administrativos;;S/I;;24/12/2024;1;No;Plan anual EDIPRO;EDIPRO;;;No;No;No;S/I
-303;250000;Gasto Común;Administrativos;;S/I;;23/12/2024;1;No;Plan anual EDIPRO;EDIPRO;;;No;No;No;S/I
-302;10000;Gasto Común;Administrativos;;S/I;;06/01/2025;1;No;Copia Reglamento de Copropiedad;CBR Coronel;;;No;No;No;S/I
-301;20000;Gasto Común;Otros gastos;;S/I;;05/01/2025;1;No;Control remoto lote 5 manzana 3;Otros;;;No;No;Si;S/I
-300;24830;Gasto Común;Otros gastos;;S/I;;04/01/2025;1;No;Compra artículos de librería;Supermercado;;;No;No;No;S/I
-299;10000;Gasto Común;Administrativos;;S/I;;03/01/2025;1;No;Firma de autorización;Notaría;;;No;No;No;S/I
-298;15000;Gasto Común;Administrativos;;S/I;;02/01/2025;1;No;Combustible;Copec;;;No;No;No;S/I
-297;15000;Gasto Común;Administrativos;;S/I;;01/01/2025;1;No;Combustible;Copec;;;No;No;No;S/I
-296;80000;Gasto Común;Otros gastos;;S/I;20005429;16/01/2025;1;No;Limpieza lote 6 manzana 4;Hector Castro;;;No;No;No;S/I
-295;400000;Gasto Común;Remuneraciones;;S/I;11184664;19/12/2024;1;No;Hector Castro;Hector Castro;;;No;No;No;S/I
-294;11170;Gasto Común;Gastos de mantenimiento;;S/I;764595029;16/12/2024;1;No;Abrazaderas;Sodimac;;;No;No;No;S/I
-293;3110;Gasto Común;Administrativos;;S/I;15264171;16/12/2024;1;No;Estacionamiento;Otros;;;No;No;No;S/I
-292;7000;Gasto Común;Administrativos;;S/I;2422234;16/12/2024;1;No;Combustible;Copec;;;No;No;No;S/I
-291;3000;Gasto Común;Administrativos;;S/I;6502;10/12/2024;1;No;Comprobante de domicilio;Notaría;;;No;No;No;S/I
-290;6000;Gasto Común;Administrativos;;S/I;2444967;09/12/2024;1;No;Combustible;Copec;;;No;No;No;S/I
-289;12880;Gasto Común;Otros gastos;;S/I;763624017;09/12/2024;1;No;Serrucho;Sodimac;;;No;No;No;S/I
-288;3000;Gasto Común;Administrativos;;S/I;19340;09/12/2024;1;No;Comprobante de domicilio;Notaría;;;No;No;No;S/I
-287;17060;Gasto Común;Gastos de mantenimiento;;S/I;763001563;08/12/2024;1;No;Hilo orilladora;Sodimac;;;No;No;No;S/I
-286;38100;Gasto Común;Gastos de mantenimiento;;S/I;2442204;06/12/2024;1;No;Bidones y combustible;Copec;;;No;No;No;S/I
-285;50000;Gasto Común;Gastos de mantenimiento;;S/I;8232643;13/12/2024;1;No;Retiro de maleza;Hector Castro;;;No;No;No;S/I
-284;8300;Gasto Común;Administrativos;;S/I;;03/12/2024;1;No;Estacionamiento;Otros;;;No;No;No;S/I
-283;6000;Gasto Común;Administrativos;;S/I;2408570;03/12/2024;1;No;Combustible;Copec;;;No;No;No;S/I
-282;9000;Gasto Común;Administrativos;;S/I;7260775;03/12/2024;1;No;Firma de autorización;Notaría;;;No;No;No;S/I
-281;225470;Gasto Común;Otros gastos;;S/I;762307439;30/11/2024;1;No;Compra de maquina y Epp;Sodimac;;;No;No;No;S/I
-280;800000;Gasto Común;Remuneraciones;;S/I;21280453;30/11/2024;1;No;Hector Castro;Hector Castro;;;No;No;No;S/I
+﻿#Egreso;Monto;Fondo;Sub Fondo;Total;Items;Cheque;Fecha;Cuotas;Nulo;Descripción;Proveedor;Numero Comprobante;Nominativo;Asociado a Torres;Asociado a Cobro Individual;¿Pagado?;Colaborador
+573;123270;Gasto Común;Gastos de mantenimiento;marzo - 2026;Pintura;;13/03/2026;1.0;No;;Codelpa;;;No;No;No;S/I
+572;850000;Gasto Común;Mantenimiento;;S/I;Scotiabank;02/03/2026;1.0;No;Pago de servicios de mantenimiento ECOGARDEN;Ecogarden;;;No;No;No;S/I
+571;20350;Gasto Común;Uso y consumo;;S/I;Scotiabank;02/03/2026;1.0;No;Internet y telefonia;Movistar;;;No;No;No;S/I
+570;24990;Gasto Común;Uso y consumo;;S/I;Scotiabank;02/03/2026;1.0;No;Compra de botines de seguridad;Sodimac;;;No;No;No;S/I
+569;360000;Gasto Común;Mantenimiento;;S/I;Scotiabank;27/02/2026;1.0;No;Pago a Hector Castro por retiro de 2 camiones con maleza;Hector Castro;;;No;No;No;S/I
+568;111312;Gasto Común;Administrativos;;S/I;Scotiabank;23/02/2026;1.0;No;Pago a Michel Chopa por difusión en radio y diario oficial;Gestión Riego;;;No;No;No;S/I
+567;200000;Gasto Común;Mantenimiento;;S/I;Scotiabank;20/02/2026;1.0;No;Pago por arriendo de carro de arrastre;Otros;;;No;No;No;S/I
+566;270000;Gasto Común;Administrativos;;S/I;Scotiabank;20/02/2026;1.0;No;Pago a Michel Chopa por gestión de derechos en DGA;Gestión Riego;;;No;No;No;S/I
+565;1833700;Fondo Operacional;Electricidad;;S/I;Scotiabank;18/02/2026;1.0;No;Pago de consumo electrico general;CGE;;;No;No;No;S/I
+564;18050;Gasto Común;Administrativos;;S/I;Scotiabank;18/02/2026;1.0;No;Internet y telefonia;Movistar;;;No;No;No;S/I
+563;34439;Gasto Común;Administrativos;;S/I;Scotiabank;18/02/2026;1.0;No;Internet y telefonia;Claro;;;No;No;No;S/I
+562;25286;Gasto Común;Administrativos;;S/I;Scotiabank;18/02/2026;1.0;No;Internet y telefonia;Claro;;;No;No;No;S/I
+561;1018960;Gasto Común;Herramientas;;S/I;Scotiabank;18/02/2026;1.0;No;Compra de 3 basureros de 1100 Lts;Sodimac;;;No;No;No;S/I
+560;12470;Gasto Común;Administrativos;;S/I;Scotiabank;04/02/2026;1.0;No;Internet y telefonia;WOM;;;No;No;No;S/I
+559;425000;Gasto Común;Mantenimiento;;S/I;Scotiabank;04/02/2026;1.0;No;Pago de servicios de mantenimiento ECOGARDEN;Ecogarden;;;No;No;No;S/I
+558;3177;Gasto Común;Administrativos;;S/I;Santander;25/02/2026;1.0;No;Comisión Plan Santander;Santander;;;No;No;No;S/I
+557;15000;Gasto Común;Administrativos;;S/I;Santander;10/02/2026;1.0;No;Combustible por trámites;Copec;;;No;No;No;S/I
+556;10000;Gasto Común;Administrativos;;S/I;Santander;02/02/2026;1.0;No;Combustible por trámites;Copec;;;No;No;No;S/I
+555;3465;Gasto Común;Administrativos;;S/I;Santander;30/01/2026;1.0;No;Estacionamiento;Otros;;;No;No;No;S/I
+554;12100;Gasto Común;Administrativos;;S/I;Santander;30/01/2026;1.0;No;Colación;Otros;;;No;No;No;S/I
+553;3178;Gasto Común;Administrativos;;S/I;Santander;28/01/2026;1.0;No;Comisión Plan Santander;Santander;;;No;No;No;S/I
+552;15000;Gasto Común;Administrativos;;S/I;Santander;28/01/2026;1.0;No;Combustible por trámites;Copec;;;No;No;No;S/I
+551;8890;Gasto Común;Uso y consumo;;S/I;Santander;28/01/2026;1.0;No;Aceite para generador;Copec;;;No;No;No;S/I
+550;450;Gasto Común;Administrativos;;S/I;Santander;28/01/2026;1.0;No;Estacionamiento;Otros;;;No;No;No;S/I
+549;140214;Gasto Común;Infraestructura;;S/I;Scotiabank;27/01/2026;1.0;No;Pago a Daniel Carrillo por conexión generador conserjeria;Otros;;;No;No;No;S/I
+548;40001;Gasto Común;Herramientas;;S/I;Scotiabank;26/01/2026;1.0;No;Compra de repuestos para desbrozadora;Coprofor;;;No;No;No;S/I
+547;18650;Gasto Común;Uso y consumo;;S/I;Scotiabank;26/01/2026;1.0;No;Internet y telefonia;Movistar;;;No;No;No;S/I
+546;31469;Gasto Común;Uso y consumo;;S/I;Scotiabank;26/01/2026;1.0;No;Internet y telefonia;Claro;;;No;No;No;S/I
+545;26576;Gasto Común;Uso y consumo;;S/I;Scotiabank;26/01/2026;1.0;No;Internet y telefonia;Claro;;;No;No;No;S/I
+544;20350;Gasto Común;Uso y consumo;;S/I;Scotiabank;26/01/2026;1.0;No;Internet y telefonia;Movistar;;;No;No;No;S/I
+543;100000;Gasto Común;Infraestructura;;S/I;Scotiabank;26/01/2026;1.0;No;Pago a Daniel Carrillo por conexión generador conserjeria;Otros;;;No;No;No;S/I
+542;425000;Gasto Común;Mantenimiento;;S/I;Scotiabank;21/01/2026;1.0;No;Pago de servicios de mantenimiento ECOGARDEN;Otros;;;No;No;No;S/I
+541;400517;Gasto Común;Herramientas;;S/I;Scotiabank;20/01/2026;1.0;No;Eberall compra de generador;Eberall;;;No;No;No;S/I
+540;500000;Gasto Común;Herramientas;;S/I;Scotiabank;19/01/2026;1.0;No;Eberall compra de generador;Eberall;;;No;No;No;S/I
+539;20000;Gasto Común;Administrativos;;S/I;Santander;15/01/2026;1.0;No;Combustible por trámites;Copec;;;No;No;No;S/I
+538;40000;Gasto Común;Mantenimiento;;S/I;Santander;12/01/2026;1.0;No;Pago a Héctor Castro limpieza de lote 13 Mz 4;Otros;;;No;No;No;S/I
+537;15000;Gasto Común;Administrativos;;S/I;Santander;07/01/2026;1.0;No;Combustible por trámites;Copec;;;No;No;No;S/I
+536;100000;Gasto Común;Mantenimiento;;S/I;Scotiabank;12/01/2026;1.0;No;Pago a Héctor Castro limpieza de lote 7 Mz 2;Otros;;;No;No;No;S/I
+535;12470;Gasto Común;Uso y consumo;;S/I;Scotiabank;07/01/2026;1.0;No;Internet y telefonia;wom;;;No;No;No;S/I
+534;386550;Gasto Común;Infraestructura;;S/I;Scotiabank;07/01/2026;1.0;No;Compra de estanque 10000 litros pago 2;Bioplastic;;;No;No;No;S/I
+533;500000;Gasto Común;Infraestructura;;S/I;Scotiabank;06/01/2026;1.0;No;Compra de estanque 10000 litros pago 1;Bioplastic;;;No;No;No;S/I
+532;425000;Gasto Común;Mantenimiento;;S/I;Scotiabank;06/01/2026;1.0;No;Pago de servicios de mantenimiento ECOGARDEN;Ecogarden;;;No;No;No;S/I
+531;1691400;Fondo Operacional;Electricidad;;S/I;Scotiabank;02/01/2026;1.0;No;Pago de consumo electrico general;CGE;;;No;No;No;S/I
+530;18050;Gasto Común;Uso y consumo;;S/I;Scotiabank;02/01/2026;1.0;No;Internet y telefonia;Movistar;;;No;No;No;S/I
+529;29489;Gasto Común;Uso y consumo;;S/I;Scotiabank;02/01/2026;1.0;No;Internet y telefonia;Claro;;;No;No;No;S/I
+528;25286;Gasto Común;Uso y consumo;;S/I;Scotiabank;02/01/2026;1.0;No;Internet y telefonia;Claro;;;No;No;No;S/I
+527;20350;Gasto Común;Uso y consumo;;S/I;Scotiabank;02/01/2026;1.0;No;Internet y telefonia;Movistar;;;No;No;No;S/I
+526;386750;Gasto Común;Reparaciones;;S/I;Scotiabank;02/01/2026;1.0;No;Pago por servicio de destape de alcantarillado;Gasalca;;;No;No;No;S/I
+525;3171;Gasto Común;Administrativos;;S/I;Santander;26/12/2025;1.0;No;Comisión Plan Santander;Santander;;;No;No;No;S/I
+524;425000;Gasto Común;Mantenimiento;;S/I;Scotiabank;23/12/2025;1.0;No;Pago de servicios de mantenimiento ECOGARDEN;Ecogarden;;;No;No;No;S/I
+523;25000;Gasto Común;Administrativos;;S/I;Santander;19/12/2025;1.0;No;Combustible por trámites;Copec;;;No;No;No;S/I
+522;1800;Gasto Común;Administrativos;;S/I;Santander;18/12/2025;1.0;No;estacionamiento;Otros;;;No;No;No;S/I
+521;5400;Gasto Común;Administrativos;;S/I;Santander;18/12/2025;1.0;No;Colación;Otros;;;No;No;No;S/I
+520;43955;Gasto Común;Administrativos;;S/I;Scotiabank;15/12/2025;1.0;No;Pago de IVA plan Anual Edipro;Edipro;;;No;No;No;S/I
+519;231343;Gasto Común;Administrativos;;S/I;Scotiabank;15/12/2025;1.0;No;Renovación de plan Anual Edipro;Edipro;;;No;No;No;S/I
+518;150000;Gasto Común;Otros gastos;;S/I;Santander;11/12/2025;1.0;No;Tranferencia a Patricio Abogado;Abogados;;;No;No;No;S/I
+517;12470;Gasto Común;Uso y consumo;;S/I;Scotiabank;09/12/2025;1.0;No;Internet y telefonia;Wom;;;No;No;No;S/I
+516;18050;Gasto Común;Uso y consumo;;S/I;Scotiabank;09/12/2025;1.0;No;Internet y telefonia;Movistar;;;No;No;No;S/I
+515;1712900;Fondo Operacional;Electricidad;;S/I;Scotiabank;28/11/2025;1.0;No;Pago de consumo electrico general;CGE;;;No;No;No;S/I
+514;29336;Gasto Común;Uso y consumo;;S/I;Scotiabank;28/11/2025;1.0;No;Internet y telefonia;Claro;;;No;No;No;S/I
+513;20350;Gasto Común;Uso y consumo;;S/I;Scotiabank;28/11/2025;1.0;No;Internet y telefonia;Movistar;;;No;No;No;S/I
+512;3167;Gasto Común;Administrativos;;S/I;Santander;26/11/2025;1.0;No;Comisión Plan Santander;Santander;;;No;No;No;S/I
+511;30000;Gasto Común;Administrativos;;S/I;Santander;20/11/2025;1.0;No;Combustible por trámites;Copec;;;No;No;No;S/I
+510;2800;Gasto Común;Administrativos;;S/I;Santander;18/11/2025;1.0;No;estacionamiento;Otros;;;No;No;No;S/I
+509;8800;Gasto Común;Administrativos;;S/I;Santander;18/11/2025;1.0;No;Colación;Otros;;;No;No;No;S/I
+508;3700;Gasto Común;Administrativos;;S/I;Santander;17/11/2025;1.0;No;Transferencia pago derechos SEREMI;Otros;;;No;No;No;S/I
+507;15000;Gasto Común;Administrativos;;S/I;Santander;14/11/2025;1.0;No;Combustible por trámites;copec;;;No;No;No;S/I
+506;250000;Gasto Común;Administrativos;;S/I;Santander;14/11/2025;1.0;No;Transferencia pago derechos SEREMI;Otros;;;No;No;No;S/I
+505;300000;Gasto Común;Otros gastos;;S/I;Scotiabank;12/11/2025;1.0;No;Tranferencia a Patricio Abogado;Abogados;;;No;No;No;S/I
+504;4920;Gasto Común;Uso y consumo;;S/I;Santander;11/11/2025;1.0;No;;Otros;;;No;No;No;S/I
+503;12470;Gasto Común;Uso y consumo;;S/I;Scotiabank;10/11/2025;1.0;No;Internet y telefonia;Wom;;;No;No;No;S/I
+502;1861500;Fondo Operacional;Electricidad;;S/I;Scotiabank;10/11/2025;1.0;No;Pago de consumo electrico general;CGE;;;No;No;No;S/I
+501;25154;Gasto Común;Uso y consumo;;S/I;Scotiabank;10/11/2025;1.0;No;Internet y telefonia;Claro;;;No;No;No;S/I
+500;100000;Gasto Común;Reparaciones;;S/I;Scotiabank;10/11/2025;1.0;No;Pago Cristian Peña;Otros;;;No;No;No;S/I
+499;30000;Gasto Común;Administrativos;;S/I;Santander;10/11/2025;1.0;No;Combustible por trámites;Copec;;;No;No;No;S/I
+498;1680;Gasto Común;Administrativos;;S/I;Santander;07/11/2025;1.0;No;estacionamiento;Otros;;;No;No;No;S/I
+497;3900;Gasto Común;Administrativos;;S/I;Santander;07/11/2025;1.0;No;Colación;Otros;;;No;No;No;S/I
+496;100000;Gasto Común;Reparaciones;;S/I;Scotiabank;28/10/2025;1.0;No;Pago Cristian Peña;Otros;;;No;No;No;S/I
+495;3159;Gasto Común;Administrativos;;S/I;Santander;28/10/2025;1.0;No;Comisión Plan Santander;Santander;;;No;No;No;S/I
+494;17819;Gasto Común;Uso y consumo;;S/I;Scotiabank;27/10/2025;1.0;No;Internet y telefonia;Movistar;;;No;No;No;S/I
+493;19990;Gasto Común;Uso y consumo;;S/I;Scotiabank;27/10/2025;1.0;No;Internet y telefonia;Movistar;;;No;No;No;S/I
+492;28500;Gasto Común;Herramientas;;S/I;Scotiabank;27/10/2025;1.0;No;Compra de hilo y cuchillo orilladora;Otros;;;No;No;No;S/I
+491;35000;Gasto Común;Administrativos;;S/I;Santander;27/10/2025;1.0;No;Combustible por trámites;Copec;;;No;No;No;S/I
+490;40198;Gasto Común;Uso y consumo;;S/I;Santander;24/10/2025;1.0;No;Pago por compra de combustible para orilladora;Copec;;;No;No;No;S/I
+489;231614;Gasto Común;Uso y consumo;;S/I;Santander;24/10/2025;1.0;No;Mantenimiento y reparación orilladora;Coprofor;;;No;No;No;S/I
+488;40000;Gasto Común;Reparaciones;;S/I;Scotiabank;21/10/2025;1.0;No;Pago Esteban Placencia por reparación de filtración;Otros;;;No;No;No;S/I
+487;100000;Gasto Común;Reparaciones;;S/I;Scotiabank;21/10/2025;1.0;No;Pago Cristian Peña;Otros;;;No;No;No;S/I
+486;25331;Gasto Común;Uso y consumo;;S/I;Scotiabank;16/10/2025;1.0;No;Internet y telefonia;Claro;;;No;No;No;S/I
+485;25154;Gasto Común;Uso y consumo;;S/I;Scotiabank;16/10/2025;1.0;No;Internet y telefonia;Claro;;;No;No;No;S/I
+484;100000;Gasto Común;Reparaciones;;S/I;Scotiabank;16/10/2025;1.0;No;Pago Cristian Peña;Otros;;;No;No;No;S/I
+483;6940;Gasto Común;Uso y consumo;;S/I;Santander;12/10/2025;1.0;No;Articulos de Aseo;Lider;;;No;No;No;S/I
+482;50000;Gasto Común;Reparaciones;;S/I;Scotiabank;06/10/2025;1.0;No;Pago Cristian Peña;Otros;;;No;No;No;S/I
+481;203990;Gasto Común;Administrativos;;S/I;Scotiabank;06/10/2025;1.0;No;Contratación de Plan Legal Anual;Edipro;;;No;No;No;S/I
+480;7990;Gasto Común;Uso y consumo;;S/I;Scotiabank;03/10/2025;1.0;No;Internet y telefonia;Wom;;;No;No;No;S/I
+479;1768700;Fondo Operacional;Electricidad;;S/I;Scotiabank;03/10/2025;1.0;No;Pago de consumo electrico general;CGE;;;No;No;No;S/I
+478;14370;Gasto Común;Uso y consumo;;S/I;Scotiabank;03/10/2025;1.0;No;Internet y telefonia;Movistar;;;No;No;No;S/I
+477;25331;Gasto Común;Uso y consumo;;S/I;Scotiabank;03/10/2025;1.0;No;Internet y telefonia;Claro;;;No;No;No;S/I
+476;19990;Gasto Común;Uso y consumo;;S/I;Scotiabank;03/10/2025;1.0;No;Internet y telefonia;Movistar;;;No;No;No;S/I
+475;30000;Gasto Común;Administrativos;;S/I;Santander;03/10/2025;1.0;No;Combustible por trámites;Copec;;;No;No;No;S/I
+474;1760;Gasto Común;Administrativos;;S/I;Santander;02/10/2025;1.0;No;Estacionamiento;Otros;;;No;No;No;S/I
+473;2000;Gasto Común;Administrativos;;S/I;Santander;02/10/2025;1.0;No;Certificados Notaría;Notaría;;;No;No;No;S/I
+472;2976;Gasto Común;Administrativos;;S/I;Santander;02/10/2025;1.0;No;Estacionamiento;Otros;;;No;No;No;S/I
+471;10000;Gasto Común;Administrativos;;S/I;Santander;02/10/2025;1.0;No;Certificados CBR Coronel;Conservador;;;No;No;No;S/I
+470;10000;Gasto Común;Administrativos;;S/I;Santander;02/10/2025;1.0;No;Certificados CBR Coronel;Conservador;;;No;No;No;S/I
+469;30000;Gasto Común;Administrativos;;S/I;Santander;02/10/2025;1.0;No;Certificados CBR Coronel;Conservador;;;No;No;No;S/I
+468;30000;Gasto Común;Administrativos;;S/I;Santander;01/10/2025;1.0;No;Combustible por trámites;Copec;;;No;No;No;S/I
+467;3149;Gasto Común;Administrativos;;S/I;Santander;26/09/2025;1.0;No;Comisión Plan Santander;Santander;;;No;No;No;S/I
+466;6270;Gasto Común;Uso y consumo;;S/I;Scotiabank;22/09/2025;1.0;No;Pago por compra de combustible para orilladora;Copec;;;No;No;No;S/I
+465;15000;Gasto Común;Administrativos;;S/I;Santander;16/09/2025;1.0;No;Combustible por trámites;Copec;;;No;No;No;S/I
+464;11990;Gasto Común;Uso y consumo;;S/I;Scotiabank;15/09/2025;1.0;No;Pago por compra de aceite para orilladora;Otros;;;No;No;No;S/I
+463;25154;Gasto Común;Uso y consumo;;S/I;Scotiabank;11/09/2025;1.0;No;Internet y telefonia;Claro;;;No;No;No;S/I
+462;12000;Gasto Común;Administrativos;;S/I;Santander;09/09/2025;1.0;No;Combustible por trámites;Copec;;;No;No;No;S/I
+461;250000;Gasto Común;Reparaciones;;S/I;Scotiabank;08/09/2025;1.0;No;Pago a Valle Mitrinhue por reparación de acceso;Otros;;;No;No;No;S/I
+460;100000;Gasto Común;Reparaciones;;S/I;Scotiabank;08/09/2025;1.0;No;Pago Cristian Peña;Otros;;;No;No;No;S/I
+459;28550;Gasto Común;Administrativos;;S/I;Santander;08/09/2025;1.0;No;Combustible por trámites;Copec;;;No;No;No;S/I
+458;2051400;Fondo Operacional;Electricidad;;S/I;Scotiabank;04/09/2025;1.0;No;Pago de consumo electrico general;CGE;;;No;No;No;S/I
+457;16358;Gasto Común;Uso y consumo;;S/I;Scotiabank;04/09/2025;1.0;No;Internet y telefonia;Movistar;;;No;No;No;S/I
+456;26455;Gasto Común;Uso y consumo;;S/I;Scotiabank;04/09/2025;1.0;No;Internet y telefonia;Claro;;;No;No;No;S/I
+455;19990;Gasto Común;Uso y consumo;;S/I;Scotiabank;04/09/2025;1.0;No;Internet y telefonia;Movistar;;;No;No;No;S/I
+454;7990;Gasto Común;Uso y consumo;;S/I;Scotiabank;04/09/2025;1.0;No;Internet y telefonia;Wom;;;No;No;No;S/I
+453;4400;Gasto Común;Otros gastos;;S/I;Santander;02/09/2025;1.0;No;Colación;Otros;;;No;No;No;S/I
+452;3134;Gasto Común;Administrativos;;S/I;Santander;27/08/2025;1.0;No;Comisión Plan Santander;Santander;;;No;No;No;S/I
+451;300000;Gasto Común;Otros gastos;;S/I;Scotiabank;25/08/2025;1.0;No;Tranferencia a Patricio Abogado;Abogados;;;No;No;No;S/I
+450;180000;Gasto Común;Reparaciones;;S/I;Scotiabank;12/08/2025;1.0;No;Instalación de Motor nuevo en portón de acceso;Fenix8;;;No;No;No;S/I
+449;31227;Gasto Común;Reparaciones;;S/I;Scotiabank;08/08/2025;1.0;No;Compra de topes para montaja de rieles;Automatec;;;No;No;No;S/I
+448;825384;Gasto Común;Reparaciones;;S/I;Scotiabank;08/08/2025;1.0;No;Compra de motor para porton;Automatec;;;No;No;No;S/I
+447;7990;Gasto Común;Uso y consumo;;S/I;Scotiabank;08/08/2025;1.0;No;Internet y telefonia;Wom;;;No;No;No;S/I
+446;2225200;Fondo Operacional;S/I;;S/I;Scotiabank;08/08/2025;1.0;No;Pago de consumo electrico general;CGE;;;No;No;No;S/I
+445;16344;Gasto Común;Uso y consumo;;S/I;Scotiabank;08/08/2025;1.0;No;Internet y telefonia;Movistar;;;No;No;No;S/I
+444;28529;Gasto Común;Uso y consumo;;S/I;Scotiabank;08/08/2025;1.0;No;Internet y telefonia;Claro;;;No;No;No;S/I
+443;22172;Gasto Común;Uso y consumo;;S/I;Scotiabank;08/08/2025;1.0;No;Internet y telefonia;Movistar;;;No;No;No;S/I
+442;3141;Gasto Común;Administrativos;;S/I;Santander;29/07/2025;1.0;No;Comisión Plan Santander;Santander;;;No;No;No;S/I
+441;4540;Gasto Común;Otros gastos;;S/I;Santander;25/07/2025;1.0;No;Envio correos;Correos de Chile;;;No;No;No;S/I
+440;20000;Gasto Común;Otros gastos;;S/I;Santander;25/07/2025;1.0;No;Combustible por trámites;Copec;;;No;No;No;S/I
+439;4600;Gasto Común;Otros gastos;;S/I;Santander;23/07/2025;1.0;No;Colación;Otros;;;No;No;No;S/I
+438;6000;Gasto Común;Otros gastos;;S/I;Santander;23/07/2025;1.0;No;Notaría;Notaría;;;No;No;No;S/I
+437;6800;Gasto Común;Otros gastos;;S/I;Santander;23/07/2025;1.0;No;impresiones;Otros;;;No;No;No;S/I
+436;10000;Gasto Común;Otros gastos;;S/I;Santander;22/07/2025;1.0;No;Resmas de hojas;Otros;;;No;No;No;S/I
+435;37000;Gasto Común;Otros gastos;;S/I;Santander;22/07/2025;1.0;No;Combustible por trámites;Copec;;;No;No;No;S/I
+434;125000;Gasto Común;Administrativos;;S/I;Santander;22/07/2025;1.0;No;Certificacion electronica notarial;Notaría;;;No;No;No;S/I
+433;140000;Gasto Común;Administrativos;;S/I;Santander;22/07/2025;1.0;No;Escritura Publica Asamblea;Notaría;;;No;No;No;S/I
+432;140000;Gasto Común;Administrativos;;S/I;Santander;22/07/2025;1.0;No;Escritura Publica Asamblea;Notaría;;;No;No;No;S/I
+431;49980;Gasto Común;Uso y consumo;;S/I;Scotiabank;21/07/2025;1.0;No;Internet y telefonia;Claro;;;No;No;No;S/I
+430;22140;Gasto Común;Uso y consumo;;S/I;Scotiabank;18/07/2025;1.0;No;Internet y telefonia;Movistar;;;No;No;No;S/I
+429;1890;Gasto Común;Otros gastos;;S/I;Santander;11/07/2025;1.0;No;estacionamiento;Otros;;;No;No;No;S/I
+428;9980;Gasto Común;Otros gastos;;S/I;Santander;11/07/2025;1.0;No;Colación;Otros;;;No;No;No;S/I
+427;12000;Gasto Común;Otros gastos;;S/I;Santander;11/07/2025;1.0;No;Combustible por trámites;Copec;;;No;No;No;S/I
+426;2005500;Fondo Operacional;S/I;;S/I;Scotiabank;09/07/2025;1.0;No;Pago de consumo electrico general;CGE;;;No;No;No;S/I
+425;7990;Gasto Común;Uso y consumo;;S/I;Scotiabank;09/07/2025;1.0;No;Internet y telefonia;Wom;;;No;No;No;S/I
+424;14255;Gasto Común;Uso y consumo;;S/I;Scotiabank;09/07/2025;1.0;No;Internet y telefonia;Movistar;;;No;No;No;S/I
+423;1000;Gasto Común;Otros gastos;;S/I;Santander;02/07/2025;1.0;No;Colación;Otros;;;No;No;No;S/I
+422;200000;Gasto Común;Otros gastos;;S/I;Santander;27/06/2025;1.0;No;Pago de pasajes y estadía abogados;Abogados;;;No;No;No;S/I
+421;3135;Gasto Común;Administrativos;;S/I;Santander;26/06/2025;1.0;No;Comisión Plan Santander;Santander;;;No;No;No;S/I
+420;24000;Gasto Común;Otros gastos;;S/I;Santander;18/06/2025;1.0;No;Combustible por trámites;Copec;;;No;No;No;S/I
+419;7990;Gasto Común;Otros gastos;;S/I;Scotiabank;08/06/2025;1.0;No;Internet y telefonia;Wom;;;No;No;No;S/I
+418;1920600;Fondo Operacional;S/I;;S/I;Scotiabank;08/06/2025;1.0;No;Pago de consumo electrico general;CGE;;;No;No;No;S/I
+417;3112;Gasto Común;Administrativos;;S/I;;04/06/2025;1.0;No;Comisión mantención Plan;Santander;;;No;No;No;S/I
+416;3126;Gasto Común;Administrativos;;S/I;;04/06/2025;1.0;No;Comisión mantención Plan;Santander;;;No;No;No;S/I
+415;19990;Gasto Común;Otros gastos;;S/I;Scotiabank;27/05/2025;1.0;No;Internet y telefonia;Movistar;;;No;No;No;S/I
+414;20000;Gasto Común;Otros gastos;;S/I;Scotiabank;27/05/2025;1.0;No;Combustible traslados y trámites;Copec;;;No;No;No;S/I
+413;64192;Gasto Común;Otros gastos;;S/I;Scotiabank;26/05/2025;1.0;No;PAGO POR WEB DE SERVICIOS de telefonía;Otros;;;No;No;No;S/I
+412;1000;Gasto Común;Administrativos;;S/I;;13/05/2025;1.0;No;Pago TGR;TGR;;;No;No;No;S/I
+411;50000;Gasto Común;Otros gastos;;S/I;Scotiabank;12/05/2025;1.0;No;Pago de materiales eléctricos, instalaciones y revisión de cámara acceso.;Otros;;;No;No;No;S/I
+410;1658400;Fondo Operacional;S/I;;S/I;Scotiabank;12/05/2025;1.0;No;Pago de consumo electrico general;CGE;;;No;No;No;S/I
+409;70000;Gasto Común;Otros gastos;;S/I;Scotiabank;08/05/2025;1.0;No;Pago por instalación de cámara en acceso;Alan Fuentes;;;No;No;No;S/I
+408;394897;Gasto Común;Otros gastos;;S/I;Scotiabank;06/05/2025;1.0;No;Compra de camaras, memorias, ups y controles;Otros;;;No;No;No;S/I
+407;49921;Gasto Común;Otros gastos;;S/I;Scotiabank;05/05/2025;1.0;No;PAGO POR WEB DE SERVICIOS de telefonía;Otros;;;No;No;No;S/I
+406;25491;Gasto Común;Otros gastos;;S/I;Scotiabank;23/04/2025;1.0;No;Compra de medidor Wifi;Mercadolibre;;;No;No;No;S/I
+405;397080;Gasto Común;Otros gastos;;S/I;Scotiabank;23/04/2025;1.0;No;Pago 2 de mano de obra instalacion de estanque;DeLourdes;;;No;No;No;S/I
+404;500000;Gasto Común;Otros gastos;;S/I;Scotiabank;22/04/2025;1.0;No;Pago 1 de mano de obra instalacion de estanque;DeLourdes;;;No;No;No;S/I
+403;5990;Gasto Común;Administrativos;;S/I;;21/04/2025;1.0;No;Librería;Otros;;;No;No;No;S/I
+402;16269;Gasto Común;Otros gastos;;S/I;;21/04/2025;1.0;No;Internet y telefonia;Movistar;;;No;No;No;S/I
+401;149990;Gasto Común;Otros gastos;;S/I;;17/04/2025;1.0;No;Compra de impresora multifuncional;Lider;;;No;No;No;S/I
+400;1558900;Fondo Operacional;S/I;;S/I;Scotiabank;17/04/2025;1.0;No;Pago de consumo electrico general;CGE;;;No;No;No;S/I
+399;15000;Gasto Común;Otros gastos;;S/I;;11/04/2025;1.0;No;Compra de materiales Hidrocentro Rogelio;Hidrocentro;;;No;No;No;S/I
+398;53105;Gasto Común;Otros gastos;;S/I;;11/04/2025;1.0;No;Compra de materiales Hidrocentro Rogelio;Hidrocentro;;;No;No;No;S/I
+397;58146;Gasto Común;Otros gastos;;S/I;;11/04/2025;1.0;No;Compra de materiales Hidrocentro Rogelio;Hidrocentro;;;No;No;No;S/I
+396;1250;Gasto Común;Otros gastos;;S/I;Scotiabank;11/04/2025;1.0;No;Estacionamiento CBR Coronel;Otros;;;No;No;No;S/I
+395;2400;Gasto Común;Otros gastos;;S/I;Scotiabank;11/04/2025;1.0;No;Estacionamiento DOM;Otros;;;No;No;No;S/I
+394;6803;Gasto Común;Administrativos;;S/I;Scotiabank;11/04/2025;1.0;No;Pago de certificado de número DOM;DOM;;;No;No;No;S/I
+393;25000;Gasto Común;Otros gastos;;S/I;Scotiabank;11/04/2025;1.0;No;Combustible traslados y trámites;Copec;;;No;No;No;S/I
+392;34819;Gasto Común;Otros gastos;;S/I;Scotiabank;11/04/2025;1.0;No;Compra de relé control de nivel estanque;Mercadolibre;;;No;No;No;S/I
+391;41772;Gasto Común;Otros gastos;;S/I;Scotiabank;11/04/2025;1.0;No;Compras en Sodimac;Sodimac;;;No;No;No;S/I
+390;50000;Gasto Común;Otros gastos;;S/I;Scotiabank;11/04/2025;1.0;No;Pago 2 por topografía avenidas condominio;Otros;;;No;No;No;S/I
+389;33991;Gasto Común;Otros gastos;;S/I;Scotiabank;09/04/2025;1.0;No;Compras en Sodimac;Sodimac;;;No;No;No;S/I
+388;500000;Gasto Común;Otros gastos;;S/I;Scotiabank;09/04/2025;1.0;No;Pago 1 por topografía avenidas condominio;Otros;;;No;No;No;S/I
+387;69939;Gasto Común;Otros gastos;;S/I;;08/04/2025;1.0;No;Compra de materiales Hidrocentro Rogelio;Hidrocentro;;;No;No;No;S/I
+386;450000;Gasto Común;Otros gastos;;S/I;Scotiabank;07/04/2025;1.0;No;Pago 1 por gestión de inscripción derechos de agua;Gestión Riego;;;No;No;No;S/I
+385;7990;Gasto Común;Otros gastos;;S/I;;07/04/2025;1.0;No;Internet y telefonia;Wom;;;No;No;No;S/I
+384;11366;Gasto Común;Otros gastos;;S/I;;07/04/2025;1.0;No;Compra supermencado;Otros;;;No;No;No;S/I
+383;25000;Gasto Común;Otros gastos;;S/I;;07/04/2025;1.0;No;Combustible traslados y tramites;Copec;;;No;No;No;S/I
+382;30686;Gasto Común;Otros gastos;;S/I;;07/04/2025;1.0;No;Internet y telefonia;Claro;;;No;No;No;S/I
+381;571200;Gasto Común;Otros gastos;;S/I;;07/04/2025;1.0;No;Compra de bomba y controlador Sur Bombas;Sur Bombas;;;No;No;No;S/I
+380;166274;Gasto Común;Otros gastos;;S/I;;04/04/2025;1.0;No;Pago 2 Biodiversa por analisis de agua en laboratorio;Biodiversa;;;No;No;No;S/I
+379;170000;Gasto Común;Otros gastos;;S/I;;04/04/2025;1.0;No;Instalación de empalme para bombas;Alan fuentes;;;No;No;No;S/I
+378;119990;Gasto Común;Otros gastos;;S/I;;03/04/2025;1.0;No;Compra de router wifi para conserjería;Casa Royal;;;No;No;No;S/I
+377;250000;Gasto Común;Otros gastos;;S/I;;03/04/2025;1.0;No;Pago 1 Biodiversa por analisis de agua en laboratorio;Biodiversa;;;No;No;No;S/I
+376;484031;Gasto Común;Otros gastos;;S/I;;03/04/2025;1.0;No;Compra de estanque hidroneumatico Rogelio;Otros;;;No;No;No;S/I
+375;30000;Gasto Común;Administrativos;;S/I;;02/04/2025;1.0;No;Combustible traslados y trámites;Copec;;;No;No;No;S/I
+374;50421;Gasto Común;Otros gastos;;S/I;;02/04/2025;1.0;No;Compra de materiales Hidrocentro;Hidrocentro;;;No;No;No;S/I
+373;150000;Gasto Común;Otros gastos;;S/I;;02/04/2025;1.0;No;Arriendo de excavadora apoyo solucion agua potable;Otros;;;No;No;No;S/I
+372;1213800;Gasto Común;Otros gastos;;S/I;;02/04/2025;1.0;No;Compra de estanque 10000 Lts Rogelio;Hidrocentro;;;No;No;No;S/I
+371;23034;Gasto Común;Otros gastos;;S/I;;01/04/2025;1.0;No;Compra de materiales Fitting;Sodimac;;;No;No;No;S/I
+370;66542;Gasto Común;Otros gastos;;S/I;;01/04/2025;1.0;No;Compra de materiales Hidrocentro Rogelio;Hidrocentro;;;No;No;No;S/I
+369;86454;Gasto Común;Otros gastos;;S/I;;01/04/2025;1.0;No;Compra de materiales Hidrocentro;Hidrocentro;;;No;No;No;S/I
+368;214200;Gasto Común;Otros gastos;;S/I;;01/04/2025;1.0;No;Pago por compra de bombas Sur Bombas;Sur Bombas;;;No;No;No;S/I
+367;250000;Gasto Común;Otros gastos;;S/I;;01/04/2025;1.0;No;Arriendo de excavadora apoyo solucion agua potable;Otros;;;No;No;No;S/I
+366;268082;Gasto Común;Otros gastos;;S/I;;01/04/2025;1.0;No;Compra de materiales Hidrocentro Rogelio;Hidrocentro;;;No;No;No;S/I
+365;40000;Gasto Común;Otros gastos;;S/I;;31/03/2025;1.0;No;Pago 4 por perforación de pozo profundo;Makal Solar SPA;;;No;No;No;S/I
+364;841093;Gasto Común;Otros gastos;;S/I;;31/03/2025;1.0;No;Pago por habilitación de pozo y materiales;Manuel Vallejos;;;No;No;No;S/I
+363;5000000;Gasto Común;Otros gastos;;S/I;;28/03/2025;1.0;No;Pago 3 por perforación de pozo profundo;Makal Solar SPA;;;No;No;No;S/I
+362;3092;Gasto Común;Administrativos;;S/I;;27/03/2025;1.0;No;Comisión mantención Plan;Santander;;;No;No;No;S/I
+361;3599000;Gasto Común;Otros gastos;;S/I;;27/03/2025;1.0;No;Pago 2 por perforación de pozo profundo;Makal Solar SPA;;;No;No;No;S/I
+360;1000;Gasto Común;Otros gastos;;S/I;;26/03/2025;1.0;No;Pago 1 por perforación de pozo profundo;Makal Solar SPA;;;No;No;No;S/I
+359;22578;Gasto Común;Otros gastos;;S/I;;21/03/2025;1.0;No;Internet y telefonia;Movistar;;;No;No;No;S/I
+358;1050000;Gasto Común;Otros gastos;;S/I;;19/03/2025;1.0;No;Pago 2 por proyecto de agua en SEREMI;Otros;;;No;No;No;S/I
+357;250000;Gasto Común;Otros gastos;;S/I;;18/03/2025;1.0;No;Pago 1 por proyecto de agua en SEREMI;Otros;;;No;No;No;S/I
+356;2190;Gasto Común;Administrativos;;S/I;;12/03/2025;1.0;No;Compra librería;Otros;;;No;No;No;S/I
+355;15200;Gasto Común;Otros gastos;;S/I;;12/03/2025;1.0;No;Colación testigos día de testificación en JPL;Otros;;;No;No;No;S/I
+354;20000;Gasto Común;Administrativos;;S/I;;12/03/2025;1.0;No;Combustible traslados y trámites;Copec;;;No;No;No;S/I
+353;60000;Gasto Común;Otros gastos;;S/I;;12/03/2025;1.0;No;Arriendo de casilla postal para condominio;Otros;;;No;No;No;S/I
+352;11600;Gasto Común;Otros gastos;;S/I;;10/03/2025;1.0;No;Cafeteria día de testificación en JPL;Otros;;;No;No;No;S/I
+351;17600;Gasto Común;Otros gastos;;S/I;;10/03/2025;1.0;No;Cafeteria día de testificación en JPL;Otros;;;No;No;No;S/I
+350;100000;Gasto Común;Otros gastos;;S/I;;10/03/2025;1.0;No;Pasajes abogados;Abogados;;;No;No;No;S/I
+349;7990;Gasto Común;Otros gastos;;S/I;;06/03/2025;1.0;No;Internet y telefonia;Wom;;;No;No;No;S/I
+348;26412;Gasto Común;Otros gastos;;S/I;;06/03/2025;1.0;No;Internet y telefonia;Claro;;;No;No;No;S/I
+347;31866;Gasto Común;Otros gastos;;S/I;;06/03/2025;1.0;No;Internet y telefonia;Movistar;;;No;No;No;S/I
+346;1642300;Fondo Operacional;S/I;;S/I;;06/03/2025;1.0;No;Pago de consumo electrico general;CGE;;;No;No;No;S/I
+345;3071;Gasto Común;Administrativos;;S/I;;26/02/2025;1.0;No;Comisión mantención Plan;Santander;;;No;No;No;S/I
+344;50000;Gasto Común;Otros gastos;;S/I;;25/02/2025;1.0;No;Visita para cotización de pozo profundo;Perforaciones Chile SPA;;;No;No;No;S/I
+343;80000;Gasto Común;Gastos de mantenimiento;;S/I;;21/02/2025;1.0;No;Limpieza lote 5 manzana 2;Hector Castro;;;No;No;No;S/I
+342;150000;Gasto Común;Gastos de mantenimiento;;S/I;;21/02/2025;1.0;No;Limpieza y retiro de basura areas verdes;Hector Castro;;;No;No;No;S/I
+341;629000;Gasto Común;Gastos de mantenimiento;;S/I;;14/02/2025;1.0;No;Instalaciones Electricas;Alan Fuentes;;;No;No;No;S/I
+340;80000;Gasto Común;Otros gastos;;S/I;;12/02/2025;1.0;No;Limpieza lote 10 manzana 3;Hector Castro;;;No;No;No;S/I
+339;120000;Gasto Común;Otros gastos;;S/I;;12/02/2025;1.0;No;Limpieza lote 11 manzana 3;Hector Castro;;;No;No;No;S/I
+338;26412;Gasto Común;Otros gastos;;S/I;;11/02/2025;1.0;No;Telefonia e Internet;Claro;;;No;No;No;S/I
+337;1667200;Fondo Operacional;S/I;;S/I;;10/02/2025;1.0;No;Pago de consumo electrico general;CGE;;;No;No;No;S/I
+336;75000;Gasto Común;Gastos de mantenimiento;;S/I;;10/02/2025;1.0;No;Instalaciones Electricas;Alan Fuentes;;;No;No;No;S/I
+335;47115;Gasto Común;Otros gastos;;S/I;;10/02/2025;1.0;No;Telefonia e Internet;Movistar;;;No;No;No;S/I
+334;7990;Gasto Común;Otros gastos;;S/I;;10/02/2025;1.0;No;Telefonia e Internet;Wom;;;No;No;No;S/I
+333;10000;Gasto Común;Administrativos;;S/I;;07/02/2025;1.0;No;Certificado Notaria;Notaría;;;No;No;No;S/I
+332;54150;Gasto Común;Otros gastos;;S/I;;06/02/2025;1.0;No;Reembolso pasajes abogados;Hector Castro;;;No;No;No;S/I
+331;167500;Gasto Común;Otros gastos;;S/I;;03/02/2025;1.0;No;Limpieza lote 13 manzana 2;Hector Castro;;;No;No;No;S/I
+330;97500;Gasto Común;Otros gastos;;S/I;;03/02/2025;1.0;No;Limpieza lote 5 manzana 4;Hector Castro;;;No;No;No;S/I
+329;87500;Gasto Común;Otros gastos;;S/I;;03/02/2025;1.0;No;Limpieza lote 13 manzana 3;Hector Castro;;;No;No;No;S/I
+328;37500;Gasto Común;Otros gastos;;S/I;;03/02/2025;1.0;No;Retiro de basura lote 6 manzana 4;Hector Castro;;;No;No;No;S/I
+327;15000;Gasto Común;Otros gastos;;S/I;;03/02/2025;1.0;No;Combustible;Copec;;;No;No;No;S/I
+326;10930;Gasto Común;Otros gastos;;S/I;;29/01/2025;1.0;No;Colación citación a JPL;Copec;;;No;No;No;S/I
+325;5000;Gasto Común;Otros gastos;;S/I;;29/01/2025;1.0;No;Combustible;Copec;;;No;No;No;S/I
+324;3073;Gasto Común;Administrativos;;S/I;;29/01/2025;1.0;No;Comisión mantención Plan;Santander;;;No;No;No;S/I
+323;34135;Gasto Común;Otros gastos;;S/I;;04/12/2024;1.0;No;Telefonia e Internet;Movistar;;;No;No;No;S/I
+322;16878;Gasto Común;Otros gastos;;S/I;;04/12/2024;1.0;No;Telefonia e Internet;Claro;;;No;No;No;S/I
+321;200000;Gasto Común;Gastos de mantenimiento;;S/I;;04/11/2024;1.0;No;Instalación de respaldo de energia conserjeria;Otros;;;No;No;No;S/I
+320;132990;Gasto Común;Otros gastos;;S/I;;31/01/2025;1.0;No;Foco LED solar;Otros;;;No;No;No;S/I
+319;124073;Gasto Común;Otros gastos;;S/I;;31/01/2025;1.0;No;Compra de focos LED;Otros;;;No;No;No;S/I
+318;15000;Gasto Común;Otros gastos;;S/I;;31/01/2025;1.0;No;Combustible;Otros;;;No;No;No;S/I
+317;20000;Gasto Común;Administrativos;;S/I;;31/01/2025;1.0;No;Combustible;Otros;;;No;No;No;S/I
+316;10000;Gasto Común;Administrativos;;S/I;;31/01/2025;1.0;No;Combustible;Otros;;;No;No;No;S/I
+315;20000;Gasto Común;Administrativos;;S/I;;29/01/2025;1.0;No;Combustible;Otros;;;No;No;No;S/I
+314;2800;Gasto Común;Administrativos;;S/I;;29/01/2025;1.0;No;Estacionamiento;Otros;;;No;No;No;S/I
+313;40000;Gasto Común;Administrativos;;S/I;;29/01/2025;1.0;No;Abogados;Otros;;;No;No;No;S/I
+312;300000;Gasto Común;Administrativos;;S/I;;29/01/2025;1.0;No;Abogados;Otros;;;No;No;No;S/I
+311;562000;Gasto Común;Administrativos;;S/I;;27/01/2025;1.0;No;Abogados;Otros;;;No;No;No;S/I
+310;15793;Gasto Común;Uso y consumo;;S/I;;02/01/2025;1.0;No;Internet;Claro;;;No;No;No;S/I
+309;37145;Gasto Común;Uso y consumo;;S/I;;02/01/2025;1.0;No;Internet;Movistar;;;No;No;No;S/I
+308;8990;Gasto Común;Uso y consumo;;S/I;;02/01/2025;1.0;No;Internet;Wom;;;No;No;No;S/I
+307;1510;Gasto Común;Administrativos;;S/I;;13/01/2025;1.0;No;Estacionamiento;Otrs;;;No;No;No;S/I
+306;10100;Gasto Común;Otros gastos;;S/I;;13/01/2025;1.0;No;Café Reunion;Otros;;;No;No;No;S/I
+305;3059;Gasto Común;Administrativos;;S/I;;26/12/2024;1.0;No;Comisión Cta Cte;Santander;;;No;No;No;S/I
+304;25298;Gasto Común;Administrativos;;S/I;;24/12/2024;1.0;No;Plan anual EDIPRO;EDIPRO;;;No;No;No;S/I
+303;250000;Gasto Común;Administrativos;;S/I;;23/12/2024;1.0;No;Plan anual EDIPRO;EDIPRO;;;No;No;No;S/I
+302;10000;Gasto Común;Administrativos;;S/I;;06/01/2025;1.0;No;Copia Reglamento de Copropiedad;CBR Coronel;;;No;No;No;S/I
+301;20000;Gasto Común;Otros gastos;;S/I;;05/01/2025;1.0;No;Control remoto lote 5 manzana 3;Otros;;;No;No;Si;S/I
+300;24830;Gasto Común;Otros gastos;;S/I;;04/01/2025;1.0;No;Compra artículos de librería;Supermercado;;;No;No;No;S/I
+299;10000;Gasto Común;Administrativos;;S/I;;03/01/2025;1.0;No;Firma de autorización;Notaría;;;No;No;No;S/I
+298;15000;Gasto Común;Administrativos;;S/I;;02/01/2025;1.0;No;Combustible;Copec;;;No;No;No;S/I
+297;15000;Gasto Común;Administrativos;;S/I;;01/01/2025;1.0;No;Combustible;Copec;;;No;No;No;S/I
+296;80000;Gasto Común;Otros gastos;;S/I;20005429;16/01/2025;1.0;No;Limpieza lote 6 manzana 4;Hector Castro;;;No;No;No;S/I
+295;400000;Gasto Común;Remuneraciones;;S/I;11184664;19/12/2024;1.0;No;Hector Castro;Hector Castro;;;No;No;No;S/I
+294;11170;Gasto Común;Gastos de mantenimiento;;S/I;764595029;16/12/2024;1.0;No;Abrazaderas;Sodimac;;;No;No;No;S/I
+293;3110;Gasto Común;Administrativos;;S/I;15264171;16/12/2024;1.0;No;Estacionamiento;Otros;;;No;No;No;S/I
+292;7000;Gasto Común;Administrativos;;S/I;2422234;16/12/2024;1.0;No;Combustible;Copec;;;No;No;No;S/I
+291;3000;Gasto Común;Administrativos;;S/I;6502;10/12/2024;1.0;No;Comprobante de domicilio;Notaría;;;No;No;No;S/I
+290;6000;Gasto Común;Administrativos;;S/I;2444967;09/12/2024;1.0;No;Combustible;Copec;;;No;No;No;S/I
+289;12880;Gasto Común;Otros gastos;;S/I;763624017;09/12/2024;1.0;No;Serrucho;Sodimac;;;No;No;No;S/I
+288;3000;Gasto Común;Administrativos;;S/I;19340;09/12/2024;1.0;No;Comprobante de domicilio;Notaría;;;No;No;No;S/I
+287;17060;Gasto Común;Gastos de mantenimiento;;S/I;763001563;08/12/2024;1.0;No;Hilo orilladora;Sodimac;;;No;No;No;S/I
+286;38100;Gasto Común;Gastos de mantenimiento;;S/I;2442204;06/12/2024;1.0;No;Bidones y combustible;Copec;;;No;No;No;S/I
+285;50000;Gasto Común;Gastos de mantenimiento;;S/I;8232643;13/12/2024;1.0;No;Retiro de maleza;Hector Castro;;;No;No;No;S/I
+284;8300;Gasto Común;Administrativos;;S/I;;03/12/2024;1.0;No;Estacionamiento;Otros;;;No;No;No;S/I
+283;6000;Gasto Común;Administrativos;;S/I;2408570;03/12/2024;1.0;No;Combustible;Copec;;;No;No;No;S/I
+282;9000;Gasto Común;Administrativos;;S/I;7260775;03/12/2024;1.0;No;Firma de autorización;Notaría;;;No;No;No;S/I
+281;225470;Gasto Común;Otros gastos;;S/I;762307439;30/11/2024;1.0;No;Compra de maquina y Epp;Sodimac;;;No;No;No;S/I
+280;800000;Gasto Común;Remuneraciones;;S/I;21280453;30/11/2024;1.0;No;Hector Castro;Hector Castro;;;No;No;No;S/I
 279;1556000;Fondo Operacional;S/I;;S/I;;02/01/2025;;No;Pago de consumo eléctrico general;Cge;;;No;No;Si;S/I
-278;12720;Gasto Común;Carga Histórica;;S/I;;18/11/2024;1;No;Combustible;Copec;;;No;No;No;S/I
-277;2883;Gasto Común;Carga Histórica;;S/I;;18/11/2024;1;No;Estacionamiento;Combustible Y Estacionamientos;;;No;No;No;S/I
-276;15000;Gasto Común;Carga Histórica;;S/I;;08/11/2024;1;No;Combustible;Combustible Y Estacionamientos;;;No;No;No;S/I
-275;3390;Gasto Común;Carga Histórica;;S/I;;18/11/2024;1;No;Compra escobillon;Supermercado;;;No;No;No;S/I
-274;14100;Gasto Común;Carga Histórica;;S/I;;08/11/2024;1;No;Pala;Agroservicios Capurro;;;No;No;No;S/I
-273;10782;Gasto Común;Carga Histórica;;S/I;;08/11/2024;1;No;Piola cortadora;Sodimac SA;;;No;No;No;S/I
-272;8290;Gasto Común;Carga Histórica;;S/I;;05/11/2024;1;No;Rastrillo;Sodimac SA;;;No;No;No;S/I
-271;18170;Gasto Común;Carga Histórica;;S/I;;15/11/2024;1;No;EPP;Sodimac SA;;;No;No;No;S/I
-270;2500;Gasto Común;Carga Histórica;;S/I;;14/11/2024;1;No;Conector;Sodimac SA;;;No;No;No;S/I
-269;1700;Gasto Común;Carga Histórica;;S/I;;15/11/2024;1;No;Estacionamiento;Combustible Y Estacionamientos;;;No;No;No;S/I
-268;150000;Gasto Común;Carga Histórica;;S/I;;25/11/2024;1;No;Gastos de Notificación;Abogados;;;No;No;No;S/I
-267;8450;Gasto Común;Carga Histórica;;S/I;;25/11/2024;1;No;Utiles de aseo;Supermercado;;;No;No;No;S/I
-266;3038;Gasto Común;Carga Histórica;;S/I;;27/11/2024;1;No;Comisión Plan;Santander;;;No;No;No;S/I
-265;196780;Gasto Común;Carga Histórica;;S/I;;22/11/2024;1;No;Actualización reglamento;Administrativo;;;No;No;No;S/I
-264;15588;Gasto Común;Carga Histórica;;S/I;;08/11/2024;1;No;Internet conserjería;Internet Y Telefonía;;;No;No;No;S/I
-263;29482;Gasto Común;Carga Histórica;;S/I;;08/11/2024;1;No;Internet;Internet Y Telefonía;;;No;No;No;S/I
-262;31908;Gasto Común;Carga Histórica;;S/I;;08/11/2024;1;No;Internet y telefonía;Internet Y Telefonía;;;No;No;No;S/I
-261;57000;Gasto Común;Carga Histórica;;S/I;;06/11/2024;1;No;Compra de flores;Infraestructuras;;;No;No;No;S/I
-259;1594700;Gasto Común;Carga Histórica;;S/I;;12/12/2024;1;No;Consumo electrico;Cge;;;No;No;No;S/I
-258;250000;Gasto Común;Carga Histórica;;S/I;;27/11/2024;1;No;Traspaso de cuotas iniciales a gasto común.;Interno;;;No;No;No;S/I
-257;3033;Gasto Común;Carga Histórica;;S/I;;28/10/2024;1;No;Comisión plan;Santander;;;No;No;No;S/I
-256;900000;Gasto Común;Carga Histórica;;S/I;;25/10/2024;1;No;Estudio Hidrogeologico;Infraestructuras;;;No;No;No;S/I
-255;250000;Gasto Común;Carga Histórica;;S/I;;22/10/2024;1;No;Estudio Hidrogeologico;Infraestructuras;;;No;No;No;S/I
-254;10000;Gasto Común;Carga Histórica;;S/I;;21/10/2024;1;No;Combustible trámites;Copec;;;No;No;No;S/I
-253;26990;Gasto Común;Carga Histórica;;S/I;;01/11/2024;1;No;Llave stilson;Sodimac SA;;;No;No;No;S/I
-252;12720;Gasto Común;Carga Histórica;;S/I;;01/11/2024;1;No;Compra bencina para cortadora de pasto;Copec;;;No;No;No;S/I
-251;90441;Gasto Común;Carga Histórica;;S/I;;01/11/2024;1;No;Materiales instalación de baterias;Instalaciones Electricas;;;No;No;No;S/I
-250;65870;Gasto Común;Carga Histórica;;S/I;;04/11/2024;1;No;Articulos de aseo;Sodimac SA;;;No;No;No;S/I
-249;1565000;Gasto Común;Carga Histórica;;S/I;;14/11/2024;1;No;Consumo Electrico;Cge;;;No;No;No;S/I
-248;100000;Gasto Común;Carga Histórica;;S/I;;14/10/2024;1;No;Pago a bombero por prueaba de grifos;Infraestructuras;;;No;No;No;S/I
-247;10000;Gasto Común;Carga Histórica;;S/I;;20/10/2024;1;No;Capacitación;Administrativo;;;No;No;No;S/I
-246;52250;Gasto Común;Carga Histórica;;S/I;;17/10/2024;1;No;Pago starken;Instalaciones Electricas;;;No;No;No;S/I
-245;675325;Gasto Común;Carga Histórica;;S/I;;07/10/2024;1;No;Compra respaldo de energía;Instalaciones Electricas;;;No;No;No;S/I
-244;15588;Gasto Común;Carga Histórica;;S/I;;20/10/2024;1;No;Pago Claro;Internet Y Telefonía;;;No;No;No;S/I
-243;14420;Gasto Común;Carga Histórica;;S/I;;19/03/2024;1;No;Envío chilexpress;Internet Y Telefonía;;;No;No;No;S/I
-242;142700;Gasto Común;Carga Histórica;;S/I;;03/03/2023;1;No;Herramientas;Enocmat;;;No;No;No;S/I
-241;196780;Gasto Común;Carga Histórica;;S/I;;10/10/2024;1;No;Actualización Reglamento;Administrativo;;;No;No;No;S/I
-240;24552;Gasto Común;Carga Histórica;;S/I;;17/09/2024;1;No;Pago Movistar;Internet Y Telefonía;;;No;No;No;S/I
-239;3020;Gasto Común;Carga Histórica;;S/I;;26/09/2024;1;No;Comisión plan;Santander;;;No;No;No;S/I
-238;30000;Gasto Común;Carga Histórica;;S/I;;20/09/2024;1;No;Copia de llaves;Administrativo;;;No;No;No;S/I
-237;24580;Gasto Común;Carga Histórica;;S/I;;24/09/2024;1;No;Combustible;Copec;;;No;No;No;S/I
-236;150000;Gasto Común;Carga Histórica;;S/I;;28/09/2024;1;No;Limpieza areas comunes;Hector Castro;;;No;No;No;S/I
-235;393561;Gasto Común;Carga Histórica;;S/I;;09/09/2024;1;No;Reglamento de copropiedad;Administrativo;;;No;No;No;S/I
-234;1659700;Gasto Común;Carga Histórica;;S/I;;07/10/2024;1;No;Consumo eléctrico;Cge;;;No;No;No;S/I
-233;1589200;Gasto Común;Carga Histórica;;S/I;;12/09/2024;1;No;Consumo general;Cge;;;No;No;No;S/I
-232;2995;Gasto Común;Carga Histórica;;S/I;;29/06/2024;1;No;Comisión plan;Santander;;;No;No;No;S/I
-231;37098;Gasto Común;Carga Histórica;;S/I;;16/07/2024;1;No;Pago planes;Internet Y Telefonía;;;No;No;No;S/I
-230;125000;Gasto Común;Carga Histórica;;S/I;;18/07/2024;1;No;Compra alarma;Instalaciones Electricas;;;No;No;No;S/I
-229;7000;Gasto Común;Carga Histórica;;S/I;;05/07/2024;1;No;Recarga Wom;Internet Y Telefonía;;;No;No;No;S/I
-228;3005;Gasto Común;Carga Histórica;;S/I;;29/07/2024;1;No;Comisión plan;Santander;;;No;No;No;S/I
-227;3006;Gasto Común;Carga Histórica;;S/I;;28/08/2024;1;No;Comisión plan;Santander;;;No;No;No;S/I
-226;123457;Gasto Común;Carga Histórica;;S/I;;02/09/2024;1;No;Planes wom;Internet Y Telefonía;;;No;No;No;S/I
-225;10000;Gasto Común;Carga Histórica;;S/I;;05/08/2024;1;No;Recarga Wom portón;Internet Y Telefonía;;;No;No;No;S/I
-224;12990;Gasto Común;Carga Histórica;;S/I;;06/08/2024;1;No;Pago Entel;Internet Y Telefonía;;;No;No;No;S/I
-223;17000;Gasto Común;Carga Histórica;;S/I;;26/07/2024;1;No;Pago CBR;Administrativo;;;No;No;No;S/I
-222;23970;Gasto Común;Carga Histórica;;S/I;;16/08/2024;1;No;Pago internet;Internet Y Telefonía;;;No;No;No;S/I
-221;12990;Gasto Común;Carga Histórica;;S/I;;02/09/2024;1;No;Internet conserjería;Internet Y Telefonía;;;No;No;No;S/I
-220;30000;Gasto Común;Carga Histórica;;S/I;;24/07/2024;1;No;Limpieza de entrada al condominio;Hector Castro;;;No;No;No;S/I
-219;750000;Gasto Común;Carga Histórica;;S/I;;27/08/2024;1;No;Pago Abogados;Abogados;;;No;No;No;S/I
-218;250000;Gasto Común;Carga Histórica;;S/I;;26/08/2024;1;No;Pago Abogados;Abogados;;;No;No;No;S/I
-217;1822300;Gasto Común;Carga Histórica;;S/I;;13/08/2024;1;No;Consumo eléctrico;Cge;;;No;No;No;S/I
-216;1657000;Gasto Común;Carga Histórica;;S/I;;12/07/2024;1;No;Consumo eléctrico;Cge;;;No;No;No;S/I
-215;7000;Gasto Común;Carga Histórica;;S/I;;04/06/2024;1;No;Recarga portón;Internet Y Telefonía;;;No;No;No;S/I
-214;18870;Gasto Común;Carga Histórica;;S/I;;22/06/2024;1;No;Internet;Internet Y Telefonía;;;No;No;No;S/I
-213;8125;Gasto Común;Carga Histórica;;S/I;;22/06/2024;1;No;Internet;Internet Y Telefonía;;;No;No;No;S/I
-212;16990;Gasto Común;Carga Histórica;;S/I;;21/06/2024;1;No;Pago internet;Internet Y Telefonía;;;No;No;No;S/I
-211;21139;Gasto Común;Carga Histórica;;S/I;;03/06/2024;1;No;Pago internet;Internet Y Telefonía;;;No;No;No;S/I
-210;13980;Gasto Común;Carga Histórica;;S/I;;03/06/2024;1;No;Pago entel;Internet Y Telefonía;;;No;No;No;S/I
-209;325899;Gasto Común;Carga Histórica;;S/I;;08/05/2024;1;No;Instalacion de camaras y focos;Instalaciones Electricas;;;No;No;No;S/I
-208;20605;Gasto Común;Carga Histórica;;S/I;;07/05/2024;1;No;Pago de internet;Internet Y Telefonía;;;No;No;No;S/I
-207;6406;Gasto Común;Carga Histórica;;S/I;;06/05/2024;1;No;Envío de encomienda;Administrativo;;;No;No;No;S/I
-206;3000;Gasto Común;Carga Histórica;;S/I;;06/05/2024;1;No;Firma en notaría;Administrativo;;;No;No;No;S/I
-205;105000;Gasto Común;Carga Histórica;;S/I;;08/05/2024;1;No;Compra de focos cruce;Instalaciones Electricas;;;No;No;No;S/I
-204;7000;Gasto Común;Carga Histórica;;S/I;;28/04/2024;1;No;Recarga wom;Internet Y Telefonía;;;No;No;No;S/I
-203;1000000;Gasto Común;Carga Histórica;;S/I;;25/04/2024;1;No;Pago por caso Penal;Abogados;;;No;No;No;S/I
-202;2981;Gasto Común;Carga Histórica;;S/I;;29/05/2024;1;No;Comisión mantención plan;Santander;;;No;No;No;S/I
-201;2966;Gasto Común;Carga Histórica;;S/I;;29/04/2024;1;No;Comisión mantención plan;Santander;;;No;No;No;S/I
-200;1518900;Gasto Común;Carga Histórica;;S/I;;12/06/2024;1;No;Consumo eléctrico;Cge;;;No;No;No;S/I
-199;107100;Gasto Común;Carga Histórica;;S/I;;22/05/2024;1;No;Compra elementos alarma;Instalaciones Electricas;;;No;No;No;S/I
-198;1206500;Gasto Común;Carga Histórica;;S/I;;15/05/2024;1;No;Consumo eléctrico;Cge;;;No;No;No;S/I
-197;2949;Gasto Común;Carga Histórica;;S/I;;26/03/2024;1;No;Comisión mantención plan;Santander;;;No;No;No;S/I
-196;2939;Gasto Común;Carga Histórica;;S/I;;27/02/2024;1;No;Comisión mantención plan;Santander;;;No;No;No;S/I
-195;17590;Gasto Común;Carga Histórica;;S/I;;14/02/2024;1;No;Envío por starken fumigadora;Infraestructuras;;;No;No;No;S/I
-194;211521;Gasto Común;Carga Histórica;;S/I;;12/02/2024;1;No;Compra de herbicidas;Agroservicios Capurro;;;No;No;No;S/I
-193;89850;Gasto Común;Carga Histórica;;S/I;;08/04/2024;1;No;Compras alarma;Instalaciones Electricas;;;No;No;No;S/I
-192;149970;Gasto Común;Carga Histórica;;S/I;;08/04/2024;1;No;Compra tarjetas micro SD;Instalaciones Electricas;;;No;No;No;S/I
-191;227920;Gasto Común;Carga Histórica;;S/I;;08/04/2024;1;No;Compra UPS cámaras;Instalaciones Electricas;;;No;No;No;S/I
-190;34590;Gasto Común;Carga Histórica;;S/I;;08/04/2024;1;No;Compras alarma;Instalaciones Electricas;;;No;No;No;S/I
-189;7705;Gasto Común;Carga Histórica;;S/I;;08/04/2024;1;No;Compras alarma;Instalaciones Electricas;;;No;No;No;S/I
-188;40080;Gasto Común;Carga Histórica;;S/I;;15/03/2024;1;No;Compras alarma;Instalaciones Electricas;;;No;No;No;S/I
-187;24131;Gasto Común;Carga Histórica;;S/I;;08/04/2024;1;No;Compras alarma;Instalaciones Electricas;;;No;No;No;S/I
-186;204110;Gasto Común;Carga Histórica;;S/I;;12/03/2024;1;No;Compras alarma;Instalaciones Electricas;;;No;No;No;S/I
-185;95418;Gasto Común;Carga Histórica;;S/I;;11/03/2024;1;No;Compra de cajas UPS;Instalaciones Electricas;;;No;No;No;S/I
-184;20617;Gasto Común;Carga Histórica;;S/I;;08/04/2024;1;No;Compras alarma;Instalaciones Electricas;;;No;No;No;S/I
-183;20890;Gasto Común;Carga Histórica;;S/I;;15/03/2024;1;No;Compras alarma;Instalaciones Electricas;;;No;No;No;S/I
-182;1660;Gasto Común;Carga Histórica;;S/I;;08/04/2024;1;No;Compra tornillos alarma;Instalaciones Electricas;;;No;No;No;S/I
-181;49378;Gasto Común;Carga Histórica;;S/I;;08/04/2024;1;No;Compras alarma;Instalaciones Electricas;;;No;No;No;S/I
-180;12100;Gasto Común;Carga Histórica;;S/I;;08/04/2024;1;No;Combustible y estacionamiento;Combustible Y Estacionamientos;;;No;No;No;S/I
-179;15103;Gasto Común;Carga Histórica;;S/I;;08/04/2024;1;No;Combustible y estacionamientos;Combustible Y Estacionamientos;;;No;No;No;S/I
-178;10450;Gasto Común;Carga Histórica;;S/I;;11/03/2024;1;No;Combustible y estacionamiento;Combustible Y Estacionamientos;;;No;No;No;S/I
-177;134990;Gasto Común;Carga Histórica;;S/I;;08/04/2024;1;No;Copra de pulverizadora;Mercadolibre;;;No;No;No;S/I
-176;150000;Gasto Común;Carga Histórica;;S/I;;01/04/2024;1;No;Pago 2 recurso;Abogados;;;No;No;No;S/I
-175;250000;Gasto Común;Carga Histórica;;S/I;;27/03/2024;1;No;Pago 1 recurso;Abogados;;;No;No;No;S/I
-174;80000;Gasto Común;Carga Histórica;;S/I;;27/03/2024;1;No;Pago de mandato demanda particular;Administrativo;;;No;No;No;S/I
-173;13050;Gasto Común;Carga Histórica;;S/I;;18/03/2024;1;No;Impresiones y chip;Administrativo;;;No;No;No;S/I
-172;12430;Gasto Común;Carga Histórica;;S/I;;01/12/2024;1;No;Envío encomiendas abogados;Administrativo;;;No;No;No;S/I
-171;15640;Gasto Común;Carga Histórica;;S/I;;18/03/2024;1;No;Librería;Administrativo;;;No;No;No;S/I
-170;123270;Gasto Común;Carga Histórica;;S/I;;14/03/2024;1;No;Materiales de pintado;Sodimac SA;;;No;No;No;S/I
-169;427500;Gasto Común;Carga Histórica;;S/I;;14/03/2024;1;No;Pago por trabajos de pintura;Trabajadores Eventuales;;;No;No;No;S/I
-168;4380;Gasto Común;Carga Histórica;;S/I;;05/03/2024;1;No;Materiales pintado;Sodimac SA;;;No;No;No;S/I
-167;78860;Gasto Común;Carga Histórica;;S/I;;04/03/2024;1;No;Materiales pintado;Sodimac SA;;;No;No;No;S/I
-166;400000;Gasto Común;Carga Histórica;;S/I;;06/03/2024;1;No;Pago por limpieza de lotes particulares;Hector Castro;;;No;No;No;S/I
-165;10000;Gasto Común;Carga Histórica;;S/I;;19/02/2024;1;No;Combustible trámites;Combustible Y Estacionamientos;;;No;No;No;S/I
-164;60000;Gasto Común;Carga Histórica;;S/I;;19/02/2024;1;No;Pago mandato notarial;Abogados;;;No;No;No;S/I
-163;22159;Gasto Común;Carga Histórica;;S/I;;19/02/2024;1;No;Internet conserjería;Internet Y Telefonía;;;No;No;No;S/I
-162;62691;Gasto Común;Carga Histórica;;S/I;;19/02/2024;1;No;Materiales pintado;Sodimac SA;;;No;No;No;S/I
-161;7000;Gasto Común;Carga Histórica;;S/I;;13/02/2024;1;No;Combustible por tramites;Combustible Y Estacionamientos;;;No;No;No;S/I
-160;49470;Gasto Común;Carga Histórica;;S/I;;16/02/2024;1;No;Compra de camara de concreto;Infraestructuras;;;No;No;No;S/I
-159;275684;Gasto Común;Carga Histórica;;S/I;;19/02/2024;1;No;Instalación de cámaras y otros;Instalaciones Electricas;;;No;No;No;S/I
-158;725000;Gasto Común;Carga Histórica;;S/I;;19/02/2024;1;No;Pintado y limpieza del condominio;Trabajadores Eventuales;;;No;No;No;S/I
-157;339517;Gasto Común;Carga Histórica;;S/I;;19/02/2024;1;No;Materiales para pintado;Sodimac SA;;;No;No;No;S/I
-155;13180;Gasto Común;Carga Histórica;;S/I;;15/01/2024;1;No;Bolsas para basura;Sodimac SA;;;No;No;No;S/I
-154;1085300;Gasto Común;Carga Histórica;;S/I;;05/04/2024;1;No;Consumo electrico;Cge;;;No;No;No;S/I
-153;356070;Gasto Común;Carga Histórica;;S/I;;09/03/2024;1;No;3 Cámaras de seguridad;Instalaciones Electricas;;;No;No;No;S/I
-152;500000;Gasto Común;Carga Histórica;;S/I;;09/03/2024;1;No;Compra de dispositivos de control portón y alarma;Dhimel;;;No;No;No;S/I
-151;1990;Gasto Común;Carga Histórica;;S/I;;11/03/2024;1;No;Compra de jarro graduado;Supermercado;;;No;No;No;S/I
-150;20980;Gasto Común;Carga Histórica;;S/I;;11/03/2024;1;No;Compra de EPP;Sodimac SA;;;No;No;No;S/I
-148;11100;Gasto Común;Carga Histórica;;S/I;;06/03/2024;1;No;Combustible mas estacionamiento;Combustible Y Estacionamientos;;;No;No;No;S/I
-147;61990;Gasto Común;Carga Histórica;;S/I;;09/03/2024;1;No;Compra de Router y contratación de lineas.;Wom;;;No;No;No;S/I
-146;1251300;Gasto Común;Carga Histórica;;S/I;;06/03/2024;1;No;Consumo electrico Febrero 2024;Cge;;;No;No;No;S/I
-145;780000;Gasto Común;Carga Histórica;;S/I;;03/02/2024;1;No;Inatalación de 3 postes con iluminación;Instalaciones Electricas;;;No;No;No;S/I
-144;40000;Gasto Común;Carga Histórica;;S/I;;02/02/2024;1;No;Limpieza de Condominio;Hector Castro;;;No;No;No;S/I
-143;2942;Gasto Común;Carga Histórica;;S/I;;29/01/2024;1;No;Comisión mantención plan;Santander;;;No;No;No;S/I
-142;3584500;Gasto Común;Carga Histórica;;S/I;;13/02/2024;1;No;Consumo Electrico;Cge;;;No;No;No;S/I
-141;8000;Gasto Común;Carga Histórica;;S/I;;20/01/2024;1;No;Recargas chip;Recargas Chip;;;No;No;No;S/I
-140;21780;Gasto Común;Carga Histórica;;S/I;;30/01/2024;1;No;Compra de escobillones;Sodimac SA;;;No;No;No;S/I
-139;210000;Gasto Común;Carga Histórica;;S/I;;30/01/2024;1;No;Compra de focos;Instalaciones Electricas;;;No;No;No;S/I
-138;200000;Gasto Común;Carga Histórica;;S/I;;27/01/2024;1;No;Desmalezado Lt1 Mz1;Hector Castro;;;No;No;No;S/I
-137;200000;Gasto Común;Carga Histórica;;S/I;;27/01/2024;1;No;Desmalezado de varios lotes Mz1;Hector Castro;;;No;No;No;S/I
-136;1000000;Gasto Común;Carga Histórica;;S/I;;16/01/2024;1;No;Pago de abogados por demanda particular;Abogados;;;No;No;No;S/I
-135;350000;Gasto Común;Carga Histórica;;S/I;;26/01/2024;1;No;Instalación de 3 postes con iluminación;Instalaciones Electricas;;;No;No;No;S/I
-134;100000;Gasto Común;Carga Histórica;;S/I;;19/01/2024;1;No;Desmalezado;Hector Castro;;;No;No;No;S/I
-133;112550;Gasto Común;Carga Histórica;;S/I;;19/01/2024;1;No;Compra de letreros;Infraestructuras;;;No;No;No;S/I
-132;180000;Gasto Común;Carga Histórica;;S/I;;19/01/2024;1;No;Instalaciónes eléctricas;Instalaciones Electricas;;;No;No;No;S/I
-131;50000;Gasto Común;Carga Histórica;;S/I;;18/01/2024;1;No;Desmalezado;Hector Castro;;;No;No;No;S/I
-130;302333;Gasto Común;Carga Histórica;;S/I;;16/01/2024;1;No;Comunidad Feliz cuota 2;Administrativo;;;No;No;No;S/I
-127;41500;Gasto Común;Carga Histórica;;S/I;;12/01/2024;1;No;Certificados para demanda;Cbr Coronel;;;No;No;No;S/I
-126;250000;Gasto Común;Carga Histórica;;S/I;;10/01/2024;1;No;Comunidad Feliz cuota 1;Administrativo;;;No;No;No;S/I
-125;6000;Gasto Común;Carga Histórica;;S/I;;10/01/2024;1;No;Recarga portón Wom;Recargas Chip;;;No;No;No;S/I
-124;2925;Gasto Común;Carga Histórica;;S/I;;27/12/2023;1;No;Comisión mantención plan;Administrativo;;;No;No;No;S/I
-122;11730;Gasto Común;Carga Histórica;;S/I;;15/11/2023;1;No;Compra de Alargador para internet conserjería;Mercadolibre;;;No;No;No;S/I
-121;100000;Gasto Común;Carga Histórica;;S/I;;04/01/2024;1;No;Traspaso de cuotas iniciales a gasto común;Interno;;;No;No;No;S/I
-119;250000;Gasto Común;Carga Histórica;;S/I;;30/12/2023;1;No;Traspaso de cuotas iniciales a Gasto Común;Interno;;;No;No;No;S/I
-118;7000;Gasto Común;Carga Histórica;;S/I;;05/12/2023;1;No;Portón Wom;Recargas Chip;;;No;No;No;S/I
-117;150000;Gasto Común;Carga Histórica;;S/I;;10/12/2023;1;No;Traspaso de cuotas iniciales a Gasto Común;Interno;;;No;No;No;S/I
-116;750000;Gasto Común;Carga Histórica;;S/I;;11/12/2023;1;No;Demanda Aguas Mitrinhue;Administrativo;;;No;No;No;S/I
-115;250000;Gasto Común;Carga Histórica;;S/I;;10/12/2023;1;No;Demanda Aguas Mitrinhue;Administrativo;;;No;No;No;S/I
-114;7000;Gasto Común;Carga Histórica;;S/I;;05/12/2023;1;No;Portón Wom;Recargas Chip;;;No;No;No;S/I
-113;2890;Gasto Común;Carga Histórica;;S/I;;27/09/2023;1;No;Banco Santander;Santander;;;No;No;No;S/I
-112;2896;Gasto Común;Carga Histórica;;S/I;;26/10/2023;1;No;Banco Santander;Santander;;;No;No;No;S/I
-111;13500;Gasto Común;Carga Histórica;;S/I;;23/11/2023;1;No;Combustible;Copec;;;No;No;No;S/I
-110;2911;Gasto Común;Carga Histórica;;S/I;;30/11/2023;1;No;Banco Santander;Santander;;;No;No;No;S/I
-109;33058;Gasto Común;Carga Histórica;;S/I;;22/11/2023;1;No;Candado tapa;Sodimac SA;;;No;No;No;S/I
-108;171870;Gasto Común;Carga Histórica;;S/I;;20/11/2023;1;No;Victor Vera;Infraestructuras;;;No;No;No;S/I
-107;1224000;Gasto Común;Carga Histórica;;S/I;;15/11/2023;1;No;Estructuras metálicas Victor Vera;Infraestructuras;;;No;No;No;S/I
-106;199960;Gasto Común;Carga Histórica;;S/I;;13/11/2023;1;No;Memoria;Instalaciones Electricas;;;No;No;No;S/I
-105;1000;Gasto Común;Carga Histórica;;S/I;;13/11/2023;1;No;Recargas;Recargas Chip;;;No;No;No;S/I
-103;5000;Gasto Común;Carga Histórica;;S/I;;13/11/2023;1;No;Recargas;Recargas Chip;;;No;No;No;S/I
-102;40940;Gasto Común;Carga Histórica;;S/I;;13/11/2023;1;No;Elementos para instalaciones;Mercadolibre;;;No;No;No;S/I
-101;474760;Gasto Común;Carga Histórica;;S/I;;13/11/2023;1;No;Compra de Cámaras;Dhimel;;;No;No;No;S/I
-100;13000;Gasto Común;Carga Histórica;;S/I;;07/11/2023;1;No;Copia de llaves;Administrativo;;;No;No;No;S/I
-99;250000;Gasto Común;Carga Histórica;;S/I;;31/10/2023;1;No;Materiales;Infraestructuras;;;No;No;No;S/I
-98;338517;Gasto Común;Carga Histórica;;S/I;;02/11/2023;1;No;Materiales;Infraestructuras;;;No;No;No;S/I
-97;2000;Gasto Común;Carga Histórica;;S/I;;10/10/2023;1;No;Recarga;Recargas Chip;;;No;No;No;S/I
-96;2000;Gasto Común;Carga Histórica;;S/I;;10/10/2023;1;No;Recarga;Recargas Chip;;;No;No;No;S/I
-95;7000;Gasto Común;Carga Histórica;;S/I;;10/10/2023;1;No;Recarga;Recargas Chip;;;No;No;No;S/I
-94;275000;Gasto Común;Carga Histórica;;S/I;;30/10/2023;1;No;Victor Vera;Infraestructuras;;;No;No;No;S/I
-93;250000;Gasto Común;Carga Histórica;;S/I;;30/10/2023;1;No;Victor Vera;Infraestructuras;;;No;No;No;S/I
-92;10000;Gasto Común;Carga Histórica;;S/I;;23/10/2023;1;No;Notaría;Administrativo;;;No;No;No;S/I
-91;100000;Gasto Común;Carga Histórica;;S/I;;20/10/2023;1;No;Notaría;Administrativo;;;No;No;No;S/I
-90;5500;Gasto Común;Carga Histórica;;S/I;;23/10/2023;1;No;Libro de Actas;Administrativo;;;No;No;No;S/I
-89;7740;Gasto Común;Carga Histórica;;S/I;;20/11/2023;1;No;Estacionamiento;Administrativo;;;No;No;No;S/I
-88;1700;Gasto Común;Carga Histórica;;S/I;;20/11/2023;1;No;Estacionamiento;Administrativo;;;No;No;No;S/I
-87;57000;Gasto Común;Carga Histórica;;S/I;;07/11/2023;1;No;Elementos para instalaciones;Dhimel;;;No;No;No;S/I
-86;127140;Gasto Común;Carga Histórica;;S/I;;07/11/2023;1;No;Elementos para instalaciones;Dhimel;;;No;No;No;S/I
-85;118690;Gasto Común;Carga Histórica;;S/I;;06/11/2023;1;No;Elementos para instalaciones;Dhimel;;;No;No;No;S/I
-84;18920;Gasto Común;Carga Histórica;;S/I;;06/11/2023;1;No;Elementos para instalaciones;Sodimac SA;;;No;No;No;S/I
-83;34690;Gasto Común;Carga Histórica;;S/I;;06/11/2023;1;No;Elementos para instalaciones;Sodimac SA;;;No;No;No;S/I
-82;29390;Gasto Común;Carga Histórica;;S/I;;06/11/2023;1;No;Elementos para instalaciones;Sodimac SA;;;No;No;No;S/I
-81;1165500;Gasto Común;Carga Histórica;;S/I;;14/11/2023;1;No;Consumo elécrico;Cge;;;No;No;No;S/I
-80;250000;Gasto Común;Carga Histórica;;S/I;;24/10/2023;1;No;Traspaso de cuotas iniciales a Gasto Común;Interno;;;No;No;No;S/I
-79;1279700;Gasto Común;Carga Histórica;;S/I;;09/10/2023;1;No;Consumo eléctrico;Cge;;;No;No;No;S/I
-78;93672;Gasto Común;Carga Histórica;;S/I;;21/09/2023;1;No;Herramientas e insumos;Sodimac SA;;;No;No;No;S/I
-77;71400;Gasto Común;Carga Histórica;;S/I;;22/05/2023;1;No;Asesorias y capacitación;Casa Sepia;;;No;No;No;S/I
-76;20000;Gasto Común;Carga Histórica;;S/I;;31/08/2023;1;No;Cotización;Infraestructuras;;;No;No;No;S/I
-75;2865;Gasto Común;Carga Histórica;;S/I;;29/05/2023;1;No;Banco Santander;Santander;;;No;No;No;S/I
-74;2883;Gasto Común;Carga Histórica;;S/I;;28/06/2023;1;No;Banco Santander;Santander;;;No;No;No;S/I
-73;2887;Gasto Común;Carga Histórica;;S/I;;27/07/2023;1;No;Banco Santander;Santander;;;No;No;No;S/I
-72;2884;Gasto Común;Carga Histórica;;S/I;;28/08/2023;1;No;Banco Santander;Santander;;;No;No;No;S/I
-71;109990;Gasto Común;Carga Histórica;;S/I;;11/09/2023;1;No;Herramientas e insumos;Pc Factory;;;No;No;No;S/I
-70;0;Gasto Común;Carga Histórica;;S/I;;04/09/2023;1;No;Elecsur SPA;Instalaciones Electricas;;;No;No;No;S/I
-69;1166200;Gasto Común;Carga Histórica;;S/I;;02/09/2023;1;No;Asesorias y capacitación;Casa Sepia;;;No;No;No;S/I
-68;250000;Gasto Común;Carga Histórica;;S/I;;04/09/2023;1;No;Reparación apertura portón;Instalaciones Electricas;;;No;No;No;S/I
-67;200000;Gasto Común;Carga Histórica;;S/I;;01/09/2023;1;No;Elecsur SPA;Instalaciones Electricas;;;No;No;No;S/I
-66;1343700;Gasto Común;Carga Histórica;;S/I;;10/09/2023;1;No;Consumo eléctrico;Cge;;;No;No;No;S/I
-65;12000;Gasto Común;Carga Histórica;;S/I;;12/08/2023;1;No;Recargas chip;Recargas Chip;;;No;No;No;S/I
-64;11500;Gasto Común;Carga Histórica;;S/I;;09/08/2023;1;No;Recargas chip;Recargas Chip;;;No;No;No;S/I
-63;40000;Gasto Común;Carga Histórica;;S/I;;02/08/2023;1;No;Elecsur SPA;Instalaciones Electricas;;;No;No;No;S/I
-62;1424300;Gasto Común;Carga Histórica;;S/I;;29/08/2023;1;No;Consumo eléctrico;Cge;;;No;No;No;S/I
-61;250000;Gasto Común;Carga Histórica;;S/I;;14/07/2023;1;No;Traspaso de cuotas iniciales a Gasto Común;Interno;;;No;No;No;S/I
-60;250000;Gasto Común;Carga Histórica;;S/I;;13/07/2023;1;No;Traspaso de cuotas iniciales a Gasto Común;Interno;;;No;No;No;S/I
-59;1529800;Gasto Común;Carga Histórica;;S/I;;13/07/2023;1;No;Consumo eléctrico;Cge;;;No;No;No;S/I
-58;250620;Gasto Común;Carga Histórica;;S/I;;12/05/2023;1;No;Compra de herramientas;Instalaciones Electricas;87758;;No;No;No;S/I
-57;1199800;Gasto Común;Carga Histórica;;S/I;;12/06/2023;1;No;Consumo eléctrico;Cge;;;No;No;No;S/I
-56;2846;Gasto Común;Carga Histórica;;S/I;;26/04/2023;1;No;Banco Santander;Santander;;;No;No;No;S/I
-55;1318000;Gasto Común;Carga Histórica;;S/I;;03/05/2023;1;No;Elecsur SPA;Instalaciones Electricas;;;No;No;No;S/I
-54;1047300;Gasto Común;Carga Histórica;;S/I;;12/05/2023;1;No;Consumo eléctrico;Cge;;;No;No;No;S/I
-53;761600;Gasto Común;Carga Histórica;;S/I;;14/04/2023;1;No;Compra de herramientas;Enocmat;;;No;No;No;S/I
-52;2841;Gasto Común;Carga Histórica;;S/I;;29/03/2023;1;No;Banco Santander;Santander;;;No;No;No;S/I
-51;250000;Gasto Común;Carga Histórica;;S/I;;28/02/2023;1;No;Compra de herramientas;Enocmat;;;No;No;No;S/I
-50;850500;Gasto Común;Carga Histórica;;S/I;;12/04/2023;1;No;Consumo eléctrico;Cge;;;No;No;No;S/I
-49;0;Gasto Común;Carga Histórica;;S/I;;15/03/2023;1;No;Consumo eléctrico;Cge;;;No;No;No;S/I
-48;0;Gasto Común;Carga Histórica;;S/I;;15/03/2023;1;No;Consumo eléctrico areas comunes;Cge;;;No;No;No;S/I
-47;10000;Gasto Común;Carga Histórica;;S/I;;12/03/2023;1;No;Combustible;Copec;;;No;No;No;S/I
-46;14500;Gasto Común;Carga Histórica;;S/I;;12/03/2023;1;No;Recargas chip;Recargas Chip;;;No;No;No;S/I
-45;250000;Gasto Común;Carga Histórica;;S/I;;20/02/2023;1;No;Compra de herramientas;Coprofor Ltda;;;No;No;No;S/I
-44;278550;Gasto Común;Carga Histórica;;S/I;;17/02/2023;1;No;Reparación apertura portón;Control 8;;;No;No;No;S/I
-43;200000;Gasto Común;Carga Histórica;;S/I;;03/03/2023;1;No;Sueldo;Jardinero;;;No;No;No;S/I
-42;25000;Gasto Común;Carga Histórica;;S/I;;09/01/2024;1;No;Bencina;Copec;;;No;No;No;S/I
-41;1219381;Gasto Común;Carga Histórica;;S/I;;02/03/2023;1;No;Herramientas e insumos;Enocmat;;;No;No;No;S/I
-40;88890;Gasto Común;Carga Histórica;;S/I;;14/03/2023;1;No;Bidones y combustible;Copec;;;No;No;No;S/I
-39;77120;Gasto Común;Carga Histórica;;S/I;;03/03/2023;1;No;Bidones y combustible;Copec;;;No;No;No;S/I
-38;29900;Gasto Común;Carga Histórica;;S/I;;03/03/2023;1;No;Aceite para motobombas;Serviautos;;;No;No;No;S/I
-37;2823;Gasto Común;Carga Histórica;;S/I;;24/02/2023;1;No;Banco Santander;Santander;;;No;No;No;S/I
-36;1010700;Gasto Común;Carga Histórica;;S/I;;12/03/2023;1;No;Consumo eléctrico;Cge;;;No;No;No;S/I
-35;7500;Gasto Común;Carga Histórica;;S/I;;02/02/2023;1;No;Certificado de Dominio Vigente;Cbr Coronel;;;No;No;No;S/I
-34;8292;Gasto Común;Carga Histórica;;S/I;;15/01/2023;1;No;Banco Santander;Santander;;;No;No;No;S/I
-33;1125;Gasto Común;Carga Histórica;;S/I;;12/02/2023;1;No;Consumo eléctrico;Cge;;;No;No;No;S/I
-32;31061;Gasto Común;Carga Histórica;;S/I;;12/02/2023;1;No;Consumo eléctrico;Cge;;;No;No;No;S/I
-31;156203;Gasto Común;Carga Histórica;;S/I;;12/02/2023;1;No;Consumo eléctrico;Cge;;;No;No;No;S/I
-30;94800;Gasto Común;Carga Histórica;;S/I;;10/02/2023;1;No;Herramientas e insumos;Coprofor Ltda;;;No;No;No;S/I
-29;20000;Gasto Común;Carga Histórica;;S/I;;10/02/2023;1;No;Anticipo quincena;Jardinero;;;No;No;No;S/I
-28;4230;Gasto Común;Carga Histórica;;S/I;;01/02/2023;1;No;Nylon;Sodimac SA;;;No;No;No;S/I
-27;25110;Gasto Común;Carga Histórica;;S/I;;13/02/2023;1;No;Bloqueador solar y nylon;Sodimac SA;;;No;No;No;S/I
-25;489754;Gasto Común;Carga Histórica;;S/I;;03/02/2023;1;No;Mangueras;Hidrocentro;;;No;No;No;S/I
-24;347740;Gasto Común;Carga Histórica;;S/I;;08/02/2023;1;No;Sueldo;Jardinero;;;No;No;No;S/I
-23;2808;Gasto Común;Carga Histórica;;S/I;;27/01/2023;1;No;Banco Santander;Santander;;;No;No;No;S/I
-22;36900;Gasto Común;Carga Histórica;;S/I;;25/01/2023;1;No;Aceite 2 T;Coprofor Ltda;;;No;No;No;S/I
-21;141065;Gasto Común;Carga Histórica;;S/I;;24/01/2023;1;No;Carretilla, pala de basura, aspersores y barrehojas.;Sodimac SA;;;No;No;No;S/I
-20;30000;Gasto Común;Carga Histórica;;S/I;;22/01/2023;1;No;Anticipo;Jardinero;;;No;No;No;S/I
-19;115000;Gasto Común;Carga Histórica;;S/I;;19/01/2023;1;No;Elecsur SPA;Instalaciones Electricas;;;No;No;No;S/I
-18;19940;Gasto Común;Carga Histórica;;S/I;;17/01/2023;1;No;Control de asistencia;Mercadolibre;;;No;No;No;S/I
-17;28633;Gasto Común;Carga Histórica;;S/I;;13/01/2023;1;No;Pulverizadora Manual;Mercadolibre;;;No;No;No;S/I
-16;23697;Gasto Común;Carga Histórica;;S/I;;06/01/2023;1;No;Escobas industriales;Mercadolibre;;;No;No;No;S/I
-15;125010;Gasto Común;Carga Histórica;;S/I;;01/01/2023;1;No;Herramientas e insumos;Sodimac SA;;;No;No;No;S/I
-14;30000;Gasto Común;Carga Histórica;;S/I;;13/01/2023;1;No;Anticipo quincena;Jardinero;;;No;No;No;S/I
-13;100000;Gasto Común;Carga Histórica;;S/I;;12/01/2023;1;No;Retiro de Basura;Hector Castro;;;No;No;No;S/I
-12;2900;Gasto Común;Carga Histórica;;S/I;;12/01/2023;1;No;Aceite 2 T;Coprofor Ltda;;;No;No;No;S/I
-11;498000;Gasto Común;Carga Histórica;;S/I;;12/01/2023;1;No;Desbrozadora Stihl;Coprofor Ltda;;;No;No;No;S/I
-10;64800;Gasto Común;Carga Histórica;;S/I;;25/01/2023;1;No;Rango Full Matamalezas;Agroservicios Capurro;35276;;No;No;No;S/I
-9;113440;Gasto Común;Carga Histórica;;S/I;;25/01/2023;1;No;Compra de herramientas;Easy;;;No;No;No;S/I
-8;47433;Gasto Común;Carga Histórica;;S/I;;03/03/2023;1;No;Colaciones brigadistas;Supermercado;;;No;No;No;S/I
-7;1511050;Gasto Común;Carga Histórica;;S/I;;02/03/2023;1;No;Herramientas e insumos;Enocmat;;;No;No;No;S/I
-5;128360;Gasto Común;Carga Histórica;;S/I;;01/01/2023;1;No;Frigobar conserjeria;Sodimac SA;;;No;No;No;S/I
-2;13253915;Gasto Común;Carga Histórica;;S/I;;16/01/2023;1;No;Mejoramientos;Consumos;;;No;No;No;S/I
+278;12720;Gasto Común;Carga Histórica;;S/I;;18/11/2024;1.0;No;Combustible;Copec;;;No;No;No;S/I
+277;2883;Gasto Común;Carga Histórica;;S/I;;18/11/2024;1.0;No;Estacionamiento;Combustible Y Estacionamientos;;;No;No;No;S/I
+276;15000;Gasto Común;Carga Histórica;;S/I;;08/11/2024;1.0;No;Combustible;Combustible Y Estacionamientos;;;No;No;No;S/I
+275;3390;Gasto Común;Carga Histórica;;S/I;;18/11/2024;1.0;No;Compra escobillon;Supermercado;;;No;No;No;S/I
+274;14100;Gasto Común;Carga Histórica;;S/I;;08/11/2024;1.0;No;Pala;Agroservicios Capurro;;;No;No;No;S/I
+273;10782;Gasto Común;Carga Histórica;;S/I;;08/11/2024;1.0;No;Piola cortadora;Sodimac SA;;;No;No;No;S/I
+272;8290;Gasto Común;Carga Histórica;;S/I;;05/11/2024;1.0;No;Rastrillo;Sodimac SA;;;No;No;No;S/I
+271;18170;Gasto Común;Carga Histórica;;S/I;;15/11/2024;1.0;No;EPP;Sodimac SA;;;No;No;No;S/I
+270;2500;Gasto Común;Carga Histórica;;S/I;;14/11/2024;1.0;No;Conector;Sodimac SA;;;No;No;No;S/I
+269;1700;Gasto Común;Carga Histórica;;S/I;;15/11/2024;1.0;No;Estacionamiento;Combustible Y Estacionamientos;;;No;No;No;S/I
+268;150000;Gasto Común;Carga Histórica;;S/I;;25/11/2024;1.0;No;Gastos de Notificación;Abogados;;;No;No;No;S/I
+267;8450;Gasto Común;Carga Histórica;;S/I;;25/11/2024;1.0;No;Utiles de aseo;Supermercado;;;No;No;No;S/I
+266;3038;Gasto Común;Carga Histórica;;S/I;;27/11/2024;1.0;No;Comisión Plan;Santander;;;No;No;No;S/I
+265;196780;Gasto Común;Carga Histórica;;S/I;;22/11/2024;1.0;No;Actualización reglamento;Administrativo;;;No;No;No;S/I
+264;15588;Gasto Común;Carga Histórica;;S/I;;08/11/2024;1.0;No;Internet conserjería;Internet Y Telefonía;;;No;No;No;S/I
+263;29482;Gasto Común;Carga Histórica;;S/I;;08/11/2024;1.0;No;Internet;Internet Y Telefonía;;;No;No;No;S/I
+262;31908;Gasto Común;Carga Histórica;;S/I;;08/11/2024;1.0;No;Internet y telefonía;Internet Y Telefonía;;;No;No;No;S/I
+261;57000;Gasto Común;Carga Histórica;;S/I;;06/11/2024;1.0;No;Compra de flores;Infraestructuras;;;No;No;No;S/I
+259;1594700;Gasto Común;Carga Histórica;;S/I;;12/12/2024;1.0;No;Consumo electrico;Cge;;;No;No;No;S/I
+258;250000;Gasto Común;Carga Histórica;;S/I;;27/11/2024;1.0;No;Traspaso de cuotas iniciales a gasto común.;Interno;;;No;No;No;S/I
+257;3033;Gasto Común;Carga Histórica;;S/I;;28/10/2024;1.0;No;Comisión plan;Santander;;;No;No;No;S/I
+256;900000;Gasto Común;Carga Histórica;;S/I;;25/10/2024;1.0;No;Estudio Hidrogeologico;Infraestructuras;;;No;No;No;S/I
+255;250000;Gasto Común;Carga Histórica;;S/I;;22/10/2024;1.0;No;Estudio Hidrogeologico;Infraestructuras;;;No;No;No;S/I
+254;10000;Gasto Común;Carga Histórica;;S/I;;21/10/2024;1.0;No;Combustible trámites;Copec;;;No;No;No;S/I
+253;26990;Gasto Común;Carga Histórica;;S/I;;01/11/2024;1.0;No;Llave stilson;Sodimac SA;;;No;No;No;S/I
+252;12720;Gasto Común;Carga Histórica;;S/I;;01/11/2024;1.0;No;Compra bencina para cortadora de pasto;Copec;;;No;No;No;S/I
+251;90441;Gasto Común;Carga Histórica;;S/I;;01/11/2024;1.0;No;Materiales instalación de baterias;Instalaciones Electricas;;;No;No;No;S/I
+250;65870;Gasto Común;Carga Histórica;;S/I;;04/11/2024;1.0;No;Articulos de aseo;Sodimac SA;;;No;No;No;S/I
+249;1565000;Gasto Común;Carga Histórica;;S/I;;14/11/2024;1.0;No;Consumo Electrico;Cge;;;No;No;No;S/I
+248;100000;Gasto Común;Carga Histórica;;S/I;;14/10/2024;1.0;No;Pago a bombero por prueaba de grifos;Infraestructuras;;;No;No;No;S/I
+247;10000;Gasto Común;Carga Histórica;;S/I;;20/10/2024;1.0;No;Capacitación;Administrativo;;;No;No;No;S/I
+246;52250;Gasto Común;Carga Histórica;;S/I;;17/10/2024;1.0;No;Pago starken;Instalaciones Electricas;;;No;No;No;S/I
+245;675325;Gasto Común;Carga Histórica;;S/I;;07/10/2024;1.0;No;Compra respaldo de energía;Instalaciones Electricas;;;No;No;No;S/I
+244;15588;Gasto Común;Carga Histórica;;S/I;;20/10/2024;1.0;No;Pago Claro;Internet Y Telefonía;;;No;No;No;S/I
+243;14420;Gasto Común;Carga Histórica;;S/I;;19/03/2024;1.0;No;Envío chilexpress;Internet Y Telefonía;;;No;No;No;S/I
+242;142700;Gasto Común;Carga Histórica;;S/I;;03/03/2023;1.0;No;Herramientas;Enocmat;;;No;No;No;S/I
+241;196780;Gasto Común;Carga Histórica;;S/I;;10/10/2024;1.0;No;Actualización Reglamento;Administrativo;;;No;No;No;S/I
+240;24552;Gasto Común;Carga Histórica;;S/I;;17/09/2024;1.0;No;Pago Movistar;Internet Y Telefonía;;;No;No;No;S/I
+239;3020;Gasto Común;Carga Histórica;;S/I;;26/09/2024;1.0;No;Comisión plan;Santander;;;No;No;No;S/I
+238;30000;Gasto Común;Carga Histórica;;S/I;;20/09/2024;1.0;No;Copia de llaves;Administrativo;;;No;No;No;S/I
+237;24580;Gasto Común;Carga Histórica;;S/I;;24/09/2024;1.0;No;Combustible;Copec;;;No;No;No;S/I
+236;150000;Gasto Común;Carga Histórica;;S/I;;28/09/2024;1.0;No;Limpieza areas comunes;Hector Castro;;;No;No;No;S/I
+235;393561;Gasto Común;Carga Histórica;;S/I;;09/09/2024;1.0;No;Reglamento de copropiedad;Administrativo;;;No;No;No;S/I
+234;1659700;Gasto Común;Carga Histórica;;S/I;;07/10/2024;1.0;No;Consumo eléctrico;Cge;;;No;No;No;S/I
+233;1589200;Gasto Común;Carga Histórica;;S/I;;12/09/2024;1.0;No;Consumo general;Cge;;;No;No;No;S/I
+232;2995;Gasto Común;Carga Histórica;;S/I;;29/06/2024;1.0;No;Comisión plan;Santander;;;No;No;No;S/I
+231;37098;Gasto Común;Carga Histórica;;S/I;;16/07/2024;1.0;No;Pago planes;Internet Y Telefonía;;;No;No;No;S/I
+230;125000;Gasto Común;Carga Histórica;;S/I;;18/07/2024;1.0;No;Compra alarma;Instalaciones Electricas;;;No;No;No;S/I
+229;7000;Gasto Común;Carga Histórica;;S/I;;05/07/2024;1.0;No;Recarga Wom;Internet Y Telefonía;;;No;No;No;S/I
+228;3005;Gasto Común;Carga Histórica;;S/I;;29/07/2024;1.0;No;Comisión plan;Santander;;;No;No;No;S/I
+227;3006;Gasto Común;Carga Histórica;;S/I;;28/08/2024;1.0;No;Comisión plan;Santander;;;No;No;No;S/I
+226;123457;Gasto Común;Carga Histórica;;S/I;;02/09/2024;1.0;No;Planes wom;Internet Y Telefonía;;;No;No;No;S/I
+225;10000;Gasto Común;Carga Histórica;;S/I;;05/08/2024;1.0;No;Recarga Wom portón;Internet Y Telefonía;;;No;No;No;S/I
+224;12990;Gasto Común;Carga Histórica;;S/I;;06/08/2024;1.0;No;Pago Entel;Internet Y Telefonía;;;No;No;No;S/I
+223;17000;Gasto Común;Carga Histórica;;S/I;;26/07/2024;1.0;No;Pago CBR;Administrativo;;;No;No;No;S/I
+222;23970;Gasto Común;Carga Histórica;;S/I;;16/08/2024;1.0;No;Pago internet;Internet Y Telefonía;;;No;No;No;S/I
+221;12990;Gasto Común;Carga Histórica;;S/I;;02/09/2024;1.0;No;Internet conserjería;Internet Y Telefonía;;;No;No;No;S/I
+220;30000;Gasto Común;Carga Histórica;;S/I;;24/07/2024;1.0;No;Limpieza de entrada al condominio;Hector Castro;;;No;No;No;S/I
+219;750000;Gasto Común;Carga Histórica;;S/I;;27/08/2024;1.0;No;Pago Abogados;Abogados;;;No;No;No;S/I
+218;250000;Gasto Común;Carga Histórica;;S/I;;26/08/2024;1.0;No;Pago Abogados;Abogados;;;No;No;No;S/I
+217;1822300;Gasto Común;Carga Histórica;;S/I;;13/08/2024;1.0;No;Consumo eléctrico;Cge;;;No;No;No;S/I
+216;1657000;Gasto Común;Carga Histórica;;S/I;;12/07/2024;1.0;No;Consumo eléctrico;Cge;;;No;No;No;S/I
+215;7000;Gasto Común;Carga Histórica;;S/I;;04/06/2024;1.0;No;Recarga portón;Internet Y Telefonía;;;No;No;No;S/I
+214;18870;Gasto Común;Carga Histórica;;S/I;;22/06/2024;1.0;No;Internet;Internet Y Telefonía;;;No;No;No;S/I
+213;8125;Gasto Común;Carga Histórica;;S/I;;22/06/2024;1.0;No;Internet;Internet Y Telefonía;;;No;No;No;S/I
+212;16990;Gasto Común;Carga Histórica;;S/I;;21/06/2024;1.0;No;Pago internet;Internet Y Telefonía;;;No;No;No;S/I
+211;21139;Gasto Común;Carga Histórica;;S/I;;03/06/2024;1.0;No;Pago internet;Internet Y Telefonía;;;No;No;No;S/I
+210;13980;Gasto Común;Carga Histórica;;S/I;;03/06/2024;1.0;No;Pago entel;Internet Y Telefonía;;;No;No;No;S/I
+209;325899;Gasto Común;Carga Histórica;;S/I;;08/05/2024;1.0;No;Instalacion de camaras y focos;Instalaciones Electricas;;;No;No;No;S/I
+208;20605;Gasto Común;Carga Histórica;;S/I;;07/05/2024;1.0;No;Pago de internet;Internet Y Telefonía;;;No;No;No;S/I
+207;6406;Gasto Común;Carga Histórica;;S/I;;06/05/2024;1.0;No;Envío de encomienda;Administrativo;;;No;No;No;S/I
+206;3000;Gasto Común;Carga Histórica;;S/I;;06/05/2024;1.0;No;Firma en notaría;Administrativo;;;No;No;No;S/I
+205;105000;Gasto Común;Carga Histórica;;S/I;;08/05/2024;1.0;No;Compra de focos cruce;Instalaciones Electricas;;;No;No;No;S/I
+204;7000;Gasto Común;Carga Histórica;;S/I;;28/04/2024;1.0;No;Recarga wom;Internet Y Telefonía;;;No;No;No;S/I
+203;1000000;Gasto Común;Carga Histórica;;S/I;;25/04/2024;1.0;No;Pago por caso Penal;Abogados;;;No;No;No;S/I
+202;2981;Gasto Común;Carga Histórica;;S/I;;29/05/2024;1.0;No;Comisión mantención plan;Santander;;;No;No;No;S/I
+201;2966;Gasto Común;Carga Histórica;;S/I;;29/04/2024;1.0;No;Comisión mantención plan;Santander;;;No;No;No;S/I
+200;1518900;Gasto Común;Carga Histórica;;S/I;;12/06/2024;1.0;No;Consumo eléctrico;Cge;;;No;No;No;S/I
+199;107100;Gasto Común;Carga Histórica;;S/I;;22/05/2024;1.0;No;Compra elementos alarma;Instalaciones Electricas;;;No;No;No;S/I
+198;1206500;Gasto Común;Carga Histórica;;S/I;;15/05/2024;1.0;No;Consumo eléctrico;Cge;;;No;No;No;S/I
+197;2949;Gasto Común;Carga Histórica;;S/I;;26/03/2024;1.0;No;Comisión mantención plan;Santander;;;No;No;No;S/I
+196;2939;Gasto Común;Carga Histórica;;S/I;;27/02/2024;1.0;No;Comisión mantención plan;Santander;;;No;No;No;S/I
+195;17590;Gasto Común;Carga Histórica;;S/I;;14/02/2024;1.0;No;Envío por starken fumigadora;Infraestructuras;;;No;No;No;S/I
+194;211521;Gasto Común;Carga Histórica;;S/I;;12/02/2024;1.0;No;Compra de herbicidas;Agroservicios Capurro;;;No;No;No;S/I
+193;89850;Gasto Común;Carga Histórica;;S/I;;08/04/2024;1.0;No;Compras alarma;Instalaciones Electricas;;;No;No;No;S/I
+192;149970;Gasto Común;Carga Histórica;;S/I;;08/04/2024;1.0;No;Compra tarjetas micro SD;Instalaciones Electricas;;;No;No;No;S/I
+191;227920;Gasto Común;Carga Histórica;;S/I;;08/04/2024;1.0;No;Compra UPS cámaras;Instalaciones Electricas;;;No;No;No;S/I
+190;34590;Gasto Común;Carga Histórica;;S/I;;08/04/2024;1.0;No;Compras alarma;Instalaciones Electricas;;;No;No;No;S/I
+189;7705;Gasto Común;Carga Histórica;;S/I;;08/04/2024;1.0;No;Compras alarma;Instalaciones Electricas;;;No;No;No;S/I
+188;40080;Gasto Común;Carga Histórica;;S/I;;15/03/2024;1.0;No;Compras alarma;Instalaciones Electricas;;;No;No;No;S/I
+187;24131;Gasto Común;Carga Histórica;;S/I;;08/04/2024;1.0;No;Compras alarma;Instalaciones Electricas;;;No;No;No;S/I
+186;204110;Gasto Común;Carga Histórica;;S/I;;12/03/2024;1.0;No;Compras alarma;Instalaciones Electricas;;;No;No;No;S/I
+185;95418;Gasto Común;Carga Histórica;;S/I;;11/03/2024;1.0;No;Compra de cajas UPS;Instalaciones Electricas;;;No;No;No;S/I
+184;20617;Gasto Común;Carga Histórica;;S/I;;08/04/2024;1.0;No;Compras alarma;Instalaciones Electricas;;;No;No;No;S/I
+183;20890;Gasto Común;Carga Histórica;;S/I;;15/03/2024;1.0;No;Compras alarma;Instalaciones Electricas;;;No;No;No;S/I
+182;1660;Gasto Común;Carga Histórica;;S/I;;08/04/2024;1.0;No;Compra tornillos alarma;Instalaciones Electricas;;;No;No;No;S/I
+181;49378;Gasto Común;Carga Histórica;;S/I;;08/04/2024;1.0;No;Compras alarma;Instalaciones Electricas;;;No;No;No;S/I
+180;12100;Gasto Común;Carga Histórica;;S/I;;08/04/2024;1.0;No;Combustible y estacionamiento;Combustible Y Estacionamientos;;;No;No;No;S/I
+179;15103;Gasto Común;Carga Histórica;;S/I;;08/04/2024;1.0;No;Combustible y estacionamientos;Combustible Y Estacionamientos;;;No;No;No;S/I
+178;10450;Gasto Común;Carga Histórica;;S/I;;11/03/2024;1.0;No;Combustible y estacionamiento;Combustible Y Estacionamientos;;;No;No;No;S/I
+177;134990;Gasto Común;Carga Histórica;;S/I;;08/04/2024;1.0;No;Copra de pulverizadora;Mercadolibre;;;No;No;No;S/I
+176;150000;Gasto Común;Carga Histórica;;S/I;;01/04/2024;1.0;No;Pago 2 recurso;Abogados;;;No;No;No;S/I
+175;250000;Gasto Común;Carga Histórica;;S/I;;27/03/2024;1.0;No;Pago 1 recurso;Abogados;;;No;No;No;S/I
+174;80000;Gasto Común;Carga Histórica;;S/I;;27/03/2024;1.0;No;Pago de mandato demanda particular;Administrativo;;;No;No;No;S/I
+173;13050;Gasto Común;Carga Histórica;;S/I;;18/03/2024;1.0;No;Impresiones y chip;Administrativo;;;No;No;No;S/I
+172;12430;Gasto Común;Carga Histórica;;S/I;;01/12/2024;1.0;No;Envío encomiendas abogados;Administrativo;;;No;No;No;S/I
+171;15640;Gasto Común;Carga Histórica;;S/I;;18/03/2024;1.0;No;Librería;Administrativo;;;No;No;No;S/I
+170;123270;Gasto Común;Carga Histórica;;S/I;;14/03/2024;1.0;No;Materiales de pintado;Sodimac SA;;;No;No;No;S/I
+169;427500;Gasto Común;Carga Histórica;;S/I;;14/03/2024;1.0;No;Pago por trabajos de pintura;Trabajadores Eventuales;;;No;No;No;S/I
+168;4380;Gasto Común;Carga Histórica;;S/I;;05/03/2024;1.0;No;Materiales pintado;Sodimac SA;;;No;No;No;S/I
+167;78860;Gasto Común;Carga Histórica;;S/I;;04/03/2024;1.0;No;Materiales pintado;Sodimac SA;;;No;No;No;S/I
+166;400000;Gasto Común;Carga Histórica;;S/I;;06/03/2024;1.0;No;Pago por limpieza de lotes particulares;Hector Castro;;;No;No;No;S/I
+165;10000;Gasto Común;Carga Histórica;;S/I;;19/02/2024;1.0;No;Combustible trámites;Combustible Y Estacionamientos;;;No;No;No;S/I
+164;60000;Gasto Común;Carga Histórica;;S/I;;19/02/2024;1.0;No;Pago mandato notarial;Abogados;;;No;No;No;S/I
+163;22159;Gasto Común;Carga Histórica;;S/I;;19/02/2024;1.0;No;Internet conserjería;Internet Y Telefonía;;;No;No;No;S/I
+162;62691;Gasto Común;Carga Histórica;;S/I;;19/02/2024;1.0;No;Materiales pintado;Sodimac SA;;;No;No;No;S/I
+161;7000;Gasto Común;Carga Histórica;;S/I;;13/02/2024;1.0;No;Combustible por tramites;Combustible Y Estacionamientos;;;No;No;No;S/I
+160;49470;Gasto Común;Carga Histórica;;S/I;;16/02/2024;1.0;No;Compra de camara de concreto;Infraestructuras;;;No;No;No;S/I
+159;275684;Gasto Común;Carga Histórica;;S/I;;19/02/2024;1.0;No;Instalación de cámaras y otros;Instalaciones Electricas;;;No;No;No;S/I
+158;725000;Gasto Común;Carga Histórica;;S/I;;19/02/2024;1.0;No;Pintado y limpieza del condominio;Trabajadores Eventuales;;;No;No;No;S/I
+157;339517;Gasto Común;Carga Histórica;;S/I;;19/02/2024;1.0;No;Materiales para pintado;Sodimac SA;;;No;No;No;S/I
+155;13180;Gasto Común;Carga Histórica;;S/I;;15/01/2024;1.0;No;Bolsas para basura;Sodimac SA;;;No;No;No;S/I
+154;1085300;Gasto Común;Carga Histórica;;S/I;;05/04/2024;1.0;No;Consumo electrico;Cge;;;No;No;No;S/I
+153;356070;Gasto Común;Carga Histórica;;S/I;;09/03/2024;1.0;No;3 Cámaras de seguridad;Instalaciones Electricas;;;No;No;No;S/I
+152;500000;Gasto Común;Carga Histórica;;S/I;;09/03/2024;1.0;No;Compra de dispositivos de control portón y alarma;Dhimel;;;No;No;No;S/I
+151;1990;Gasto Común;Carga Histórica;;S/I;;11/03/2024;1.0;No;Compra de jarro graduado;Supermercado;;;No;No;No;S/I
+150;20980;Gasto Común;Carga Histórica;;S/I;;11/03/2024;1.0;No;Compra de EPP;Sodimac SA;;;No;No;No;S/I
+148;11100;Gasto Común;Carga Histórica;;S/I;;06/03/2024;1.0;No;Combustible mas estacionamiento;Combustible Y Estacionamientos;;;No;No;No;S/I
+147;61990;Gasto Común;Carga Histórica;;S/I;;09/03/2024;1.0;No;Compra de Router y contratación de lineas.;Wom;;;No;No;No;S/I
+146;1251300;Gasto Común;Carga Histórica;;S/I;;06/03/2024;1.0;No;Consumo electrico Febrero 2024;Cge;;;No;No;No;S/I
+145;780000;Gasto Común;Carga Histórica;;S/I;;03/02/2024;1.0;No;Inatalación de 3 postes con iluminación;Instalaciones Electricas;;;No;No;No;S/I
+144;40000;Gasto Común;Carga Histórica;;S/I;;02/02/2024;1.0;No;Limpieza de Condominio;Hector Castro;;;No;No;No;S/I
+143;2942;Gasto Común;Carga Histórica;;S/I;;29/01/2024;1.0;No;Comisión mantención plan;Santander;;;No;No;No;S/I
+142;3584500;Gasto Común;Carga Histórica;;S/I;;13/02/2024;1.0;No;Consumo Electrico;Cge;;;No;No;No;S/I
+141;8000;Gasto Común;Carga Histórica;;S/I;;20/01/2024;1.0;No;Recargas chip;Recargas Chip;;;No;No;No;S/I
+140;21780;Gasto Común;Carga Histórica;;S/I;;30/01/2024;1.0;No;Compra de escobillones;Sodimac SA;;;No;No;No;S/I
+139;210000;Gasto Común;Carga Histórica;;S/I;;30/01/2024;1.0;No;Compra de focos;Instalaciones Electricas;;;No;No;No;S/I
+138;200000;Gasto Común;Carga Histórica;;S/I;;27/01/2024;1.0;No;Desmalezado Lt1 Mz1;Hector Castro;;;No;No;No;S/I
+137;200000;Gasto Común;Carga Histórica;;S/I;;27/01/2024;1.0;No;Desmalezado de varios lotes Mz1;Hector Castro;;;No;No;No;S/I
+136;1000000;Gasto Común;Carga Histórica;;S/I;;16/01/2024;1.0;No;Pago de abogados por demanda particular;Abogados;;;No;No;No;S/I
+135;350000;Gasto Común;Carga Histórica;;S/I;;26/01/2024;1.0;No;Instalación de 3 postes con iluminación;Instalaciones Electricas;;;No;No;No;S/I
+134;100000;Gasto Común;Carga Histórica;;S/I;;19/01/2024;1.0;No;Desmalezado;Hector Castro;;;No;No;No;S/I
+133;112550;Gasto Común;Carga Histórica;;S/I;;19/01/2024;1.0;No;Compra de letreros;Infraestructuras;;;No;No;No;S/I
+132;180000;Gasto Común;Carga Histórica;;S/I;;19/01/2024;1.0;No;Instalaciónes eléctricas;Instalaciones Electricas;;;No;No;No;S/I
+131;50000;Gasto Común;Carga Histórica;;S/I;;18/01/2024;1.0;No;Desmalezado;Hector Castro;;;No;No;No;S/I
+130;302333;Gasto Común;Carga Histórica;;S/I;;16/01/2024;1.0;No;Comunidad Feliz cuota 2;Administrativo;;;No;No;No;S/I
+127;41500;Gasto Común;Carga Histórica;;S/I;;12/01/2024;1.0;No;Certificados para demanda;Cbr Coronel;;;No;No;No;S/I
+126;250000;Gasto Común;Carga Histórica;;S/I;;10/01/2024;1.0;No;Comunidad Feliz cuota 1;Administrativo;;;No;No;No;S/I
+125;6000;Gasto Común;Carga Histórica;;S/I;;10/01/2024;1.0;No;Recarga portón Wom;Recargas Chip;;;No;No;No;S/I
+124;2925;Gasto Común;Carga Histórica;;S/I;;27/12/2023;1.0;No;Comisión mantención plan;Administrativo;;;No;No;No;S/I
+122;11730;Gasto Común;Carga Histórica;;S/I;;15/11/2023;1.0;No;Compra de Alargador para internet conserjería;Mercadolibre;;;No;No;No;S/I
+121;100000;Gasto Común;Carga Histórica;;S/I;;04/01/2024;1.0;No;Traspaso de cuotas iniciales a gasto común;Interno;;;No;No;No;S/I
+119;250000;Gasto Común;Carga Histórica;;S/I;;30/12/2023;1.0;No;Traspaso de cuotas iniciales a Gasto Común;Interno;;;No;No;No;S/I
+118;7000;Gasto Común;Carga Histórica;;S/I;;05/12/2023;1.0;No;Portón Wom;Recargas Chip;;;No;No;No;S/I
+117;150000;Gasto Común;Carga Histórica;;S/I;;10/12/2023;1.0;No;Traspaso de cuotas iniciales a Gasto Común;Interno;;;No;No;No;S/I
+116;750000;Gasto Común;Carga Histórica;;S/I;;11/12/2023;1.0;No;Demanda Aguas Mitrinhue;Administrativo;;;No;No;No;S/I
+115;250000;Gasto Común;Carga Histórica;;S/I;;10/12/2023;1.0;No;Demanda Aguas Mitrinhue;Administrativo;;;No;No;No;S/I
+114;7000;Gasto Común;Carga Histórica;;S/I;;05/12/2023;1.0;No;Portón Wom;Recargas Chip;;;No;No;No;S/I
+113;2890;Gasto Común;Carga Histórica;;S/I;;27/09/2023;1.0;No;Banco Santander;Santander;;;No;No;No;S/I
+112;2896;Gasto Común;Carga Histórica;;S/I;;26/10/2023;1.0;No;Banco Santander;Santander;;;No;No;No;S/I
+111;13500;Gasto Común;Carga Histórica;;S/I;;23/11/2023;1.0;No;Combustible;Copec;;;No;No;No;S/I
+110;2911;Gasto Común;Carga Histórica;;S/I;;30/11/2023;1.0;No;Banco Santander;Santander;;;No;No;No;S/I
+109;33058;Gasto Común;Carga Histórica;;S/I;;22/11/2023;1.0;No;Candado tapa;Sodimac SA;;;No;No;No;S/I
+108;171870;Gasto Común;Carga Histórica;;S/I;;20/11/2023;1.0;No;Victor Vera;Infraestructuras;;;No;No;No;S/I
+107;1224000;Gasto Común;Carga Histórica;;S/I;;15/11/2023;1.0;No;Estructuras metálicas Victor Vera;Infraestructuras;;;No;No;No;S/I
+106;199960;Gasto Común;Carga Histórica;;S/I;;13/11/2023;1.0;No;Memoria;Instalaciones Electricas;;;No;No;No;S/I
+105;1000;Gasto Común;Carga Histórica;;S/I;;13/11/2023;1.0;No;Recargas;Recargas Chip;;;No;No;No;S/I
+103;5000;Gasto Común;Carga Histórica;;S/I;;13/11/2023;1.0;No;Recargas;Recargas Chip;;;No;No;No;S/I
+102;40940;Gasto Común;Carga Histórica;;S/I;;13/11/2023;1.0;No;Elementos para instalaciones;Mercadolibre;;;No;No;No;S/I
+101;474760;Gasto Común;Carga Histórica;;S/I;;13/11/2023;1.0;No;Compra de Cámaras;Dhimel;;;No;No;No;S/I
+100;13000;Gasto Común;Carga Histórica;;S/I;;07/11/2023;1.0;No;Copia de llaves;Administrativo;;;No;No;No;S/I
+99;250000;Gasto Común;Carga Histórica;;S/I;;31/10/2023;1.0;No;Materiales;Infraestructuras;;;No;No;No;S/I
+98;338517;Gasto Común;Carga Histórica;;S/I;;02/11/2023;1.0;No;Materiales;Infraestructuras;;;No;No;No;S/I
+97;2000;Gasto Común;Carga Histórica;;S/I;;10/10/2023;1.0;No;Recarga;Recargas Chip;;;No;No;No;S/I
+96;2000;Gasto Común;Carga Histórica;;S/I;;10/10/2023;1.0;No;Recarga;Recargas Chip;;;No;No;No;S/I
+95;7000;Gasto Común;Carga Histórica;;S/I;;10/10/2023;1.0;No;Recarga;Recargas Chip;;;No;No;No;S/I
+94;275000;Gasto Común;Carga Histórica;;S/I;;30/10/2023;1.0;No;Victor Vera;Infraestructuras;;;No;No;No;S/I
+93;250000;Gasto Común;Carga Histórica;;S/I;;30/10/2023;1.0;No;Victor Vera;Infraestructuras;;;No;No;No;S/I
+92;10000;Gasto Común;Carga Histórica;;S/I;;23/10/2023;1.0;No;Notaría;Administrativo;;;No;No;No;S/I
+91;100000;Gasto Común;Carga Histórica;;S/I;;20/10/2023;1.0;No;Notaría;Administrativo;;;No;No;No;S/I
+90;5500;Gasto Común;Carga Histórica;;S/I;;23/10/2023;1.0;No;Libro de Actas;Administrativo;;;No;No;No;S/I
+89;7740;Gasto Común;Carga Histórica;;S/I;;20/11/2023;1.0;No;Estacionamiento;Administrativo;;;No;No;No;S/I
+88;1700;Gasto Común;Carga Histórica;;S/I;;20/11/2023;1.0;No;Estacionamiento;Administrativo;;;No;No;No;S/I
+87;57000;Gasto Común;Carga Histórica;;S/I;;07/11/2023;1.0;No;Elementos para instalaciones;Dhimel;;;No;No;No;S/I
+86;127140;Gasto Común;Carga Histórica;;S/I;;07/11/2023;1.0;No;Elementos para instalaciones;Dhimel;;;No;No;No;S/I
+85;118690;Gasto Común;Carga Histórica;;S/I;;06/11/2023;1.0;No;Elementos para instalaciones;Dhimel;;;No;No;No;S/I
+84;18920;Gasto Común;Carga Histórica;;S/I;;06/11/2023;1.0;No;Elementos para instalaciones;Sodimac SA;;;No;No;No;S/I
+83;34690;Gasto Común;Carga Histórica;;S/I;;06/11/2023;1.0;No;Elementos para instalaciones;Sodimac SA;;;No;No;No;S/I
+82;29390;Gasto Común;Carga Histórica;;S/I;;06/11/2023;1.0;No;Elementos para instalaciones;Sodimac SA;;;No;No;No;S/I
+81;1165500;Gasto Común;Carga Histórica;;S/I;;14/11/2023;1.0;No;Consumo elécrico;Cge;;;No;No;No;S/I
+80;250000;Gasto Común;Carga Histórica;;S/I;;24/10/2023;1.0;No;Traspaso de cuotas iniciales a Gasto Común;Interno;;;No;No;No;S/I
+79;1279700;Gasto Común;Carga Histórica;;S/I;;09/10/2023;1.0;No;Consumo eléctrico;Cge;;;No;No;No;S/I
+78;93672;Gasto Común;Carga Histórica;;S/I;;21/09/2023;1.0;No;Herramientas e insumos;Sodimac SA;;;No;No;No;S/I
+77;71400;Gasto Común;Carga Histórica;;S/I;;22/05/2023;1.0;No;Asesorias y capacitación;Casa Sepia;;;No;No;No;S/I
+76;20000;Gasto Común;Carga Histórica;;S/I;;31/08/2023;1.0;No;Cotización;Infraestructuras;;;No;No;No;S/I
+75;2865;Gasto Común;Carga Histórica;;S/I;;29/05/2023;1.0;No;Banco Santander;Santander;;;No;No;No;S/I
+74;2883;Gasto Común;Carga Histórica;;S/I;;28/06/2023;1.0;No;Banco Santander;Santander;;;No;No;No;S/I
+73;2887;Gasto Común;Carga Histórica;;S/I;;27/07/2023;1.0;No;Banco Santander;Santander;;;No;No;No;S/I
+72;2884;Gasto Común;Carga Histórica;;S/I;;28/08/2023;1.0;No;Banco Santander;Santander;;;No;No;No;S/I
+71;109990;Gasto Común;Carga Histórica;;S/I;;11/09/2023;1.0;No;Herramientas e insumos;Pc Factory;;;No;No;No;S/I
+70;0;Gasto Común;Carga Histórica;;S/I;;04/09/2023;1.0;No;Elecsur SPA;Instalaciones Electricas;;;No;No;No;S/I
+69;1166200;Gasto Común;Carga Histórica;;S/I;;02/09/2023;1.0;No;Asesorias y capacitación;Casa Sepia;;;No;No;No;S/I
+68;250000;Gasto Común;Carga Histórica;;S/I;;04/09/2023;1.0;No;Reparación apertura portón;Instalaciones Electricas;;;No;No;No;S/I
+67;200000;Gasto Común;Carga Histórica;;S/I;;01/09/2023;1.0;No;Elecsur SPA;Instalaciones Electricas;;;No;No;No;S/I
+66;1343700;Gasto Común;Carga Histórica;;S/I;;10/09/2023;1.0;No;Consumo eléctrico;Cge;;;No;No;No;S/I
+65;12000;Gasto Común;Carga Histórica;;S/I;;12/08/2023;1.0;No;Recargas chip;Recargas Chip;;;No;No;No;S/I
+64;11500;Gasto Común;Carga Histórica;;S/I;;09/08/2023;1.0;No;Recargas chip;Recargas Chip;;;No;No;No;S/I
+63;40000;Gasto Común;Carga Histórica;;S/I;;02/08/2023;1.0;No;Elecsur SPA;Instalaciones Electricas;;;No;No;No;S/I
+62;1424300;Gasto Común;Carga Histórica;;S/I;;29/08/2023;1.0;No;Consumo eléctrico;Cge;;;No;No;No;S/I
+61;250000;Gasto Común;Carga Histórica;;S/I;;14/07/2023;1.0;No;Traspaso de cuotas iniciales a Gasto Común;Interno;;;No;No;No;S/I
+60;250000;Gasto Común;Carga Histórica;;S/I;;13/07/2023;1.0;No;Traspaso de cuotas iniciales a Gasto Común;Interno;;;No;No;No;S/I
+59;1529800;Gasto Común;Carga Histórica;;S/I;;13/07/2023;1.0;No;Consumo eléctrico;Cge;;;No;No;No;S/I
+58;250620;Gasto Común;Carga Histórica;;S/I;;12/05/2023;1.0;No;Compra de herramientas;Instalaciones Electricas;87758.0;;No;No;No;S/I
+57;1199800;Gasto Común;Carga Histórica;;S/I;;12/06/2023;1.0;No;Consumo eléctrico;Cge;;;No;No;No;S/I
+56;2846;Gasto Común;Carga Histórica;;S/I;;26/04/2023;1.0;No;Banco Santander;Santander;;;No;No;No;S/I
+55;1318000;Gasto Común;Carga Histórica;;S/I;;03/05/2023;1.0;No;Elecsur SPA;Instalaciones Electricas;;;No;No;No;S/I
+54;1047300;Gasto Común;Carga Histórica;;S/I;;12/05/2023;1.0;No;Consumo eléctrico;Cge;;;No;No;No;S/I
+53;761600;Gasto Común;Carga Histórica;;S/I;;14/04/2023;1.0;No;Compra de herramientas;Enocmat;;;No;No;No;S/I
+52;2841;Gasto Común;Carga Histórica;;S/I;;29/03/2023;1.0;No;Banco Santander;Santander;;;No;No;No;S/I
+51;250000;Gasto Común;Carga Histórica;;S/I;;28/02/2023;1.0;No;Compra de herramientas;Enocmat;;;No;No;No;S/I
+50;850500;Gasto Común;Carga Histórica;;S/I;;12/04/2023;1.0;No;Consumo eléctrico;Cge;;;No;No;No;S/I
+49;0;Gasto Común;Carga Histórica;;S/I;;15/03/2023;1.0;No;Consumo eléctrico;Cge;;;No;No;No;S/I
+48;0;Gasto Común;Carga Histórica;;S/I;;15/03/2023;1.0;No;Consumo eléctrico areas comunes;Cge;;;No;No;No;S/I
+47;10000;Gasto Común;Carga Histórica;;S/I;;12/03/2023;1.0;No;Combustible;Copec;;;No;No;No;S/I
+46;14500;Gasto Común;Carga Histórica;;S/I;;12/03/2023;1.0;No;Recargas chip;Recargas Chip;;;No;No;No;S/I
+45;250000;Gasto Común;Carga Histórica;;S/I;;20/02/2023;1.0;No;Compra de herramientas;Coprofor Ltda;;;No;No;No;S/I
+44;278550;Gasto Común;Carga Histórica;;S/I;;17/02/2023;1.0;No;Reparación apertura portón;Control 8;;;No;No;No;S/I
+43;200000;Gasto Común;Carga Histórica;;S/I;;03/03/2023;1.0;No;Sueldo;Jardinero;;;No;No;No;S/I
+42;25000;Gasto Común;Carga Histórica;;S/I;;09/01/2024;1.0;No;Bencina;Copec;;;No;No;No;S/I
+41;1219381;Gasto Común;Carga Histórica;;S/I;;02/03/2023;1.0;No;Herramientas e insumos;Enocmat;;;No;No;No;S/I
+40;88890;Gasto Común;Carga Histórica;;S/I;;14/03/2023;1.0;No;Bidones y combustible;Copec;;;No;No;No;S/I
+39;77120;Gasto Común;Carga Histórica;;S/I;;03/03/2023;1.0;No;Bidones y combustible;Copec;;;No;No;No;S/I
+38;29900;Gasto Común;Carga Histórica;;S/I;;03/03/2023;1.0;No;Aceite para motobombas;Serviautos;;;No;No;No;S/I
+37;2823;Gasto Común;Carga Histórica;;S/I;;24/02/2023;1.0;No;Banco Santander;Santander;;;No;No;No;S/I
+36;1010700;Gasto Común;Carga Histórica;;S/I;;12/03/2023;1.0;No;Consumo eléctrico;Cge;;;No;No;No;S/I
+35;7500;Gasto Común;Carga Histórica;;S/I;;02/02/2023;1.0;No;Certificado de Dominio Vigente;Cbr Coronel;;;No;No;No;S/I
+34;8292;Gasto Común;Carga Histórica;;S/I;;15/01/2023;1.0;No;Banco Santander;Santander;;;No;No;No;S/I
+33;1125;Gasto Común;Carga Histórica;;S/I;;12/02/2023;1.0;No;Consumo eléctrico;Cge;;;No;No;No;S/I
+32;31061;Gasto Común;Carga Histórica;;S/I;;12/02/2023;1.0;No;Consumo eléctrico;Cge;;;No;No;No;S/I
+31;156203;Gasto Común;Carga Histórica;;S/I;;12/02/2023;1.0;No;Consumo eléctrico;Cge;;;No;No;No;S/I
+30;94800;Gasto Común;Carga Histórica;;S/I;;10/02/2023;1.0;No;Herramientas e insumos;Coprofor Ltda;;;No;No;No;S/I
+29;20000;Gasto Común;Carga Histórica;;S/I;;10/02/2023;1.0;No;Anticipo quincena;Jardinero;;;No;No;No;S/I
+28;4230;Gasto Común;Carga Histórica;;S/I;;01/02/2023;1.0;No;Nylon;Sodimac SA;;;No;No;No;S/I
+27;25110;Gasto Común;Carga Histórica;;S/I;;13/02/2023;1.0;No;Bloqueador solar y nylon;Sodimac SA;;;No;No;No;S/I
+25;489754;Gasto Común;Carga Histórica;;S/I;;03/02/2023;1.0;No;Mangueras;Hidrocentro;;;No;No;No;S/I
+24;347740;Gasto Común;Carga Histórica;;S/I;;08/02/2023;1.0;No;Sueldo;Jardinero;;;No;No;No;S/I
+23;2808;Gasto Común;Carga Histórica;;S/I;;27/01/2023;1.0;No;Banco Santander;Santander;;;No;No;No;S/I
+22;36900;Gasto Común;Carga Histórica;;S/I;;25/01/2023;1.0;No;Aceite 2 T;Coprofor Ltda;;;No;No;No;S/I
+21;141065;Gasto Común;Carga Histórica;;S/I;;24/01/2023;1.0;No;Carretilla, pala de basura, aspersores y barrehojas.;Sodimac SA;;;No;No;No;S/I
+20;30000;Gasto Común;Carga Histórica;;S/I;;22/01/2023;1.0;No;Anticipo;Jardinero;;;No;No;No;S/I
+19;115000;Gasto Común;Carga Histórica;;S/I;;19/01/2023;1.0;No;Elecsur SPA;Instalaciones Electricas;;;No;No;No;S/I
+18;19940;Gasto Común;Carga Histórica;;S/I;;17/01/2023;1.0;No;Control de asistencia;Mercadolibre;;;No;No;No;S/I
+17;28633;Gasto Común;Carga Histórica;;S/I;;13/01/2023;1.0;No;Pulverizadora Manual;Mercadolibre;;;No;No;No;S/I
+16;23697;Gasto Común;Carga Histórica;;S/I;;06/01/2023;1.0;No;Escobas industriales;Mercadolibre;;;No;No;No;S/I
+15;125010;Gasto Común;Carga Histórica;;S/I;;01/01/2023;1.0;No;Herramientas e insumos;Sodimac SA;;;No;No;No;S/I
+14;30000;Gasto Común;Carga Histórica;;S/I;;13/01/2023;1.0;No;Anticipo quincena;Jardinero;;;No;No;No;S/I
+13;100000;Gasto Común;Carga Histórica;;S/I;;12/01/2023;1.0;No;Retiro de Basura;Hector Castro;;;No;No;No;S/I
+12;2900;Gasto Común;Carga Histórica;;S/I;;12/01/2023;1.0;No;Aceite 2 T;Coprofor Ltda;;;No;No;No;S/I
+11;498000;Gasto Común;Carga Histórica;;S/I;;12/01/2023;1.0;No;Desbrozadora Stihl;Coprofor Ltda;;;No;No;No;S/I
+10;64800;Gasto Común;Carga Histórica;;S/I;;25/01/2023;1.0;No;Rango Full Matamalezas;Agroservicios Capurro;35276.0;;No;No;No;S/I
+9;113440;Gasto Común;Carga Histórica;;S/I;;25/01/2023;1.0;No;Compra de herramientas;Easy;;;No;No;No;S/I
+8;47433;Gasto Común;Carga Histórica;;S/I;;03/03/2023;1.0;No;Colaciones brigadistas;Supermercado;;;No;No;No;S/I
+7;1511050;Gasto Común;Carga Histórica;;S/I;;02/03/2023;1.0;No;Herramientas e insumos;Enocmat;;;No;No;No;S/I
+5;128360;Gasto Común;Carga Histórica;;S/I;;01/01/2023;1.0;No;Frigobar conserjeria;Sodimac SA;;;No;No;No;S/I
+2;13253915;Gasto Común;Carga Histórica;;S/I;;16/01/2023;1.0;No;Mejoramientos;Consumos;;;No;No;No;S/I
