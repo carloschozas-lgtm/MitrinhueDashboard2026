@@ -476,6 +476,7 @@ function loadRealData() {
             Papa.parse(deudaCsv, {
                 header: true,
                 skipEmptyLines: true,
+                delimiter: ",",
                 complete: function (results) {
                     processDeuda(results.data);
                 },
@@ -506,6 +507,7 @@ function fetchIngresosYegresos() {
             Papa.parse(csvString, {
                 header: true,
                 skipEmptyLines: true,
+                delimiter: ",",
                 complete: function (results) {
                     processIngresos(results.data);
                     populateIngresosFilters();
@@ -528,12 +530,10 @@ function fetchIngresosYegresos() {
             return response.text();
         })
         .then(csvString => {
-            const lines = csvString.split('\n');
-            const cleanedCsv = lines.length > 4 ? lines.slice(4).join('\n') : csvString;
-            Papa.parse(cleanedCsv, {
+            Papa.parse(csvString, {
                 header: true,
                 skipEmptyLines: true,
-                delimiter: ";",
+                delimiter: ",",
                 complete: function (results) {
                     processEgresos(results.data);
                     populateEgresosFilters();
@@ -559,6 +559,7 @@ function handleUploadIngresos(event) {
     Papa.parse(file, {
         header: true,
         skipEmptyLines: true,
+        delimiter: ",",
         complete: function (results) {
             processIngresos(results.data);
             populateIngresosFilters();
@@ -584,13 +585,10 @@ function handleUploadEgresos(event) {
     const reader = new FileReader();
     reader.onload = function (e) {
         const text = e.target.result;
-        const lines = text.split('\n');
-        const cleanedCsv = lines.length > 4 ? lines.slice(4).join('\n') : text;
-
-        Papa.parse(cleanedCsv, {
+        Papa.parse(text, {
             header: true,
             skipEmptyLines: true,
-            delimiter: ";",
+            delimiter: ",",
             complete: function (results) {
                 processEgresos(results.data);
                 populateEgresosFilters();

@@ -85,17 +85,18 @@ def process_egresos(filepath):
             c_low = str(col).lower()
             if 'monto' in c_low: rename_map[col] = 'Monto'
             elif 'fecha' in c_low: rename_map[col] = 'Fecha'
-            elif 'sub' in c_low: rename_map[col] = 'Sub Fondo'
+            elif 'sub' in c_low or 'item' in c_low: rename_map[col] = 'Sub Fondo'
             elif 'nulo' in c_low: rename_map[col] = 'Nulo'
             
-        df.rename(columns=rename_map, inplace=True)
+        df = df.rename(columns=rename_map)
+        print(f"Columnas finales Egresos: {list(df.columns)}")
         
         # Limpieza de Moneda
         if 'Monto' in df.columns:
             df['Monto'] = df['Monto'].astype(str).str.replace(r'[^\d-]', '', regex=True)
-            df['Monto'] = pd.to_numeric(df['Monto'], errors='coerce').fillna(0)
+            df['Monto'] = pd.to_numeric(df['Monto'], errors='coerce').fillna(0).astype('int64')
             
-        df.to_csv(os.path.join(DATA_DIR, "egresos.csv"), sep=";", index=False, encoding="utf-8-sig")
+        df.to_csv(os.path.join(DATA_DIR, "egresos.csv"), sep=",", index=False, encoding="utf-8-sig")
         print("egresos.csv actualizado.")
     except Exception as e:
         print(f"Error procesando egresos: {e}")
@@ -121,21 +122,23 @@ def process_ingresos(filepath):
             elif 'fondo' in c_low: rename_map[col] = 'Fondos'
             elif 'nulo' in c_low: rename_map[col] = 'Nulo'
             
-        df.rename(columns=rename_map, inplace=True)
+        df = df.rename(columns=rename_map)
+        print(f"Columnas finales Ingresos: {list(df.columns)}")
         
         # Limpieza de Moneda
         if 'Monto' in df.columns:
             df['Monto'] = df['Monto'].astype(str).str.replace(r'[^\d-]', '', regex=True)
-            df['Monto'] = pd.to_numeric(df['Monto'], errors='coerce').fillna(0)
+            df['Monto'] = pd.to_numeric(df['Monto'], errors='coerce').fillna(0).astype('int64')
             
-        df.to_csv(os.path.join(DATA_DIR, "ingresos.csv"), sep=";", index=False, encoding="utf-8-sig")
+        df.to_csv(os.path.join(DATA_DIR, "ingresos.csv"), sep=",", index=False, encoding="utf-8-sig")
         print("ingresos.csv actualizado.")
     except Exception as e:
         print(f"Error procesando ingresos: {e}")
 
 def process_deuda(filepath):
-    print("Procesando Deuda...")
+    print("Procesando Deuda con corrección de decimales (CLP)...")
     try:
+        # 1. Detección dinámica de cabecera buscando 'Unidad'
         df_temp = pd.read_excel(filepath, header=None)
         header_idx = 0
         for i, row in df_temp.iterrows():
@@ -143,27 +146,71 @@ def process_deuda(filepath):
             if 'unidad' in row_str and ('total' in row_str or 'saldo' in row_str):
                 header_idx = i
                 break
-        df = pd.read_excel(filepath, skiprows=header_idx)
+        
+        # 2. Carga real con delimitadores específicos para evitar factor 10x/100x
+        # Forzamos decimal=',' y thousands='.' para que pd.read_excel reconozca 1.234,50 como 1234.5
+        df = pd.read_excel(filepath, skiprows=header_idx, decimal=',', thousands='.')
             
+        # 3. Mapeo Quirúrgico de Columnas
         rename_map = {}
         for col in df.columns:
             c_low = str(col).lower()
-            if 'unidad' in c_low or 'lote' in c_low: rename_map[col] = 'Unidad'
-            elif ('total' in c_low or 'saldo' in c_low) and '%' not in c_low and 'sobre' not in c_low: rename_map[col] = 'Deuda Total Incluye Intereses'
-            elif 'meses' in c_low: rename_map[col] = 'Meses deuda'
-            elif 'ingreso' in c_low or 'pago' in c_low: rename_map[col] = 'Último ingreso'
+            if 'unidad' in c_low or 'lote' in c_low: 
+                rename_map[col] = 'Unidad'
+            elif 'meses' in c_low: 
+                rename_map[col] = 'Meses deuda'
+            elif 'ingreso' in c_low or 'pago' in c_low: 
+                rename_map[col] = 'Último ingreso'
 
-        df.rename(columns=rename_map, inplace=True)
+        # Candidato a Deuda Total
+        deuda_col = None
+        for col in df.columns:
+            c_low = str(col).lower()
+            if any(k in c_low for k in ['total', 'saldo', 'deuda']) and '%' not in c_low and 'sobre' not in c_low:
+                if not deuda_col or 'total' in c_low or 'saldo total' in c_low:
+                    deuda_col = col
         
-        # Limpieza de Moneda
+        if deuda_col:
+            rename_map[deuda_col] = 'Deuda Total Incluye Intereses'
+
+        df = df.rename(columns=rename_map)
+        
+        # 4. Limpieza de Footer y Filas Corruptas
+        if 'Unidad' in df.columns:
+            df = df.dropna(subset=['Unidad'])
+            df['Unidad'] = df['Unidad'].astype(str).str.strip()
+            df = df[~df['Unidad'].str.contains('Total|Saldo|Resumen|Nombre', case=False, na=False)]
+            df = df[df['Unidad'] != 'nan']
+            df = df[df['Unidad'] != '']
+
+        # 5. Forzado de Enteros (Detección automática de tipo numérico)
         if 'Deuda Total Incluye Intereses' in df.columns:
-            df['Deuda Total Incluye Intereses'] = df['Deuda Total Incluye Intereses'].astype(str).str.replace(r'[^\d-]', '', regex=True)
-            df['Deuda Total Incluye Intereses'] = pd.to_numeric(df['Deuda Total Incluye Intereses'], errors='coerce').fillna(0)
-            
-        df.to_csv(os.path.join(DATA_DIR, "deuda.csv"), sep=";", index=False, encoding="utf-8-sig")
-        print("deuda.csv actualizado.")
+            # Si el valor ya es numérico gracias a decimal=',', simplemente redondeamos
+            df['Deuda Total Incluye Intereses'] = pd.to_numeric(df['Deuda Total Incluye Intereses'], errors='coerce').fillna(0).astype('int64')
+
+        print(f"Suma comprobada de Deuda (Monto Real): {df['Deuda Total Incluye Intereses'].sum() if 'Deuda Total Incluye Intereses' in df.columns else 0}")
+        print(f"Columnas finales Deuda (Limpias): {list(df.columns)}")
+        
+        # 6. Exportación Estándar (sep para PapaParse)
+        df.to_csv(os.path.join(DATA_DIR, "deuda.csv"), sep=",", index=False, encoding="utf-8-sig")
+        print("deuda.csv actualizado y limpio.")
+        
     except Exception as e:
-        print(f"Error procesando deuda: {e}")
+        print(f"Error crítico procesando deuda: {e}")
+        import traceback
+        traceback.print_exc()
+
+        print(f"Columnas finales Deuda (Limpias): {list(df.columns)}")
+        print(f"Suma comprobada de Deuda: {df['Deuda Total Incluye Intereses'].sum() if 'Deuda Total Incluye Intereses' in df.columns else 0}")
+        
+        # 6. Exportación Estándar (sep para PapaParse)
+        df.to_csv(os.path.join(DATA_DIR, "deuda.csv"), sep=",", index=False, encoding="utf-8-sig")
+        print("deuda.csv actualizado y limpio.")
+        
+    except Exception as e:
+        print(f"Error crítico procesando deuda: {e}")
+        import traceback
+        traceback.print_exc()
 
 def main():
     if not os.path.exists(DATA_DIR):
